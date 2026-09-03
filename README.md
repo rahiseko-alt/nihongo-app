@@ -1,4 +1,16 @@
-# from-0
+# nihongo-app
+
+> **このリポジトリで開発しているアプリ → [`app/`](app/)**
+>
+> **Senbon（千本）** — 外国人向けの漢字学習アプリ。1,000 字の書き順アニメーションと 6 言語の UI を持つ、
+> バックエンド不要の静的 SvelteKit アプリです。セットアップと使い方は [`app/README.md`](app/README.md) を、
+> 同梱データの出典は [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md) を参照してください。
+>
+> 以下は、このリポジトリが土台にしている雛形 **from-0** そのものの説明です。
+
+---
+
+## 土台: from-0
 
 Claude Code と Codex で同じリポジトリを扱うための、**公式準拠のリポジトリ雛形**です。
 

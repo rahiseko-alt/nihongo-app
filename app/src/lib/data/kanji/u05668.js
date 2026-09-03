@@ -1,0 +1,169 @@
+// 「器」の書き順データ（15画）
+// 字形ストロークデータ: KanjiVG (Copyright (C) 2009-2011 Ulrich Apel)
+//   ライセンス: CC BY-SA 3.0  https://creativecommons.org/licenses/by-sa/3.0/
+//   出典: http://kanjivg.tagaini.net  (kanji/05668.svg)
+// viewBox: 0 0 109 109（KanjiVG 標準）
+// 書き順は KanjiVG 正規順（自動抽出）
+// 動作語: 未取得（PDF を確認して songFragment / songLyric を手書きで埋めること）
+export const KANJI_U05668 = {
+  char: '器',
+  reading: 'うつわ',
+  meaning: 'utensil/vessel',
+  word: '器',
+      meanings: { ja: 'utensil/vessel', en: 'utensil/vessel', zh: '器', ko: '기', vi: 'khái niệm', ne: 'अर्थ' },
+  strokeCount: 15,
+  viewBox: '0 0 109 109',
+  songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入
+  strokes: [
+    {
+      id: 1,
+      color: '#ec4899',
+      label: 'たて',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇑',
+      // KanjiVG kvg:05668-s1
+      d: 'M22.8,15.59c0.76,0.61,1.2,1.4,1.33,2.37c0.94,3.23,1.96,8.62,2.72,13.4c0.17,1.09,0.33,2.15,0.47,3.14',
+      numPos: { x: 18.5, y: 25.63 }
+    },
+    {
+      id: 2,
+      color: '#38bdf8',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇕b',
+      // KanjiVG kvg:05668-s2
+      d: 'M25.06,16.86c7.67-1.42,14.62-2.42,19.07-2.94c2.67-0.31,4.29,0.04,3.6,2.99c-0.85,3.66-2.09,7.45-3.32,12.3',
+      numPos: { x: 25.5, y: 13.56 }
+    },
+    {
+      id: 3,
+      color: '#22c55e',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐b',
+      // KanjiVG kvg:05668-s3
+      d: 'M28.24,32.06c4.29-0.43,9.05-0.94,14.66-1.56c0.92-0.1,1.85-0.21,2.81-0.31',
+      numPos: { x: 29.5, y: 29.5 }
+    },
+    {
+      id: 4,
+      color: '#f97316',
+      label: 'たて',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇑',
+      // KanjiVG kvg:05668-s4
+      d: 'M59.8,15.09c0.74,0.74,1.37,1.95,1.61,2.9c0.87,3.49,1.71,7.11,2.41,11.1c0.18,1.03,0.34,2.08,0.5,3.16',
+      numPos: { x: 54.5, y: 23.5 }
+    },
+    {
+      id: 5,
+      color: '#a855f7',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇕b',
+      // KanjiVG kvg:05668-s5
+      d: 'M61.81,15.86c7.04-1.29,15.47-2.56,20.32-3.16c3.18-0.39,4.6,0.09,3.69,3.45c-0.93,3.43-2,6.44-3.17,11.05',
+      numPos: { x: 63.49, y: 12.5 }
+    },
+    {
+      id: 6,
+      color: '#ef4444',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐b',
+      // KanjiVG kvg:05668-s6
+      d: 'M64.99,30.31c4.24-0.42,9.85-1.16,15.64-1.64c1.02-0.09,2.05-0.16,3.08-0.23',
+      numPos: { x: 67.5, y: 27.5 }
+    },
+    {
+      id: 7,
+      color: '#eab308',
+      label: 'よこ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐',
+      // KanjiVG kvg:05668-s7
+      d: 'M23.88,49.61c3.08,0.74,6.03,0.21,9.13-0.1c13-1.26,28.75-2.67,41-3.6c3.18-0.24,6.62-0.42,9.5,0.08',
+      numPos: { x: 16.5, y: 50.68 }
+    },
+    {
+      id: 8,
+      color: '#06b6d4',
+      label: 'ノ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇒',
+      // KanjiVG kvg:05668-s8
+      d: 'M53.38,32.88c0.37,1.09,0.49,2.39-0.01,3.64C45.62,56.12,31.25,68.12,14,78.79',
+      numPos: { x: 45.5, y: 38.6 }
+    },
+    {
+      id: 9,
+      color: '#84cc16',
+      label: 'ハ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇏',
+      // KanjiVG kvg:05668-s9
+      d: 'M55.5,47.75c8.37,6.09,26.51,20.45,34.87,24.53c2.84,1.39,3.83,1.59,5.13,1.72',
+      numPos: { x: 70.5, y: 56.53 }
+    },
+    {
+      id: 10,
+      color: '#f43f5e',
+      label: 'たて',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇑',
+      // KanjiVG kvg:05668-s10
+      d: 'M25.3,78.34c0.73,0.58,1.41,1.59,1.54,2.51c0.9,3.1,1.72,8.42,2.41,13.17c0.2,1.4,0.39,2.76,0.57,3.99',
+      numPos: { x: 16.5, y: 87.96 }
+    },
+    {
+      id: 11,
+      color: '#3b82f6',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇕b',
+      // KanjiVG kvg:05668-s11
+      d: 'M27.56,79.86c6.88-1.2,13.24-2.17,17.56-2.69c2.8-0.34,4.32,0.1,3.56,3.12c-0.84,3.38-1.82,6.65-3.02,11.4',
+      numPos: { x: 29.5, y: 76.5 }
+    },
+    {
+      id: 12,
+      color: '#14b8a6',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐b',
+      // KanjiVG kvg:05668-s12
+      d: 'M30.49,94.31c4.23-0.42,8.21-0.8,13.78-1.32c1.01-0.09,2.07-0.19,3.19-0.3',
+      numPos: { x: 31.5, y: 91.5 }
+    },
+    {
+      id: 13,
+      color: '#f59e0b',
+      label: 'たて',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇑',
+      // KanjiVG kvg:05668-s13
+      d: 'M56.55,76.59c0.82,0.41,1.54,1.81,1.65,2.89c0.94,3.41,1.78,9.07,2.46,13.89c0.14,1.01,0.28,1.97,0.41,2.88',
+      numPos: { x: 49.5, y: 88.5 }
+    },
+    {
+      id: 14,
+      color: '#8b5cf6',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇕b',
+      // KanjiVG kvg:05668-s14
+      d: 'M58.56,77.61c7.59-1.12,14.01-2.04,18.07-2.4c2.95-0.26,4.12,1.16,3.54,3.7c-0.78,3.39-1.57,6.83-2.76,11.54',
+      numPos: { x: 56.5, y: 74.5 }
+    },
+    {
+      id: 15,
+      color: '#10b981',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐b',
+      // KanjiVG kvg:05668-s15
+      d: 'M61.74,93.31c4.31-0.43,9.2-1,15.26-1.43c0.96-0.07,1.94-0.13,2.96-0.19',
+      numPos: { x: 62.5, y: 90.58 }
+    }
+  ]
+};

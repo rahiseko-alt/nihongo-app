@@ -1,0 +1,54 @@
+# --- dependencies ---
+node_modules/
+
+# --- build output ---
+build/
+dist/
+.svelte-kit/
+.wrangler/
+.vercel/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- logs ---
+*.log
+logs/
+
+# --- environment / secrets ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials.json
+token.json
+
+# --- caches ---
+__pycache__/
+*.pyc
+.venv/
+*.db
+
+# --- local working material, not redistributed ---------------------------
+# Upstream source archives (Unihan, KANJIDIC2), reference PDFs, research
+# notes and design documents. These carry their own licenses and/or are
+# internal material; only the DERIVED data ships in src/.
+# See THIRD-PARTY-NOTICES.md for attribution of what is included.
+docs/
+
+# --- local development environment, not part of the app -----------------
+# Tooling configuration for the authoring environment this app was built in.
+# It has no effect outside that environment.
+.claude/
+.serena/
+CLAUDE.md
+memory.md
+failures.md
+hypotheses.md
+risk-diagnosis.md
+runbook.md
+LICENSE-third-party.md

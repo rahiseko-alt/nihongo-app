@@ -1,0 +1,159 @@
+// 「歌」の書き順データ（14画）
+// 字形ストロークデータ: KanjiVG (Copyright (C) 2009-2011 Ulrich Apel)
+//   ライセンス: CC BY-SA 3.0  https://creativecommons.org/licenses/by-sa/3.0/
+//   出典: http://kanjivg.tagaini.net  (kanji/06b4c.svg)
+// viewBox: 0 0 109 109（KanjiVG 標準）
+// 書き順は KanjiVG 正規順（自動抽出）
+// 動作語: 未取得（PDF を確認して songFragment / songLyric を手書きで埋めること）
+export const KANJI_U06B4C = {
+  char: '歌',
+  reading: 'うた',
+  meaning: 'song/sing',
+  word: '歌',
+      meanings: { ja: 'song/sing', en: 'song/sing', zh: '歌', ko: '가', vi: 'khái niệm', ne: 'अर्थ' },
+  strokeCount: 14,
+  viewBox: '0 0 109 109',
+  songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入
+  strokes: [
+    {
+      id: 1,
+      color: '#ec4899',
+      label: 'よこ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐',
+      // KanjiVG kvg:06b4c-s1
+      d: 'M12.87,22.32c1.62,0.38,4.57,0.57,6.21,0.38c8.42-0.95,18.04-2.45,27.39-3.16c2.68-0.2,4.32,0.18,5.67,0.37',
+      numPos: { x: 6.5, y: 21.13 }
+    },
+    {
+      id: 2,
+      color: '#38bdf8',
+      label: 'たて',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇑',
+      // KanjiVG kvg:06b4c-s2
+      d: 'M16.65,32.85c0.56,0.41,0.88,0.96,0.97,1.65c0.62,2.03,1.31,5.53,1.85,8.42c0.19,1,0.35,1.96,0.49,2.84',
+      numPos: { x: 10.5, y: 41.5 }
+    },
+    {
+      id: 3,
+      color: '#22c55e',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇕b',
+      // KanjiVG kvg:06b4c-s3
+      d: 'M18.75,34.28c4.65-0.96,11.62-2.38,14.17-2.62c1.1-0.1,1.76,0.61,1.6,1.22c-0.5,1.92-1.31,5.39-1.98,7.88',
+      numPos: { x: 18.75, y: 31.63 }
+    },
+    {
+      id: 4,
+      color: '#f97316',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐b',
+      // KanjiVG kvg:06b4c-s4
+      d: 'M20.83,43.36c2.68-0.24,5.82-0.99,9.42-1.31c1.15-0.1,2.32-0.21,3.49-0.33',
+      numPos: { x: 23.25, y: 40.63 }
+    },
+    {
+      id: 5,
+      color: '#a855f7',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇑/㇚',
+      // KanjiVG kvg:06b4c-s5
+      d: 'M44,21.37c0.03,0.26,0.98,1.35,1.01,3c0.12,5.81,0.06,14.91-0.02,20.39c-0.03,1.96-0.06,3.46-0.08,4.17',
+      numPos: { x: 37.5, y: 30.5 }
+    },
+    {
+      id: 6,
+      color: '#ef4444',
+      label: 'よこ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐',
+      // KanjiVG kvg:06b4c-s6
+      d: 'M9.63,54.68c1.45,0.39,4.92,0.56,6.39,0.39C25.38,54,36.5,52,47.8,50.96c2.4-0.22,3.87,0.19,5.08,0.39',
+      numPos: { x: 2.25, y: 58.63 }
+    },
+    {
+      id: 7,
+      color: '#eab308',
+      label: 'たて',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇑',
+      // KanjiVG kvg:06b4c-s7
+      d: 'M13.93,64.82c0.61,0.45,0.97,1.05,1.08,1.8c0.67,2.09,1.17,5.73,1.75,8.83c0.2,1.06,0.37,2.08,0.52,3.01',
+      numPos: { x: 8.25, y: 73.63 }
+    },
+    {
+      id: 8,
+      color: '#06b6d4',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇕b',
+      // KanjiVG kvg:06b4c-s8
+      d: 'M16.31,66.05c5-1.02,12.81-2.25,15.54-2.51c1.2-0.11,1.91,0.66,1.74,1.32c-0.52,2-1.86,6.32-2.56,8.9',
+      numPos: { x: 15.75, y: 63.13 }
+    },
+    {
+      id: 9,
+      color: '#84cc16',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐b',
+      // KanjiVG kvg:06b4c-s9
+      d: 'M18.16,76.42c3.18-0.29,7.53-1.08,11.84-1.48c0.89-0.08,1.79-0.17,2.69-0.26',
+      numPos: { x: 20.25, y: 73.63 }
+    },
+    {
+      id: 10,
+      color: '#f43f5e',
+      label: 'たてはね',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇚',
+      // KanjiVG kvg:06b4c-s10
+      d: 'M43.91,54.26c0.06,0.26,0.79,1.35,0.85,3c0.27,7.9-0.17,31.89-0.17,34.59c0,4.66-4.25-0.98-6.35-2.12',
+      numPos: { x: 34.5, y: 61.63 }
+    },
+    {
+      id: 11,
+      color: '#3b82f6',
+      label: 'ノ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇒',
+      // KanjiVG kvg:06b4c-s11
+      d: 'M66.24,13c0.5,1.67,0.52,3.33,0.09,4.95C64.43,25.07,61,36.25,56.45,44',
+      numPos: { x: 68.25, y: 10.63 }
+    },
+    {
+      id: 12,
+      color: '#14b8a6',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇖',
+      // KanjiVG kvg:06b4c-s12
+      d: 'M62.88,37.4c0.81,0.35,2.59,0.37,3.82,0.1c7.3-1.62,13.36-2.99,19.42-4.35c7.82-1.76-0.89,10.41-2.12,12.1',
+      numPos: { x: 66.75, y: 33.13 }
+    },
+    {
+      id: 13,
+      color: '#f59e0b',
+      label: 'ノ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇒',
+      // KanjiVG kvg:06b4c-s13
+      d: 'M68,44.38c0.37,1.12,0.53,2.34,0.41,3.96C67.6,58.43,63.5,80.33,51.25,91',
+      numPos: { x: 57.5, y: 52.5 }
+    },
+    {
+      id: 14,
+      color: '#8b5cf6',
+      label: 'ハ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇏',
+      // KanjiVG kvg:06b4c-s14
+      d: 'M68.5,61c3.45,4.84,14.8,18.55,21.86,25.13c1.64,1.53,3.42,3.24,5.64,3.87',
+      numPos: { x: 73.5, y: 64.5 }
+    }
+  ]
+};

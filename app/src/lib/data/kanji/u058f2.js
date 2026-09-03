@@ -1,0 +1,89 @@
+// 「売」の書き順データ（7画）
+// 字形ストロークデータ: KanjiVG (Copyright (C) 2009-2011 Ulrich Apel)
+//   ライセンス: CC BY-SA 3.0  https://creativecommons.org/licenses/by-sa/3.0/
+//   出典: http://kanjivg.tagaini.net  (kanji/058f2.svg)
+// viewBox: 0 0 109 109（KanjiVG 標準）
+// 書き順は KanjiVG 正規順（自動抽出）
+// 動作語: 未取得（PDF を確認して songFragment / songLyric を手書きで埋めること）
+export const KANJI_U058F2 = {
+  char: '売',
+  reading: 'うる',
+  meaning: 'sell',
+  word: '売',
+      meanings: { ja: 'sell', en: 'sell', zh: '売', ko: 'sell', vi: 'bán', ne: 'बेच्नु' },
+  strokeCount: 7,
+  viewBox: '0 0 109 109',
+  songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入
+  strokes: [
+    {
+      id: 1,
+      color: '#ec4899',
+      label: 'よこ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐',
+      // KanjiVG kvg:058f2-s1
+      d: 'M28.63,24.35c1.4,0.29,2.87,0.9,5.36,0.79C44.78,24.68,60,22.5,72.74,21.61c2.32-0.16,3.97-0.11,5.14,0.04',
+      numPos: { x: 21.5, y: 25.5 }
+    },
+    {
+      id: 2,
+      color: '#38bdf8',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇑a',
+      // KanjiVG kvg:058f2-s2
+      d: 'M52.42,9.25c1.1,1.1,1.93,2.75,1.93,4.52c0,6.51-0.05,16.19-0.05,23.58',
+      numPos: { x: 44.5, y: 10.5 }
+    },
+    {
+      id: 3,
+      color: '#22c55e',
+      label: 'よこ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐',
+      // KanjiVG kvg:058f2-s3
+      d: 'M31.98,38.99c2.15,0.51,4.46,0.83,6.03,0.68c8.25-0.77,20.27-2.27,31.74-3.54c2.41-0.26,4.62-0.4,7.01-0.23',
+      numPos: { x: 25.5, y: 40.5 }
+    },
+    {
+      id: 4,
+      color: '#f97316',
+      label: 'てん',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇔',
+      // KanjiVG kvg:058f2-s4
+      d: 'M18.62,52.5c-0.15,3.86-3.63,14.45-4.88,16.75',
+      numPos: { x: 11.5, y: 55.5 }
+    },
+    {
+      id: 5,
+      color: '#a855f7',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇖b',
+      // KanjiVG kvg:058f2-s5
+      d: 'M19.75,54.73C40.38,52,69,49,86.69,48.5C99.5,48.14,88.5,57.88,85.5,60',
+      numPos: { x: 20.5, y: 51.13 }
+    },
+    {
+      id: 6,
+      color: '#ef4444',
+      label: 'ノ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇒',
+      // KanjiVG kvg:058f2-s6
+      d: 'M41.25,62.5c0.37,1.12,0.29,2.43,0.16,3.65C40.25,77,35,90.25,25.64,97.65',
+      numPos: { x: 32.5, y: 64.63 }
+    },
+    {
+      id: 7,
+      color: '#eab308',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇟',
+      // KanjiVG kvg:058f2-s7
+      d: 'M59.49,58.87c1.07,1.07,1.38,2.59,1.38,4.43c0,6.08-0.2,12.57-0.2,19.45c0,14,2.09,14.77,13.59,14.77c13,0,13.63-1.39,13.63-9.62',
+      numPos: { x: 51.5, y: 61.5 }
+    }
+  ]
+};

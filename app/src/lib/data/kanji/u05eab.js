@@ -1,0 +1,119 @@
+// 「庫」の書き順データ（10画）
+// 字形ストロークデータ: KanjiVG (Copyright (C) 2009-2011 Ulrich Apel)
+//   ライセンス: CC BY-SA 3.0  https://creativecommons.org/licenses/by-sa/3.0/
+//   出典: http://kanjivg.tagaini.net  (kanji/05eab.svg)
+// viewBox: 0 0 109 109（KanjiVG 標準）
+// 書き順は KanjiVG 正規順（自動抽出）
+// 動作語: 未取得（PDF を確認して songFragment / songLyric を手書きで埋めること）
+export const KANJI_U05EAB = {
+  char: '庫',
+  reading: 'こ',
+  meaning: 'warehouse/storehouse',
+  word: '庫',
+      meanings: { ja: 'warehouse/storehouse', en: 'warehouse/storehouse', zh: '库', ko: '고', vi: 'khái niệm', ne: 'अर्थ' },
+  strokeCount: 10,
+  viewBox: '0 0 109 109',
+  songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入
+  strokes: [
+    {
+      id: 1,
+      color: '#ec4899',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇑a',
+      // KanjiVG kvg:05eab-s1
+      d: 'M53.88,10.13c0.94,0.94,1.64,2.5,1.64,3.97c0,0.75-0.07,4.15-0.07,7.75',
+      numPos: { x: 45.75, y: 9.13 }
+    },
+    {
+      id: 2,
+      color: '#38bdf8',
+      label: 'よこ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐',
+      // KanjiVG kvg:05eab-s2
+      d: 'M23.46,24.94c1.78,0.51,5.04,0.67,6.82,0.51c16.97-1.46,38.59-4.08,52.65-4.77c2.96-0.14,4.74,0.25,6.22,0.5',
+      numPos: { x: 32.25, y: 21.13 }
+    },
+    {
+      id: 3,
+      color: '#22c55e',
+      label: 'ノ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇒',
+      // KanjiVG kvg:05eab-s3
+      d: 'M25.83,25.58c0.8,0.8,1.18,1.67,1.14,2.95c-0.59,19.6-3.22,41.85-17.81,56.2',
+      numPos: { x: 18.75, y: 34.94 }
+    },
+    {
+      id: 4,
+      color: '#f97316',
+      label: 'よこ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐',
+      // KanjiVG kvg:05eab-s4
+      d: 'M37.62,36.88c1.29,0.35,3.4,0.48,4.68,0.35c11.08-1.11,24.2-2.98,34.83-3.76c2.14-0.16,3.68,0.17,4.75,0.34',
+      numPos: { x: 32.25, y: 34.63 }
+    },
+    {
+      id: 5,
+      color: '#a855f7',
+      label: 'たて',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇑',
+      // KanjiVG kvg:05eab-s5
+      d: 'M36.76,47.61c0.94,0.94,1.86,2.01,2.06,3.17c0.61,3.62,1.49,9.86,2.45,16.57c0.21,1.48,0.43,2.99,0.65,4.5',
+      numPos: { x: 30.75, y: 57.13 }
+    },
+    {
+      id: 6,
+      color: '#ef4444',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇕a',
+      // KanjiVG kvg:05eab-s6
+      d: 'M39.2,49.02c10.87-1.23,27.48-3.35,36.93-4.08c2.9-0.22,4.49,0.35,4.17,3.44c-0.41,3.94-1.96,10.42-3.62,16.66c-0.36,1.34-0.72,2.66-1.07,3.95',
+      numPos: { x: 41.25, y: 48.13 }
+    },
+    {
+      id: 7,
+      color: '#eab308',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐a',
+      // KanjiVG kvg:05eab-s7
+      d: 'M41.97,59.01c9.78-1.01,24.9-2.13,35.84-2.93',
+      numPos: { x: 45.75, y: 58.63 }
+    },
+    {
+      id: 8,
+      color: '#06b6d4',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐a',
+      // KanjiVG kvg:05eab-s8
+      d: 'M42.72,69.73c10.53-1.48,20.53-2.23,32.38-3.16',
+      numPos: { x: 45.75, y: 67.63 }
+    },
+    {
+      id: 9,
+      color: '#84cc16',
+      label: 'よこ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐',
+      // KanjiVG kvg:05eab-s9
+      d: 'M28.25,82.75c3.25,0.87,6.15,0.67,8.87,0.44C54,81.75,72.7,79.77,84.26,79.43c2.68-0.08,5.37-0.05,7.99,0.65',
+      numPos: { x: 20.25, y: 88.63 }
+    },
+    {
+      id: 10,
+      color: '#f43f5e',
+      label: 'たて',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇑',
+      // KanjiVG kvg:05eab-s10
+      d: 'M57.01,26.79c1.04,1.04,1.72,2.58,1.72,4.18c0,0.92-0.05,44.38-0.12,62.28c-0.01,3.41-0.03,5.89-0.05,6.98',
+      numPos: { x: 45.75, y: 33.13 }
+    }
+  ]
+};

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Senbon favicon">
+  <rect width="64" height="64" rx="14" fill="#f5f0e6"/>
+  <circle cx="43" cy="17" r="8" fill="#d4af37"/>
+  <path d="M9 44c12-12 21-16 32-20 7-3 11-7 18-9v35H9z" fill="#355070" opacity=".18"/>
+  <path d="M14 23c9-3 25-3 36 0" fill="none" stroke="#c84a3a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M18 30c9-3 20-3 28 0" fill="none" stroke="#a9362a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M23 31v20M41 31v20M24 39h16" fill="none" stroke="#c84a3a" stroke-width="5" stroke-linecap="round"/>
+</svg>

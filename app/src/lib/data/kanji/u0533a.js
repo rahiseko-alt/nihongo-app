@@ -1,0 +1,59 @@
+// 「区」の書き順データ（4画）
+// 字形ストロークデータ: KanjiVG (Copyright (C) 2009-2011 Ulrich Apel)
+//   ライセンス: CC BY-SA 3.0  https://creativecommons.org/licenses/by-sa/3.0/
+//   出典: http://kanjivg.tagaini.net  (kanji/0533a.svg)
+// viewBox: 0 0 109 109（KanjiVG 標準）
+// 書き順は KanjiVG 正規順（自動抽出）
+// 動作語: 未取得（PDF を確認して songFragment / songLyric を手書きで埋めること）
+export const KANJI_U0533A = {
+  char: '区',
+  reading: 'く',
+  meaning: 'ward',
+  word: '区',
+      meanings: { ja: 'ward', en: 'ward', zh: '区', ko: '구', vi: 'quận', ne: 'वडा' },
+  strokeCount: 4,
+  viewBox: '0 0 109 109',
+  songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入
+  strokes: [
+    {
+      id: 1,
+      color: '#ec4899',
+      label: 'よこ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇐',
+      // KanjiVG kvg:0533a-s1
+      d: 'M18.88,23.93c2.78,0.65,5.74,0.51,8.58,0.17c18.07-2.16,35.69-3.8,51.98-5.95c3.2-0.42,5.17-0.25,6.79,0.02',
+      numPos: { x: 23.5, y: 20.5 }
+    },
+    {
+      id: 2,
+      color: '#38bdf8',
+      label: 'ノ',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇒',
+      // KanjiVG kvg:0533a-s2
+      d: 'M68.57,30.43c0.25,1.37,0.29,2.74-0.47,4.76C62,51.38,49.62,64.75,32.9,75.75',
+      numPos: { x: 60.5, y: 30.5 }
+    },
+    {
+      id: 3,
+      color: '#22c55e',
+      label: '',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇔/㇏',
+      // KanjiVG kvg:0533a-s3
+      d: 'M35.75,43.25C51.07,47.69,70.34,63.1,78,72.5',
+      numPos: { x: 31.5, y: 40.5 }
+    },
+    {
+      id: 4,
+      color: '#f97316',
+      label: 'たてはね',     // TODO: 動作語に合わせて修正可（既定は KanjiVG kvg:type 由来のヒント）
+      songFragment: '', // TODO: PDF を見て動作語を記入
+      type: '㇗',
+      // KanjiVG kvg:0533a-s4
+      d: 'M20.36,25.3c0.73,0.73,1,2.18,1,3.7c0,11.28,0,48.74,0,57.34c0,4.4,0.77,5.33,5.02,4.74c16.58-2.31,44.87-3.94,59.2-3.66c3.34,0.07,6.17,0.23,8.23,0.68',
+      numPos: { x: 14.5, y: 32.5 }
+    }
+  ]
+};
