@@ -83,6 +83,23 @@
       {t.playBtn}
     </button>
   {/if}
+
+  <!-- 同梱データの帰属表示（KanjiVG の CC BY-SA 3.0 が要求する義務。文面は原典どおり英語で出す） -->
+  <footer class="credits" class:visible={bottomVisible}>
+    <p>
+      Stroke order data from
+      <a href="http://kanjivg.tagaini.net" target="_blank" rel="noopener noreferrer">KanjiVG</a>
+      by Ulrich Apel, licensed under
+      <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>.
+    </p>
+    <p>
+      Meanings and readings derived in part from
+      <a href="https://www.edrdg.org/edrdg/licence.html" target="_blank" rel="noopener noreferrer">KANJIDIC2</a>
+      (EDRDG, CC BY-SA 4.0) and the
+      <a href="https://www.unicode.org/copyright.html" target="_blank" rel="noopener noreferrer">Unihan Database</a>
+      (© Unicode, Inc.).
+    </p>
+  </footer>
 </main>
 
 <style>
@@ -216,6 +233,37 @@
   @keyframes start-pulse {
     0%, 100% { transform: scale(1); box-shadow: 0 6px 20px rgba(200,74,58,0.3), 0 0 10px rgba(212,175,55,0.15); }
     50%      { transform: scale(1.02); box-shadow: 0 10px 28px rgba(200,74,58,0.4), 0 0 18px rgba(212,175,55,0.3); }
+  }
+
+  /* ─── クレジット（第三者データの帰属表示） ─── */
+  .credits {
+    position: relative;
+    z-index: 3;
+    margin-top: 3.2rem;
+    padding-bottom: 4.5rem; /* sticky な開始ボタンに文字が隠れないための逃げ */
+    max-width: 32rem;
+    text-align: center;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.62rem;
+    line-height: 1.7;
+    color: rgba(38, 38, 38, 0.52);
+    opacity: 0;
+    transition: opacity 1.2s ease-out;
+  }
+  .credits.visible {
+    opacity: 1;
+  }
+  .credits p {
+    margin: 0.2rem 0;
+  }
+  .credits a {
+    color: rgba(156, 45, 34, 0.75);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(156, 45, 34, 0.26);
+  }
+  .credits a:hover {
+    color: #9c2d22;
+    border-bottom-color: rgba(156, 45, 34, 0.6);
   }
 
   /* ─── 共通：フェードイン1秒（コウヘイさん指定） ─── */
