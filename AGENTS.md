@@ -3,8 +3,17 @@
 本リポジトリで作業するすべてのコーディングエージェント（Claude Code / Codex ほか）共通の指示です。
 このファイルが唯一の正本です。
 
-**目的**: Claude Code と Codex で共用できる、公式準拠のリポジトリ雛形そのものを作ること。
-このリポジトリを雛形として使い始めたら、この行を実際のプロジェクトの目的に書き換えてください。
+**目的**: 漢字学習アプリ **Senbon（千本）** を作ること。実体は `app/` にあります。
+外国人向けに、1,000字の書き順アニメーションと6言語の UI を持つ、バックエンド不要の
+静的 SvelteKit アプリです。
+
+**リポジトリの構成**: 土台はリポジトリ雛形 **from-0**（Claude Code と Codex で同じ
+リポジトリを扱うための仕組み）で、`app/` 以外のすべてがそれにあたります。from-0 は
+すでに動いており、**このリポジトリでの主な作業対象は `app/` です**。
+
+- `app/` — Senbon 本体。独自の `package.json` と lockfile を持つ独立プロジェクト。
+  CI では専用ジョブ `app` が検査する
+- それ以外 — from-0 の土台（`src/` の計画CLI、`docs/` の各台帳、`.claude/`、CI のジョブ `check`）
 
 ## 応答と作業の進め方
 
@@ -173,12 +182,24 @@ Node 22 / pnpm / TypeScript 5 / ESM。**npm と yarn は使わないでくださ
 
 ## コマンド
 
+root（from-0 の土台）:
+
 ```bash
 pnpm install
 pnpm run check    # format:check + typecheck + test。コミット前に必ず通す
 pnpm run test     # Vitest（監視は test:watch）
 pnpm run build    # tsc で dist/ に出力
 pnpm run format   # Prettier で整形
+```
+
+`app/`（Senbon 本体）— **`app/` で実行する。root の `pnpm run check` は `app/` を見ない**:
+
+```bash
+cd app
+pnpm install      # prepare が svelte-kit sync を走らせる。これを飛ばすと以降が全部落ちる
+pnpm run check    # svelte-check（型と Svelte の検査）
+pnpm run test     # Vitest（監視は test:watch）
+pnpm run build    # 静的サイトを build/ に出力
 ```
 
 ## コーディング規約
