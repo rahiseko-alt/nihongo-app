@@ -23,7 +23,7 @@
 
 ## いま何をしているか
 
-**`app/` を CI で検査する経路を作った。PR #2 を出してあり、CI の結果待ち。**
+**`app/` を CI で検査する経路を作り、`main` へマージし終えた。次の作業は決まっていない。**
 `docs/plan.json` は26項目すべて `done` で、計画側に未着手の項目はない。
 
 ## 完了したこと
@@ -36,10 +36,9 @@
 - `.prettierignore` に `app/` を追加／`vitest.config.ts` を新規追加し root の対象を
   `src/**/*.test.ts` に限定／`THIRD-PARTY-NOTICES.md` を整形
 
-**2つ目: `app/` を CI で検査する経路を作った（PR 提出済み、マージ前）**
+**2つ目: `app/` を CI で検査する経路を作った（マージ済み）**
 
-- PR: [#2](https://github.com/rahiseko-alt/nihongo-app/pull/2) — `ci: check app/ in its own job, on pnpm`
-- ブランチ: `claude/checkin-quq3ko`（push 済み、`48423bb`）
+- PR: [#2](https://github.com/rahiseko-alt/nihongo-app/pull/2)（`main` にマージ済み、`b7f102a`）
 - 直した中身
   - `.github/workflows/ci.yml` にジョブ `app` を追加。`app/` で install →
     svelte-check → vitest → build を実行する。ジョブ名 `check` は Ruleset の必須チェック
@@ -52,7 +51,7 @@
 - 検証（`app/` で CI と同じ手順を実行）: `pnpm install --frozen-lockfile` 成功／
   svelte-check 1356ファイル **0 ERRORS** 6 WARNINGS（未使用CSSセレクタのみ）／
   vitest **15件すべて成功**／`pnpm run build` 成功。root 側も `check`（テスト46件）と
-  `build` が緑
+  `build` が緑。**GitHub Actions 上でもジョブ `check` `app` の両方が成功したことを確認済み**
 - **`docs/plan.json` の項目ではないため `completion-checker` は呼んでいない**
 
 ### 前のセッションまで
@@ -62,15 +61,14 @@
 
 ## 次にやること
 
-1. **PR #2 の CI を見て、緑ならドラフトを解除してマージする。** 赤ければ原因を直す。
-   このセッションで手元検証は全部通しているが、**GitHub Actions 上での実行結果はまだ
-   未確認** `[曖昧]`
-2. **`AGENTS.md` 冒頭の「目的」を実態に合わせる** — いまも「公式準拠のリポジトリ雛形
+**最初にユーザーへ「次はどれをやるか」を聞く。勝手にどれかを始めないこと。**
+
+1. **`AGENTS.md` 冒頭の「目的」を実態に合わせる** — いまも「公式準拠のリポジトリ雛形
    そのものを作ること」のままだが、`app/` という実プロジェクトが既に入っている `[曖昧]`
    （どちらを正とするかはユーザーしか決められない）
-3. **`automation` の分類を付け直す** — 前回の全体照合で、AI 単独では `verify` を
+2. **`automation` の分類を付け直す** — 前回の全体照合で、AI 単独では `verify` を
    なぞれない項目が実態より少なく見積もられていると判明した（`human` は4件のみ）
-4. **`status` に `dropped`（取り下げ）を足す** — 「やらないと決めた」項目も `done` に
+3. **`status` に `dropped`（取り下げ）を足す** — 「やらないと決めた」項目も `done` に
    するしかなく、完了率が実際より良く見える
 
 ### 以前からの積み残し
