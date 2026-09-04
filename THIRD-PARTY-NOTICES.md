@@ -15,9 +15,9 @@ application source code itself is distributed under the MIT License (see
 
 ### Where it is used
 
-| Path | Contents |
-|---|---|
-| `app/static/svg/*.svg` | 1,007 KanjiVG source SVG files, placed as-is |
+| Path                          | Contents                                                                                                                                                            |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `app/static/svg/*.svg`        | 1,007 KanjiVG source SVG files, placed as-is                                                                                                                        |
 | `app/src/lib/data/kanji/*.js` | 1,028 files. The `d` attribute path data is extracted from the corresponding KanjiVG SVG; coordinates are unmodified. Stroke colouring is original to this project. |
 
 Every file under `app/src/lib/data/kanji/` carries the attribution in its header
