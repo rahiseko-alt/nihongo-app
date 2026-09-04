@@ -23,30 +23,36 @@
 
 ## いま何をしているか
 
-**`main` の CI が赤かったのを緑に戻した。それ以外は未着手で、次の作業は決まっていない。**
-
-前のセッションの引継ぎは「雛形リポジトリ、`docs/plan.json` 28項目すべて完了」と書いていたが、
-**実態と食い違っていた**。その後 `app/`（Senbon 漢字アプリ、SvelteKit）が `main` へ直接
-追加されており（`70edcb7` `42533b5`）、root の `pnpm run check` が壊れていた。
-
-`docs/plan.json` は26項目すべて `done`。`pnpm run plan:next` は「着手できる項目がありません」を返す。
+**`app/` を CI で検査する経路を作った。PR #2 を出してあり、CI の結果待ち。**
+`docs/plan.json` は26項目すべて `done` で、計画側に未着手の項目はない。
 
 ## 完了したこと
 
 ### このセッション
 
-**root の検査対象から `app/` を切り離し、`pnpm run check` を緑に戻した。**
+**1つ目: root の検査対象から `app/` を切り離し、`pnpm run check` を緑に戻した（マージ済み）**
 
-- PR: [#1](https://github.com/rahiseko-alt/nihongo-app/pull/1) — `fix: keep root checks off the app/ subproject`
+- PR: [#1](https://github.com/rahiseko-alt/nihongo-app/pull/1)（`main` にマージ済み、`ede0fcb`）
+- `.prettierignore` に `app/` を追加／`vitest.config.ts` を新規追加し root の対象を
+  `src/**/*.test.ts` に限定／`THIRD-PARTY-NOTICES.md` を整形
+
+**2つ目: `app/` を CI で検査する経路を作った（PR 提出済み、マージ前）**
+
+- PR: [#2](https://github.com/rahiseko-alt/nihongo-app/pull/2) — `ci: check app/ in its own job, on pnpm`
+- ブランチ: `claude/checkin-quq3ko`（push 済み、`48423bb`）
 - 直した中身
-  - `.prettierignore` に `app/` を追加 — root の Prettier は Svelte を扱えないのに
-    `app/src` 等を対象にしており、1067ファイルが未整形として落ちていた
-  - `vitest.config.ts` を新規追加 — root の vitest 対象を `src/**/*.test.ts` に限定。
-    それまで `app/tests/*` を拾い、SvelteKit の生成物 `app/.svelte-kit/tsconfig.json`
-    が無くて2ファイルが変換エラーになっていた
-  - `THIRD-PARTY-NOTICES.md` を整形 — root で唯一、本当に未整形だったファイル
-  - `docs/neglected-log.md` に Gate `080 回帰` で1件記録
-- 検証: `pnpm run check`（整形・型・テスト46件すべて緑）／`pnpm run build` 通過
+  - `.github/workflows/ci.yml` にジョブ `app` を追加。`app/` で install →
+    svelte-check → vitest → build を実行する。ジョブ名 `check` は Ruleset の必須チェック
+    なので触らず、別名のジョブにした
+  - `app/package.json` に `prepare: svelte-kit sync || echo ""` を追加。これが無いと
+    `.svelte-kit/tsconfig.json` が生成されず、svelte-check も vitest も落ちる
+  - `app/package-lock.json` を削除し `app/pnpm-lock.yaml` に置き換え（npm → pnpm 統一）。
+    **ユーザーに確認したうえで実施**
+  - `docs/neglected-log.md` に Gate `080 回帰` の解消を記録
+- 検証（`app/` で CI と同じ手順を実行）: `pnpm install --frozen-lockfile` 成功／
+  svelte-check 1356ファイル **0 ERRORS** 6 WARNINGS（未使用CSSセレクタのみ）／
+  vitest **15件すべて成功**／`pnpm run build` 成功。root 側も `check`（テスト46件）と
+  `build` が緑
 - **`docs/plan.json` の項目ではないため `completion-checker` は呼んでいない**
 
 ### 前のセッションまで
@@ -56,48 +62,55 @@
 
 ## 次にやること
 
-**最初にユーザーへ「次はどれをやるか」を聞く。勝手にどれかを始めないこと。**
-
-1. **`app/` を CI で検査する経路を作る** — このセッションで `app/tests` の2件が CI から
-   外れた。`app/` は `package-lock.json`（npm）を持ち、pnpm 前提の root の CI にそのまま
-   載らない。`app/` を pnpm workspace に入れるか、CI に別ジョブを足すかの判断が要る。
-   **PR #1 の本文にもこの懸念を書いてある**
-2. **`automation` の分類を付け直す** — 前回の全体照合で、AI 単独では `verify` を
-   なぞれない項目が実態より少なく見積もられていると判明した（`human` は4件のみ）
-3. **`status` に `dropped`（取り下げ）を足す** — 「やらないと決めた」項目も `done` に
-   するしかなく、完了率が実際より良く見える
-4. **`AGENTS.md` 冒頭の「目的」を実態に合わせる** — いまも「公式準拠のリポジトリ雛形
+1. **PR #2 の CI を見て、緑ならドラフトを解除してマージする。** 赤ければ原因を直す。
+   このセッションで手元検証は全部通しているが、**GitHub Actions 上での実行結果はまだ
+   未確認** `[曖昧]`
+2. **`AGENTS.md` 冒頭の「目的」を実態に合わせる** — いまも「公式準拠のリポジトリ雛形
    そのものを作ること」のままだが、`app/` という実プロジェクトが既に入っている `[曖昧]`
    （どちらを正とするかはユーザーしか決められない）
+3. **`automation` の分類を付け直す** — 前回の全体照合で、AI 単独では `verify` を
+   なぞれない項目が実態より少なく見積もられていると判明した（`human` は4件のみ）
+4. **`status` に `dropped`（取り下げ）を足す** — 「やらないと決めた」項目も `done` に
+   するしかなく、完了率が実際より良く見える
 
 ### 以前からの積み残し
 
 - GitHub Ruleset の実態は `[曖昧]`。ユーザーが Settings → Rules → Rulesets で確認してほしい
+- **`app` ジョブは Ruleset の必須チェックには入っていない** `[曖昧]`。赤くてもマージを
+  止めない可能性がある。必須にするかはユーザーの判断
 
 ## 注意点
 
 **恒久的なリポジトリのルールはここに書かない。** `AGENTS.md`（指示）と `docs/decisions.md`
 （根拠）を参照する。ここに書くのは、セッションをまたいで再発しうる作業上の落とし穴だけ。
 
-- **引継ぎ文が実態と食い違っていることがある。** 今回、引継ぎには `app/` の存在も
+- **`app/` は pnpm に統一した。** `app/package-lock.json` は削除済み。npm のコマンドを
+  使わないこと
+- **SvelteKit は `svelte-kit sync` を先に走らせないと何も動かない。** `.svelte-kit/tsconfig.json`
+  は生成物で、リポジトリには入っていない。`app/package.json` の `prepare` が install 時に
+  自動で走るようにしてある
+- **引継ぎ文が実態と食い違っていることがある。** 前回、引継ぎには `app/` の存在も
   `main` の CI が赤いことも書かれていなかった。**`/checkin` では引継ぎを鵜呑みにせず、
   `git log origin/main` と `pnpm run check` を必ず自分で走らせること**
 - **サブプロジェクトを足したら、root のツールの対象範囲を必ず見直す。** Prettier・
   vitest・tsconfig は既定で下位ディレクトリを全部拾う。`app/` はこれで壊れた
-- **`app/` は npm（`package-lock.json`）で管理されている。** `AGENTS.md` の
-  「npm と yarn は使わない」と食い違っている `[曖昧]`（意図的かどうか不明）
+- **スカッシュマージ後、作業ブランチのリモートが古いまま残ることがある。** `--force` は
+  このリポジトリで禁止（かつ環境側でもブロックされた）。`git merge origin/<branch>` で
+  取り込んでから通常の push をすれば通る
+- **`rm -rf` は環境側でブロックされることがある。** clean-room の再現は
+  `pnpm install --frozen-lockfile` の出力で代替した
 - **計画が全部 `done` のとき `pnpm run plan:next` は「着手できる項目がありません」と出る。**
   故障ではなく正常な結果
 - **`done` が「要件の取り下げ」を意味する項目が3件ある**（`T019` `T020` `T006`）。
   完了率をそのまま信用しないこと。経緯は `docs/decisions.md`「23.」「26.」
+- **CI の `pnpm/action-setup` 段階で4分ほど止まることがある。** 前回それで待たされたが
+  最終的に成功した。すぐ異常と判断しないこと
 - **「動いた」と「届いた」は別物。** 実行の成否は API で確認できるが、通知が人の手元に
   届いたかは人に聞くしかない
 - **`automation` を決めるときは「そのコマンドを誰が入力するか」まで下りて確かめる**
 - **判定役に渡す記録には必ず対象の id を書く**
 - **ドキュメントに具体例を載せるときは、その例を実際に実行・検証してから載せる**
 - **`node -e` の中でトップレベル `return` は書けない**。フックの中で使うときは関数で包む
-- **PR をスカッシュでマージするとリモートのブランチが自動削除される。** そのまま
-  `--force-with-lease` すると `stale info` で失敗する。`git fetch --prune` してから通常の push
 - **`git push` がプロキシの 503 で失敗することがある。** 指数バックオフで数回リトライする
 - **この引継ぎ文の本文に、自動記録の目印（`session-end-stamp` の HTML コメント）を
   そのまま書かないこと。** 書くと自動記録がそこで本文を切り落とす
@@ -107,7 +120,11 @@
 
 ## セッション終了時点の状態（自動記録）
 
-- 記録時刻: 2026-09-01 09:23 UTC
-- ブランチ: `claude/checkin-ktuswb`
-- HEAD: `a095b96`
-- 未コミットの変更: なし
+- 記録時刻: 2026-09-04 05:20 UTC
+- ブランチ: `claude/checkin-quq3ko`
+- HEAD: `2719d4d`
+- 未コミットの変更:
+
+```
+M docs/handoff.md
+```
