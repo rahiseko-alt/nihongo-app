@@ -36,3 +36,33 @@ jobs:
       - run: pnpm run check
 
       - run: pnpm run build
+
+  # app/ は root とは別の package.json / lockfile を持つ独立プロジェクトのため、
+  # root の check とは別ジョブで検査する。ジョブ名 check は Ruleset の必須チェックに
+  # 使われているので、こちらは別名にしてある。
+  app:
+    name: app
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: pnpm/action-setup@v6
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+          cache-dependency-path: app/pnpm-lock.yaml
+
+      # install 直後に prepare が走り、svelte-kit sync が .svelte-kit/tsconfig.json を作る。
+      # これが無いと svelte-check も vitest も設定を読めずに落ちる。
+      - run: pnpm install --frozen-lockfile
+
+      - run: pnpm run check
+
+      - run: pnpm run test
+
+      - run: pnpm run build
