@@ -68,3 +68,10 @@
 - 触れたGate: `099 低優先度品質`（今回の要件に必要なドキュメント更新が完了しているか）
 - 対象箇所: `docs/plan.json` の `T006`、`AGENTS.md` の `/goal` の節
 - `/goal` が「満たした」と判定する場面は未観測のまま、ユーザーの判断で取り下げて閉じた
+
+### 2026-09-04 03:35 UTC
+
+- 触れたGate: `080 回帰`（今回の変更範囲に対する主要回帰テストが通るか）
+- 対象箇所: `app/tests/unit/recalc.test.ts` / `app/tests/integration/recordStudy.test.ts`、`.github/workflows/ci.yml`
+- root の vitest 対象から `app/` を外したため、この2件を CI で実行する経路が無くなった。
+  `app/` は `package-lock.json`（npm）を持ち、root の pnpm 前提の CI には現状そのまま載らない

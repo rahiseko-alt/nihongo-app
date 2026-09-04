@@ -4,3 +4,8 @@ build/
 out/
 coverage/
 pnpm-lock.yaml
+
+# app/ は独自の package.json とツール（svelte-check / vite / 自分の vitest）を持つ別プロジェクト。
+# root の Prettier 設定は Svelte を扱えず、対象に入れると 1000 ファイル超が未整形として落ちる。
+# app/ 自身の整形ルールは app/ 側で決める（現時点では未設定）。
+app/
