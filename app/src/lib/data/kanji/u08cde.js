@@ -10,7 +10,7 @@ export const KANJI_U08CDE = {
   reading: 'しょう',
   meaning: 'prize/reward',
   word: '賞',
-      meanings: { ja: 'prize/reward', en: 'prize/reward', zh: '赏', ko: '상', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'prize/reward', en: 'prize/reward', zh: '赏', ko: '상' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

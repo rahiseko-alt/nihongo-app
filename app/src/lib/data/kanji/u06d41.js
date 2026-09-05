@@ -10,7 +10,7 @@ export const KANJI_U06D41 = {
   reading: 'ながれる',
   meaning: 'current/a sink',
   word: '流',
-      meanings: { ja: 'current/a sink', en: 'current/a sink', zh: '流', ko: '류', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'current/a sink', en: 'current/a sink', zh: '流', ko: '류' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

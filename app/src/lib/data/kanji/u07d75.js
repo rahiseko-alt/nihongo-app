@@ -10,7 +10,7 @@ export const KANJI_U07D75 = {
   reading: 'え',
   meaning: '絵',
   word: '絵',
-      meanings: { ja: '絵', en: 'picture', zh: '画', ko: '그림', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '絵', en: 'picture', zh: '画', ko: '그림' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

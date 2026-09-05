@@ -10,7 +10,7 @@ export const KANJI_U09769 = {
   reading: 'かわ',
   meaning: 'leather/skin',
   word: '革',
-      meanings: { ja: 'leather/skin', en: 'leather/skin', zh: '革', ko: '혁', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'leather/skin', en: 'leather/skin', zh: '革', ko: '혁' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

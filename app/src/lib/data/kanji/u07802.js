@@ -10,7 +10,7 @@ export const KANJI_U07802 = {
   reading: 'すな',
   meaning: 'sand',
   word: '砂',
-      meanings: { ja: 'sand', en: 'sand', zh: '砂', ko: '사', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'sand', en: 'sand', zh: '砂', ko: '사' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

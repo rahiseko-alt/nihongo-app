@@ -10,7 +10,7 @@ export const KANJI_U05352 = {
   reading: 'そつ',
   meaning: 'graduate/soldier',
   word: '卒',
-      meanings: { ja: 'graduate/soldier', en: 'graduate/soldier', zh: '卒', ko: '졸', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'graduate/soldier', en: 'graduate/soldier', zh: '卒', ko: '졸' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06691 = {
   reading: 'あつい',
   meaning: 'sultry/hot',
   word: '暑',
-      meanings: { ja: 'sultry/hot', en: 'sultry/hot', zh: '暑', ko: '서', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'sultry/hot', en: 'sultry/hot', zh: '暑', ko: '서' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

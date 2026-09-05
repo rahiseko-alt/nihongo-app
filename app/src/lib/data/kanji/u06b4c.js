@@ -10,7 +10,7 @@ export const KANJI_U06B4C = {
   reading: 'うた',
   meaning: 'song/sing',
   word: '歌',
-      meanings: { ja: 'song/sing', en: 'song/sing', zh: '歌', ko: '가', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'song/sing', en: 'song/sing', zh: '歌', ko: '가' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

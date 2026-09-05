@@ -81,3 +81,11 @@
 - 対象箇所: `.github/workflows/ci.yml` のジョブ `app`、`app/package.json` の `prepare`、`app/pnpm-lock.yaml`
 - `app/` を npm から pnpm に統一し、CI に専用ジョブを足した。`app/tests` の2件（テスト15件）が
   再び CI で実行される
+
+### 2026-09-05 02:39 UTC
+
+- 触れたGate: `021 必須データが欠落しないか`（P1 データ整合性）
+- 対象箇所: `app/src/lib/data/kanji/*.js` の `meanings.vi` / `meanings.ne`、
+  表示側は `app/src/routes/play/+page.svelte:125-126`
+- 1000字のうち538字で `vi: 'khái niệm'` / `ne: 'अर्थ'` が入ったまま。値が入っているため
+  `??` の英語フォールバックに落ちず、そのまま画面に出る

@@ -10,7 +10,7 @@ export const KANJI_U068B0 = {
   reading: 'かい',
   meaning: 'contraption/fetter',
   word: '械',
-      meanings: { ja: 'contraption/fetter', en: 'contraption/fetter', zh: '械', ko: '계', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'contraption/fetter', en: 'contraption/fetter', zh: '械', ko: '계' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

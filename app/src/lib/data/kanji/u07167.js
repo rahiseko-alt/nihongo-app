@@ -10,7 +10,7 @@ export const KANJI_U07167 = {
   reading: 'てる',
   meaning: 'illuminate/shine',
   word: '照',
-      meanings: { ja: 'illuminate/shine', en: 'illuminate/shine', zh: '照', ko: '조', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'illuminate/shine', en: 'illuminate/shine', zh: '照', ko: '조' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

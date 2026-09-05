@@ -10,7 +10,7 @@ export const KANJI_U079FB = {
   reading: 'うつる',
   meaning: 'shift/move',
   word: '移',
-      meanings: { ja: 'shift/move', en: 'shift/move', zh: '移', ko: '이', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'shift/move', en: 'shift/move', zh: '移', ko: '이' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

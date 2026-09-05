@@ -10,7 +10,7 @@ export const KANJI_U089D2 = {
   reading: 'かど',
   meaning: '角',
   word: '角',
-      meanings: { ja: '角', en: 'corner/angle', zh: '角', ko: '모서리', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '角', en: 'corner/angle', zh: '角', ko: '모서리' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

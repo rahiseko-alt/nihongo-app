@@ -10,7 +10,7 @@ export const KANJI_U05BD2 = {
   reading: 'さむい',
   meaning: 'cold',
   word: '寒',
-      meanings: { ja: 'cold', en: 'cold', zh: '寒', ko: '한', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'cold', en: 'cold', zh: '寒', ko: '한' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

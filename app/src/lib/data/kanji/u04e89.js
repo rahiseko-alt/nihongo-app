@@ -10,7 +10,7 @@ export const KANJI_U04E89 = {
   reading: 'あらそう',
   meaning: 'contend/dispute',
   word: '争',
-      meanings: { ja: 'contend/dispute', en: 'contend/dispute', zh: '争', ko: 'contend/dispute', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'contend/dispute', en: 'contend/dispute', zh: '争', ko: 'contend/dispute' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06A5F = {
   reading: 'き',
   meaning: 'loom/mechanism',
   word: '機',
-      meanings: { ja: 'loom/mechanism', en: 'loom/mechanism', zh: '机', ko: '기', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'loom/mechanism', en: 'loom/mechanism', zh: '机', ko: '기' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

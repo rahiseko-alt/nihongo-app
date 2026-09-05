@@ -10,7 +10,7 @@ export const KANJI_U06DB2 = {
   reading: 'えき',
   meaning: 'fluid/liquid',
   word: '液',
-      meanings: { ja: 'fluid/liquid', en: 'fluid/liquid', zh: '液', ko: '액', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'fluid/liquid', en: 'fluid/liquid', zh: '液', ko: '액' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

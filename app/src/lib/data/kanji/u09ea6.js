@@ -10,7 +10,7 @@ export const KANJI_U09EA6 = {
   reading: 'むぎ',
   meaning: 'barley/wheat',
   word: '麦',
-      meanings: { ja: 'barley/wheat', en: 'barley/wheat', zh: '麦', ko: 'barley/wheat', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'barley/wheat', en: 'barley/wheat', zh: '麦', ko: 'barley/wheat' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

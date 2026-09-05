@@ -10,7 +10,7 @@ export const KANJI_U052DD = {
   reading: 'かつ',
   meaning: 'victory/win',
   word: '勝',
-      meanings: { ja: 'victory/win', en: 'victory/win', zh: '胜', ko: '승', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'victory/win', en: 'victory/win', zh: '胜', ko: '승' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

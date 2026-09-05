@@ -10,7 +10,7 @@ export const KANJI_U0975E = {
   reading: 'ひ',
   meaning: 'un-/mistake',
   word: '非',
-      meanings: { ja: 'un-/mistake', en: 'un-/mistake', zh: '非', ko: '비', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'un-/mistake', en: 'un-/mistake', zh: '非', ko: '비' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

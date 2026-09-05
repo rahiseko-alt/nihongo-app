@@ -10,7 +10,7 @@ export const KANJI_U08349 = {
   reading: 'くさ',
   meaning: '草',
   word: '草',
-      meanings: { ja: '草', en: 'grass', zh: '草', ko: '풀', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '草', en: 'grass', zh: '草', ko: '풀' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

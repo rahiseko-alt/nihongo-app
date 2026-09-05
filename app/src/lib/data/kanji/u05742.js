@@ -10,7 +10,7 @@ export const KANJI_U05742 = {
   reading: 'さか',
   meaning: 'slope/incline',
   word: '坂',
-      meanings: { ja: 'slope/incline', en: 'slope/incline', zh: '坂', ko: '판', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'slope/incline', en: 'slope/incline', zh: '坂', ko: '판' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

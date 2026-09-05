@@ -10,7 +10,7 @@ export const KANJI_U05531 = {
   reading: 'となえる',
   meaning: 'chant/recite',
   word: '唱',
-      meanings: { ja: 'chant/recite', en: 'chant/recite', zh: '唱', ko: '창', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'chant/recite', en: 'chant/recite', zh: '唱', ko: '창' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

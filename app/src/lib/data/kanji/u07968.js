@@ -10,7 +10,7 @@ export const KANJI_U07968 = {
   reading: 'ひょう',
   meaning: 'ballot/label',
   word: '票',
-      meanings: { ja: 'ballot/label', en: 'ballot/label', zh: '票', ko: '표', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'ballot/label', en: 'ballot/label', zh: '票', ko: '표' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

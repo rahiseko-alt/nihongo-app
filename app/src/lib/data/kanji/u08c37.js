@@ -10,7 +10,7 @@ export const KANJI_U08C37 = {
   reading: 'たに',
   meaning: '谷',
   word: '谷',
-      meanings: { ja: '谷', en: 'valley', zh: '谷', ko: '골짜기', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '谷', en: 'valley', zh: '谷', ko: '골짜기' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

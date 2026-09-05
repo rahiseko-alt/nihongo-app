@@ -10,7 +10,7 @@ export const KANJI_U081D3 = {
   reading: 'ぞう',
   meaning: 'entrails/viscera',
   word: '臓',
-      meanings: { ja: 'entrails/viscera', en: 'entrails/viscera', zh: '臓', ko: 'entrails/viscera', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'entrails/viscera', en: 'entrails/viscera', zh: '臓', ko: 'entrails/viscera' },
   strokeCount: 19,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

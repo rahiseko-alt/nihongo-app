@@ -10,7 +10,7 @@ export const KANJI_U07ACB = {
   reading: 'たつ',
   meaning: '立つ',
   word: '立',
-      meanings: { ja: '立つ', en: 'stand', zh: '站立', ko: '서다', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '立つ', en: 'stand', zh: '站立', ko: '서다' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

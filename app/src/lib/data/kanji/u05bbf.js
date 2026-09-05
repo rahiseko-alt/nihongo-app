@@ -10,7 +10,7 @@ export const KANJI_U05BBF = {
   reading: 'やど',
   meaning: 'inn/lodging',
   word: '宿',
-      meanings: { ja: 'inn/lodging', en: 'inn/lodging', zh: '宿', ko: '수', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'inn/lodging', en: 'inn/lodging', zh: '宿', ko: '수' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

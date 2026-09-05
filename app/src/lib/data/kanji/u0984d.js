@@ -10,7 +10,7 @@ export const KANJI_U0984D = {
   reading: 'ひたい',
   meaning: 'forehead/tablet',
   word: '額',
-      meanings: { ja: 'forehead/tablet', en: 'forehead/tablet', zh: '额', ko: '액', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'forehead/tablet', en: 'forehead/tablet', zh: '额', ko: '액' },
   strokeCount: 18,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

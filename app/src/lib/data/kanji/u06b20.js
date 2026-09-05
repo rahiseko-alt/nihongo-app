@@ -10,7 +10,7 @@ export const KANJI_U06B20 = {
   reading: 'かける',
   meaning: 'lack/gap',
   word: '欠',
-      meanings: { ja: 'lack/gap', en: 'lack/gap', zh: '欠', ko: '흠', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'lack/gap', en: 'lack/gap', zh: '欠', ko: '흠' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

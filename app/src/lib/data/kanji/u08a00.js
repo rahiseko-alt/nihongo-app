@@ -10,7 +10,7 @@ export const KANJI_U08A00 = {
   reading: 'いう',
   meaning: '言う',
   word: '言',
-      meanings: { ja: '言う', en: 'say', zh: '说', ko: '말하다', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '言う', en: 'say', zh: '说', ko: '말하다' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

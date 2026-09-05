@@ -10,7 +10,7 @@ export const KANJI_U08B70 = {
   reading: 'ぎ',
   meaning: 'deliberation/consultation',
   word: '議',
-      meanings: { ja: 'deliberation/consultation', en: 'deliberation/consultation', zh: '议', ko: '의', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'deliberation/consultation', en: 'deliberation/consultation', zh: '议', ko: '의' },
   strokeCount: 20,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

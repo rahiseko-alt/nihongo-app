@@ -10,7 +10,7 @@ export const KANJI_U063EE = {
   reading: 'ふるう',
   meaning: 'brandish/wave',
   word: '揮',
-      meanings: { ja: 'brandish/wave', en: 'brandish/wave', zh: '挥', ko: '휘', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'brandish/wave', en: 'brandish/wave', zh: '挥', ko: '휘' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

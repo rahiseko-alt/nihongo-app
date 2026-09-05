@@ -10,7 +10,7 @@ export const KANJI_U060C5 = {
   reading: 'じょう',
   meaning: 'feelings/emotion',
   word: '情',
-      meanings: { ja: 'feelings/emotion', en: 'feelings/emotion', zh: '情', ko: '정', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'feelings/emotion', en: 'feelings/emotion', zh: '情', ko: '정' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

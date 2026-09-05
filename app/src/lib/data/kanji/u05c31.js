@@ -10,7 +10,7 @@ export const KANJI_U05C31 = {
   reading: 'つく',
   meaning: 'concerning/settle',
   word: '就',
-      meanings: { ja: 'concerning/settle', en: 'concerning/settle', zh: '就', ko: '취', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'concerning/settle', en: 'concerning/settle', zh: '就', ko: '취' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U07A74 = {
   reading: 'あな',
   meaning: 'hole/aperture',
   word: '穴',
-      meanings: { ja: 'hole/aperture', en: 'hole/aperture', zh: '穴', ko: '혈', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'hole/aperture', en: 'hole/aperture', zh: '穴', ko: '혈' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

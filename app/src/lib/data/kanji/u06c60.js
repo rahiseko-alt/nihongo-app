@@ -10,7 +10,7 @@ export const KANJI_U06C60 = {
   reading: 'いけ',
   meaning: 'pond/cistern',
   word: '池',
-      meanings: { ja: 'pond/cistern', en: 'pond/cistern', zh: '池', ko: '지', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'pond/cistern', en: 'pond/cistern', zh: '池', ko: '지' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

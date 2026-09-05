@@ -10,7 +10,7 @@ export const KANJI_U09069 = {
   reading: 'てき',
   meaning: 'suitable/occasional',
   word: '適',
-      meanings: { ja: 'suitable/occasional', en: 'suitable/occasional', zh: '适', ko: '적', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'suitable/occasional', en: 'suitable/occasional', zh: '适', ko: '적' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

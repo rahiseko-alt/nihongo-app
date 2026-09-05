@@ -10,7 +10,7 @@ export const KANJI_U05EA6 = {
   reading: 'ど',
   meaning: 'degrees/occurrence',
   word: '度',
-      meanings: { ja: 'degrees/occurrence', en: 'degrees/occurrence', zh: '度', ko: '도', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'degrees/occurrence', en: 'degrees/occurrence', zh: '度', ko: '도' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

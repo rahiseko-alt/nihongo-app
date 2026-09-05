@@ -10,7 +10,7 @@ export const KANJI_U07565 = {
   reading: 'りゃく',
   meaning: 'abbreviation/omission',
   word: '略',
-      meanings: { ja: 'abbreviation/omission', en: 'abbreviation/omission', zh: '略', ko: '략', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'abbreviation/omission', en: 'abbreviation/omission', zh: '略', ko: '략' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

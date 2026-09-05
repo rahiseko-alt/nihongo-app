@@ -10,7 +10,7 @@ export const KANJI_U06A4B = {
   reading: 'はし',
   meaning: 'bridge',
   word: '橋',
-      meanings: { ja: 'bridge', en: 'bridge', zh: '桥', ko: '교', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'bridge', en: 'bridge', zh: '桥', ko: '교' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

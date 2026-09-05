@@ -10,7 +10,7 @@ export const KANJI_U05C04 = {
   reading: 'いる',
   meaning: 'shoot/shine into',
   word: '射',
-      meanings: { ja: 'shoot/shine into', en: 'shoot/shine into', zh: '射', ko: '사', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'shoot/shine into', en: 'shoot/shine into', zh: '射', ko: '사' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

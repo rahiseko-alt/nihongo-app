@@ -10,7 +10,7 @@ export const KANJI_U05B8C = {
   reading: 'かん',
   meaning: 'perfect/completion',
   word: '完',
-      meanings: { ja: 'perfect/completion', en: 'perfect/completion', zh: '完', ko: '완', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'perfect/completion', en: 'perfect/completion', zh: '完', ko: '완' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

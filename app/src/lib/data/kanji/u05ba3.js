@@ -10,7 +10,7 @@ export const KANJI_U05BA3 = {
   reading: 'せん',
   meaning: 'proclaim/say',
   word: '宣',
-      meanings: { ja: 'proclaim/say', en: 'proclaim/say', zh: '宣', ko: '선', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'proclaim/say', en: 'proclaim/say', zh: '宣', ko: '선' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

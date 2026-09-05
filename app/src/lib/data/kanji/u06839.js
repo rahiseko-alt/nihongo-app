@@ -10,7 +10,7 @@ export const KANJI_U06839 = {
   reading: 'ね',
   meaning: 'root/radical',
   word: '根',
-      meanings: { ja: 'root/radical', en: 'root/radical', zh: '根', ko: '근', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'root/radical', en: 'root/radical', zh: '根', ko: '근' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

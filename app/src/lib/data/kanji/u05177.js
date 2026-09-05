@@ -10,7 +10,7 @@ export const KANJI_U05177 = {
   reading: 'ぐ',
   meaning: 'tool/utensil',
   word: '具',
-      meanings: { ja: 'tool/utensil', en: 'tool/utensil', zh: '具', ko: '구', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'tool/utensil', en: 'tool/utensil', zh: '具', ko: '구' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

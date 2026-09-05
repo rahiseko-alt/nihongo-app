@@ -10,7 +10,7 @@ export const KANJI_U09178 = {
   reading: 'さん',
   meaning: 'acid/bitterness',
   word: '酸',
-      meanings: { ja: 'acid/bitterness', en: 'acid/bitterness', zh: '酸', ko: '산', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'acid/bitterness', en: 'acid/bitterness', zh: '酸', ko: '산' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

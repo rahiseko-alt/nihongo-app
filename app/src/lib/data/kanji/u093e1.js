@@ -10,7 +10,7 @@ export const KANJI_U093E1 = {
   reading: 'かがみ',
   meaning: 'mirror/speculum',
   word: '鏡',
-      meanings: { ja: 'mirror/speculum', en: 'mirror/speculum', zh: '镜', ko: '경', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'mirror/speculum', en: 'mirror/speculum', zh: '镜', ko: '경' },
   strokeCount: 19,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

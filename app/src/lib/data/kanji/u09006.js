@@ -10,7 +10,7 @@ export const KANJI_U09006 = {
   reading: 'ぎゃく',
   meaning: 'inverted/reverse',
   word: '逆',
-      meanings: { ja: 'inverted/reverse', en: 'inverted/reverse', zh: '逆', ko: '역', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'inverted/reverse', en: 'inverted/reverse', zh: '逆', ko: '역' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06CB9 = {
   reading: 'あぶら',
   meaning: 'oil/fat',
   word: '油',
-      meanings: { ja: 'oil/fat', en: 'oil/fat', zh: '油', ko: '유', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'oil/fat', en: 'oil/fat', zh: '油', ko: '유' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

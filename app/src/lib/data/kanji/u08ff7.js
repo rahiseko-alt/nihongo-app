@@ -10,7 +10,7 @@ export const KANJI_U08FF7 = {
   reading: 'まよう',
   meaning: 'astray/be perplexed',
   word: '迷',
-      meanings: { ja: 'astray/be perplexed', en: 'astray/be perplexed', zh: '迷', ko: '미', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'astray/be perplexed', en: 'astray/be perplexed', zh: '迷', ko: '미' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

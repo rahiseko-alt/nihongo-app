@@ -10,7 +10,7 @@ export const KANJI_U06545 = {
   reading: 'ゆえ',
   meaning: 'happenstance/especially',
   word: '故',
-      meanings: { ja: 'happenstance/especially', en: 'happenstance/especially', zh: '故', ko: '고', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'happenstance/especially', en: 'happenstance/especially', zh: '故', ko: '고' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

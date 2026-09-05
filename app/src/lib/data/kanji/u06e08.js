@@ -10,7 +10,7 @@ export const KANJI_U06E08 = {
   reading: 'すむ',
   meaning: 'settle (debt, etc.)/relieve (burden)',
   word: '済',
-      meanings: { ja: 'settle (debt, etc.)/relieve (burden)', en: 'settle (debt, etc.)/relieve (burden)', zh: '済', ko: '제', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'settle (debt, etc.)/relieve (burden)', en: 'settle (debt, etc.)/relieve (burden)', zh: '済', ko: '제' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

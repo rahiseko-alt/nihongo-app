@@ -10,7 +10,7 @@ export const KANJI_U058F0 = {
   reading: 'こえ',
   meaning: '声',
   word: '声',
-      meanings: { ja: '声', en: 'voice', zh: '声音', ko: '목소리', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '声', en: 'voice', zh: '声音', ko: '목소리' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

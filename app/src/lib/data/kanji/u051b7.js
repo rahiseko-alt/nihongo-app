@@ -10,7 +10,7 @@ export const KANJI_U051B7 = {
   reading: 'つめたい',
   meaning: 'cool/cold (beer, person)',
   word: '冷',
-      meanings: { ja: 'cool/cold (beer, person)', en: 'cool/cold (beer, person)', zh: '冷', ko: '냉', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'cool/cold (beer, person)', en: 'cool/cold (beer, person)', zh: '冷', ko: '냉' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

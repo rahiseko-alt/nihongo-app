@@ -10,7 +10,7 @@ export const KANJI_U077E2 = {
   reading: 'や',
   meaning: '矢',
   word: '矢',
-      meanings: { ja: '矢', en: 'arrow', zh: '箭', ko: '화살', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '矢', en: 'arrow', zh: '箭', ko: '화살' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

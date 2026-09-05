@@ -10,7 +10,7 @@ export const KANJI_U05DE5 = {
   reading: 'こう',
   meaning: '工事',
   word: '工',
-      meanings: { ja: '工事', en: 'construction', zh: '工程', ko: '공사', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '工事', en: 'construction', zh: '工程', ko: '공사' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

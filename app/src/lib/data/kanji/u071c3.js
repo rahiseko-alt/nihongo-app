@@ -10,7 +10,7 @@ export const KANJI_U071C3 = {
   reading: 'もえる',
   meaning: 'burn/blaze',
   word: '燃',
-      meanings: { ja: 'burn/blaze', en: 'burn/blaze', zh: '燃', ko: '연', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'burn/blaze', en: 'burn/blaze', zh: '燃', ko: '연' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

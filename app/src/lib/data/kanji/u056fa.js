@@ -10,7 +10,7 @@ export const KANJI_U056FA = {
   reading: 'かたい',
   meaning: 'harden/set',
   word: '固',
-      meanings: { ja: 'harden/set', en: 'harden/set', zh: '固', ko: '고', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'harden/set', en: 'harden/set', zh: '固', ko: '고' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

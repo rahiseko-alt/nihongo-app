@@ -10,7 +10,7 @@ export const KANJI_U059C9 = {
   reading: 'あね',
   meaning: '姉',
   word: '姉',
-      meanings: { ja: '姉', en: 'older sister', zh: '姐姐', ko: '누나', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '姉', en: 'older sister', zh: '姐姐', ko: '누나' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

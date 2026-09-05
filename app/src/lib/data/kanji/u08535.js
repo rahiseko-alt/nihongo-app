@@ -10,7 +10,7 @@ export const KANJI_U08535 = {
   reading: 'くら',
   meaning: 'storehouse/hide',
   word: '蔵',
-      meanings: { ja: 'storehouse/hide', en: 'storehouse/hide', zh: '蔵', ko: 'storehouse/hide', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'storehouse/hide', en: 'storehouse/hide', zh: '蔵', ko: 'storehouse/hide' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06B63 = {
   reading: 'ただしい',
   meaning: '正しい',
   word: '正',
-      meanings: { ja: '正しい', en: 'correct', zh: '正确', ko: '바르다', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '正しい', en: 'correct', zh: '正确', ko: '바르다' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

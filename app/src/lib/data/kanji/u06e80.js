@@ -10,7 +10,7 @@ export const KANJI_U06E80 = {
   reading: 'みちる',
   meaning: 'full/fullness',
   word: '満',
-      meanings: { ja: 'full/fullness', en: 'full/fullness', zh: '満', ko: 'full/fullness', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'full/fullness', en: 'full/fullness', zh: '満', ko: 'full/fullness' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

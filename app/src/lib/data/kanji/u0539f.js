@@ -10,7 +10,7 @@ export const KANJI_U0539F = {
   reading: 'はら',
   meaning: '原',
   word: '原',
-      meanings: { ja: '原', en: 'original/field', zh: '原', ko: '원래', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '原', en: 'original/field', zh: '原', ko: '원래' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

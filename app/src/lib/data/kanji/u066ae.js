@@ -10,7 +10,7 @@ export const KANJI_U066AE = {
   reading: 'くれる',
   meaning: 'evening/twilight',
   word: '暮',
-      meanings: { ja: 'evening/twilight', en: 'evening/twilight', zh: '暮', ko: '모', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'evening/twilight', en: 'evening/twilight', zh: '暮', ko: '모' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

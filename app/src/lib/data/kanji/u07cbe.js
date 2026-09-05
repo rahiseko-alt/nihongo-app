@@ -10,7 +10,7 @@ export const KANJI_U07CBE = {
   reading: 'せい',
   meaning: 'refined/ghost',
   word: '精',
-      meanings: { ja: 'refined/ghost', en: 'refined/ghost', zh: '精', ko: '정', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'refined/ghost', en: 'refined/ghost', zh: '精', ko: '정' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

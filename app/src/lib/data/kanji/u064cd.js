@@ -10,7 +10,7 @@ export const KANJI_U064CD = {
   reading: 'あやつる',
   meaning: 'maneuver/manipulate',
   word: '操',
-      meanings: { ja: 'maneuver/manipulate', en: 'maneuver/manipulate', zh: '操', ko: '조', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'maneuver/manipulate', en: 'maneuver/manipulate', zh: '操', ko: '조' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

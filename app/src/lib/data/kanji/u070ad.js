@@ -10,7 +10,7 @@ export const KANJI_U070AD = {
   reading: 'すみ',
   meaning: 'charcoal/coal',
   word: '炭',
-      meanings: { ja: 'charcoal/coal', en: 'charcoal/coal', zh: '炭', ko: '탄', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'charcoal/coal', en: 'charcoal/coal', zh: '炭', ko: '탄' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

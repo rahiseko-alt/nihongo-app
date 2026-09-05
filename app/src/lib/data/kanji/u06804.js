@@ -10,7 +10,7 @@ export const KANJI_U06804 = {
   reading: 'えい',
   meaning: 'flourish/prosperity',
   word: '栄',
-      meanings: { ja: 'flourish/prosperity', en: 'flourish/prosperity', zh: '栄', ko: '영', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'flourish/prosperity', en: 'flourish/prosperity', zh: '栄', ko: '영' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

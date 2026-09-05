@@ -10,7 +10,7 @@ export const KANJI_U0523B = {
   reading: 'こく',
   meaning: 'engrave/cut fine',
   word: '刻',
-      meanings: { ja: 'engrave/cut fine', en: 'engrave/cut fine', zh: '刻', ko: '각', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'engrave/cut fine', en: 'engrave/cut fine', zh: '刻', ko: '각' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

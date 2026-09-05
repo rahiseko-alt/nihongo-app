@@ -10,7 +10,7 @@ export const KANJI_U0904E = {
   reading: 'すぎる',
   meaning: 'overdo/exceed',
   word: '過',
-      meanings: { ja: 'overdo/exceed', en: 'overdo/exceed', zh: '过', ko: '과', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'overdo/exceed', en: 'overdo/exceed', zh: '过', ko: '과' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

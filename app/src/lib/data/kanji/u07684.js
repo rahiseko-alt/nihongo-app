@@ -10,7 +10,7 @@ export const KANJI_U07684 = {
   reading: 'まと',
   meaning: 'bull\'s eye/mark',
   word: '的',
-      meanings: { ja: 'bull\'s eye/mark', en: 'bull\'s eye/mark', zh: '的', ko: '적', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'bull\'s eye/mark', en: 'bull\'s eye/mark', zh: '的', ko: '적' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

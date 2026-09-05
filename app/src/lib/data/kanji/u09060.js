@@ -10,7 +10,7 @@ export const KANJI_U09060 = {
   reading: 'とおい',
   meaning: 'distant/far',
   word: '遠',
-      meanings: { ja: 'distant/far', en: 'distant/far', zh: '远', ko: '원', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'distant/far', en: 'distant/far', zh: '远', ko: '원' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

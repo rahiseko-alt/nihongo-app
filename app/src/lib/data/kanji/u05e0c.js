@@ -10,7 +10,7 @@ export const KANJI_U05E0C = {
   reading: 'き',
   meaning: 'hope/beg',
   word: '希',
-      meanings: { ja: 'hope/beg', en: 'hope/beg', zh: '希', ko: '희망', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'hope/beg', en: 'hope/beg', zh: '希', ko: '희망' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

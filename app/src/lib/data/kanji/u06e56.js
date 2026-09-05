@@ -10,7 +10,7 @@ export const KANJI_U06E56 = {
   reading: 'みずうみ',
   meaning: 'lake',
   word: '湖',
-      meanings: { ja: 'lake', en: 'lake', zh: '湖', ko: '호', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'lake', en: 'lake', zh: '湖', ko: '호' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

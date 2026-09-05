@@ -10,7 +10,7 @@ export const KANJI_U07D30 = {
   reading: 'ほそい',
   meaning: '細い',
   word: '細',
-      meanings: { ja: '細い', en: 'thin', zh: '细', ko: '가늘다', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '細い', en: 'thin', zh: '细', ko: '가늘다' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

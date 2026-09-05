@@ -10,7 +10,7 @@ export const KANJI_U089E3 = {
   reading: 'とく',
   meaning: 'unravel/notes',
   word: '解',
-      meanings: { ja: 'unravel/notes', en: 'unravel/notes', zh: '解', ko: '해', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'unravel/notes', en: 'unravel/notes', zh: '解', ko: '해' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

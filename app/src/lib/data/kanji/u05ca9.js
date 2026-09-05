@@ -10,7 +10,7 @@ export const KANJI_U05CA9 = {
   reading: 'いわ',
   meaning: '岩',
   word: '岩',
-      meanings: { ja: '岩', en: 'rock', zh: '岩石', ko: '바위', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '岩', en: 'rock', zh: '岩石', ko: '바위' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

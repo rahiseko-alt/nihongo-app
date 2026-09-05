@@ -10,7 +10,7 @@ export const KANJI_U04F8B = {
   reading: 'れい',
   meaning: 'example/custom',
   word: '例',
-      meanings: { ja: 'example/custom', en: 'example/custom', zh: '例', ko: '례', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'example/custom', en: 'example/custom', zh: '例', ko: '례' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

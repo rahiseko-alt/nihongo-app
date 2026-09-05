@@ -10,7 +10,7 @@ export const KANJI_U08015 = {
   reading: 'たがやす',
   meaning: 'till/plow',
   word: '耕',
-      meanings: { ja: 'till/plow', en: 'till/plow', zh: '耕', ko: '경', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'till/plow', en: 'till/plow', zh: '耕', ko: '경' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

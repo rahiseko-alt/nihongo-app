@@ -10,7 +10,7 @@ export const KANJI_U05238 = {
   reading: 'けん',
   meaning: '券',
   word: '券',
-      meanings: { ja: '券', en: 'ticket', zh: '券', ko: '권', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '券', en: 'ticket', zh: '券', ko: '권' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

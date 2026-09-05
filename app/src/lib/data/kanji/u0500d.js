@@ -10,7 +10,7 @@ export const KANJI_U0500D = {
   reading: 'ばい',
   meaning: 'double/twice',
   word: '倍',
-      meanings: { ja: 'double/twice', en: 'double/twice', zh: '倍', ko: '배', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'double/twice', en: 'double/twice', zh: '倍', ko: '배' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

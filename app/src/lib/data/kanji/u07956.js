@@ -10,7 +10,7 @@ export const KANJI_U07956 = {
   reading: 'そ',
   meaning: 'ancestor/pioneer',
   word: '祖',
-      meanings: { ja: 'ancestor/pioneer', en: 'ancestor/pioneer', zh: '祖', ko: '조', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'ancestor/pioneer', en: 'ancestor/pioneer', zh: '祖', ko: '조' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

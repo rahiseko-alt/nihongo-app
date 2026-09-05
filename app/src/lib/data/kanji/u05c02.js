@@ -10,7 +10,7 @@ export const KANJI_U05C02 = {
   reading: 'せん',
   meaning: 'specialty/exclusive',
   word: '専',
-      meanings: { ja: 'specialty/exclusive', en: 'specialty/exclusive', zh: '専', ko: 'specialty/exclusive', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'specialty/exclusive', en: 'specialty/exclusive', zh: '専', ko: 'specialty/exclusive' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

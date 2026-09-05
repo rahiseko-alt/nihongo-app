@@ -10,7 +10,7 @@ export const KANJI_U052A0 = {
   reading: 'くわえる',
   meaning: 'add/addition',
   word: '加',
-      meanings: { ja: 'add/addition', en: 'add/addition', zh: '加', ko: '가', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'add/addition', en: 'add/addition', zh: '加', ko: '가' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

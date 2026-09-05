@@ -10,7 +10,7 @@ export const KANJI_U056F3 = {
   reading: 'ず',
   meaning: '図',
   word: '図',
-      meanings: { ja: '図', en: 'map/diagram', zh: '图', ko: '그림', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '図', en: 'map/diagram', zh: '图', ko: '그림' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

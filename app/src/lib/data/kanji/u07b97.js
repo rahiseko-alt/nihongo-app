@@ -10,7 +10,7 @@ export const KANJI_U07B97 = {
   reading: 'さん',
   meaning: '計算',
   word: '算',
-      meanings: { ja: '計算', en: 'calculate', zh: '计算', ko: '계산', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '計算', en: 'calculate', zh: '计算', ko: '계산' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入
