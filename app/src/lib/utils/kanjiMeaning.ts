@@ -100,6 +100,22 @@ export const EN_MEANING: Record<string, string> = {
   口: 'mouth',
   神: 'god',
   奈: 'Nara',
+  愛: 'love',
+  知: 'know',
+  飛: 'fly',
+  府: 'prefecture',
+  岐: 'fork',
+  茨: 'thorn',
+  児: 'child',
+  城: 'castle',
+  歌: 'song',
+  川: 'river',
+  阜: 'hill',
+  大: 'big',
+  阪: 'slope',
+  鹿: 'deer',
+  島: 'island',
+  和: 'harmony',
 };
 
 export const ZH_MEANING: Record<string, string> = {

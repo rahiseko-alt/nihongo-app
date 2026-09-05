@@ -16,35 +16,35 @@ through stroke-order animation, with the interface available in six languages.
 
 ## Tech stack
 
-| Layer | Choice |
-|---|---|
-| Framework | SvelteKit 2 (Svelte 5) |
-| Language | TypeScript |
-| Build | Vite 6, `@sveltejs/adapter-static` |
-| Tests | Vitest |
-| Hosting | Cloudflare Pages (static) |
+| Layer     | Choice                             |
+| --------- | ---------------------------------- |
+| Framework | SvelteKit 2 (Svelte 5)             |
+| Language  | TypeScript                         |
+| Build     | Vite 6, `@sveltejs/adapter-static` |
+| Tests     | Vitest                             |
+| Hosting   | Cloudflare Pages (static)          |
 
 The app builds to fully static output — there is no server-side runtime.
 
 ## Getting started
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 Then open the URL Vite prints (default `http://localhost:5173`).
 
 ### Scripts
 
-| Command | What it does |
-|---|---|
-| `npm run dev` | Start the dev server |
-| `npm run build` | Build static output into `build/` |
-| `npm run preview` | Preview the production build locally |
-| `npm run check` | Type-check with `svelte-check` |
-| `npm run test` | Run the test suite once |
-| `npm run test:watch` | Run tests in watch mode |
+| Command               | What it does                         |
+| --------------------- | ------------------------------------ |
+| `pnpm run dev`        | Start the dev server                 |
+| `pnpm run build`      | Build static output into `build/`    |
+| `pnpm run preview`    | Preview the production build locally |
+| `pnpm run check`      | Type-check with `svelte-check`       |
+| `pnpm run test`       | Run the test suite once              |
+| `pnpm run test:watch` | Run tests in watch mode              |
 
 ## Project layout
 
@@ -81,8 +81,8 @@ trade-off for a zero-backend, zero-tracking app.
 The app deploys as static output to Cloudflare Pages:
 
 ```bash
-npm run build
-npx wrangler pages deploy build
+pnpm run build
+pnpm dlx wrangler pages deploy build
 ```
 
 The Pages project name is pinned in `wrangler.toml`.

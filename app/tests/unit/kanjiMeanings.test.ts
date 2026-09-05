@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { getMeaning } from '../../src/lib/utils/kanjiMeaning.js';
 
 const KANJI_DIR = join(import.meta.dirname, '../../src/lib/data/kanji');
 
@@ -93,6 +94,44 @@ describe('漢字データの意味欄', () => {
     }
 
     expect(found).toEqual([]);
+  });
+
+  // 都道府県名セット（愛知県・北海道など）で使う26字は meanings を持たず、
+  // EN_MEANING 等のフォールバック表から引かれる。表に登録が無いと意味欄が
+  // 空欄のまま出るため、26字すべてが表に載っていることを確かめる。
+  it('都道府県名セットの26字に英語の意味が登録されている', () => {
+    const PREFECTURE_KANJI = [
+      '愛',
+      '知',
+      '道',
+      '飛',
+      '府',
+      '岐',
+      '東',
+      '茨',
+      '児',
+      '城',
+      '歌',
+      '海',
+      '神',
+      '川',
+      '県',
+      '北',
+      '京',
+      '奈',
+      '阜',
+      '大',
+      '阪',
+      '鹿',
+      '島',
+      '都',
+      '和',
+      '山',
+    ];
+
+    const missing = PREFECTURE_KANJI.filter((char) => getMeaning({ char }, 'en') === '');
+
+    expect(missing).toEqual([]);
   });
 
   it('1000字パックの意味欄そのものは消えていない', () => {
