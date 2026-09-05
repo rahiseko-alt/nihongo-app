@@ -423,7 +423,7 @@
       "dependsOn": [],
       "files": ["app/src/lib/components/KanjiStrokes.svelte"],
       "automation": "ci",
-      "status": "todo",
+      "status": "done",
       "origin": "added",
       "note": "app/監査中に判明。実際の書き順アニメーションはTraceCanvas.svelteが担っており、KanjiStrokes.svelteはどこからも参照されていない"
     },
@@ -438,9 +438,26 @@
       "dependsOn": [],
       "files": ["app/README.md"],
       "automation": "ci",
-      "status": "todo",
+      "status": "done",
       "origin": "added",
       "note": "app/監査中に判明。README単体の記載ミスで、実際のpackage.jsonやCIはpnpm前提"
+    },
+    {
+      "id": "T033",
+      "title": "都道府県名セット（愛知県・北海道など26セット）をUIから選べるようにする",
+      "deliverable": "app/src/lib/data/sets.jsのSET_ORDERに都道府県名26セットが加わり、/selectの画面からこれらのセットを開いて練習できる状態",
+      "verify": [
+        "app/ で pnpm run build の後 pnpm run preview を起動し、/select を開く",
+        "いずれかのカテゴリタブで「愛知県」「北海道」など都道府県名セットが一覧に表示され、開けることを確認する",
+        "都道府県名セットにしか出現しない字（岐・茨・奈・阜・阪・鹿）が、そのセットを開いた練習画面で表示されることを確認する",
+        "pnpm run test を実行し、既存のテストが通ることを確認する"
+      ],
+      "dependsOn": [],
+      "files": ["app/src/lib/data/sets.js"],
+      "automation": "ci",
+      "status": "todo",
+      "origin": "added",
+      "note": "T030の完了判定（completion-checker）中に判明。都道府県名26セット（category: basic/regions/cities）はSETSオブジェクトには定義されているが、SET_ORDERに含まれないため/selectの画面のどのタブにも表示されず、getSetsByCategoryの対象外。KANJI_INDEXもSET_ORDER由来のためgetKanjiByCharでも引けない。26字中20字（愛知知飛府...）は基本500字セットにも重複して含まれるため通常フローで表示されるが、岐・茨・奈・阜・阪・鹿の6字はこのセット以外に出現せず、セットが選べない限り一切表示されない。T030で意味データ（meanings/EN_MEANING等）は26字全て埋めた（PR待ち）ため、本項目が解消すればすぐに意味も表示される"
     }
   ]
 }
