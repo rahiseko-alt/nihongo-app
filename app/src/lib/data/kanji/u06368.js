@@ -10,7 +10,7 @@ export const KANJI_U06368 = {
   reading: 'すてる',
   meaning: 'discard/throw away',
   word: '捨',
-      meanings: { ja: 'discard/throw away', en: 'discard/throw away', zh: '舍', ko: '사', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'discard/throw away', en: 'discard/throw away', zh: '舍', ko: '사' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

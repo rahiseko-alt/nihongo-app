@@ -10,7 +10,7 @@ export const KANJI_U08996 = {
   reading: 'みる',
   meaning: 'inspection/regard as',
   word: '視',
-      meanings: { ja: 'inspection/regard as', en: 'inspection/regard as', zh: '视', ko: '시', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'inspection/regard as', en: 'inspection/regard as', zh: '视', ko: '시' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

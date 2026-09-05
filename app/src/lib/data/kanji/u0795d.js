@@ -10,7 +10,7 @@ export const KANJI_U0795D = {
   reading: 'いわう',
   meaning: 'celebrate/congratulate',
   word: '祝',
-      meanings: { ja: 'celebrate/congratulate', en: 'celebrate/congratulate', zh: '祝', ko: '축', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'celebrate/congratulate', en: 'celebrate/congratulate', zh: '祝', ko: '축' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

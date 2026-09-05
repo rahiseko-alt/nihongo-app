@@ -10,7 +10,7 @@ export const KANJI_U07403 = {
   reading: 'きゅう',
   meaning: 'ball/sphere',
   word: '球',
-      meanings: { ja: 'ball/sphere', en: 'ball/sphere', zh: '球', ko: '구', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'ball/sphere', en: 'ball/sphere', zh: '球', ko: '구' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

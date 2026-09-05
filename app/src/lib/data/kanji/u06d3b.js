@@ -10,7 +10,7 @@ export const KANJI_U06D3B = {
   reading: 'かつ',
   meaning: '活動',
   word: '活',
-      meanings: { ja: '活動', en: 'activity', zh: '活动', ko: '활동', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '活動', en: 'activity', zh: '活动', ko: '활동' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

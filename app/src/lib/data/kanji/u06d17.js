@@ -10,7 +10,7 @@ export const KANJI_U06D17 = {
   reading: 'あらう',
   meaning: 'wash/inquire into',
   word: '洗',
-      meanings: { ja: 'wash/inquire into', en: 'wash/inquire into', zh: '洗', ko: '선', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'wash/inquire into', en: 'wash/inquire into', zh: '洗', ko: '선' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

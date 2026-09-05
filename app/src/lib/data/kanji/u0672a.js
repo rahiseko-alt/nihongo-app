@@ -10,7 +10,7 @@ export const KANJI_U0672A = {
   reading: 'み',
   meaning: 'un-/not yet',
   word: '未',
-      meanings: { ja: 'un-/not yet', en: 'un-/not yet', zh: '未', ko: '미', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'un-/not yet', en: 'un-/not yet', zh: '未', ko: '미' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

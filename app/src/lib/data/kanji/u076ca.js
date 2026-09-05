@@ -10,7 +10,7 @@ export const KANJI_U076CA = {
   reading: 'えき',
   meaning: 'benefit/gain',
   word: '益',
-      meanings: { ja: 'benefit/gain', en: 'benefit/gain', zh: '益', ko: '익', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'benefit/gain', en: 'benefit/gain', zh: '益', ko: '익' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

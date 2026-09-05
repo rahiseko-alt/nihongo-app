@@ -10,7 +10,7 @@ export const KANJI_U06DF7 = {
   reading: 'まじる',
   meaning: 'mix/blend',
   word: '混',
-      meanings: { ja: 'mix/blend', en: 'mix/blend', zh: '混', ko: '혼', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'mix/blend', en: 'mix/blend', zh: '混', ko: '혼' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

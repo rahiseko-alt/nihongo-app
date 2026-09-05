@@ -10,7 +10,7 @@ export const KANJI_U05F62 = {
   reading: 'かたち',
   meaning: '形',
   word: '形',
-      meanings: { ja: '形', en: 'shape', zh: '形状', ko: '모양', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '形', en: 'shape', zh: '形状', ko: '모양' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

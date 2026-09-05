@@ -10,7 +10,7 @@ export const KANJI_U09806 = {
   reading: 'じゅん',
   meaning: 'obey/order',
   word: '順',
-      meanings: { ja: 'obey/order', en: 'obey/order', zh: '顺', ko: '순', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'obey/order', en: 'obey/order', zh: '顺', ko: '순' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

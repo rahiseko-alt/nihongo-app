@@ -10,7 +10,7 @@ export const KANJI_U068D2 = {
   reading: 'ぼう',
   meaning: 'rod/stick',
   word: '棒',
-      meanings: { ja: 'rod/stick', en: 'rod/stick', zh: '棒', ko: '봉', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'rod/stick', en: 'rod/stick', zh: '棒', ko: '봉' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

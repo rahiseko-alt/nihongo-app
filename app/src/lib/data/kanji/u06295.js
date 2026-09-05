@@ -10,7 +10,7 @@ export const KANJI_U06295 = {
   reading: 'なげる',
   meaning: 'throw/discard',
   word: '投',
-      meanings: { ja: 'throw/discard', en: 'throw/discard', zh: '投', ko: '투', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'throw/discard', en: 'throw/discard', zh: '投', ko: '투' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

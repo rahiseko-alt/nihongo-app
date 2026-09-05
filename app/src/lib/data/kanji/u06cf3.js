@@ -10,7 +10,7 @@ export const KANJI_U06CF3 = {
   reading: 'およぐ',
   meaning: 'swim',
   word: '泳',
-      meanings: { ja: 'swim', en: 'swim', zh: '泳', ko: '영', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'swim', en: 'swim', zh: '泳', ko: '영' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

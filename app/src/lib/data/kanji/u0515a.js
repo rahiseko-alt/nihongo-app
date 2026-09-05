@@ -10,7 +10,7 @@ export const KANJI_U0515A = {
   reading: 'とう',
   meaning: 'party/faction',
   word: '党',
-      meanings: { ja: 'party/faction', en: 'party/faction', zh: '党', ko: '당', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'party/faction', en: 'party/faction', zh: '党', ko: '당' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

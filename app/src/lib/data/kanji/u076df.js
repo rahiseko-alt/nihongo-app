@@ -10,7 +10,7 @@ export const KANJI_U076DF = {
   reading: 'めい',
   meaning: 'alliance/oath',
   word: '盟',
-      meanings: { ja: 'alliance/oath', en: 'alliance/oath', zh: '盟', ko: '맹', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'alliance/oath', en: 'alliance/oath', zh: '盟', ko: '맹' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

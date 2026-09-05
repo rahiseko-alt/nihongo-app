@@ -10,7 +10,7 @@ export const KANJI_U076BF = {
   reading: 'さら',
   meaning: 'dish/a helping',
   word: '皿',
-      meanings: { ja: 'dish/a helping', en: 'dish/a helping', zh: '皿', ko: '명', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'dish/a helping', en: 'dish/a helping', zh: '皿', ko: '명' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

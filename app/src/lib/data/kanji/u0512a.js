@@ -10,7 +10,7 @@ export const KANJI_U0512A = {
   reading: 'やさしい',
   meaning: 'tenderness/excel',
   word: '優',
-      meanings: { ja: 'tenderness/excel', en: 'tenderness/excel', zh: '优', ko: '우', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'tenderness/excel', en: 'tenderness/excel', zh: '优', ko: '우' },
   strokeCount: 17,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

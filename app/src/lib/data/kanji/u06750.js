@@ -10,7 +10,7 @@ export const KANJI_U06750 = {
   reading: 'ざい',
   meaning: 'lumber/log',
   word: '材',
-      meanings: { ja: 'lumber/log', en: 'lumber/log', zh: '材', ko: '재', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'lumber/log', en: 'lumber/log', zh: '材', ko: '재' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

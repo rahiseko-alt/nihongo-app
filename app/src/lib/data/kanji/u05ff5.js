@@ -10,7 +10,7 @@ export const KANJI_U05FF5 = {
   reading: 'ねん',
   meaning: 'wish/sense',
   word: '念',
-      meanings: { ja: 'wish/sense', en: 'wish/sense', zh: '念', ko: '념', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'wish/sense', en: 'wish/sense', zh: '念', ko: '념' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

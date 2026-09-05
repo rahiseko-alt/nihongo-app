@@ -10,7 +10,7 @@ export const KANJI_U06D45 = {
   reading: 'あさい',
   meaning: 'shallow/superficial',
   word: '浅',
-      meanings: { ja: 'shallow/superficial', en: 'shallow/superficial', zh: '浅', ko: 'shallow/superficial', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'shallow/superficial', en: 'shallow/superficial', zh: '浅', ko: 'shallow/superficial' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

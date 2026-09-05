@@ -10,7 +10,7 @@ export const KANJI_U09650 = {
   reading: 'げん',
   meaning: 'limit',
   word: '限',
-      meanings: { ja: 'limit', en: 'limit', zh: '限制', ko: '한계', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'limit', en: 'limit', zh: '限制', ko: '한계' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

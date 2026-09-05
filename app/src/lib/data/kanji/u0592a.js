@@ -10,7 +10,7 @@ export const KANJI_U0592A = {
   reading: 'ふとい',
   meaning: 'plump/thick',
   word: '太',
-      meanings: { ja: 'plump/thick', en: 'plump/thick', zh: '太', ko: '태', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'plump/thick', en: 'plump/thick', zh: '太', ko: '태' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

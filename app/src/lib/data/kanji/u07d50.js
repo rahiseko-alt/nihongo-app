@@ -10,7 +10,7 @@ export const KANJI_U07D50 = {
   reading: 'むすぶ',
   meaning: 'tie/bind',
   word: '結',
-      meanings: { ja: 'tie/bind', en: 'tie/bind', zh: '结', ko: '결', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'tie/bind', en: 'tie/bind', zh: '结', ko: '결' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

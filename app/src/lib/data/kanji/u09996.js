@@ -10,7 +10,7 @@ export const KANJI_U09996 = {
   reading: 'くび',
   meaning: '首',
   word: '首',
-      meanings: { ja: '首', en: 'neck', zh: '脖子', ko: '목', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '首', en: 'neck', zh: '脖子', ko: '목' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

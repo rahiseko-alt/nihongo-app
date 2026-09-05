@@ -10,7 +10,7 @@ export const KANJI_U06575 = {
   reading: 'てき',
   meaning: 'enemy/foe',
   word: '敵',
-      meanings: { ja: 'enemy/foe', en: 'enemy/foe', zh: '敌', ko: '적', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'enemy/foe', en: 'enemy/foe', zh: '敌', ko: '적' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

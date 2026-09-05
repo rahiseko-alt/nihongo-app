@@ -10,7 +10,7 @@ export const KANJI_U0969B = {
   reading: 'さい',
   meaning: 'occasion/side',
   word: '際',
-      meanings: { ja: 'occasion/side', en: 'occasion/side', zh: '际', ko: '제', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'occasion/side', en: 'occasion/side', zh: '际', ko: '제' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

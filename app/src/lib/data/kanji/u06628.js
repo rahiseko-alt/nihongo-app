@@ -10,7 +10,7 @@ export const KANJI_U06628 = {
   reading: 'さく',
   meaning: 'yesterday/previous',
   word: '昨',
-      meanings: { ja: 'yesterday/previous', en: 'yesterday/previous', zh: '昨', ko: '작', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'yesterday/previous', en: 'yesterday/previous', zh: '昨', ko: '작' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

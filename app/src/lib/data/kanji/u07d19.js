@@ -10,7 +10,7 @@ export const KANJI_U07D19 = {
   reading: 'かみ',
   meaning: '紙',
   word: '紙',
-      meanings: { ja: '紙', en: 'paper', zh: '纸', ko: '종이', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '紙', en: 'paper', zh: '纸', ko: '종이' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

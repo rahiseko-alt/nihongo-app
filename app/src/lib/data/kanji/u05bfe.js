@@ -10,7 +10,7 @@ export const KANJI_U05BFE = {
   reading: 'たい',
   meaning: 'vis-a-vis/opposite',
   word: '対',
-      meanings: { ja: 'vis-a-vis/opposite', en: 'vis-a-vis/opposite', zh: '対', ko: 'vis-a-vis/opposite', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'vis-a-vis/opposite', en: 'vis-a-vis/opposite', zh: '対', ko: 'vis-a-vis/opposite' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

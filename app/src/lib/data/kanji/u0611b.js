@@ -10,7 +10,7 @@ export const KANJI_U0611B = {
   reading: 'あい',
   meaning: 'love/affection',
   word: '愛',
-      meanings: { ja: 'love/affection', en: 'love/affection', zh: '爱', ko: '사랑', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'love/affection', en: 'love/affection', zh: '爱', ko: '사랑' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

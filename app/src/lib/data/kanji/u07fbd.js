@@ -10,7 +10,7 @@ export const KANJI_U07FBD = {
   reading: 'はね',
   meaning: '羽',
   word: '羽',
-      meanings: { ja: '羽', en: 'feather', zh: '羽毛', ko: '깃털', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '羽', en: 'feather', zh: '羽毛', ko: '깃털' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

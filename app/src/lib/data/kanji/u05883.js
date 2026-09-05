@@ -10,7 +10,7 @@ export const KANJI_U05883 = {
   reading: 'さかい',
   meaning: 'boundary/border',
   word: '境',
-      meanings: { ja: 'boundary/border', en: 'boundary/border', zh: '境', ko: '경', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'boundary/border', en: 'boundary/border', zh: '境', ko: '경' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

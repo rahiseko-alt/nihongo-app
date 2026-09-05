@@ -10,7 +10,7 @@ export const KANJI_U0541B = {
   reading: 'きみ',
   meaning: 'mister/you',
   word: '君',
-      meanings: { ja: 'mister/you', en: 'mister/you', zh: '君', ko: '군', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'mister/you', en: 'mister/you', zh: '君', ko: '군' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

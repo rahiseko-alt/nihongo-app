@@ -10,7 +10,7 @@ export const KANJI_U0548C = {
   reading: 'わ',
   meaning: 'harmony/Japanese style',
   word: '和',
-      meanings: { ja: 'harmony/Japanese style', en: 'harmony/Japanese style', zh: '和', ko: '화', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'harmony/Japanese style', en: 'harmony/Japanese style', zh: '和', ko: '화' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

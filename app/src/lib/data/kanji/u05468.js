@@ -10,7 +10,7 @@ export const KANJI_U05468 = {
   reading: 'しゅう',
   meaning: 'circumference/circuit',
   word: '周',
-      meanings: { ja: 'circumference/circuit', en: 'circumference/circuit', zh: '周', ko: '주', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'circumference/circuit', en: 'circumference/circuit', zh: '周', ko: '주' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U08CA0 = {
   reading: 'まける',
   meaning: 'defeat/negative',
   word: '負',
-      meanings: { ja: 'defeat/negative', en: 'defeat/negative', zh: '负', ko: '부', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'defeat/negative', en: 'defeat/negative', zh: '负', ko: '부' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

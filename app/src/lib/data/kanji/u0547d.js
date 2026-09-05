@@ -10,7 +10,7 @@ export const KANJI_U0547D = {
   reading: 'いのち',
   meaning: 'fate/command',
   word: '命',
-      meanings: { ja: 'fate/command', en: 'fate/command', zh: '命', ko: '명', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'fate/command', en: 'fate/command', zh: '命', ko: '명' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

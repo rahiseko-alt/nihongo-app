@@ -10,7 +10,7 @@ export const KANJI_U08FBA = {
   reading: 'へん',
   meaning: 'environs/boundary',
   word: '辺',
-      meanings: { ja: 'environs/boundary', en: 'environs/boundary', zh: '辺', ko: 'environs/boundary', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'environs/boundary', en: 'environs/boundary', zh: '辺', ko: 'environs/boundary' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

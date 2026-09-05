@@ -10,7 +10,7 @@ export const KANJI_U07E26 = {
   reading: 'たて',
   meaning: 'vertical/length',
   word: '縦',
-      meanings: { ja: 'vertical/length', en: 'vertical/length', zh: '縦', ko: 'vertical/length', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'vertical/length', en: 'vertical/length', zh: '縦', ko: 'vertical/length' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

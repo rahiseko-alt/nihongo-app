@@ -10,7 +10,7 @@ export const KANJI_U0754C = {
   reading: 'かい',
   meaning: 'world/boundary',
   word: '界',
-      meanings: { ja: 'world/boundary', en: 'world/boundary', zh: '界', ko: '계', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'world/boundary', en: 'world/boundary', zh: '界', ko: '계' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

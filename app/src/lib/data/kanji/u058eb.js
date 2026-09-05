@@ -10,7 +10,7 @@ export const KANJI_U058EB = {
   reading: 'し',
   meaning: 'gentleman/scholar',
   word: '士',
-      meanings: { ja: 'gentleman/scholar', en: 'gentleman/scholar', zh: '士', ko: '선비', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'gentleman/scholar', en: 'gentleman/scholar', zh: '士', ko: '선비' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

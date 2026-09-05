@@ -10,7 +10,7 @@ export const KANJI_U05B9D = {
   reading: 'たから',
   meaning: 'treasure/wealth',
   word: '宝',
-      meanings: { ja: 'treasure/wealth', en: 'treasure/wealth', zh: '宝', ko: '보', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'treasure/wealth', en: 'treasure/wealth', zh: '宝', ko: '보' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

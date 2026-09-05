@@ -10,7 +10,7 @@ export const KANJI_U056DE = {
   reading: 'かい',
   meaning: '回',
   word: '回',
-      meanings: { ja: '回', en: 'times/turn', zh: '回', ko: '회', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '回', en: 'times/turn', zh: '回', ko: '회' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

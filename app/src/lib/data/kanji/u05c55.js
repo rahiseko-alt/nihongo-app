@@ -10,7 +10,7 @@ export const KANJI_U05C55 = {
   reading: 'てん',
   meaning: 'unfold/expand',
   word: '展',
-      meanings: { ja: 'unfold/expand', en: 'unfold/expand', zh: '展', ko: '전', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'unfold/expand', en: 'unfold/expand', zh: '展', ko: '전' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

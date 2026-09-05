@@ -10,7 +10,7 @@ export const KANJI_U07687 = {
   reading: 'こう',
   meaning: 'emperor',
   word: '皇',
-      meanings: { ja: 'emperor', en: 'emperor', zh: '皇', ko: '황', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'emperor', en: 'emperor', zh: '皇', ko: '황' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

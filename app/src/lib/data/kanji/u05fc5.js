@@ -10,7 +10,7 @@ export const KANJI_U05FC5 = {
   reading: 'かならず',
   meaning: 'invariably/certain',
   word: '必',
-      meanings: { ja: 'invariably/certain', en: 'invariably/certain', zh: '必', ko: '필', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'invariably/certain', en: 'invariably/certain', zh: '必', ko: '필' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

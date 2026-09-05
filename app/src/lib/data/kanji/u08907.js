@@ -10,7 +10,7 @@ export const KANJI_U08907 = {
   reading: 'ふく',
   meaning: 'duplicate/double',
   word: '複',
-      meanings: { ja: 'duplicate/double', en: 'duplicate/double', zh: '复', ko: '복', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'duplicate/double', en: 'duplicate/double', zh: '复', ko: '복' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

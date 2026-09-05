@@ -10,7 +10,7 @@ export const KANJI_U082B1 = {
   reading: 'はな',
   meaning: 'flower',
   word: '花',
-      meanings: { ja: 'flower', en: 'flower', zh: '花', ko: '화', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'flower', en: 'flower', zh: '花', ko: '화' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

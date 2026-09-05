@@ -10,7 +10,7 @@ export const KANJI_U07E3E = {
   reading: 'せき',
   meaning: 'exploits/achievements',
   word: '績',
-      meanings: { ja: 'exploits/achievements', en: 'exploits/achievements', zh: '绩', ko: '적', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'exploits/achievements', en: 'exploits/achievements', zh: '绩', ko: '적' },
   strokeCount: 17,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

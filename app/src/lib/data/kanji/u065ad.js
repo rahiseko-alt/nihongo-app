@@ -10,7 +10,7 @@ export const KANJI_U065AD = {
   reading: 'たつ',
   meaning: 'severance/decline',
   word: '断',
-      meanings: { ja: 'severance/decline', en: 'severance/decline', zh: '断', ko: 'severance/decline', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'severance/decline', en: 'severance/decline', zh: '断', ko: 'severance/decline' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

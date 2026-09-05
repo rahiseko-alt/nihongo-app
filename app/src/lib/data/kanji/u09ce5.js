@@ -10,7 +10,7 @@ export const KANJI_U09CE5 = {
   reading: 'とり',
   meaning: 'bird/chicken',
   word: '鳥',
-      meanings: { ja: 'bird/chicken', en: 'bird/chicken', zh: '鸟', ko: '조', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'bird/chicken', en: 'bird/chicken', zh: '鸟', ko: '조' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

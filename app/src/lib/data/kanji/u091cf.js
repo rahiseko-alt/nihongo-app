@@ -10,7 +10,7 @@ export const KANJI_U091CF = {
   reading: 'りょう',
   meaning: 'quantity/measure',
   word: '量',
-      meanings: { ja: 'quantity/measure', en: 'quantity/measure', zh: '量', ko: '량', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'quantity/measure', en: 'quantity/measure', zh: '量', ko: '량' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

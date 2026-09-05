@@ -10,7 +10,7 @@ export const KANJI_U05B87 = {
   reading: 'う',
   meaning: 'eaves/roof',
   word: '宇',
-      meanings: { ja: 'eaves/roof', en: 'eaves/roof', zh: '宇', ko: '우', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'eaves/roof', en: 'eaves/roof', zh: '宇', ko: '우' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

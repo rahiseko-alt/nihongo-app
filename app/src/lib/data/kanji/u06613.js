@@ -10,7 +10,7 @@ export const KANJI_U06613 = {
   reading: 'えき',
   meaning: 'easy/ready to',
   word: '易',
-      meanings: { ja: 'easy/ready to', en: 'easy/ready to', zh: '易', ko: '역', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'easy/ready to', en: 'easy/ready to', zh: '易', ko: '역' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

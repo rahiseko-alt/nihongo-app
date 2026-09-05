@@ -10,7 +10,7 @@ export const KANJI_U059FF = {
   reading: 'すがた',
   meaning: 'figure/form',
   word: '姿',
-      meanings: { ja: 'figure/form', en: 'figure/form', zh: '姿', ko: '자', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'figure/form', en: 'figure/form', zh: '姿', ko: '자' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

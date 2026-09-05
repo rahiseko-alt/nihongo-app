@@ -10,7 +10,7 @@ export const KANJI_U05B63 = {
   reading: 'き',
   meaning: 'seasons',
   word: '季',
-      meanings: { ja: 'seasons', en: 'seasons', zh: '季', ko: '계', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'seasons', en: 'seasons', zh: '季', ko: '계' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

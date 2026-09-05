@@ -10,7 +10,7 @@ export const KANJI_U07070 = {
   reading: 'はい',
   meaning: 'ashes/puckery juice',
   word: '灰',
-      meanings: { ja: 'ashes/puckery juice', en: 'ashes/puckery juice', zh: '灰', ko: '회', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'ashes/puckery juice', en: 'ashes/puckery juice', zh: '灰', ko: '회' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

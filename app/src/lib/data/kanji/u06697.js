@@ -10,7 +10,7 @@ export const KANJI_U06697 = {
   reading: 'くらい',
   meaning: 'darkness/disappear',
   word: '暗',
-      meanings: { ja: 'darkness/disappear', en: 'darkness/disappear', zh: '暗', ko: '암', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'darkness/disappear', en: 'darkness/disappear', zh: '暗', ko: '암' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

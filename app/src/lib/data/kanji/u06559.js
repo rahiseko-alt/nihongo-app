@@ -10,7 +10,7 @@ export const KANJI_U06559 = {
   reading: 'おしえる',
   meaning: '教える',
   word: '教',
-      meanings: { ja: '教える', en: 'teach', zh: '教', ko: '가르치다', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '教える', en: 'teach', zh: '教', ko: '가르치다' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

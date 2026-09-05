@@ -10,7 +10,7 @@ export const KANJI_U05E7C = {
   reading: 'よう',
   meaning: 'infancy/childhood',
   word: '幼',
-      meanings: { ja: 'infancy/childhood', en: 'infancy/childhood', zh: '幼', ko: '유', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'infancy/childhood', en: 'infancy/childhood', zh: '幼', ko: '유' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

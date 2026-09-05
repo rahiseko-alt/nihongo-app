@@ -10,7 +10,7 @@ export const KANJI_U08A2D = {
   reading: 'せつ',
   meaning: 'establishment/provision',
   word: '設',
-      meanings: { ja: 'establishment/provision', en: 'establishment/provision', zh: '设', ko: '설', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'establishment/provision', en: 'establishment/provision', zh: '设', ko: '설' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

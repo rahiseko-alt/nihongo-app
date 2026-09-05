@@ -10,7 +10,7 @@ export const KANJI_U05BC4 = {
   reading: 'よる',
   meaning: 'draw near/stop in',
   word: '寄',
-      meanings: { ja: 'draw near/stop in', en: 'draw near/stop in', zh: '寄', ko: '기', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'draw near/stop in', en: 'draw near/stop in', zh: '寄', ko: '기' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

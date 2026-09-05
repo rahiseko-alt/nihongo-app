@@ -10,7 +10,7 @@ export const KANJI_U088DC = {
   reading: 'おぎなう',
   meaning: 'supplement/supply',
   word: '補',
-      meanings: { ja: 'supplement/supply', en: 'supplement/supply', zh: '补', ko: '보', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'supplement/supply', en: 'supplement/supply', zh: '补', ko: '보' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

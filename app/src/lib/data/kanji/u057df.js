@@ -10,7 +10,7 @@ export const KANJI_U057DF = {
   reading: 'いき',
   meaning: 'range/region',
   word: '域',
-      meanings: { ja: 'range/region', en: 'range/region', zh: '域', ko: '역', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'range/region', en: 'range/region', zh: '域', ko: '역' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

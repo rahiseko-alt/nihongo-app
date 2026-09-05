@@ -10,7 +10,7 @@ export const KANJI_U09045 = {
   reading: 'おそい',
   meaning: 'slow/late',
   word: '遅',
-      meanings: { ja: 'slow/late', en: 'slow/late', zh: '遅', ko: 'slow/late', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'slow/late', en: 'slow/late', zh: '遅', ko: 'slow/late' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

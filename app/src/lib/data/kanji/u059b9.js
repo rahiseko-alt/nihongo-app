@@ -10,7 +10,7 @@ export const KANJI_U059B9 = {
   reading: 'いもうと',
   meaning: 'younger sister',
   word: '妹',
-      meanings: { ja: 'younger sister', en: 'younger sister', zh: '妹', ko: '매', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'younger sister', en: 'younger sister', zh: '妹', ko: '매' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

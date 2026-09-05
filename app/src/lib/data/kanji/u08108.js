@@ -10,7 +10,7 @@ export const KANJI_U08108 = {
   reading: 'みゃく',
   meaning: 'vein/pulse',
   word: '脈',
-      meanings: { ja: 'vein/pulse', en: 'vein/pulse', zh: '脉', ko: '맥', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'vein/pulse', en: 'vein/pulse', zh: '脉', ko: '맥' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

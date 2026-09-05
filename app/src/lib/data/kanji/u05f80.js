@@ -10,7 +10,7 @@ export const KANJI_U05F80 = {
   reading: 'おう',
   meaning: 'journey/travel',
   word: '往',
-      meanings: { ja: 'journey/travel', en: 'journey/travel', zh: '往', ko: '왕', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'journey/travel', en: 'journey/travel', zh: '往', ko: '왕' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U080F8 = {
   reading: 'むね',
   meaning: 'bosom/breast',
   word: '胸',
-      meanings: { ja: 'bosom/breast', en: 'bosom/breast', zh: '胸', ko: '흉', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'bosom/breast', en: 'bosom/breast', zh: '胸', ko: '흉' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

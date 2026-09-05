@@ -10,7 +10,7 @@ export const KANJI_U062FE = {
   reading: 'ひろう',
   meaning: 'pick up/gather',
   word: '拾',
-      meanings: { ja: 'pick up/gather', en: 'pick up/gather', zh: '拾', ko: '습', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'pick up/gather', en: 'pick up/gather', zh: '拾', ko: '습' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

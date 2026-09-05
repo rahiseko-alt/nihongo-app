@@ -10,7 +10,7 @@ export const KANJI_U05FB3 = {
   reading: 'とく',
   meaning: 'benevolence/virtue',
   word: '徳',
-      meanings: { ja: 'benevolence/virtue', en: 'benevolence/virtue', zh: '徳', ko: '덕', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'benevolence/virtue', en: 'benevolence/virtue', zh: '徳', ko: '덕' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

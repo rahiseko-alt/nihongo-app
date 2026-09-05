@@ -10,7 +10,7 @@ export const KANJI_U0677F = {
   reading: 'いた',
   meaning: 'plank/board',
   word: '板',
-      meanings: { ja: 'plank/board', en: 'plank/board', zh: '板', ko: '판', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'plank/board', en: 'plank/board', zh: '板', ko: '판' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

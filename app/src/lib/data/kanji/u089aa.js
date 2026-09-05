@@ -10,7 +10,7 @@ export const KANJI_U089AA = {
   reading: 'おや',
   meaning: '親',
   word: '親',
-      meanings: { ja: '親', en: 'parent', zh: '父母', ko: '부모', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '親', en: 'parent', zh: '父母', ko: '부모' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U081F3 = {
   reading: 'いたる',
   meaning: 'climax/arrive',
   word: '至',
-      meanings: { ja: 'climax/arrive', en: 'climax/arrive', zh: '至', ko: '지', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'climax/arrive', en: 'climax/arrive', zh: '至', ko: '지' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

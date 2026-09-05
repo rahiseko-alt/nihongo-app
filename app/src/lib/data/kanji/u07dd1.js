@@ -10,7 +10,7 @@ export const KANJI_U07DD1 = {
   reading: 'みどり',
   meaning: 'green',
   word: '緑',
-      meanings: { ja: 'green', en: 'green', zh: '绿', ko: 'green', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'green', en: 'green', zh: '绿', ko: 'green' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

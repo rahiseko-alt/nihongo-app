@@ -10,7 +10,7 @@ export const KANJI_U0690D = {
   reading: 'うえる',
   meaning: 'plant',
   word: '植',
-      meanings: { ja: 'plant', en: 'plant', zh: '植', ko: '식', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'plant', en: 'plant', zh: '植', ko: '식' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

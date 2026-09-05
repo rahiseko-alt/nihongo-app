@@ -10,7 +10,7 @@ export const KANJI_U066DC = {
   reading: 'よう',
   meaning: '曜日',
   word: '曜',
-      meanings: { ja: '曜日', en: 'weekday', zh: '星期', ko: '요일', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '曜日', en: 'weekday', zh: '星期', ko: '요일' },
   strokeCount: 18,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

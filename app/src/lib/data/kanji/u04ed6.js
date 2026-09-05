@@ -10,7 +10,7 @@ export const KANJI_U04ED6 = {
   reading: 'ほか',
   meaning: 'other/another',
   word: '他',
-      meanings: { ja: 'other/another', en: 'other/another', zh: '他', ko: '타', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'other/another', en: 'other/another', zh: '他', ko: '타' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U04E16 = {
   reading: 'よ',
   meaning: 'generation/world',
   word: '世',
-      meanings: { ja: 'generation/world', en: 'generation/world', zh: '世', ko: '세', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'generation/world', en: 'generation/world', zh: '世', ko: '세' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

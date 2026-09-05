@@ -10,7 +10,7 @@ export const KANJI_U07D0D = {
   reading: 'おさめる',
   meaning: 'settlement/obtain',
   word: '納',
-      meanings: { ja: 'settlement/obtain', en: 'settlement/obtain', zh: '纳', ko: '납', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'settlement/obtain', en: 'settlement/obtain', zh: '纳', ko: '납' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06F22 = {
   reading: 'かん',
   meaning: 'Sino-/China',
   word: '漢',
-      meanings: { ja: 'Sino-/China', en: 'Sino-/China', zh: '汉', ko: '한', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'Sino-/China', en: 'Sino-/China', zh: '汉', ko: '한' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

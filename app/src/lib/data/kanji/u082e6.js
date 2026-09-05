@@ -10,7 +10,7 @@ export const KANJI_U082E6 = {
   reading: 'くるしい',
   meaning: 'suffering/trial',
   word: '苦',
-      meanings: { ja: 'suffering/trial', en: 'suffering/trial', zh: '苦', ko: '고', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'suffering/trial', en: 'suffering/trial', zh: '苦', ko: '고' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

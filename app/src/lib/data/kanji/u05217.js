@@ -10,7 +10,7 @@ export const KANJI_U05217 = {
   reading: 'れつ',
   meaning: 'file/row',
   word: '列',
-      meanings: { ja: 'file/row', en: 'file/row', zh: '列', ko: '렬', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'file/row', en: 'file/row', zh: '列', ko: '렬' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

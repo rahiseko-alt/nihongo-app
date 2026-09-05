@@ -10,7 +10,7 @@ export const KANJI_U06A2A = {
   reading: 'よこ',
   meaning: 'sideways/side',
   word: '横',
-      meanings: { ja: 'sideways/side', en: 'sideways/side', zh: '横', ko: 'sideways/side', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'sideways/side', en: 'sideways/side', zh: '横', ko: 'sideways/side' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U07DE8 = {
   reading: 'あむ',
   meaning: 'compilation/knit',
   word: '編',
-      meanings: { ja: 'compilation/knit', en: 'compilation/knit', zh: '编', ko: '편', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'compilation/knit', en: 'compilation/knit', zh: '编', ko: '편' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

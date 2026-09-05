@@ -10,7 +10,7 @@ export const KANJI_U05099 = {
   reading: 'そなえる',
   meaning: 'equip/provision',
   word: '備',
-      meanings: { ja: 'equip/provision', en: 'equip/provision', zh: '备', ko: '비', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'equip/provision', en: 'equip/provision', zh: '备', ko: '비' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

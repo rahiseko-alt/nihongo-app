@@ -10,7 +10,7 @@ export const KANJI_U06B6F = {
   reading: 'は',
   meaning: 'tooth/cog',
   word: '歯',
-      meanings: { ja: 'tooth/cog', en: 'tooth/cog', zh: '歯', ko: 'tooth/cog', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'tooth/cog', en: 'tooth/cog', zh: '歯', ko: 'tooth/cog' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

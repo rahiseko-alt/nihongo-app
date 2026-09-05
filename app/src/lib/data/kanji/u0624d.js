@@ -10,7 +10,7 @@ export const KANJI_U0624D = {
   reading: 'さい',
   meaning: '才能',
   word: '才',
-      meanings: { ja: '才能', en: 'talent', zh: '才能', ko: '재능', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: '才能', en: 'talent', zh: '才能', ko: '재능' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

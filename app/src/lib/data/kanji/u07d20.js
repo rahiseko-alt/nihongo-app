@@ -10,7 +10,7 @@ export const KANJI_U07D20 = {
   reading: 'そ',
   meaning: 'elementary/principle',
   word: '素',
-      meanings: { ja: 'elementary/principle', en: 'elementary/principle', zh: '素', ko: '소', vi: 'khái niệm', ne: 'अर्थ' },
+      meanings: { ja: 'elementary/principle', en: 'elementary/principle', zh: '素', ko: '소' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入
