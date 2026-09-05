@@ -10,7 +10,7 @@ export const KANJI_U06717 = {
   reading: 'ろう',
   meaning: 'melodious/clear',
   word: '朗',
-      meanings: { ja: 'melodious/clear', en: 'melodious/clear', zh: '朗', ko: '낭', vi: 'rõ ràng', ne: 'स्पष्ट' },
+      meanings: { ja: 'melodious/clear', en: 'melodious/clear', vi: 'rõ ràng', ne: 'स्पष्ट' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

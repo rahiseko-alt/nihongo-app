@@ -10,7 +10,7 @@ export const KANJI_U0793C = {
   reading: 'れい',
   meaning: 'salute/bow',
   word: '礼',
-      meanings: { ja: 'salute/bow', en: 'salute/bow', zh: '礼', ko: '례' },
+      meanings: { ja: 'salute/bow', en: 'salute/bow' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

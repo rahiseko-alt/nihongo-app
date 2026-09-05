@@ -10,7 +10,7 @@ export const KANJI_U095A2 = {
   reading: 'かん',
   meaning: 'connection/barrier',
   word: '関',
-      meanings: { ja: 'connection/barrier', en: 'connection/barrier', zh: '関', ko: 'connection/barrier', vi: 'kết nối', ne: 'जडान' },
+      meanings: { ja: 'connection/barrier', en: 'connection/barrier', vi: 'kết nối', ne: 'जडान' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

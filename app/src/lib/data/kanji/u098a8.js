@@ -10,7 +10,7 @@ export const KANJI_U098A8 = {
   reading: 'かぜ',
   meaning: 'wind/air',
   word: '風',
-      meanings: { ja: 'wind/air', en: 'wind/air', zh: '风', ko: '풍', vi: 'gió', ne: 'हावा' },
+      meanings: { ja: 'wind/air', en: 'wind/air', zh: '风', vi: 'gió', ne: 'हावा' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

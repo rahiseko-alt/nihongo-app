@@ -10,7 +10,7 @@ export const KANJI_U0965B = {
   reading: 'へい',
   meaning: 'highness/steps (of throne)',
   word: '陛',
-      meanings: { ja: 'highness/steps (of throne)', en: 'highness/steps (of throne)', zh: '陛', ko: '폐' },
+      meanings: { ja: 'highness/steps (of throne)', en: 'highness/steps (of throne)' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

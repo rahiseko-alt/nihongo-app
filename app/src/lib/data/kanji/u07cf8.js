@@ -10,7 +10,7 @@ export const KANJI_U07CF8 = {
   reading: 'いと',
   meaning: '糸',
   word: '糸',
-      meanings: { ja: '糸', en: 'thread', zh: '线', ko: '실', vi: 'sợi chỉ', ne: 'धागो' },
+      meanings: { ja: '糸', en: 'thread', zh: '线', vi: 'sợi chỉ', ne: 'धागो' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

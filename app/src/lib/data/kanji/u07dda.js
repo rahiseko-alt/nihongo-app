@@ -10,7 +10,7 @@ export const KANJI_U07DDA = {
   reading: 'せん',
   meaning: 'line',
   word: '線',
-      meanings: { ja: 'line', en: 'line', zh: '线', ko: '선', vi: 'đường dây', ne: 'रेखा' },
+      meanings: { ja: 'line', en: 'line', zh: '线', vi: 'đường dây', ne: 'रेखा' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U07FCC = {
   reading: 'よく',
   meaning: 'the following/next',
   word: '翌',
-      meanings: { ja: 'the following/next', en: 'the following/next', zh: '翌', ko: '익' },
+      meanings: { ja: 'the following/next', en: 'the following/next' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U04E26 = {
   reading: 'ならぶ',
   meaning: 'row/and',
   word: '並',
-      meanings: { ja: 'row/and', en: 'row/and', zh: '并', ko: '병' },
+      meanings: { ja: 'row/and', en: 'row/and', zh: '并' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

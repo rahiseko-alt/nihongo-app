@@ -10,7 +10,7 @@ export const KANJI_U0795E = {
   reading: 'かみ',
   meaning: 'gods/mind',
   word: '神',
-      meanings: { ja: 'gods/mind', en: 'gods/mind', zh: '神', ko: '신', vi: 'tâm trí', ne: 'मन' },
+      meanings: { ja: 'gods/mind', en: 'gods/mind', vi: 'tâm trí', ne: 'मन' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

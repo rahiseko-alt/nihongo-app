@@ -10,7 +10,7 @@ export const KANJI_U04F7F = {
   reading: 'つかう',
   meaning: 'use/send on a mission',
   word: '使',
-      meanings: { ja: 'use/send on a mission', en: 'use/send on a mission', zh: '使', ko: '사', vi: 'sử dụng', ne: 'प्रयोग' },
+      meanings: { ja: 'use/send on a mission', en: 'use/send on a mission', vi: 'sử dụng', ne: 'प्रयोग' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

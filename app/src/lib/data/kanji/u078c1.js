@@ -10,7 +10,7 @@ export const KANJI_U078C1 = {
   reading: 'じ',
   meaning: 'magnet/porcelain',
   word: '磁',
-      meanings: { ja: 'magnet/porcelain', en: 'magnet/porcelain', zh: '磁', ko: '자' },
+      meanings: { ja: 'magnet/porcelain', en: 'magnet/porcelain' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

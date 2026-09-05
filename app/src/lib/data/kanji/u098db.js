@@ -10,7 +10,7 @@ export const KANJI_U098DB = {
   reading: 'とぶ',
   meaning: 'fly/skip (pages)',
   word: '飛',
-      meanings: { ja: 'fly/skip (pages)', en: 'fly/skip (pages)', zh: '飞', ko: '비' },
+      meanings: { ja: 'fly/skip (pages)', en: 'fly/skip (pages)', zh: '飞' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

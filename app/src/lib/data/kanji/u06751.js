@@ -10,7 +10,7 @@ export const KANJI_U06751 = {
   reading: 'むら',
   meaning: 'village',
   word: '村',
-      meanings: { ja: 'village', en: 'village', zh: '村', ko: '마을', vi: 'làng', ne: 'गाउँ' },
+      meanings: { ja: 'village', en: 'village', ko: '마을', vi: 'làng', ne: 'गाउँ' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

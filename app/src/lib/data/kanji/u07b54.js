@@ -10,7 +10,7 @@ export const KANJI_U07B54 = {
   reading: 'こたえる',
   meaning: 'solution/answer',
   word: '答',
-      meanings: { ja: 'solution/answer', en: 'solution/answer', zh: '答', ko: '답', vi: 'trả lời', ne: 'उत्तर' },
+      meanings: { ja: 'solution/answer', en: 'solution/answer', vi: 'trả lời', ne: 'उत्तर' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

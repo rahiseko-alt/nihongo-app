@@ -10,7 +10,7 @@ export const KANJI_U065E5 = {
   reading: 'ひ',
   meaning: 'day',
   word: '日',
-      meanings: { ja: 'day', en: 'day', zh: '日', ko: '날', vi: 'ngày', ne: 'दिन' },
+      meanings: { ja: 'day', en: 'day', vi: 'ngày', ne: 'दिन' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

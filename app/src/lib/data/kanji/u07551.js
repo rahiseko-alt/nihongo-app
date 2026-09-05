@@ -10,7 +10,7 @@ export const KANJI_U07551 = {
   reading: 'はたけ',
   meaning: 'farm/field',
   word: '畑',
-      meanings: { ja: 'farm/field', en: 'farm/field', zh: '畑', ko: '전' },
+      meanings: { ja: 'farm/field', en: 'farm/field' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

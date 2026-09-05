@@ -10,7 +10,7 @@ export const KANJI_U07389 = {
   reading: 'たま',
   meaning: '玉',
   word: '玉',
-      meanings: { ja: '玉', en: 'ball/jewel', zh: '玉', ko: '구슬', vi: 'ngọc', ne: 'रत्न' },
+      meanings: { ja: '玉', en: 'ball/jewel', ko: '구슬', vi: 'ngọc', ne: 'रत्न' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

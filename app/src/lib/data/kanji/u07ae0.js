@@ -10,7 +10,7 @@ export const KANJI_U07AE0 = {
   reading: 'しょう',
   meaning: 'badge/chapter',
   word: '章',
-      meanings: { ja: 'badge/chapter', en: 'badge/chapter', zh: '章', ko: '장' },
+      meanings: { ja: 'badge/chapter', en: 'badge/chapter' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

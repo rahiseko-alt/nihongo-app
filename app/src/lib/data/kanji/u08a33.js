@@ -10,7 +10,7 @@ export const KANJI_U08A33 = {
   reading: 'やく',
   meaning: 'translate/reason',
   word: '訳',
-      meanings: { ja: 'translate/reason', en: 'translate/reason', zh: '訳', ko: 'translate/reason', vi: 'lý do', ne: 'कारण' },
+      meanings: { ja: 'translate/reason', en: 'translate/reason', vi: 'lý do', ne: 'कारण' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

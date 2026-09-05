@@ -10,7 +10,7 @@ export const KANJI_U05357 = {
   reading: 'みなみ',
   meaning: 'south',
   word: '南',
-      meanings: { ja: 'south', en: 'south', zh: '南', ko: '남쪽', vi: 'nam', ne: 'दक्षिण' },
+      meanings: { ja: 'south', en: 'south', ko: '남쪽', vi: 'nam', ne: 'दक्षिण' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

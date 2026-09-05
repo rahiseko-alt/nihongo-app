@@ -10,7 +10,7 @@ export const KANJI_U05EA7 = {
   reading: 'ざ',
   meaning: 'account',
   word: '座',
-      meanings: { ja: 'account', en: 'account', zh: '座', ko: '좌', vi: 'tài khoản', ne: 'खाता' },
+      meanings: { ja: 'account', en: 'account', vi: 'tài khoản', ne: 'खाता' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

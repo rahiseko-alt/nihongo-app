@@ -10,7 +10,7 @@ export const KANJI_U04F1D = {
   reading: 'つたえる',
   meaning: 'transmit/go along',
   word: '伝',
-      meanings: { ja: 'transmit/go along', en: 'transmit/go along', zh: '伝', ko: 'transmit/go along' },
+      meanings: { ja: 'transmit/go along', en: 'transmit/go along' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U050B7 = {
   reading: 'きず',
   meaning: 'wound/hurt',
   word: '傷',
-      meanings: { ja: 'wound/hurt', en: 'wound/hurt', zh: '伤', ko: '상' },
+      meanings: { ja: 'wound/hurt', en: 'wound/hurt', zh: '伤' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

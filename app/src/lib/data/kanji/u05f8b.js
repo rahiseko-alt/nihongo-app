@@ -10,7 +10,7 @@ export const KANJI_U05F8B = {
   reading: 'りつ',
   meaning: 'rhythm/law',
   word: '律',
-      meanings: { ja: 'rhythm/law', en: 'rhythm/law', zh: '律', ko: '률', vi: 'luật', ne: 'कानुन' },
+      meanings: { ja: 'rhythm/law', en: 'rhythm/law', vi: 'luật', ne: 'कानुन' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

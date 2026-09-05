@@ -10,7 +10,7 @@ export const KANJI_U07740 = {
   reading: 'きる',
   meaning: 'don/arrive',
   word: '着',
-      meanings: { ja: 'don/arrive', en: 'don/arrive', zh: '着', ko: '착' },
+      meanings: { ja: 'don/arrive', en: 'don/arrive' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

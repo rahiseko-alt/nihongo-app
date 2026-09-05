@@ -10,7 +10,7 @@ export const KANJI_U053E3 = {
   reading: 'くち',
   meaning: 'mouth',
   word: '口',
-      meanings: { ja: 'mouth', en: 'mouth', zh: '口', ko: '입', vi: 'miệng', ne: 'मुख' },
+      meanings: { ja: 'mouth', en: 'mouth', vi: 'miệng', ne: 'मुख' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

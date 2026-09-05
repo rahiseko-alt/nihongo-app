@@ -10,7 +10,7 @@ export const KANJI_U05224 = {
   reading: 'はん',
   meaning: 'judgement/judgment',
   word: '判',
-      meanings: { ja: 'judgement/judgment', en: 'judgement/judgment', zh: '判', ko: '판' },
+      meanings: { ja: 'judgement/judgment', en: 'judgement/judgment' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05B88 = {
   reading: 'まもる',
   meaning: 'guard/protect',
   word: '守',
-      meanings: { ja: 'guard/protect', en: 'guard/protect', zh: '守', ko: '수', vi: 'bảo vệ', ne: 'सुरक्षा' },
+      meanings: { ja: 'guard/protect', en: 'guard/protect', vi: 'bảo vệ', ne: 'सुरक्षा' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

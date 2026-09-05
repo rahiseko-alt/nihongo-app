@@ -10,7 +10,7 @@ export const KANJI_U07523 = {
   reading: 'うむ',
   meaning: 'products/bear',
   word: '産',
-      meanings: { ja: 'products/bear', en: 'products/bear', zh: '产', ko: '산' },
+      meanings: { ja: 'products/bear', en: 'products/bear', zh: '产' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

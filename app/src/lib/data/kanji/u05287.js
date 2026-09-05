@@ -10,7 +10,7 @@ export const KANJI_U05287 = {
   reading: 'げき',
   meaning: 'drama/play',
   word: '劇',
-      meanings: { ja: 'drama/play', en: 'drama/play', zh: '剧', ko: '극' },
+      meanings: { ja: 'drama/play', en: 'drama/play', zh: '剧' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

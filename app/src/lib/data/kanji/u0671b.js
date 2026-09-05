@@ -10,7 +10,7 @@ export const KANJI_U0671B = {
   reading: 'のぞむ',
   meaning: 'ambition/full moon',
   word: '望',
-      meanings: { ja: 'ambition/full moon', en: 'ambition/full moon', zh: '望', ko: '소망', vi: 'mặt trăng', ne: 'चन्द्रमा' },
+      meanings: { ja: 'ambition/full moon', en: 'ambition/full moon', ko: '소망', vi: 'mặt trăng', ne: 'चन्द्रमा' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

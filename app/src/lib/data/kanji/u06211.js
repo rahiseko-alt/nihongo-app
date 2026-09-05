@@ -10,7 +10,7 @@ export const KANJI_U06211 = {
   reading: 'われ',
   meaning: 'ego/I',
   word: '我',
-      meanings: { ja: 'ego/I', en: 'ego/I', zh: '我', ko: '아' },
+      meanings: { ja: 'ego/I', en: 'ego/I' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

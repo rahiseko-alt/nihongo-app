@@ -10,7 +10,7 @@ export const KANJI_U09244 = {
   reading: 'てつ',
   meaning: 'iron',
   word: '鉄',
-      meanings: { ja: 'iron', en: 'iron', zh: '鉄', ko: '철', vi: 'sắt', ne: 'फलाम' },
+      meanings: { ja: 'iron', en: 'iron', vi: 'sắt', ne: 'फलाम' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

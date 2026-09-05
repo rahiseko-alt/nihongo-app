@@ -10,7 +10,7 @@ export const KANJI_U06E2C = {
   reading: 'はかる',
   meaning: 'fathom/plan',
   word: '測',
-      meanings: { ja: 'fathom/plan', en: 'fathom/plan', zh: '测', ko: '측', vi: 'kế hoạch', ne: 'योजना' },
+      meanings: { ja: 'fathom/plan', en: 'fathom/plan', zh: '测', vi: 'kế hoạch', ne: 'योजना' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

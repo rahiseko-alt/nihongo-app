@@ -10,7 +10,7 @@ export const KANJI_U095A3 = {
   reading: 'かく',
   meaning: 'tower/tall building',
   word: '閣',
-      meanings: { ja: 'tower/tall building', en: 'tower/tall building', zh: '阁', ko: '각', vi: 'tòa nhà', ne: 'भवन' },
+      meanings: { ja: 'tower/tall building', en: 'tower/tall building', zh: '阁', vi: 'tòa nhà', ne: 'भवन' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

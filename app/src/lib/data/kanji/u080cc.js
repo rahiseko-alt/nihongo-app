@@ -10,7 +10,7 @@ export const KANJI_U080CC = {
   reading: 'せ',
   meaning: 'stature/height',
   word: '背',
-      meanings: { ja: 'stature/height', en: 'stature/height', zh: '背', ko: '배' },
+      meanings: { ja: 'stature/height', en: 'stature/height' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

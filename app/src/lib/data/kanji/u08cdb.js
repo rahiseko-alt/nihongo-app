@@ -10,7 +10,7 @@ export const KANJI_U08CDB = {
   reading: 'さん',
   meaning: 'approve/praise',
   word: '賛',
-      meanings: { ja: 'approve/praise', en: 'approve/praise', zh: '賛', ko: '찬' },
+      meanings: { ja: 'approve/praise', en: 'approve/praise' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

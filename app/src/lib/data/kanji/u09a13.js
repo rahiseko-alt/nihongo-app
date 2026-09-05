@@ -10,7 +10,7 @@ export const KANJI_U09A13 = {
   reading: 'けん',
   meaning: 'verification/effect',
   word: '験',
-      meanings: { ja: 'verification/effect', en: 'verification/effect', zh: '験', ko: 'verification/effect', vi: 'xác minh', ne: 'प्रमाणीकरण' },
+      meanings: { ja: 'verification/effect', en: 'verification/effect', vi: 'xác minh', ne: 'प्रमाणीकरण' },
   strokeCount: 18,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

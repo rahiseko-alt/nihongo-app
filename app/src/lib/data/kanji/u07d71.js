@@ -10,7 +10,7 @@ export const KANJI_U07D71 = {
   reading: 'とう',
   meaning: 'overall/relationship',
   word: '統',
-      meanings: { ja: 'overall/relationship', en: 'overall/relationship', zh: '统', ko: '통' },
+      meanings: { ja: 'overall/relationship', en: 'overall/relationship', zh: '统' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

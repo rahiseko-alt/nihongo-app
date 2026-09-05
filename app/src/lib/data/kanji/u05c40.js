@@ -10,7 +10,7 @@ export const KANJI_U05C40 = {
   reading: 'きょく',
   meaning: 'bureau/board',
   word: '局',
-      meanings: { ja: 'bureau/board', en: 'bureau/board', zh: '局', ko: '국' },
+      meanings: { ja: 'bureau/board', en: 'bureau/board' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

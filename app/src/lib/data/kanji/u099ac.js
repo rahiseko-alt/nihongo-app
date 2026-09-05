@@ -10,7 +10,7 @@ export const KANJI_U099AC = {
   reading: 'うま',
   meaning: 'horse',
   word: '馬',
-      meanings: { ja: 'horse', en: 'horse', zh: '马', ko: '마' },
+      meanings: { ja: 'horse', en: 'horse', zh: '马' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

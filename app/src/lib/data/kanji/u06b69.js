@@ -10,7 +10,7 @@ export const KANJI_U06B69 = {
   reading: 'あるく',
   meaning: 'walk/counter for steps',
   word: '歩',
-      meanings: { ja: 'walk/counter for steps', en: 'walk/counter for steps', zh: '歩', ko: '보', vi: 'đi bộ', ne: 'हिँड्नु' },
+      meanings: { ja: 'walk/counter for steps', en: 'walk/counter for steps', vi: 'đi bộ', ne: 'हिँड्नु' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

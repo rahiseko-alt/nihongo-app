@@ -10,7 +10,7 @@ export const KANJI_U0592E = {
   reading: 'おう',
   meaning: 'center/middle',
   word: '央',
-      meanings: { ja: 'center/middle', en: 'center/middle', zh: '央', ko: '앙', vi: 'giữa', ne: 'बीच' },
+      meanings: { ja: 'center/middle', en: 'center/middle', vi: 'giữa', ne: 'बीच' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

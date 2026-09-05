@@ -10,7 +10,7 @@ export const KANJI_U07A76 = {
   reading: 'きゅう',
   meaning: 'research/study',
   word: '究',
-      meanings: { ja: 'research/study', en: 'research/study', zh: '究', ko: '구', vi: 'học', ne: 'अध्ययन' },
+      meanings: { ja: 'research/study', en: 'research/study', vi: 'học', ne: 'अध्ययन' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

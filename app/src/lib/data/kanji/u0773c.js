@@ -10,7 +10,7 @@ export const KANJI_U0773C = {
   reading: 'め',
   meaning: 'eyeball',
   word: '眼',
-      meanings: { ja: 'eyeball', en: 'eyeball', zh: '眼', ko: '안' },
+      meanings: { ja: 'eyeball', en: 'eyeball' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

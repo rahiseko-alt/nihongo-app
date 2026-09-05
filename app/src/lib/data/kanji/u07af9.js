@@ -10,7 +10,7 @@ export const KANJI_U07AF9 = {
   reading: 'たけ',
   meaning: '竹',
   word: '竹',
-      meanings: { ja: '竹', en: 'bamboo', zh: '竹', ko: '대나무' },
+      meanings: { ja: '竹', en: 'bamboo', ko: '대나무' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

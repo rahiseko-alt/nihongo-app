@@ -10,7 +10,7 @@ export const KANJI_U07F72 = {
   reading: 'しょ',
   meaning: 'signature/govt office',
   word: '署',
-      meanings: { ja: 'signature/govt office', en: 'signature/govt office', zh: '署', ko: '서', vi: 'văn phòng', ne: 'कार्यालय' },
+      meanings: { ja: 'signature/govt office', en: 'signature/govt office', vi: 'văn phòng', ne: 'कार्यालय' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

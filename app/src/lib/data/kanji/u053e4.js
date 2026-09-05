@@ -10,7 +10,7 @@ export const KANJI_U053E4 = {
   reading: 'ふるい',
   meaning: '古い',
   word: '古',
-      meanings: { ja: '古い', en: 'old', zh: '古', ko: '오래되다', vi: 'cũ', ne: 'पुरानो' },
+      meanings: { ja: '古い', en: 'old', ko: '오래되다', vi: 'cũ', ne: 'पुरानो' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

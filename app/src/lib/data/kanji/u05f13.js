@@ -10,7 +10,7 @@ export const KANJI_U05F13 = {
   reading: 'ゆみ',
   meaning: '弓',
   word: '弓',
-      meanings: { ja: '弓', en: 'bow', zh: '弓', ko: '활' },
+      meanings: { ja: '弓', en: 'bow' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

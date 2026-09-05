@@ -10,7 +10,7 @@ export const KANJI_U0571F = {
   reading: 'つち',
   meaning: 'earth',
   word: '土',
-      meanings: { ja: 'earth', en: 'earth', zh: '土', ko: '흙', vi: 'đất', ne: 'पृथ्वी' },
+      meanings: { ja: 'earth', en: 'earth', vi: 'đất', ne: 'पृथ्वी' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05B66 = {
   reading: 'まなぶ',
   meaning: 'study',
   word: '学',
-      meanings: { ja: 'study', en: 'study', zh: '学', ko: '배우다', vi: 'học', ne: 'अध्ययन' },
+      meanings: { ja: 'study', en: 'study', ko: '배우다', vi: 'học', ne: 'अध्ययन' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

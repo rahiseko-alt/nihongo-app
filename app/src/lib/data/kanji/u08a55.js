@@ -10,7 +10,7 @@ export const KANJI_U08A55 = {
   reading: 'ひょう',
   meaning: 'evaluate/criticism',
   word: '評',
-      meanings: { ja: 'evaluate/criticism', en: 'evaluate/criticism', zh: '评', ko: '평' },
+      meanings: { ja: 'evaluate/criticism', en: 'evaluate/criticism', zh: '评' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

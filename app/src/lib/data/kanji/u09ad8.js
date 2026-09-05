@@ -10,7 +10,7 @@ export const KANJI_U09AD8 = {
   reading: 'たかい',
   meaning: '高い',
   word: '高',
-      meanings: { ja: '高い', en: 'high', zh: '高', ko: '높다', vi: 'cao', ne: 'उच्च' },
+      meanings: { ja: '高い', en: 'high', ko: '높다', vi: 'cao', ne: 'उच्च' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

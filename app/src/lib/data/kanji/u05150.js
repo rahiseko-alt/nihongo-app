@@ -10,7 +10,7 @@ export const KANJI_U05150 = {
   reading: 'じ',
   meaning: 'newborn babe/child',
   word: '児',
-      meanings: { ja: 'newborn babe/child', en: 'newborn babe/child', zh: '児', ko: '아', vi: 'trẻ em', ne: 'बालक' },
+      meanings: { ja: 'newborn babe/child', en: 'newborn babe/child', vi: 'trẻ em', ne: 'बालक' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

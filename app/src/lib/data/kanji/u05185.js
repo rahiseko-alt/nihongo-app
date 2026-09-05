@@ -10,7 +10,7 @@ export const KANJI_U05185 = {
   reading: 'うち',
   meaning: 'inside',
   word: '内',
-      meanings: { ja: 'inside', en: 'inside', zh: '内', ko: '안', vi: 'bên trong', ne: 'भित्र' },
+      meanings: { ja: 'inside', en: 'inside', vi: 'bên trong', ne: 'भित्र' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

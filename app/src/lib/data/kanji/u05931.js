@@ -10,7 +10,7 @@ export const KANJI_U05931 = {
   reading: 'うしなう',
   meaning: 'lose/error',
   word: '失',
-      meanings: { ja: 'lose/error', en: 'lose/error', zh: '失', ko: '실' },
+      meanings: { ja: 'lose/error', en: 'lose/error' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

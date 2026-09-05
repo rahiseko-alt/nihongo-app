@@ -10,7 +10,7 @@ export const KANJI_U04EF6 = {
   reading: 'けん',
   meaning: '件',
   word: '件',
-      meanings: { ja: '件', en: 'case', zh: '件', ko: '건' },
+      meanings: { ja: '件', en: 'case' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06BD2 = {
   reading: 'どく',
   meaning: 'poison/virus',
   word: '毒',
-      meanings: { ja: 'poison/virus', en: 'poison/virus', zh: '毒', ko: '독' },
+      meanings: { ja: 'poison/virus', en: 'poison/virus' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

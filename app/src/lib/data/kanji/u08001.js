@@ -10,7 +10,7 @@ export const KANJI_U08001 = {
   reading: 'おいる',
   meaning: 'old man/old age',
   word: '老',
-      meanings: { ja: 'old man/old age', en: 'old man/old age', zh: '老', ko: '노', vi: 'cũ', ne: 'पुरानो' },
+      meanings: { ja: 'old man/old age', en: 'old man/old age', vi: 'cũ', ne: 'पुरानो' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

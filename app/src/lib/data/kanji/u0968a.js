@@ -10,7 +10,7 @@ export const KANJI_U0968A = {
   reading: 'たい',
   meaning: 'regiment/party',
   word: '隊',
-      meanings: { ja: 'regiment/party', en: 'regiment/party', zh: '队', ko: '대' },
+      meanings: { ja: 'regiment/party', en: 'regiment/party', zh: '队' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

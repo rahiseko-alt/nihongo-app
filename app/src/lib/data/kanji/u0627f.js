@@ -10,7 +10,7 @@ export const KANJI_U0627F = {
   reading: 'しょう',
   meaning: 'acquiesce/hear',
   word: '承',
-      meanings: { ja: 'acquiesce/hear', en: 'acquiesce/hear', zh: '承', ko: '승', vi: 'nghe', ne: 'सुन्नु' },
+      meanings: { ja: 'acquiesce/hear', en: 'acquiesce/hear', vi: 'nghe', ne: 'सुन्नु' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

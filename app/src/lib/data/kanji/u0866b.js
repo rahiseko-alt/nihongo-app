@@ -10,7 +10,7 @@ export const KANJI_U0866B = {
   reading: 'むし',
   meaning: '虫',
   word: '虫',
-      meanings: { ja: '虫', en: 'insect', zh: '虫', ko: '벌레' },
+      meanings: { ja: '虫', en: 'insect', ko: '벌레' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

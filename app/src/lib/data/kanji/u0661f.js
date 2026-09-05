@@ -10,7 +10,7 @@ export const KANJI_U0661F = {
   reading: 'ほし',
   meaning: 'star/spot',
   word: '星',
-      meanings: { ja: 'star/spot', en: 'star/spot', zh: '星', ko: '성' },
+      meanings: { ja: 'star/spot', en: 'star/spot' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

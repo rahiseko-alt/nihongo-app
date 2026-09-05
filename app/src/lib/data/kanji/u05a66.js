@@ -10,7 +10,7 @@ export const KANJI_U05A66 = {
   reading: 'ふ',
   meaning: 'lady/woman',
   word: '婦',
-      meanings: { ja: 'lady/woman', en: 'lady/woman', zh: '妇', ko: '부', vi: 'phụ nữ', ne: 'महिला' },
+      meanings: { ja: 'lady/woman', en: 'lady/woman', zh: '妇', vi: 'phụ nữ', ne: 'महिला' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

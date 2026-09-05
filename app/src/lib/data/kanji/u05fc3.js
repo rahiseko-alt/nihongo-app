@@ -10,7 +10,7 @@ export const KANJI_U05FC3 = {
   reading: 'こころ',
   meaning: 'heart/mind',
   word: '心',
-      meanings: { ja: 'heart/mind', en: 'heart/mind', zh: '心', ko: '심', vi: 'tim', ne: 'मन' },
+      meanings: { ja: 'heart/mind', en: 'heart/mind', vi: 'tim', ne: 'मन' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06CBF = {
   reading: 'そう',
   meaning: 'run alongside/follow along',
   word: '沿',
-      meanings: { ja: 'run alongside/follow along', en: 'run alongside/follow along', zh: '沿', ko: '연', vi: 'chạy', ne: 'दौडनु' },
+      meanings: { ja: 'run alongside/follow along', en: 'run alongside/follow along', vi: 'chạy', ne: 'दौडनु' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

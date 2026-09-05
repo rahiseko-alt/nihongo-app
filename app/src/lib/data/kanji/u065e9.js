@@ -10,7 +10,7 @@ export const KANJI_U065E9 = {
   reading: 'はやい',
   meaning: '早い',
   word: '早',
-      meanings: { ja: '早い', en: 'early', zh: '早', ko: '이르다', vi: 'sớm', ne: 'चाँडो' },
+      meanings: { ja: '早い', en: 'early', ko: '이르다', vi: 'sớm', ne: 'चाँडो' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

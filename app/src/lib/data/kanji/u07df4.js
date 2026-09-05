@@ -10,7 +10,7 @@ export const KANJI_U07DF4 = {
   reading: 'ねる',
   meaning: 'practice/gloss',
   word: '練',
-      meanings: { ja: 'practice/gloss', en: 'practice/gloss', zh: '练', ko: '련', vi: 'luyện tập', ne: 'अभ्यास' },
+      meanings: { ja: 'practice/gloss', en: 'practice/gloss', zh: '练', vi: 'luyện tập', ne: 'अभ्यास' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

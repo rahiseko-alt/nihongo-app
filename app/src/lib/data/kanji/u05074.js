@@ -10,7 +10,7 @@ export const KANJI_U05074 = {
   reading: 'がわ',
   meaning: 'side/lean',
   word: '側',
-      meanings: { ja: 'side/lean', en: 'side/lean', zh: '侧', ko: '측' },
+      meanings: { ja: 'side/lean', en: 'side/lean', zh: '侧' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05E33 = {
   reading: 'ちょう',
   meaning: 'notebook/account book',
   word: '帳',
-      meanings: { ja: 'notebook/account book', en: 'notebook/account book', zh: '帐', ko: '장', vi: 'sách', ne: 'किताब' },
+      meanings: { ja: 'notebook/account book', en: 'notebook/account book', zh: '帐', vi: 'sách', ne: 'किताब' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

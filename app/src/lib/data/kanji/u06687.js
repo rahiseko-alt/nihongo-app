@@ -10,7 +10,7 @@ export const KANJI_U06687 = {
   reading: 'ひま',
   meaning: 'spare time/rest',
   word: '暇',
-      meanings: { ja: 'spare time/rest', en: 'spare time/rest', zh: '暇', ko: '가', vi: 'nghỉ', ne: 'आराम' },
+      meanings: { ja: 'spare time/rest', en: 'spare time/rest', vi: 'nghỉ', ne: 'आराम' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

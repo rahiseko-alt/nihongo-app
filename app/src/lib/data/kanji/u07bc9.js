@@ -10,7 +10,7 @@ export const KANJI_U07BC9 = {
   reading: 'きずく',
   meaning: 'fabricate/build',
   word: '築',
-      meanings: { ja: 'fabricate/build', en: 'fabricate/build', zh: '筑', ko: '축' },
+      meanings: { ja: 'fabricate/build', en: 'fabricate/build', zh: '筑' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05229 = {
   reading: 'り',
   meaning: 'profit/advantage',
   word: '利',
-      meanings: { ja: 'profit/advantage', en: 'profit/advantage', zh: '利', ko: '리' },
+      meanings: { ja: 'profit/advantage', en: 'profit/advantage' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

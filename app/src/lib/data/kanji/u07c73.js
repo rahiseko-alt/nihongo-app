@@ -10,7 +10,7 @@ export const KANJI_U07C73 = {
   reading: 'こめ',
   meaning: 'rice/USA',
   word: '米',
-      meanings: { ja: 'rice/USA', en: 'rice/USA', zh: '米', ko: '미', vi: 'cơm', ne: 'भात' },
+      meanings: { ja: 'rice/USA', en: 'rice/USA', vi: 'cơm', ne: 'भात' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

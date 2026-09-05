@@ -10,7 +10,7 @@ export const KANJI_U07C89 = {
   reading: 'こな',
   meaning: 'flour/powder',
   word: '粉',
-      meanings: { ja: 'flour/powder', en: 'flour/powder', zh: '粉', ko: '분' },
+      meanings: { ja: 'flour/powder', en: 'flour/powder' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

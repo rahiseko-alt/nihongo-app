@@ -10,7 +10,7 @@ export const KANJI_U0767A = {
   reading: 'はつ',
   meaning: 'departure/discharge',
   word: '発',
-      meanings: { ja: 'departure/discharge', en: 'departure/discharge', zh: '発', ko: 'departure/discharge' },
+      meanings: { ja: 'departure/discharge', en: 'departure/discharge' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

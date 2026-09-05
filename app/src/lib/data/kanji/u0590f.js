@@ -10,7 +10,7 @@ export const KANJI_U0590F = {
   reading: 'なつ',
   meaning: 'summer',
   word: '夏',
-      meanings: { ja: 'summer', en: 'summer', zh: '夏', ko: '하', vi: 'mùa hè', ne: 'गर्मी' },
+      meanings: { ja: 'summer', en: 'summer', vi: 'mùa hè', ne: 'गर्मी' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

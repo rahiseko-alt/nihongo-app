@@ -10,7 +10,7 @@ export const KANJI_U08CBF = {
   reading: 'ぼう',
   meaning: 'trade/exchange',
   word: '貿',
-      meanings: { ja: 'trade/exchange', en: 'trade/exchange', zh: '贸', ko: '무', vi: 'thương mại', ne: 'व्यापार' },
+      meanings: { ja: 'trade/exchange', en: 'trade/exchange', zh: '贸', vi: 'thương mại', ne: 'व्यापार' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

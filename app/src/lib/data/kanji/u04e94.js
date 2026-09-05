@@ -10,7 +10,7 @@ export const KANJI_U04E94 = {
   reading: 'ご',
   meaning: 'five',
   word: '五',
-      meanings: { ja: 'five', en: 'five', zh: '五', ko: '다섯', vi: 'năm', ne: 'पाँच' },
+      meanings: { ja: 'five', en: 'five', ko: '다섯', vi: 'năm', ne: 'पाँच' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

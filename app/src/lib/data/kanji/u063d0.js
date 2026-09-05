@@ -10,7 +10,7 @@ export const KANJI_U063D0 = {
   reading: 'てい',
   meaning: 'propose/take along',
   word: '提',
-      meanings: { ja: 'propose/take along', en: 'propose/take along', zh: '提', ko: '제' },
+      meanings: { ja: 'propose/take along', en: 'propose/take along' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

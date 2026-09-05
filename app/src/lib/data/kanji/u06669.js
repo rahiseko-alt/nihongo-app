@@ -10,7 +10,7 @@ export const KANJI_U06669 = {
   reading: 'ばん',
   meaning: 'nightfall/night',
   word: '晩',
-      meanings: { ja: 'nightfall/night', en: 'nightfall/night', zh: '晩', ko: '만', vi: 'đêm', ne: 'रात' },
+      meanings: { ja: 'nightfall/night', en: 'nightfall/night', vi: 'đêm', ne: 'रात' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

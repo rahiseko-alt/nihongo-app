@@ -10,7 +10,7 @@ export const KANJI_U05354 = {
   reading: 'きょう',
   meaning: 'co-/cooperation',
   word: '協',
-      meanings: { ja: 'co-/cooperation', en: 'co-/cooperation', zh: '协', ko: '협' },
+      meanings: { ja: 'co-/cooperation', en: 'co-/cooperation', zh: '协' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

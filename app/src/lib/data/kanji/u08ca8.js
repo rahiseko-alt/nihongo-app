@@ -10,7 +10,7 @@ export const KANJI_U08CA8 = {
   reading: 'か',
   meaning: 'freight/goods',
   word: '貨',
-      meanings: { ja: 'freight/goods', en: 'freight/goods', zh: '货', ko: '화', vi: 'hàng hóa', ne: 'मालसामान' },
+      meanings: { ja: 'freight/goods', en: 'freight/goods', zh: '货', vi: 'hàng hóa', ne: 'मालसामान' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

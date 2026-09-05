@@ -10,7 +10,7 @@ export const KANJI_U05E95 = {
   reading: 'そこ',
   meaning: 'bottom/sole',
   word: '底',
-      meanings: { ja: 'bottom/sole', en: 'bottom/sole', zh: '底', ko: '저' },
+      meanings: { ja: 'bottom/sole', en: 'bottom/sole' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

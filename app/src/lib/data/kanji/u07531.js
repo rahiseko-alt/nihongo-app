@@ -10,7 +10,7 @@ export const KANJI_U07531 = {
   reading: 'ゆ',
   meaning: 'wherefore/a reason',
   word: '由',
-      meanings: { ja: 'wherefore/a reason', en: 'wherefore/a reason', zh: '由', ko: '유', vi: 'lý do', ne: 'कारण' },
+      meanings: { ja: 'wherefore/a reason', en: 'wherefore/a reason', vi: 'lý do', ne: 'कारण' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U077F3 = {
   reading: 'いし',
   meaning: '石',
   word: '石',
-      meanings: { ja: '石', en: 'stone', zh: '石头', ko: '돌' },
+      meanings: { ja: '石', en: 'stone', zh: '石头' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

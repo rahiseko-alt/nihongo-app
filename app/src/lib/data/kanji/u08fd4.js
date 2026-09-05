@@ -10,7 +10,7 @@ export const KANJI_U08FD4 = {
   reading: 'かえす',
   meaning: 'return/answer',
   word: '返',
-      meanings: { ja: 'return/answer', en: 'return/answer', zh: '返', ko: '반', vi: 'trở về', ne: 'फर्कनु' },
+      meanings: { ja: 'return/answer', en: 'return/answer', vi: 'trở về', ne: 'फर्कनु' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

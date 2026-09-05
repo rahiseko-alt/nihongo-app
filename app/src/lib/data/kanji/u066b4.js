@@ -10,7 +10,7 @@ export const KANJI_U066B4 = {
   reading: 'あばれる',
   meaning: 'outburst/rave',
   word: '暴',
-      meanings: { ja: 'outburst/rave', en: 'outburst/rave', zh: '暴', ko: '포' },
+      meanings: { ja: 'outburst/rave', en: 'outburst/rave' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

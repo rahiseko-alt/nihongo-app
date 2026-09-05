@@ -10,7 +10,7 @@ export const KANJI_U0904A = {
   reading: 'あそぶ',
   meaning: 'play',
   word: '遊',
-      meanings: { ja: 'play', en: 'play', zh: '遊', ko: '유' },
+      meanings: { ja: 'play', en: 'play' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

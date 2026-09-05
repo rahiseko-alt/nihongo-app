@@ -10,7 +10,7 @@ export const KANJI_U0719F = {
   reading: 'じゅく',
   meaning: 'mellow/ripen',
   word: '熟',
-      meanings: { ja: 'mellow/ripen', en: 'mellow/ripen', zh: '熟', ko: '숙' },
+      meanings: { ja: 'mellow/ripen', en: 'mellow/ripen' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

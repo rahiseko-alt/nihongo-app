@@ -10,7 +10,7 @@ export const KANJI_U091DD = {
   reading: 'はり',
   meaning: 'needle/pin',
   word: '針',
-      meanings: { ja: 'needle/pin', en: 'needle/pin', zh: '针', ko: '침' },
+      meanings: { ja: 'needle/pin', en: 'needle/pin', zh: '针' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

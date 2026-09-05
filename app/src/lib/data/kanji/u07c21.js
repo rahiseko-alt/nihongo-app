@@ -10,7 +10,7 @@ export const KANJI_U07C21 = {
   reading: 'かん',
   meaning: 'simplicity/brevity',
   word: '簡',
-      meanings: { ja: 'simplicity/brevity', en: 'simplicity/brevity', zh: '简', ko: '간' },
+      meanings: { ja: 'simplicity/brevity', en: 'simplicity/brevity', zh: '简' },
   strokeCount: 18,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

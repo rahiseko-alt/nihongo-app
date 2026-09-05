@@ -10,7 +10,7 @@ export const KANJI_U09B5A = {
   reading: 'さかな',
   meaning: 'fish',
   word: '魚',
-      meanings: { ja: 'fish', en: 'fish', zh: '鱼', ko: '어', vi: 'cá', ne: 'माछा' },
+      meanings: { ja: 'fish', en: 'fish', zh: '鱼', vi: 'cá', ne: 'माछा' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

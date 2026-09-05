@@ -10,7 +10,7 @@ export const KANJI_U07701 = {
   reading: 'しょう',
   meaning: 'government ministry/conserve',
   word: '省',
-      meanings: { ja: 'government ministry/conserve', en: 'government ministry/conserve', zh: '省', ko: '생', vi: 'chính phủ', ne: 'सरकार' },
+      meanings: { ja: 'government ministry/conserve', en: 'government ministry/conserve', vi: 'chính phủ', ne: 'सरकार' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U07530 = {
   reading: 'た',
   meaning: '田',
   word: '田',
-      meanings: { ja: '田', en: 'rice field', zh: '田', ko: '논', vi: 'cơm', ne: 'भात' },
+      meanings: { ja: '田', en: 'rice field', vi: 'cơm', ne: 'भात' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

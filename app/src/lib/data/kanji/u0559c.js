@@ -10,7 +10,7 @@ export const KANJI_U0559C = {
   reading: 'よろこぶ',
   meaning: 'rejoice/take pleasure in',
   word: '喜',
-      meanings: { ja: 'rejoice/take pleasure in', en: 'rejoice/take pleasure in', zh: '喜', ko: '희' },
+      meanings: { ja: 'rejoice/take pleasure in', en: 'rejoice/take pleasure in' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U08AF8 = {
   reading: 'しょ',
   meaning: 'various/many',
   word: '諸',
-      meanings: { ja: 'various/many', en: 'various/many', zh: '诸', ko: '제', vi: 'nhiều', ne: 'धेरै' },
+      meanings: { ja: 'various/many', en: 'various/many', zh: '诸', vi: 'nhiều', ne: 'धेरै' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

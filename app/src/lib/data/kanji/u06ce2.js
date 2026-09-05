@@ -10,7 +10,7 @@ export const KANJI_U06CE2 = {
   reading: 'なみ',
   meaning: 'waves/billows',
   word: '波',
-      meanings: { ja: 'waves/billows', en: 'waves/billows', zh: '波', ko: '파' },
+      meanings: { ja: 'waves/billows', en: 'waves/billows' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

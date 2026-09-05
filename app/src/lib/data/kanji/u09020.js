@@ -10,7 +10,7 @@ export const KANJI_U09020 = {
   reading: 'つくる',
   meaning: 'create/make',
   word: '造',
-      meanings: { ja: 'create/make', en: 'create/make', zh: '造', ko: '조', vi: 'tạo ra', ne: 'सिर्जना' },
+      meanings: { ja: 'create/make', en: 'create/make', vi: 'tạo ra', ne: 'सिर्जना' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

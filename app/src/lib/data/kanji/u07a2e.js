@@ -10,7 +10,7 @@ export const KANJI_U07A2E = {
   reading: 'たね',
   meaning: 'species/kind',
   word: '種',
-      meanings: { ja: 'species/kind', en: 'species/kind', zh: '种', ko: '종', vi: 'loại', ne: 'प्रकार' },
+      meanings: { ja: 'species/kind', en: 'species/kind', zh: '种', vi: 'loại', ne: 'प्रकार' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

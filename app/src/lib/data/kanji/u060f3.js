@@ -10,7 +10,7 @@ export const KANJI_U060F3 = {
   reading: 'そう',
   meaning: 'idea/thought',
   word: '想',
-      meanings: { ja: 'idea/thought', en: 'idea/thought', zh: '想', ko: '상', vi: 'suy nghĩ', ne: 'विचार' },
+      meanings: { ja: 'idea/thought', en: 'idea/thought', vi: 'suy nghĩ', ne: 'विचार' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

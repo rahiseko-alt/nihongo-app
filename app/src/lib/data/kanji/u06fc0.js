@@ -10,7 +10,7 @@ export const KANJI_U06FC0 = {
   reading: 'はげしい',
   meaning: 'violent/get excited',
   word: '激',
-      meanings: { ja: 'violent/get excited', en: 'violent/get excited', zh: '激', ko: '격' },
+      meanings: { ja: 'violent/get excited', en: 'violent/get excited' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

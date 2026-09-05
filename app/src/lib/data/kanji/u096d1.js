@@ -10,7 +10,7 @@ export const KANJI_U096D1 = {
   reading: 'ざつ',
   meaning: 'miscellaneous',
   word: '雑',
-      meanings: { ja: 'miscellaneous', en: 'miscellaneous', zh: '雑', ko: 'miscellaneous' },
+      meanings: { ja: 'miscellaneous', en: 'miscellaneous' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

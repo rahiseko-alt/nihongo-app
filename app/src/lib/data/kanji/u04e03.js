@@ -10,7 +10,7 @@ export const KANJI_U04E03 = {
   reading: 'なな',
   meaning: 'seven',
   word: '七',
-      meanings: { ja: 'seven', en: 'seven', zh: '七', ko: '일곱', vi: 'bảy', ne: 'सात' },
+      meanings: { ja: 'seven', en: 'seven', ko: '일곱', vi: 'bảy', ne: 'सात' },
   strokeCount: 2,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

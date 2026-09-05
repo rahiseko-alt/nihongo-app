@@ -10,7 +10,7 @@ export const KANJI_U06BDB = {
   reading: 'け',
   meaning: 'fur/hair',
   word: '毛',
-      meanings: { ja: 'fur/hair', en: 'fur/hair', zh: '毛', ko: '모' },
+      meanings: { ja: 'fur/hair', en: 'fur/hair' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

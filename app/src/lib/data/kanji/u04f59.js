@@ -10,7 +10,7 @@ export const KANJI_U04F59 = {
   reading: 'あまる',
   meaning: 'too much/myself',
   word: '余',
-      meanings: { ja: 'too much/myself', en: 'too much/myself', zh: '余', ko: '여' },
+      meanings: { ja: 'too much/myself', en: 'too much/myself' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

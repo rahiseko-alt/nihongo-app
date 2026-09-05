@@ -10,7 +10,7 @@ export const KANJI_U0679D = {
   reading: 'えだ',
   meaning: 'bough/branch',
   word: '枝',
-      meanings: { ja: 'bough/branch', en: 'bough/branch', zh: '枝', ko: '지' },
+      meanings: { ja: 'bough/branch', en: 'bough/branch' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

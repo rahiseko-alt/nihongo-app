@@ -10,7 +10,7 @@ export const KANJI_U076DB = {
   reading: 'さかる',
   meaning: 'boom/prosper',
   word: '盛',
-      meanings: { ja: 'boom/prosper', en: 'boom/prosper', zh: '盛', ko: '성' },
+      meanings: { ja: 'boom/prosper', en: 'boom/prosper' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

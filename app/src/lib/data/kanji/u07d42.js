@@ -10,7 +10,7 @@ export const KANJI_U07D42 = {
   reading: 'おわる',
   meaning: 'end/finish',
   word: '終',
-      meanings: { ja: 'end/finish', en: 'end/finish', zh: '终', ko: '종', vi: 'kết thúc', ne: 'अन्त्य' },
+      meanings: { ja: 'end/finish', en: 'end/finish', zh: '终', vi: 'kết thúc', ne: 'अन्त्य' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

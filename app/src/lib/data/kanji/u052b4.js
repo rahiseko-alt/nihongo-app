@@ -10,7 +10,7 @@ export const KANJI_U052B4 = {
   reading: 'ろう',
   meaning: 'labor/thank for',
   word: '労',
-      meanings: { ja: 'labor/thank for', en: 'labor/thank for', zh: '労', ko: 'labor/thank for', vi: 'lao động', ne: 'श्रम' },
+      meanings: { ja: 'labor/thank for', en: 'labor/thank for', vi: 'lao động', ne: 'श्रम' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

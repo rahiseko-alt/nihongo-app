@@ -10,7 +10,7 @@ export const KANJI_U09031 = {
   reading: 'しゅう',
   meaning: '週',
   word: '週',
-      meanings: { ja: '週', en: 'week', zh: '周', ko: '주' },
+      meanings: { ja: '週', en: 'week', zh: '周' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

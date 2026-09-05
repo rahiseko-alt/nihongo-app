@@ -10,7 +10,7 @@ export const KANJI_U05B57 = {
   reading: 'じ',
   meaning: 'character',
   word: '字',
-      meanings: { ja: 'character', en: 'character', zh: '字', ko: '글자', vi: 'chữ', ne: 'अक्षर' },
+      meanings: { ja: 'character', en: 'character', ko: '글자', vi: 'chữ', ne: 'अक्षर' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05DDE = {
   reading: 'しゅう',
   meaning: 'state/province',
   word: '州',
-      meanings: { ja: 'state/province', en: 'state/province', zh: '州', ko: '주' },
+      meanings: { ja: 'state/province', en: 'state/province' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

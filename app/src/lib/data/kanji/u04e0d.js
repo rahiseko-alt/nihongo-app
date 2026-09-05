@@ -10,7 +10,7 @@ export const KANJI_U04E0D = {
   reading: 'ふ',
   meaning: '不・否定',
   word: '不',
-      meanings: { ja: '不・否定', en: 'not', zh: '不', ko: '불', vi: 'không', ne: 'होइन' },
+      meanings: { ja: '不・否定', en: 'not', vi: 'không', ne: 'होइन' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

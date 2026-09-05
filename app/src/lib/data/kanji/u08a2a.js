@@ -10,7 +10,7 @@ export const KANJI_U08A2A = {
   reading: 'たずねる',
   meaning: 'call on/visit',
   word: '訪',
-      meanings: { ja: 'call on/visit', en: 'call on/visit', zh: '访', ko: '방', vi: 'thăm', ne: 'भ्रमण' },
+      meanings: { ja: 'call on/visit', en: 'call on/visit', zh: '访', vi: 'thăm', ne: 'भ्रमण' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

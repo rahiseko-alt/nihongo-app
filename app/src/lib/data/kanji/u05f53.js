@@ -10,7 +10,7 @@ export const KANJI_U05F53 = {
   reading: 'あたる',
   meaning: 'hit/right',
   word: '当',
-      meanings: { ja: 'hit/right', en: 'hit/right', zh: '当', ko: 'hit/right', vi: 'quyền lợi', ne: 'अधिकार' },
+      meanings: { ja: 'hit/right', en: 'hit/right', vi: 'quyền lợi', ne: 'अधिकार' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

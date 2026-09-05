@@ -10,7 +10,7 @@ export const KANJI_U062DD = {
   reading: 'おがむ',
   meaning: 'worship/adore',
   word: '拝',
-      meanings: { ja: 'worship/adore', en: 'worship/adore', zh: '拝', ko: 'worship/adore' },
+      meanings: { ja: 'worship/adore', en: 'worship/adore' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

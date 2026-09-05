@@ -10,7 +10,7 @@ export const KANJI_U06CD5 = {
   reading: 'ほう',
   meaning: '法律',
   word: '法',
-      meanings: { ja: '法律', en: 'law', zh: '法律', ko: '법', vi: 'luật', ne: 'कानुन' },
+      meanings: { ja: '法律', en: 'law', zh: '法律', vi: 'luật', ne: 'कानुन' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U08FF0 = {
   reading: 'のべる',
   meaning: 'mention/state',
   word: '述',
-      meanings: { ja: 'mention/state', en: 'mention/state', zh: '述', ko: '술' },
+      meanings: { ja: 'mention/state', en: 'mention/state' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

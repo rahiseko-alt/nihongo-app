@@ -10,7 +10,7 @@ export const KANJI_U096C6 = {
   reading: 'あつめる',
   meaning: 'gather/meet',
   word: '集',
-      meanings: { ja: 'gather/meet', en: 'gather/meet', zh: '集', ko: '집', vi: 'gặp', ne: 'भेट्नु' },
+      meanings: { ja: 'gather/meet', en: 'gather/meet', vi: 'gặp', ne: 'भेट्नु' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

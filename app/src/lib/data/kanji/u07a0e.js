@@ -10,7 +10,7 @@ export const KANJI_U07A0E = {
   reading: 'ぜい',
   meaning: 'tax',
   word: '税',
-      meanings: { ja: 'tax', en: 'tax', zh: '税', ko: '세금', vi: 'thuế', ne: 'कर' },
+      meanings: { ja: 'tax', en: 'tax', ko: '세금', vi: 'thuế', ne: 'कर' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

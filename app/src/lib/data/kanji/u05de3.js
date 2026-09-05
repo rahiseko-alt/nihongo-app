@@ -10,7 +10,7 @@ export const KANJI_U05DE3 = {
   reading: 'す',
   meaning: 'nest/rookery',
   word: '巣',
-      meanings: { ja: 'nest/rookery', en: 'nest/rookery', zh: '巣', ko: 'nest/rookery' },
+      meanings: { ja: 'nest/rookery', en: 'nest/rookery' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

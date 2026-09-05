@@ -10,7 +10,7 @@ export const KANJI_U06F54 = {
   reading: 'いさぎよい',
   meaning: 'undefiled/pure',
   word: '潔',
-      meanings: { ja: 'undefiled/pure', en: 'undefiled/pure', zh: '洁', ko: '결' },
+      meanings: { ja: 'undefiled/pure', en: 'undefiled/pure', zh: '洁' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

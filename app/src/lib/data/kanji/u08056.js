@@ -10,7 +10,7 @@ export const KANJI_U08056 = {
   reading: 'せい',
   meaning: 'holy/saint',
   word: '聖',
-      meanings: { ja: 'holy/saint', en: 'holy/saint', zh: '圣', ko: '성' },
+      meanings: { ja: 'holy/saint', en: 'holy/saint', zh: '圣' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

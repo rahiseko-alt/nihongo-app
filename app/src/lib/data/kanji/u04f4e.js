@@ -10,7 +10,7 @@ export const KANJI_U04F4E = {
   reading: 'ひくい',
   meaning: 'lower/short',
   word: '低',
-      meanings: { ja: 'lower/short', en: 'lower/short', zh: '低', ko: '저', vi: 'ngắn', ne: 'छोटो' },
+      meanings: { ja: 'lower/short', en: 'lower/short', vi: 'ngắn', ne: 'छोटो' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

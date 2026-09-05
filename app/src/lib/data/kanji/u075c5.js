@@ -10,7 +10,7 @@ export const KANJI_U075C5 = {
   reading: 'びょう',
   meaning: 'illness',
   word: '病',
-      meanings: { ja: 'illness', en: 'illness', zh: '病', ko: '병', vi: 'bệnh', ne: 'रोग' },
+      meanings: { ja: 'illness', en: 'illness', vi: 'bệnh', ne: 'रोग' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

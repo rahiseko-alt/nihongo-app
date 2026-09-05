@@ -10,7 +10,7 @@ export const KANJI_U06CB3 = {
   reading: 'かわ',
   meaning: 'river',
   word: '河',
-      meanings: { ja: 'river', en: 'river', zh: '河', ko: '하', vi: 'sông', ne: 'नदी' },
+      meanings: { ja: 'river', en: 'river', vi: 'sông', ne: 'नदी' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

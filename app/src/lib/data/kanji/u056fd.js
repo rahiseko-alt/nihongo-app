@@ -10,7 +10,7 @@ export const KANJI_U056FD = {
   reading: 'くに',
   meaning: 'country',
   word: '国',
-      meanings: { ja: 'country', en: 'country', zh: '国', ko: '나라', vi: 'quốc gia', ne: 'देश' },
+      meanings: { ja: 'country', en: 'country', ko: '나라', vi: 'quốc gia', ne: 'देश' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

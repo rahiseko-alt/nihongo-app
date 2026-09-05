@@ -10,7 +10,7 @@ export const KANJI_U09285 = {
   reading: 'どう',
   meaning: 'copper',
   word: '銅',
-      meanings: { ja: 'copper', en: 'copper', zh: '铜', ko: '동', vi: 'đồng', ne: 'तामा' },
+      meanings: { ja: 'copper', en: 'copper', zh: '铜', vi: 'đồng', ne: 'तामा' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U04F4D = {
   reading: 'くらい',
   meaning: 'rank/grade',
   word: '位',
-      meanings: { ja: 'rank/grade', en: 'rank/grade', zh: '位', ko: '위' },
+      meanings: { ja: 'rank/grade', en: 'rank/grade' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

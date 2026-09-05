@@ -10,7 +10,7 @@ export const KANJI_U04FE1 = {
   reading: 'しん',
   meaning: 'faith/truth',
   word: '信',
-      meanings: { ja: 'faith/truth', en: 'faith/truth', zh: '信', ko: '신' },
+      meanings: { ja: 'faith/truth', en: 'faith/truth' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

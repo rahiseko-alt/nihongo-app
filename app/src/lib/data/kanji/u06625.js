@@ -10,7 +10,7 @@ export const KANJI_U06625 = {
   reading: 'はる',
   meaning: 'springtime/spring (season)',
   word: '春',
-      meanings: { ja: 'springtime/spring (season)', en: 'springtime/spring (season)', zh: '春', ko: '춘', vi: 'mùa xuân', ne: 'वसन्त' },
+      meanings: { ja: 'springtime/spring (season)', en: 'springtime/spring (season)', vi: 'mùa xuân', ne: 'वसन्त' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05E79 = {
   reading: 'みき',
   meaning: 'tree trunk/main part',
   word: '幹',
-      meanings: { ja: 'tree trunk/main part', en: 'tree trunk/main part', zh: '干', ko: '간', vi: 'cây / phần', ne: 'रुख / भाग' },
+      meanings: { ja: 'tree trunk/main part', en: 'tree trunk/main part', zh: '干', vi: 'cây / phần', ne: 'रुख / भाग' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0751F = {
   reading: 'いきる',
   meaning: 'life',
   word: '生',
-      meanings: { ja: 'life', en: 'life', zh: '生', ko: '삶', vi: 'cuộc sống', ne: 'जीवन' },
+      meanings: { ja: 'life', en: 'life', vi: 'cuộc sống', ne: 'जीवन' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

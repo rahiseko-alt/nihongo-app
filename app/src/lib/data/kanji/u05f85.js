@@ -10,7 +10,7 @@ export const KANJI_U05F85 = {
   reading: 'まつ',
   meaning: 'wait/depend on',
   word: '待',
-      meanings: { ja: 'wait/depend on', en: 'wait/depend on', zh: '待', ko: '대' },
+      meanings: { ja: 'wait/depend on', en: 'wait/depend on' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

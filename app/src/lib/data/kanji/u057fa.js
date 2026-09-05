@@ -10,7 +10,7 @@ export const KANJI_U057FA = {
   reading: 'もと',
   meaning: 'fundamentals/radical (chem)',
   word: '基',
-      meanings: { ja: 'fundamentals/radical (chem)', en: 'fundamentals/radical (chem)', zh: '基', ko: '기' },
+      meanings: { ja: 'fundamentals/radical (chem)', en: 'fundamentals/radical (chem)' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

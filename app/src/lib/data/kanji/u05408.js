@@ -10,7 +10,7 @@ export const KANJI_U05408 = {
   reading: 'あう',
   meaning: '合う',
   word: '合',
-      meanings: { ja: '合う', en: 'fit/meet', zh: '合', ko: '맞다', vi: 'gặp', ne: 'भेट्नु' },
+      meanings: { ja: '合う', en: 'fit/meet', ko: '맞다', vi: 'gặp', ne: 'भेट्नु' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

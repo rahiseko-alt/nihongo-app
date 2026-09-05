@@ -10,7 +10,7 @@ export const KANJI_U08377 = {
   reading: 'に',
   meaning: 'luggage',
   word: '荷',
-      meanings: { ja: 'luggage', en: 'luggage', zh: '行李', ko: '짐', vi: 'hành lý', ne: 'सामान' },
+      meanings: { ja: 'luggage', en: 'luggage', zh: '行李', vi: 'hành lý', ne: 'सामान' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

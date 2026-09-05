@@ -10,7 +10,7 @@ export const KANJI_U080C3 = {
   reading: 'い',
   meaning: 'stomach/paunch',
   word: '胃',
-      meanings: { ja: 'stomach/paunch', en: 'stomach/paunch', zh: '胃', ko: '위' },
+      meanings: { ja: 'stomach/paunch', en: 'stomach/paunch' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

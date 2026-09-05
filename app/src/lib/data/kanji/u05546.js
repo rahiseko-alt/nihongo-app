@@ -10,7 +10,7 @@ export const KANJI_U05546 = {
   reading: 'しょう',
   meaning: 'make a deal/selling',
   word: '商',
-      meanings: { ja: 'make a deal/selling', en: 'make a deal/selling', zh: '商', ko: '상', vi: 'làm', ne: 'बनाउनु' },
+      meanings: { ja: 'make a deal/selling', en: 'make a deal/selling', vi: 'làm', ne: 'बनाउनु' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

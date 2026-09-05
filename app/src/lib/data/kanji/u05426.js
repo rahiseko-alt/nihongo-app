@@ -10,7 +10,7 @@ export const KANJI_U05426 = {
   reading: 'いな',
   meaning: 'negate/no',
   word: '否',
-      meanings: { ja: 'negate/no', en: 'negate/no', zh: '否', ko: '부' },
+      meanings: { ja: 'negate/no', en: 'negate/no' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

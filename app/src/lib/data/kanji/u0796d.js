@@ -10,7 +10,7 @@ export const KANJI_U0796D = {
   reading: 'まつり',
   meaning: 'ritual/offer prayers',
   word: '祭',
-      meanings: { ja: 'ritual/offer prayers', en: 'ritual/offer prayers', zh: '祭', ko: '제' },
+      meanings: { ja: 'ritual/offer prayers', en: 'ritual/offer prayers' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

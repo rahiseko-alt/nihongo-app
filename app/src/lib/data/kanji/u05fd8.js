@@ -10,7 +10,7 @@ export const KANJI_U05FD8 = {
   reading: 'わすれる',
   meaning: 'forget',
   word: '忘',
-      meanings: { ja: 'forget', en: 'forget', zh: '忘', ko: '망', vi: 'quên', ne: 'बिर्सनु' },
+      meanings: { ja: 'forget', en: 'forget', vi: 'quên', ne: 'बिर्सनु' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

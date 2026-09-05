@@ -10,7 +10,7 @@ export const KANJI_U09580 = {
   reading: 'もん',
   meaning: '門',
   word: '門',
-      meanings: { ja: '門', en: 'gate', zh: '门', ko: '문', vi: 'cổng', ne: 'गेट' },
+      meanings: { ja: '門', en: 'gate', zh: '门', vi: 'cổng', ne: 'गेट' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

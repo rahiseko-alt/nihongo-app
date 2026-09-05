@@ -10,7 +10,7 @@ export const KANJI_U04E8B = {
   reading: 'こと',
   meaning: '事',
   word: '事',
-      meanings: { ja: '事', en: 'matter/thing', zh: '事', ko: '일', vi: 'vấn đề', ne: 'मामिला' },
+      meanings: { ja: '事', en: 'matter/thing', vi: 'vấn đề', ne: 'मामिला' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

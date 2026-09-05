@@ -10,7 +10,7 @@ export const KANJI_U0738B = {
   reading: 'おう',
   meaning: '王',
   word: '王',
-      meanings: { ja: '王', en: 'king', zh: '王', ko: '왕', vi: 'vua', ne: 'राजा' },
+      meanings: { ja: '王', en: 'king', vi: 'vua', ne: 'राजा' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

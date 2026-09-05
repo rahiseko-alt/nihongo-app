@@ -10,7 +10,7 @@ export const KANJI_U0706B = {
   reading: 'ひ',
   meaning: 'fire',
   word: '火',
-      meanings: { ja: 'fire', en: 'fire', zh: '火', ko: '불', vi: 'lửa', ne: 'आगो' },
+      meanings: { ja: 'fire', en: 'fire', vi: 'lửa', ne: 'आगो' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

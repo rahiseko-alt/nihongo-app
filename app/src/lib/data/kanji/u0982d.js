@@ -10,7 +10,7 @@ export const KANJI_U0982D = {
   reading: 'あたま',
   meaning: 'head/counter for large animals',
   word: '頭',
-      meanings: { ja: 'head/counter for large animals', en: 'head/counter for large animals', zh: '头', ko: '두', vi: 'đầu', ne: 'टाउको' },
+      meanings: { ja: 'head/counter for large animals', en: 'head/counter for large animals', zh: '头', vi: 'đầu', ne: 'टाउको' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

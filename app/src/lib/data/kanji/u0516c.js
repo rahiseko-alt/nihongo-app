@@ -10,7 +10,7 @@ export const KANJI_U0516C = {
   reading: 'こう',
   meaning: '公',
   word: '公',
-      meanings: { ja: '公', en: 'public', zh: '公', ko: '공공', vi: 'công cộng', ne: 'सार्वजनिक' },
+      meanings: { ja: '公', en: 'public', ko: '공공', vi: 'công cộng', ne: 'सार्वजनिक' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

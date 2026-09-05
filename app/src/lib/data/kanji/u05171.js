@@ -10,7 +10,7 @@ export const KANJI_U05171 = {
   reading: 'とも',
   meaning: 'together/both',
   word: '共',
-      meanings: { ja: 'together/both', en: 'together/both', zh: '共', ko: '공' },
+      meanings: { ja: 'together/both', en: 'together/both' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

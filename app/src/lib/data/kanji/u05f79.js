@@ -10,7 +10,7 @@ export const KANJI_U05F79 = {
   reading: 'やく',
   meaning: 'public service',
   word: '役',
-      meanings: { ja: 'public service', en: 'public service', zh: '役', ko: '역할', vi: 'công cộng / dịch vụ', ne: 'सार्वजनिक / सेवा' },
+      meanings: { ja: 'public service', en: 'public service', ko: '역할', vi: 'công cộng / dịch vụ', ne: 'सार्वजनिक / सेवा' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

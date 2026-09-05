@@ -10,7 +10,7 @@ export const KANJI_U072AC = {
   reading: 'いぬ',
   meaning: 'dog',
   word: '犬',
-      meanings: { ja: 'dog', en: 'dog', zh: '犬', ko: '견' },
+      meanings: { ja: 'dog', en: 'dog' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

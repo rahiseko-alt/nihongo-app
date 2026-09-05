@@ -10,7 +10,7 @@ export const KANJI_U0592B = {
   reading: 'おっと',
   meaning: 'husband/man',
   word: '夫',
-      meanings: { ja: 'husband/man', en: 'husband/man', zh: '夫', ko: '부', vi: 'nam giới', ne: 'पुरुष' },
+      meanings: { ja: 'husband/man', en: 'husband/man', vi: 'nam giới', ne: 'पुरुष' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入
