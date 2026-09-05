@@ -363,10 +363,8 @@
                   >
                   <dl class="reading-badge-meanings">
                     {#each activeMeaningRows as row (row.code)}
-                      <div class="reading-badge-meaning">
-                        <dt>{row.label}</dt>
-                        <dd>{row.value}</dd>
-                      </div>
+                      <dt>{row.label}</dt>
+                      <dd>{row.value}</dd>
                     {/each}
                   </dl>
                 </div>
@@ -593,25 +591,25 @@
   .reading-badge-reading {
     line-height: 1.2;
   }
+  /* 3 行を同じ形で並べる。値が空の行もラベルだけ残し、
+     「まだ登録がない」ことが読み手に伝わるようにする。ラベル列は
+     max-content で、いちばん長いラベル（Tiếng Nhật 等）に合わせて揃える。 */
   .reading-badge-meanings {
     margin: 0;
-    font-size: 0.7em;
-    font-weight: 500;
-    line-height: 1.35;
-  }
-  /* 3 行を同じ形で並べる。値が空の行もラベルだけ残し、
-     「まだ登録がない」ことが読み手に伝わるようにする。 */
-  .reading-badge-meaning {
     display: grid;
-    grid-template-columns: 4.5em 1fr;
+    grid-template-columns: max-content 1fr;
     column-gap: 0.4rem;
+    font-size: 0.65em;
+    font-weight: 500;
+    line-height: 1.4;
   }
-  .reading-badge-meaning dt {
+  .reading-badge-meanings dt {
     opacity: 0.7;
+    white-space: nowrap;
   }
-  .reading-badge-meaning dd {
+  .reading-badge-meanings dd {
     margin: 0;
-    min-height: 1.35em;
+    min-height: 1.4em;
   }
 
   .play-area {
