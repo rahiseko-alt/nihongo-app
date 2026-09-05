@@ -10,7 +10,7 @@ export const KANJI_U07814 = {
   reading: 'けん',
   meaning: 'polish/study of',
   word: '研',
-      meanings: { ja: 'polish/study of', en: 'polish/study of' },
+      meanings: { en: 'polish/study of' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

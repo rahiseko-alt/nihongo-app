@@ -10,7 +10,7 @@ export const KANJI_U081E3 = {
   reading: 'しん',
   meaning: 'retainer/subject',
   word: '臣',
-      meanings: { ja: 'retainer/subject', en: 'retainer/subject' },
+      meanings: { en: 'retainer/subject' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

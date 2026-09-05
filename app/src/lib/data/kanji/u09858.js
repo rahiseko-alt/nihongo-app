@@ -10,7 +10,7 @@ export const KANJI_U09858 = {
   reading: 'ねがう',
   meaning: 'petition/request',
   word: '願',
-      meanings: { ja: 'petition/request', en: 'petition/request', zh: '愿', vi: 'yêu cầu', ne: 'अनुरोध' },
+      meanings: { en: 'petition/request', zh: '愿', vi: 'yêu cầu', ne: 'अनुरोध' },
   strokeCount: 19,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

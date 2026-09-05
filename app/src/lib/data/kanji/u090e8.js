@@ -10,7 +10,7 @@ export const KANJI_U090E8 = {
   reading: 'ぶ',
   meaning: 'part',
   word: '部',
-      meanings: { ja: 'part', en: 'part', zh: '部分', ko: '부분', vi: 'phần', ne: 'भाग' },
+      meanings: { en: 'part', zh: '部分', ko: '부분', vi: 'phần', ne: 'भाग' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

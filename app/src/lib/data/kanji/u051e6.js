@@ -10,7 +10,7 @@ export const KANJI_U051E6 = {
   reading: 'しょ',
   meaning: 'dispose/manage',
   word: '処',
-      meanings: { ja: 'dispose/manage', en: 'dispose/manage', vi: 'quản lý', ne: 'व्यवस्थापन' },
+      meanings: { en: 'dispose/manage', vi: 'quản lý', ne: 'व्यवस्थापन' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

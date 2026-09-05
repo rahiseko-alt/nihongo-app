@@ -10,7 +10,7 @@ export const KANJI_U090F5 = {
   reading: 'ゆう',
   meaning: 'mail',
   word: '郵',
-      meanings: { ja: 'mail', en: 'mail', zh: '邮政', ko: '우편', vi: 'bưu điện', ne: 'हुलाक' },
+      meanings: { en: 'mail', zh: '邮政', ko: '우편', vi: 'bưu điện', ne: 'हुलाक' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

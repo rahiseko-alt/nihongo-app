@@ -10,7 +10,7 @@ export const KANJI_U04E71 = {
   reading: 'みだれる',
   meaning: 'riot/war',
   word: '乱',
-      meanings: { ja: 'riot/war', en: 'riot/war' },
+      meanings: { en: 'riot/war' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

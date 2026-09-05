@@ -10,7 +10,7 @@ export const KANJI_U07FD2 = {
   reading: 'ならう',
   meaning: 'learn',
   word: '習',
-      meanings: { ja: 'learn', en: 'learn', zh: '习' },
+      meanings: { en: 'learn', zh: '习' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

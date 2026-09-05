@@ -10,7 +10,7 @@ export const KANJI_U0901F = {
   reading: 'はやい',
   meaning: 'quick/fast',
   word: '速',
-      meanings: { ja: 'quick/fast', en: 'quick/fast' },
+      meanings: { en: 'quick/fast' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

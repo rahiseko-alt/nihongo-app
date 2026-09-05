@@ -10,7 +10,7 @@ export const KANJI_U04FDD = {
   reading: 'ほ',
   meaning: 'protect',
   word: '保',
-      meanings: { ja: 'protect', en: 'protect', zh: '保护', ko: '보호', vi: 'bảo vệ', ne: 'सुरक्षा' },
+      meanings: { en: 'protect', zh: '保护', ko: '보호', vi: 'bảo vệ', ne: 'सुरक्षा' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

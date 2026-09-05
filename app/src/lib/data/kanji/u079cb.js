@@ -10,7 +10,7 @@ export const KANJI_U079CB = {
   reading: 'あき',
   meaning: 'autumn',
   word: '秋',
-      meanings: { ja: 'autumn', en: 'autumn', vi: 'mùa thu', ne: 'शरद' },
+      meanings: { en: 'autumn', vi: 'mùa thu', ne: 'शरद' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

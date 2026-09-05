@@ -10,7 +10,7 @@ export const KANJI_U062E1 = {
   reading: 'かく',
   meaning: 'broaden/extend',
   word: '拡',
-      meanings: { ja: 'broaden/extend', en: 'broaden/extend' },
+      meanings: { en: 'broaden/extend' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

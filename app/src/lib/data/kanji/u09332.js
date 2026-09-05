@@ -10,7 +10,7 @@ export const KANJI_U09332 = {
   reading: 'ろく',
   meaning: 'record',
   word: '録',
-      meanings: { ja: 'record', en: 'record', zh: '记录', ko: '기록', vi: 'ghi chép', ne: 'रेकर्ड' },
+      meanings: { en: 'record', zh: '记录', ko: '기록', vi: 'ghi chép', ne: 'रेकर्ड' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U07A0B = {
   reading: 'ほど',
   meaning: 'extent/degree',
   word: '程',
-      meanings: { ja: 'extent/degree', en: 'extent/degree' },
+      meanings: { en: 'extent/degree' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

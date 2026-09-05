@@ -10,7 +10,7 @@ export const KANJI_U08846 = {
   reading: 'しゅう',
   meaning: 'masses/great numbers',
   word: '衆',
-      meanings: { ja: 'masses/great numbers', en: 'masses/great numbers', zh: '众' },
+      meanings: { en: 'masses/great numbers', zh: '众' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

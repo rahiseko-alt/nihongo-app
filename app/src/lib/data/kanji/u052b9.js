@@ -10,7 +10,7 @@ export const KANJI_U052B9 = {
   reading: 'きく',
   meaning: 'merit/efficacy',
   word: '効',
-      meanings: { ja: 'merit/efficacy', en: 'merit/efficacy' },
+      meanings: { en: 'merit/efficacy' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

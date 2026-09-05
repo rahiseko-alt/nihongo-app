@@ -10,7 +10,7 @@ export const KANJI_U08A8C = {
   reading: 'し',
   meaning: 'document/records',
   word: '誌',
-      meanings: { ja: 'document/records', en: 'document/records', zh: '志', vi: 'tài liệu', ne: 'कागजात' },
+      meanings: { en: 'document/records', zh: '志', vi: 'tài liệu', ne: 'कागजात' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

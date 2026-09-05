@@ -10,7 +10,7 @@ export const KANJI_U04EBA = {
   reading: 'ひと',
   meaning: 'person',
   word: '人',
-      meanings: { ja: 'person', en: 'person', ko: '사람', vi: 'người', ne: 'मानिस' },
+      meanings: { en: 'person', ko: '사람', vi: 'người', ne: 'मानिस' },
   strokeCount: 2,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

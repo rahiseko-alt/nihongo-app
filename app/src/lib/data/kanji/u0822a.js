@@ -10,7 +10,7 @@ export const KANJI_U0822A = {
   reading: 'こう',
   meaning: 'aviation',
   word: '航',
-      meanings: { ja: 'aviation', en: 'aviation', zh: '航空', ko: '항공', vi: 'hàng không', ne: 'उड्डयन' },
+      meanings: { en: 'aviation', zh: '航空', ko: '항공', vi: 'hàng không', ne: 'उड्डयन' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

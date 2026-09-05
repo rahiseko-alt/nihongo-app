@@ -10,7 +10,7 @@ export const KANJI_U07B2C = {
   reading: 'だい',
   meaning: 'No./residence',
   word: '第',
-      meanings: { ja: 'No./residence', en: 'No./residence', vi: 'nơi cư trú', ne: 'निवास' },
+      meanings: { en: 'No./residence', vi: 'nơi cư trú', ne: 'निवास' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

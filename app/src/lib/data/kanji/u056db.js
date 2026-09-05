@@ -10,7 +10,7 @@ export const KANJI_U056DB = {
   reading: 'よん',
   meaning: 'four',
   word: '四',
-      meanings: { ja: 'four', en: 'four', vi: 'bốn', ne: 'चार' },
+      meanings: { en: 'four', vi: 'bốn', ne: 'चार' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05893 = {
   reading: 'はか',
   meaning: 'grave/tomb',
   word: '墓',
-      meanings: { ja: 'grave/tomb', en: 'grave/tomb' },
+      meanings: { en: 'grave/tomb' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

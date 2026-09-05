@@ -10,7 +10,7 @@ export const KANJI_U0653F = {
   reading: 'せい',
   meaning: 'politics/government',
   word: '政',
-      meanings: { ja: 'politics/government', en: 'politics/government', vi: 'chính trị', ne: 'राजनीति' },
+      meanings: { en: 'politics/government', vi: 'chính trị', ne: 'राजनीति' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

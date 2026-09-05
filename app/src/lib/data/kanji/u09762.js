@@ -10,7 +10,7 @@ export const KANJI_U09762 = {
   reading: 'めん',
   meaning: 'mask/face',
   word: '面',
-      meanings: { ja: 'mask/face', en: 'mask/face', vi: 'mặt', ne: 'अनुहार' },
+      meanings: { en: 'mask/face', vi: 'mặt', ne: 'अनुहार' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

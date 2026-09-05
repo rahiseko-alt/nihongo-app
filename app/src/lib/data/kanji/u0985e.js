@@ -10,7 +10,7 @@ export const KANJI_U0985E = {
   reading: 'るい',
   meaning: 'sort/kind',
   word: '類',
-      meanings: { ja: 'sort/kind', en: 'sort/kind', zh: '类', vi: 'loại', ne: 'प्रकार' },
+      meanings: { en: 'sort/kind', zh: '类', vi: 'loại', ne: 'प्रकार' },
   strokeCount: 18,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

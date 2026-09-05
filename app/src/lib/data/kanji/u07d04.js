@@ -10,7 +10,7 @@ export const KANJI_U07D04 = {
   reading: 'やく',
   meaning: 'promise',
   word: '約',
-      meanings: { ja: 'promise', en: 'promise', zh: '约定', ko: '약속', vi: 'lời hứa', ne: 'प्रतिज्ञा' },
+      meanings: { en: 'promise', zh: '约定', ko: '약속', vi: 'lời hứa', ne: 'प्रतिज्ञा' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

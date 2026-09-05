@@ -10,7 +10,7 @@ export const KANJI_U06B32 = {
   reading: 'ほしい',
   meaning: 'longing/covetousness',
   word: '欲',
-      meanings: { ja: 'longing/covetousness', en: 'longing/covetousness' },
+      meanings: { en: 'longing/covetousness' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

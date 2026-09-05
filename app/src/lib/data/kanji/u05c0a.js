@@ -10,7 +10,7 @@ export const KANJI_U05C0A = {
   reading: 'とうとい',
   meaning: 'revered/valuable',
   word: '尊',
-      meanings: { ja: 'revered/valuable', en: 'revered/valuable' },
+      meanings: { en: 'revered/valuable' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

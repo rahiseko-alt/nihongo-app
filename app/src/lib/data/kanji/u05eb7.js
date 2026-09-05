@@ -10,7 +10,7 @@ export const KANJI_U05EB7 = {
   reading: 'こう',
   meaning: 'healthy',
   word: '康',
-      meanings: { ja: 'healthy', en: 'healthy', zh: '健康', ko: '건강', vi: 'khỏe mạnh', ne: 'स्वस्थ' },
+      meanings: { en: 'healthy', zh: '健康', ko: '건강', vi: 'khỏe mạnh', ne: 'स्वस्थ' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

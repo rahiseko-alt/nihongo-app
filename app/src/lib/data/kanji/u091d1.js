@@ -10,7 +10,7 @@ export const KANJI_U091D1 = {
   reading: 'かね',
   meaning: 'money',
   word: '金',
-      meanings: { ja: 'money', en: 'money', vi: 'tiền', ne: 'पैसा' },
+      meanings: { en: 'money', vi: 'tiền', ne: 'पैसा' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

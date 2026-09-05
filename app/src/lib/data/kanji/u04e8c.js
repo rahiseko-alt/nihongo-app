@@ -10,7 +10,7 @@ export const KANJI_U04E8C = {
   reading: 'に',
   meaning: 'two',
   word: '二',
-      meanings: { ja: 'two', en: 'two', vi: 'hai', ne: 'दुई' },
+      meanings: { en: 'two', vi: 'hai', ne: 'दुई' },
   strokeCount: 2,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

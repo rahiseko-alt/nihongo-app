@@ -10,7 +10,7 @@ export const KANJI_U05E30 = {
   reading: 'かえる',
   meaning: 'return',
   word: '帰',
-      meanings: { ja: 'return', en: 'return', zh: '回去', ko: '돌아가다', vi: 'trở về', ne: 'फर्कनु' },
+      meanings: { en: 'return', zh: '回去', ko: '돌아가다', vi: 'trở về', ne: 'फर्कनु' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

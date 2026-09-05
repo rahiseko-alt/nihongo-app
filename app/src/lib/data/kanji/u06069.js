@@ -10,7 +10,7 @@ export const KANJI_U06069 = {
   reading: 'おん',
   meaning: 'grace/kindness',
   word: '恩',
-      meanings: { ja: 'grace/kindness', en: 'grace/kindness' },
+      meanings: { en: 'grace/kindness' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

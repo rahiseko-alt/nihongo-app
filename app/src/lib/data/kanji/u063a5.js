@@ -10,7 +10,7 @@ export const KANJI_U063A5 = {
   reading: 'せつ',
   meaning: 'touch/contact',
   word: '接',
-      meanings: { ja: 'touch/contact', en: 'touch/contact' },
+      meanings: { en: 'touch/contact' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

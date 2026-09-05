@@ -10,7 +10,7 @@ export const KANJI_U04FBF = {
   reading: 'びん',
   meaning: 'mail/service',
   word: '便',
-      meanings: { ja: 'mail/service', en: 'mail/service', zh: '邮件', vi: 'bưu điện', ne: 'हुलाक' },
+      meanings: { en: 'mail/service', zh: '邮件', vi: 'bưu điện', ne: 'हुलाक' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

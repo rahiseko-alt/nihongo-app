@@ -10,7 +10,7 @@ export const KANJI_U06DF1 = {
   reading: 'ふかい',
   meaning: 'deep/heighten',
   word: '深',
-      meanings: { ja: 'deep/heighten', en: 'deep/heighten' },
+      meanings: { en: 'deep/heighten' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

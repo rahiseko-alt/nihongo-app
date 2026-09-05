@@ -10,7 +10,7 @@ export const KANJI_U08AAD = {
   reading: 'よむ',
   meaning: 'read',
   word: '読',
-      meanings: { ja: 'read', en: 'read', zh: '读', ko: '읽다', vi: 'đọc', ne: 'पढ्नु' },
+      meanings: { en: 'read', zh: '读', ko: '읽다', vi: 'đọc', ne: 'पढ्नु' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

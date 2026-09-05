@@ -10,7 +10,7 @@ export const KANJI_U078BA = {
   reading: 'かく',
   meaning: 'confirm',
   word: '確',
-      meanings: { ja: 'confirm', en: 'confirm', zh: '确认', ko: '확인', vi: 'xác nhận', ne: 'पुष्टि' },
+      meanings: { en: 'confirm', zh: '确认', ko: '확인', vi: 'xác nhận', ne: 'पुष्टि' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

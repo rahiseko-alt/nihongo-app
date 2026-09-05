@@ -10,7 +10,7 @@ export const KANJI_U05C4A = {
   reading: 'とどけ',
   meaning: 'notify',
   word: '届',
-      meanings: { ja: 'notify', en: 'notify', zh: '申报', ko: '신고', vi: 'thông báo', ne: 'सूचना' },
+      meanings: { en: 'notify', zh: '申报', ko: '신고', vi: 'thông báo', ne: 'सूचना' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

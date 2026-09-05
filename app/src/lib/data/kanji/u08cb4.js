@@ -10,7 +10,7 @@ export const KANJI_U08CB4 = {
   reading: 'とうとい',
   meaning: 'precious/value',
   word: '貴',
-      meanings: { ja: 'precious/value', en: 'precious/value', zh: '贵', vi: 'giá trị', ne: 'मूल्य' },
+      meanings: { en: 'precious/value', zh: '贵', vi: 'giá trị', ne: 'मूल्य' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

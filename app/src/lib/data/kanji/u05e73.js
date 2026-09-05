@@ -10,7 +10,7 @@ export const KANJI_U05E73 = {
   reading: 'たいら',
   meaning: 'even/flat',
   word: '平',
-      meanings: { ja: 'even/flat', en: 'even/flat' },
+      meanings: { en: 'even/flat' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

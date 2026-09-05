@@ -10,7 +10,7 @@ export const KANJI_U082E5 = {
   reading: 'わかい',
   meaning: 'young/if',
   word: '若',
-      meanings: { ja: 'young/if', en: 'young/if' },
+      meanings: { en: 'young/if' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

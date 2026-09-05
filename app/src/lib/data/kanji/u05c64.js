@@ -10,7 +10,7 @@ export const KANJI_U05C64 = {
   reading: 'そう',
   meaning: 'stratum/social class',
   word: '層',
-      meanings: { ja: 'stratum/social class', en: 'stratum/social class', zh: '层', vi: 'lớp học', ne: 'कक्षा' },
+      meanings: { en: 'stratum/social class', zh: '层', vi: 'lớp học', ne: 'कक्षा' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

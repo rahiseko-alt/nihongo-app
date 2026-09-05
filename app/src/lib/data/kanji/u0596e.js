@@ -10,7 +10,7 @@ export const KANJI_U0596E = {
   reading: 'ふん',
   meaning: 'stirred up/be invigorated',
   word: '奮',
-      meanings: { ja: 'stirred up/be invigorated', en: 'stirred up/be invigorated', zh: '奋' },
+      meanings: { en: 'stirred up/be invigorated', zh: '奋' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

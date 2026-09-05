@@ -10,7 +10,7 @@ export const KANJI_U052E2 = {
   reading: 'いきおい',
   meaning: 'forces/energy',
   word: '勢',
-      meanings: { ja: 'forces/energy', en: 'forces/energy', zh: '势' },
+      meanings: { en: 'forces/energy', zh: '势' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

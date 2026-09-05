@@ -10,7 +10,7 @@ export const KANJI_U088C5 = {
   reading: 'よそおう',
   meaning: 'attire/dress',
   word: '装',
-      meanings: { ja: 'attire/dress', en: 'attire/dress' },
+      meanings: { en: 'attire/dress' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

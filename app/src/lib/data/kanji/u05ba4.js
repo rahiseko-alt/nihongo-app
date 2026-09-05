@@ -10,7 +10,7 @@ export const KANJI_U05BA4 = {
   reading: 'しつ',
   meaning: 'room',
   word: '室',
-      meanings: { ja: 'room', en: 'room', zh: '房间', vi: 'phòng', ne: 'कोठा' },
+      meanings: { en: 'room', zh: '房间', vi: 'phòng', ne: 'कोठा' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

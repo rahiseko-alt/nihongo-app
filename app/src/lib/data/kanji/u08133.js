@@ -10,7 +10,7 @@ export const KANJI_U08133 = {
   reading: 'のう',
   meaning: 'brain/memory',
   word: '脳',
-      meanings: { ja: 'brain/memory', en: 'brain/memory', vi: 'não', ne: 'मस्तिष्क' },
+      meanings: { en: 'brain/memory', vi: 'não', ne: 'मस्तिष्क' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

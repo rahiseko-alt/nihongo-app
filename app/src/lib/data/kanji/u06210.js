@@ -10,7 +10,7 @@ export const KANJI_U06210 = {
   reading: 'なる',
   meaning: 'turn into/become',
   word: '成',
-      meanings: { ja: 'turn into/become', en: 'turn into/become' },
+      meanings: { en: 'turn into/become' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

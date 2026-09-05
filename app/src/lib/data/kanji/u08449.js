@@ -10,7 +10,7 @@ export const KANJI_U08449 = {
   reading: 'は',
   meaning: 'leaf/plane',
   word: '葉',
-      meanings: { ja: 'leaf/plane', en: 'leaf/plane', zh: '叶' },
+      meanings: { en: 'leaf/plane', zh: '叶' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

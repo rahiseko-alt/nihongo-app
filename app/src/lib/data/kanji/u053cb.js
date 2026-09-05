@@ -10,7 +10,7 @@ export const KANJI_U053CB = {
   reading: 'とも',
   meaning: 'friend',
   word: '友',
-      meanings: { ja: 'friend', en: 'friend', zh: '朋友', ko: '친구', vi: 'bạn', ne: 'साथी' },
+      meanings: { en: 'friend', zh: '朋友', ko: '친구', vi: 'bạn', ne: 'साथी' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

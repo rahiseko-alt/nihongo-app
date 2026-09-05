@@ -10,7 +10,7 @@ export const KANJI_U062C5 = {
   reading: 'になう',
   meaning: 'shouldering/carry',
   word: '担',
-      meanings: { ja: 'shouldering/carry', en: 'shouldering/carry' },
+      meanings: { en: 'shouldering/carry' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

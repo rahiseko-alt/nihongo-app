@@ -10,7 +10,7 @@ export const KANJI_U04E45 = {
   reading: 'ひさしい',
   meaning: 'long time/old story',
   word: '久',
-      meanings: { ja: 'long time/old story', en: 'long time/old story', vi: 'dài', ne: 'लामो' },
+      meanings: { en: 'long time/old story', vi: 'dài', ne: 'लामो' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

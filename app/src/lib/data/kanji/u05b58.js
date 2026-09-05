@@ -10,7 +10,7 @@ export const KANJI_U05B58 = {
   reading: 'そん',
   meaning: 'exist/suppose',
   word: '存',
-      meanings: { ja: 'exist/suppose', en: 'exist/suppose' },
+      meanings: { en: 'exist/suppose' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

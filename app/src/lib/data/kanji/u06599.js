@@ -10,7 +10,7 @@ export const KANJI_U06599 = {
   reading: 'りょう',
   meaning: 'fee',
   word: '料',
-      meanings: { ja: 'fee', en: 'fee', zh: '费用', ko: '요금', vi: 'phí', ne: 'शुल्क' },
+      meanings: { en: 'fee', zh: '费用', ko: '요금', vi: 'phí', ne: 'शुल्क' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

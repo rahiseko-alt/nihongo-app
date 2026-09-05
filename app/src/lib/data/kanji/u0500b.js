@@ -10,7 +10,7 @@ export const KANJI_U0500B = {
   reading: 'こ',
   meaning: 'individual/counter for articles',
   word: '個',
-      meanings: { ja: 'individual/counter for articles', en: 'individual/counter for articles', zh: '个' },
+      meanings: { en: 'individual/counter for articles', zh: '个' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U08B77 = {
   reading: 'ご',
   meaning: 'protect/care',
   word: '護',
-      meanings: { ja: 'protect/care', en: 'protect/care', zh: '护理', ko: '보호', vi: 'bảo vệ', ne: 'सुरक्षा' },
+      meanings: { en: 'protect/care', zh: '护理', ko: '보호', vi: 'bảo vệ', ne: 'सुरक्षा' },
   strokeCount: 20,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

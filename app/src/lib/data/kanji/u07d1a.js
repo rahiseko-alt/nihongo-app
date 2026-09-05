@@ -10,7 +10,7 @@ export const KANJI_U07D1A = {
   reading: 'きゅう',
   meaning: 'class/rank',
   word: '級',
-      meanings: { ja: 'class/rank', en: 'class/rank', zh: '级', vi: 'lớp học', ne: 'कक्षा' },
+      meanings: { en: 'class/rank', zh: '级', vi: 'lớp học', ne: 'कक्षा' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

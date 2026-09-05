@@ -10,7 +10,7 @@ export const KANJI_U07269 = {
   reading: 'もの',
   meaning: 'thing',
   word: '物',
-      meanings: { ja: 'thing', en: 'thing', zh: '东西', ko: '물건', vi: 'vật', ne: 'वस्तु' },
+      meanings: { en: 'thing', zh: '东西', ko: '물건', vi: 'vật', ne: 'वस्तु' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

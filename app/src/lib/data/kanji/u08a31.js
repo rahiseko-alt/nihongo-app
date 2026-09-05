@@ -10,7 +10,7 @@ export const KANJI_U08A31 = {
   reading: 'きょ',
   meaning: 'permit',
   word: '許',
-      meanings: { ja: 'permit', en: 'permit', zh: '许可', ko: '허가', vi: 'cho phép', ne: 'अनुमति' },
+      meanings: { en: 'permit', zh: '许可', ko: '허가', vi: 'cho phép', ne: 'अनुमति' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

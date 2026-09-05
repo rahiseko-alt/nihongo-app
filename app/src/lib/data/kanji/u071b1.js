@@ -10,7 +10,7 @@ export const KANJI_U071B1 = {
   reading: 'あつい',
   meaning: 'heat/temperature',
   word: '熱',
-      meanings: { ja: 'heat/temperature', en: 'heat/temperature', zh: '热' },
+      meanings: { en: 'heat/temperature', zh: '热' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U08B66 = {
   reading: 'けい',
   meaning: 'warning',
   word: '警',
-      meanings: { ja: 'warning', en: 'warning', zh: '警告', ko: '경고', vi: 'cảnh báo', ne: 'चेतावनी' },
+      meanings: { en: 'warning', zh: '警告', ko: '경고', vi: 'cảnh báo', ne: 'चेतावनी' },
   strokeCount: 19,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

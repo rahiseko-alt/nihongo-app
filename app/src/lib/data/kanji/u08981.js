@@ -10,7 +10,7 @@ export const KANJI_U08981 = {
   reading: 'よう',
   meaning: 'need/main point',
   word: '要',
-      meanings: { ja: 'need/main point', en: 'need/main point' },
+      meanings: { en: 'need/main point' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0594F = {
   reading: 'かなでる',
   meaning: 'play music/speak to a ruler',
   word: '奏',
-      meanings: { ja: 'play music/speak to a ruler', en: 'play music/speak to a ruler' },
+      meanings: { en: 'play music/speak to a ruler' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

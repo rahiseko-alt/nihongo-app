@@ -10,7 +10,7 @@ export const KANJI_U0907F = {
   reading: 'ひ',
   meaning: 'avoid',
   word: '避',
-      meanings: { ja: 'avoid', en: 'avoid', zh: '避难', ko: '피하다', vi: 'tránh', ne: 'जोगिनु' },
+      meanings: { en: 'avoid', zh: '避难', ko: '피하다', vi: 'tránh', ne: 'जोगिनु' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

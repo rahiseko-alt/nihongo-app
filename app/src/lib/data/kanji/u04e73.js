@@ -10,7 +10,7 @@ export const KANJI_U04E73 = {
   reading: 'ちち',
   meaning: 'milk/breasts',
   word: '乳',
-      meanings: { ja: 'milk/breasts', en: 'milk/breasts', vi: 'sữa', ne: 'दूध' },
+      meanings: { en: 'milk/breasts', vi: 'sữa', ne: 'दूध' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

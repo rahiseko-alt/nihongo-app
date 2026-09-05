@@ -10,7 +10,7 @@ export const KANJI_U07533 = {
   reading: 'しん',
   meaning: 'apply',
   word: '申',
-      meanings: { ja: 'apply', en: 'apply', zh: '申请', ko: '신청', vi: 'nộp đơn', ne: 'आवेदन' },
+      meanings: { en: 'apply', zh: '申请', ko: '신청', vi: 'nộp đơn', ne: 'आवेदन' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

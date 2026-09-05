@@ -10,7 +10,7 @@ export const KANJI_U04F11 = {
   reading: 'やすむ',
   meaning: 'rest',
   word: '休',
-      meanings: { ja: 'rest', en: 'rest', zh: '休息', ko: '쉬다', vi: 'nghỉ', ne: 'आराम' },
+      meanings: { en: 'rest', zh: '休息', ko: '쉬다', vi: 'nghỉ', ne: 'आराम' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

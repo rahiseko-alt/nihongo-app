@@ -10,7 +10,7 @@ export const KANJI_U08336 = {
   reading: 'ちゃ',
   meaning: 'tea',
   word: '茶',
-      meanings: { ja: 'tea', en: 'tea', vi: 'trà', ne: 'चिया' },
+      meanings: { en: 'tea', vi: 'trà', ne: 'चिया' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U07DBF = {
   reading: 'わた',
   meaning: 'cotton',
   word: '綿',
-      meanings: { ja: 'cotton', en: 'cotton', zh: '绵' },
+      meanings: { en: 'cotton', zh: '绵' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

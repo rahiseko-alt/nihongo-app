@@ -10,7 +10,7 @@ export const KANJI_U05F0F = {
   reading: 'しき',
   meaning: 'style/ceremony',
   word: '式',
-      meanings: { ja: 'style/ceremony', en: 'style/ceremony', vi: 'nghi lễ', ne: 'समारोह' },
+      meanings: { en: 'style/ceremony', vi: 'nghi lễ', ne: 'समारोह' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

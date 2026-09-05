@@ -10,7 +10,7 @@ export const KANJI_U06163 = {
   reading: 'なれる',
   meaning: 'accustomed/get used to',
   word: '慣',
-      meanings: { ja: 'accustomed/get used to', en: 'accustomed/get used to', zh: '惯' },
+      meanings: { en: 'accustomed/get used to', zh: '惯' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

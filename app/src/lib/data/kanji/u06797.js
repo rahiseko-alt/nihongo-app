@@ -10,7 +10,7 @@ export const KANJI_U06797 = {
   reading: 'はやし',
   meaning: 'grove/forest',
   word: '林',
-      meanings: { ja: 'grove/forest', en: 'grove/forest' },
+      meanings: { en: 'grove/forest' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

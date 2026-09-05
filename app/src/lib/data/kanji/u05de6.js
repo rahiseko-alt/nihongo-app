@@ -10,7 +10,7 @@ export const KANJI_U05DE6 = {
   reading: 'ひだり',
   meaning: 'left',
   word: '左',
-      meanings: { ja: 'left', en: 'left', ko: '왼쪽', vi: 'trái', ne: 'बायाँ' },
+      meanings: { en: 'left', ko: '왼쪽', vi: 'trái', ne: 'बायाँ' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

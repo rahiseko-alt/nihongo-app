@@ -10,7 +10,7 @@ export const KANJI_U06A19 = {
   reading: 'しるし',
   meaning: 'signpost/seal',
   word: '標',
-      meanings: { ja: 'signpost/seal', en: 'signpost/seal', zh: '标', vi: 'con dấu', ne: 'छाप' },
+      meanings: { en: 'signpost/seal', zh: '标', vi: 'con dấu', ne: 'छाप' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

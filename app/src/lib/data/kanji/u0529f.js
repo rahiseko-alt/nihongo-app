@@ -10,7 +10,7 @@ export const KANJI_U0529F = {
   reading: 'こう',
   meaning: 'achievement/merits',
   word: '功',
-      meanings: { ja: 'achievement/merits', en: 'achievement/merits' },
+      meanings: { en: 'achievement/merits' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

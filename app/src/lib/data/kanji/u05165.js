@@ -10,7 +10,7 @@ export const KANJI_U05165 = {
   reading: 'はいる',
   meaning: 'enter',
   word: '入',
-      meanings: { ja: 'enter', en: 'enter', zh: '进入', ko: '들어가다', vi: 'vào', ne: 'प्रवेश' },
+      meanings: { en: 'enter', zh: '进入', ko: '들어가다', vi: 'vào', ne: 'प्रवेश' },
   strokeCount: 2,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

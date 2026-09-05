@@ -10,7 +10,7 @@ export const KANJI_U0673A = {
   reading: 'つくえ',
   meaning: 'desk/table',
   word: '机',
-      meanings: { ja: 'desk/table', en: 'desk/table' },
+      meanings: { en: 'desk/table' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

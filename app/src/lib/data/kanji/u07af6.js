@@ -10,7 +10,7 @@ export const KANJI_U07AF6 = {
   reading: 'きそう',
   meaning: 'emulate/compete with',
   word: '競',
-      meanings: { ja: 'emulate/compete with', en: 'emulate/compete with', zh: '竞' },
+      meanings: { en: 'emulate/compete with', zh: '竞' },
   strokeCount: 20,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

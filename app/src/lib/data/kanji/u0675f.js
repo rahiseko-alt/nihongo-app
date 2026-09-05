@@ -10,7 +10,7 @@ export const KANJI_U0675F = {
   reading: 'たば',
   meaning: 'bundle/sheaf',
   word: '束',
-      meanings: { ja: 'bundle/sheaf', en: 'bundle/sheaf' },
+      meanings: { en: 'bundle/sheaf' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

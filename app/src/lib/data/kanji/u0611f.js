@@ -10,7 +10,7 @@ export const KANJI_U0611F = {
   reading: 'かん',
   meaning: 'feel/infect',
   word: '感',
-      meanings: { ja: 'feel/infect', en: 'feel/infect', zh: '感染', ko: '감염', vi: 'cảm thấy', ne: 'महसुस' },
+      meanings: { en: 'feel/infect', zh: '感染', ko: '감염', vi: 'cảm thấy', ne: 'महसुस' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

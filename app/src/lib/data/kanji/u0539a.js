@@ -10,7 +10,7 @@ export const KANJI_U0539A = {
   reading: 'あつい',
   meaning: 'thick/heavy',
   word: '厚',
-      meanings: { ja: 'thick/heavy', en: 'thick/heavy', vi: 'nặng', ne: 'भारी' },
+      meanings: { en: 'thick/heavy', vi: 'nặng', ne: 'भारी' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

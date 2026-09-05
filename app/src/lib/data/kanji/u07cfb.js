@@ -10,7 +10,7 @@ export const KANJI_U07CFB = {
   reading: 'けい',
   meaning: 'lineage/system',
   word: '系',
-      meanings: { ja: 'lineage/system', en: 'lineage/system', vi: 'hệ thống', ne: 'प्रणाली' },
+      meanings: { en: 'lineage/system', vi: 'hệ thống', ne: 'प्रणाली' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

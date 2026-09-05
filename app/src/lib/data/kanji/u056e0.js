@@ -10,7 +10,7 @@ export const KANJI_U056E0 = {
   reading: 'いん',
   meaning: 'cause/factor',
   word: '因',
-      meanings: { ja: 'cause/factor', en: 'cause/factor' },
+      meanings: { en: 'cause/factor' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U059BB = {
   reading: 'つま',
   meaning: 'wife/spouse',
   word: '妻',
-      meanings: { ja: 'wife/spouse', en: 'wife/spouse', vi: 'vợ', ne: 'श्रीमती' },
+      meanings: { en: 'wife/spouse', vi: 'vợ', ne: 'श्रीमती' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

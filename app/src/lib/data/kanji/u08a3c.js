@@ -10,7 +10,7 @@ export const KANJI_U08A3C = {
   reading: 'しょう',
   meaning: 'certificate',
   word: '証',
-      meanings: { ja: 'certificate', en: 'certificate', zh: '证明', ko: '증명', vi: 'giấy chứng nhận', ne: 'प्रमाणपत्र' },
+      meanings: { en: 'certificate', zh: '证明', ko: '증명', vi: 'giấy chứng nhận', ne: 'प्रमाणपत्र' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

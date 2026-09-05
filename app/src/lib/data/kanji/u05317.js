@@ -10,7 +10,7 @@ export const KANJI_U05317 = {
   reading: 'きた',
   meaning: 'north',
   word: '北',
-      meanings: { ja: 'north', en: 'north', ko: '북쪽', vi: 'bắc', ne: 'उत्तर' },
+      meanings: { en: 'north', ko: '북쪽', vi: 'bắc', ne: 'उत्तर' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

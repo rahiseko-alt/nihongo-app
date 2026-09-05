@@ -10,7 +10,7 @@ export const KANJI_U06D74 = {
   reading: 'あびる',
   meaning: 'bathe/be favored with',
   word: '浴',
-      meanings: { ja: 'bathe/be favored with', en: 'bathe/be favored with' },
+      meanings: { en: 'bathe/be favored with' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

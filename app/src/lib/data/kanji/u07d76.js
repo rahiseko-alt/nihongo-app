@@ -10,7 +10,7 @@ export const KANJI_U07D76 = {
   reading: 'たえる',
   meaning: 'discontinue/sever',
   word: '絶',
-      meanings: { ja: 'discontinue/sever', en: 'discontinue/sever', zh: '绝' },
+      meanings: { en: 'discontinue/sever', zh: '绝' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

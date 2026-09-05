@@ -10,7 +10,7 @@ export const KANJI_U08CC0 = {
   reading: 'が',
   meaning: 'congratulations/joy',
   word: '賀',
-      meanings: { ja: 'congratulations/joy', en: 'congratulations/joy', zh: '贺' },
+      meanings: { en: 'congratulations/joy', zh: '贺' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

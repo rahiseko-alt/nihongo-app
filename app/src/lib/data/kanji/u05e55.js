@@ -10,7 +10,7 @@ export const KANJI_U05E55 = {
   reading: 'まく',
   meaning: 'curtain/bunting',
   word: '幕',
-      meanings: { ja: 'curtain/bunting', en: 'curtain/bunting' },
+      meanings: { en: 'curtain/bunting' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

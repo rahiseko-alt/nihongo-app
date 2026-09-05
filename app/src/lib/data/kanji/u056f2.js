@@ -10,7 +10,7 @@ export const KANJI_U056F2 = {
   reading: 'かこむ',
   meaning: 'surround/besiege',
   word: '囲',
-      meanings: { ja: 'surround/besiege', en: 'surround/besiege' },
+      meanings: { en: 'surround/besiege' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06D77 = {
   reading: 'うみ',
   meaning: 'sea',
   word: '海',
-      meanings: { ja: 'sea', en: 'sea', ko: '바다', vi: 'biển', ne: 'समुद्र' },
+      meanings: { en: 'sea', ko: '바다', vi: 'biển', ne: 'समुद्र' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

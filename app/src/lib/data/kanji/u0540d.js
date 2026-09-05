@@ -10,7 +10,7 @@ export const KANJI_U0540D = {
   reading: 'なまえ',
   meaning: 'name',
   word: '名',
-      meanings: { ja: 'name', en: 'name', zh: '名字', ko: '이름', vi: 'tên', ne: 'नाम' },
+      meanings: { en: 'name', zh: '名字', ko: '이름', vi: 'tên', ne: 'नाम' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

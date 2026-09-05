@@ -10,7 +10,7 @@ export const KANJI_U05909 = {
   reading: 'へん',
   meaning: 'change',
   word: '変',
-      meanings: { ja: 'change', en: 'change', zh: '变化', ko: '변경', vi: 'thay đổi', ne: 'परिवर्तन' },
+      meanings: { en: 'change', zh: '变化', ko: '변경', vi: 'thay đổi', ne: 'परिवर्तन' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

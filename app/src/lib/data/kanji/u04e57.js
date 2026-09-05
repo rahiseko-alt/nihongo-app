@@ -10,7 +10,7 @@ export const KANJI_U04E57 = {
   reading: 'のる',
   meaning: 'ride',
   word: '乗',
-      meanings: { ja: 'ride', en: 'ride', zh: '乘坐', ko: '타다', vi: 'đi xe', ne: 'चढ्नु' },
+      meanings: { en: 'ride', zh: '乘坐', ko: '타다', vi: 'đi xe', ne: 'चढ्नु' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

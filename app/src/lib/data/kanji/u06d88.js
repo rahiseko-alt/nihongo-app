@@ -10,7 +10,7 @@ export const KANJI_U06D88 = {
   reading: 'しょう',
   meaning: 'extinguish',
   word: '消',
-      meanings: { ja: 'extinguish', en: 'extinguish', zh: '消防', ko: '소방', vi: 'dập tắt', ne: 'निभाउनु' },
+      meanings: { en: 'extinguish', zh: '消防', ko: '소방', vi: 'dập tắt', ne: 'निभाउनु' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

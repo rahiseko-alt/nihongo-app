@@ -10,7 +10,7 @@ export const KANJI_U05727 = {
   reading: 'あつ',
   meaning: 'pressure/push',
   word: '圧',
-      meanings: { ja: 'pressure/push', en: 'pressure/push' },
+      meanings: { en: 'pressure/push' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

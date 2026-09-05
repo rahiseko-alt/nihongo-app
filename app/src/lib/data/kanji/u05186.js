@@ -10,7 +10,7 @@ export const KANJI_U05186 = {
   reading: 'えん',
   meaning: 'yen',
   word: '円',
-      meanings: { ja: 'yen', en: 'yen', zh: '日元', vi: 'yên', ne: 'येन' },
+      meanings: { en: 'yen', zh: '日元', vi: 'yên', ne: 'येन' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

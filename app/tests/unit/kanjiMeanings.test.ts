@@ -82,6 +82,19 @@ describe('漢字データの意味欄', () => {
     expect(found).toEqual([]);
   });
 
+  // 日本語欄は play 画面で常に 1 行目に出る。英語がそのまま入っていると、
+  // 日本語行と英語行に同じ文字列が並んでしまう。訳が無いなら空欄にする。
+  it('日本語欄に英語が残っていない', () => {
+    const found: string[] = [];
+
+    for (const file of kanjiFiles()) {
+      const ja = readMeanings(file)?.meanings.ja;
+      if (ja && /^[\x20-\x7E]+$/.test(ja)) found.push(`${file} (ja が英語: ${ja})`);
+    }
+
+    expect(found).toEqual([]);
+  });
+
   it('1000字パックの意味欄そのものは消えていない', () => {
     const files = packFiles();
     expect(files.length).toBeGreaterThan(0);

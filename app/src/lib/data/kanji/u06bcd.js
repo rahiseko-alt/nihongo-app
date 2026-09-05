@@ -10,7 +10,7 @@ export const KANJI_U06BCD = {
   reading: 'はは',
   meaning: 'mother',
   word: '母',
-      meanings: { ja: 'mother', en: 'mother', zh: '母亲', ko: '어머니', vi: 'mẹ', ne: 'आमा' },
+      meanings: { en: 'mother', zh: '母亲', ko: '어머니', vi: 'mẹ', ne: 'आमा' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

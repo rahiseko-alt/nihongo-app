@@ -10,7 +10,7 @@ export const KANJI_U05B97 = {
   reading: 'しゅう',
   meaning: 'religion/sect',
   word: '宗',
-      meanings: { ja: 'religion/sect', en: 'religion/sect' },
+      meanings: { en: 'religion/sect' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

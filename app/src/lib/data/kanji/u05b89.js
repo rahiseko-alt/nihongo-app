@@ -10,7 +10,7 @@ export const KANJI_U05B89 = {
   reading: 'あん',
   meaning: 'safe',
   word: '安',
-      meanings: { ja: 'safe', en: 'safe', zh: '安全', ko: '안전', vi: 'an toàn', ne: 'सुरक्षित' },
+      meanings: { en: 'safe', zh: '安全', ko: '안전', vi: 'an toàn', ne: 'सुरक्षित' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

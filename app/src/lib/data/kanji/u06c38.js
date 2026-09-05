@@ -10,7 +10,7 @@ export const KANJI_U06C38 = {
   reading: 'ながい',
   meaning: 'eternity/long',
   word: '永',
-      meanings: { ja: 'eternity/long', en: 'eternity/long', vi: 'dài', ne: 'लामो' },
+      meanings: { en: 'eternity/long', vi: 'dài', ne: 'लामो' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U059CB = {
   reading: 'はじめる',
   meaning: 'commence/begin',
   word: '始',
-      meanings: { ja: 'commence/begin', en: 'commence/begin' },
+      meanings: { en: 'commence/begin' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

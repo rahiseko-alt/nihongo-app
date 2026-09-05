@@ -10,7 +10,7 @@ export const KANJI_U09AA8 = {
   reading: 'ほね',
   meaning: 'skeleton/bone',
   word: '骨',
-      meanings: { ja: 'skeleton/bone', en: 'skeleton/bone' },
+      meanings: { en: 'skeleton/bone' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

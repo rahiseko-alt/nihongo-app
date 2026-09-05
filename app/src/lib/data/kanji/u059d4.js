@@ -10,7 +10,7 @@ export const KANJI_U059D4 = {
   reading: 'い',
   meaning: 'committee/entrust to',
   word: '委',
-      meanings: { ja: 'committee/entrust to', en: 'committee/entrust to' },
+      meanings: { en: 'committee/entrust to' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

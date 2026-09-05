@@ -10,7 +10,7 @@ export const KANJI_U08A3A = {
   reading: 'しん',
   meaning: 'medical exam',
   word: '診',
-      meanings: { ja: 'medical exam', en: 'medical exam', zh: '诊察', ko: '진찰', vi: 'kỳ thi', ne: 'परीक्षा' },
+      meanings: { en: 'medical exam', zh: '诊察', ko: '진찰', vi: 'kỳ thi', ne: 'परीक्षा' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

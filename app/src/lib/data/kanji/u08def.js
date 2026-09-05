@@ -10,7 +10,7 @@ export const KANJI_U08DEF = {
   reading: 'ろ',
   meaning: 'path/route',
   word: '路',
-      meanings: { ja: 'path/route', en: 'path/route', vi: 'tuyến đường', ne: 'मार्ग' },
+      meanings: { en: 'path/route', vi: 'tuyến đường', ne: 'मार्ग' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

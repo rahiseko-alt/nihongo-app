@@ -10,7 +10,7 @@ export const KANJI_U0518D = {
   reading: 'さい',
   meaning: 'again/twice',
   word: '再',
-      meanings: { ja: 'again/twice', en: 'again/twice', vi: 'lại', ne: 'फेरि' },
+      meanings: { en: 'again/twice', vi: 'lại', ne: 'फेरि' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

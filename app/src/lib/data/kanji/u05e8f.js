@@ -10,7 +10,7 @@ export const KANJI_U05E8F = {
   reading: 'じょ',
   meaning: 'preface/beginning',
   word: '序',
-      meanings: { ja: 'preface/beginning', en: 'preface/beginning', vi: 'bắt đầu', ne: 'सुरुवात' },
+      meanings: { en: 'preface/beginning', vi: 'bắt đầu', ne: 'सुरुवात' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

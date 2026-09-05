@@ -10,7 +10,7 @@ export const KANJI_U05B98 = {
   reading: 'かん',
   meaning: 'bureaucrat/the government',
   word: '官',
-      meanings: { ja: 'bureaucrat/the government', en: 'bureaucrat/the government', vi: 'chính phủ', ne: 'सरकार' },
+      meanings: { en: 'bureaucrat/the government', vi: 'chính phủ', ne: 'सरकार' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

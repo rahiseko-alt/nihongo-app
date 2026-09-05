@@ -62,7 +62,6 @@ export interface TranslationDict {
   meaningForeignLabelKo: string;
   meaningForeignLabelVi: string;
   meaningForeignLabelNe: string;
-  meaningUnset: string;
 }
 
 export const translations: Record<string, TranslationDict> = {
@@ -130,7 +129,6 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelKo: '한국어',
     meaningForeignLabelVi: 'Tiếng Việt',
     meaningForeignLabelNe: 'नेपाली',
-    meaningUnset: '意味未設定',
   },
   en: {
     title: 'Senbon',
@@ -196,7 +194,6 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelKo: 'Korean',
     meaningForeignLabelVi: 'Vietnamese',
     meaningForeignLabelNe: 'Nepali',
-    meaningUnset: 'Meaning not set',
   },
   zh: {
     title: 'Senbon',
@@ -262,7 +259,6 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelKo: '韩语',
     meaningForeignLabelVi: '越南语',
     meaningForeignLabelNe: '尼泊尔语',
-    meaningUnset: '未设置含义',
   },
   ko: {
     title: 'Senbon',
@@ -328,7 +324,6 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelKo: '한국어',
     meaningForeignLabelVi: '베트남어',
     meaningForeignLabelNe: '네팔어',
-    meaningUnset: '의미 미설정',
   },
   vi: {
     title: 'Senbon',
@@ -394,7 +389,6 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelKo: 'Tiếng Hàn',
     meaningForeignLabelVi: 'Tiếng Việt',
     meaningForeignLabelNe: 'Tiếng Nepal',
-    meaningUnset: 'Chưa đặt nghĩa',
   },
   ne: {
     title: 'Senbon',
@@ -460,6 +454,5 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelKo: 'कोरियाली',
     meaningForeignLabelVi: 'भियतनामी',
     meaningForeignLabelNe: 'नेपाली',
-    meaningUnset: 'अर्थ सेट छैन',
   },
 };

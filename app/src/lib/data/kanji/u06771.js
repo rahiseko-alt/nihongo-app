@@ -10,7 +10,7 @@ export const KANJI_U06771 = {
   reading: 'ひがし',
   meaning: 'east',
   word: '東',
-      meanings: { ja: 'east', en: 'east', zh: '东', ko: '동쪽', vi: 'đông', ne: 'पूर्व' },
+      meanings: { en: 'east', zh: '东', ko: '동쪽', vi: 'đông', ne: 'पूर्व' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

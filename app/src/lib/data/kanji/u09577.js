@@ -10,7 +10,7 @@ export const KANJI_U09577 = {
   reading: 'ながい',
   meaning: 'long/leader',
   word: '長',
-      meanings: { ja: 'long/leader', en: 'long/leader', zh: '长', vi: 'dài', ne: 'लामो' },
+      meanings: { en: 'long/leader', zh: '长', vi: 'dài', ne: 'लामो' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

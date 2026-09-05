@@ -10,7 +10,7 @@ export const KANJI_U08AD6 = {
   reading: 'ろん',
   meaning: 'argument/discourse',
   word: '論',
-      meanings: { ja: 'argument/discourse', en: 'argument/discourse', zh: '论' },
+      meanings: { en: 'argument/discourse', zh: '论' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

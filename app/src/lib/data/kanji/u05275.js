@@ -10,7 +10,7 @@ export const KANJI_U05275 = {
   reading: 'つくる',
   meaning: 'genesis/wound',
   word: '創',
-      meanings: { ja: 'genesis/wound', en: 'genesis/wound', zh: '创' },
+      meanings: { en: 'genesis/wound', zh: '创' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

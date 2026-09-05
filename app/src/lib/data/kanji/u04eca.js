@@ -10,7 +10,7 @@ export const KANJI_U04ECA = {
   reading: 'いま',
   meaning: 'now',
   word: '今',
-      meanings: { ja: 'now', en: 'now', zh: '现在', ko: '지금', vi: 'bây giờ', ne: 'अहिले' },
+      meanings: { en: 'now', zh: '现在', ko: '지금', vi: 'bây giờ', ne: 'अहिले' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

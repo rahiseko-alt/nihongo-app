@@ -10,7 +10,7 @@ export const KANJI_U08CC3 = {
   reading: 'ちん',
   meaning: 'rent',
   word: '賃',
-      meanings: { ja: 'rent', en: 'rent', zh: '租金', ko: '임대료', vi: 'tiền thuê', ne: 'भाडा' },
+      meanings: { en: 'rent', zh: '租金', ko: '임대료', vi: 'tiền thuê', ne: 'भाडा' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0964D = {
   reading: 'おりる',
   meaning: 'get off',
   word: '降',
-      meanings: { ja: 'get off', en: 'get off', zh: '下车', ko: '내리다', vi: 'xuống xe', ne: 'ओर्लनु' },
+      meanings: { en: 'get off', zh: '下车', ko: '내리다', vi: 'xuống xe', ne: 'ओर्लनु' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

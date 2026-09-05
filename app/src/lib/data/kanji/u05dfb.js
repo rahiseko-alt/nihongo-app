@@ -10,7 +10,7 @@ export const KANJI_U05DFB = {
   reading: 'まく',
   meaning: 'scroll/volume',
   word: '巻',
-      meanings: { ja: 'scroll/volume', en: 'scroll/volume' },
+      meanings: { en: 'scroll/volume' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

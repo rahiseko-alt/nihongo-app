@@ -10,7 +10,7 @@ export const KANJI_U0767E = {
   reading: 'ひゃく',
   meaning: 'hundred',
   word: '百',
-      meanings: { ja: 'hundred', en: 'hundred', vi: 'trăm', ne: 'सय' },
+      meanings: { en: 'hundred', vi: 'trăm', ne: 'सय' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

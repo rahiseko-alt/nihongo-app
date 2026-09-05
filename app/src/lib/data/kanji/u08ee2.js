@@ -10,7 +10,7 @@ export const KANJI_U08EE2 = {
   reading: 'ころぶ',
   meaning: 'revolve/turn around',
   word: '転',
-      meanings: { ja: 'revolve/turn around', en: 'revolve/turn around' },
+      meanings: { en: 'revolve/turn around' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

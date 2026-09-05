@@ -10,7 +10,7 @@ export const KANJI_U09632 = {
   reading: 'ぼう',
   meaning: 'prevent',
   word: '防',
-      meanings: { ja: 'prevent', en: 'prevent', zh: '防止', ko: '방지', vi: 'phòng ngừa', ne: 'रोकथाम' },
+      meanings: { en: 'prevent', zh: '防止', ko: '방지', vi: 'phòng ngừa', ne: 'रोकथाम' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

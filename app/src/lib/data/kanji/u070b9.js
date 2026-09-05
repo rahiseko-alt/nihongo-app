@@ -10,7 +10,7 @@ export const KANJI_U070B9 = {
   reading: 'てん',
   meaning: 'spot/point',
   word: '点',
-      meanings: { ja: 'spot/point', en: 'spot/point' },
+      meanings: { en: 'spot/point' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

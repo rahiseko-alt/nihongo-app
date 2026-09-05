@@ -10,7 +10,7 @@ export const KANJI_U0805E = {
   reading: 'きく',
   meaning: 'hear',
   word: '聞',
-      meanings: { ja: 'hear', en: 'hear', zh: '听', ko: '듣다', vi: 'nghe', ne: 'सुन्नु' },
+      meanings: { en: 'hear', zh: '听', ko: '듣다', vi: 'nghe', ne: 'सुन्नु' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

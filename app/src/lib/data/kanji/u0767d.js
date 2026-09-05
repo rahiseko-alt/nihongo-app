@@ -10,7 +10,7 @@ export const KANJI_U0767D = {
   reading: 'しろ',
   meaning: 'white',
   word: '白',
-      meanings: { ja: 'white', en: 'white', ko: '흰색', vi: 'trắng', ne: 'सेतो' },
+      meanings: { en: 'white', ko: '흰색', vi: 'trắng', ne: 'सेतो' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

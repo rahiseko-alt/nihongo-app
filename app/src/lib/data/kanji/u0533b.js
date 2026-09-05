@@ -10,7 +10,7 @@ export const KANJI_U0533B = {
   reading: 'い',
   meaning: 'doctor/medicine',
   word: '医',
-      meanings: { ja: 'doctor/medicine', en: 'doctor/medicine', vi: 'bác sĩ', ne: 'डाक्टर' },
+      meanings: { en: 'doctor/medicine', vi: 'bác sĩ', ne: 'डाक्टर' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

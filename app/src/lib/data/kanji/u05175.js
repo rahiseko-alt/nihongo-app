@@ -10,7 +10,7 @@ export const KANJI_U05175 = {
   reading: 'へい',
   meaning: 'soldier/private',
   word: '兵',
-      meanings: { ja: 'soldier/private', en: 'soldier/private', vi: 'riêng tư', ne: 'निजी' },
+      meanings: { en: 'soldier/private', vi: 'riêng tư', ne: 'निजी' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

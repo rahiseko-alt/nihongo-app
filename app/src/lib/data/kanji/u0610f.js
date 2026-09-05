@@ -10,7 +10,7 @@ export const KANJI_U0610F = {
   reading: 'い',
   meaning: 'attention',
   word: '意',
-      meanings: { ja: 'attention', en: 'attention', zh: '意思', ko: '의미', vi: 'chú ý', ne: 'ध्यान' },
+      meanings: { en: 'attention', zh: '意思', ko: '의미', vi: 'chú ý', ne: 'ध्यान' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

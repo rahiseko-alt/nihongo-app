@@ -10,7 +10,7 @@ export const KANJI_U067D3 = {
   reading: 'せん',
   meaning: 'infect/dye',
   word: '染',
-      meanings: { ja: 'infect/dye', en: 'infect/dye', zh: '感染', ko: '감염', vi: 'nhiễm', ne: 'संक्रमण' },
+      meanings: { en: 'infect/dye', zh: '感染', ko: '감염', vi: 'nhiễm', ne: 'संक्रमण' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

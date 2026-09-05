@@ -10,7 +10,7 @@ export const KANJI_U07AE5 = {
   reading: 'どう',
   meaning: 'juvenile/child',
   word: '童',
-      meanings: { ja: 'juvenile/child', en: 'juvenile/child', vi: 'trẻ em', ne: 'बालक' },
+      meanings: { en: 'juvenile/child', vi: 'trẻ em', ne: 'बालक' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

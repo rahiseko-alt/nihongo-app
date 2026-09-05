@@ -10,7 +10,7 @@ export const KANJI_U04ECF = {
   reading: 'ほとけ',
   meaning: 'Buddha/the dead',
   word: '仏',
-      meanings: { ja: 'Buddha/the dead', en: 'Buddha/the dead' },
+      meanings: { en: 'Buddha/the dead' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

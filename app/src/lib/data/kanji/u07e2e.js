@@ -10,7 +10,7 @@ export const KANJI_U07E2E = {
   reading: 'ちぢむ',
   meaning: 'shrink/contract',
   word: '縮',
-      meanings: { ja: 'shrink/contract', en: 'shrink/contract', zh: '缩', vi: 'hợp đồng', ne: 'सम्झौता' },
+      meanings: { en: 'shrink/contract', zh: '缩', vi: 'hợp đồng', ne: 'सम्झौता' },
   strokeCount: 17,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

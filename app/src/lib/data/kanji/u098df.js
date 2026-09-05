@@ -10,7 +10,7 @@ export const KANJI_U098DF = {
   reading: 'たべる',
   meaning: 'eat',
   word: '食',
-      meanings: { ja: 'eat', en: 'eat', zh: '吃', ko: '먹다', vi: 'ăn', ne: 'खानु' },
+      meanings: { en: 'eat', zh: '吃', ko: '먹다', vi: 'ăn', ne: 'खानु' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

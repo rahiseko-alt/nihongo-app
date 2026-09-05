@@ -10,7 +10,7 @@ export const KANJI_U075C7 = {
   reading: 'しょう',
   meaning: 'symptom',
   word: '症',
-      meanings: { ja: 'symptom', en: 'symptom', zh: '症状', ko: '증상', vi: 'triệu chứng', ne: 'लक्षण' },
+      meanings: { en: 'symptom', zh: '症状', ko: '증상', vi: 'triệu chứng', ne: 'लक्षण' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

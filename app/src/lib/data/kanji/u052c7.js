@@ -10,7 +10,7 @@ export const KANJI_U052C7 = {
   reading: 'いさむ',
   meaning: 'courage/cheer up',
   word: '勇',
-      meanings: { ja: 'courage/cheer up', en: 'courage/cheer up', ko: '용기', vi: 'trên', ne: 'माथि' },
+      meanings: { en: 'courage/cheer up', ko: '용기', vi: 'trên', ne: 'माथि' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

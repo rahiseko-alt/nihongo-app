@@ -10,7 +10,7 @@ export const KANJI_U08D77 = {
   reading: 'おきる',
   meaning: 'rouse/wake up',
   word: '起',
-      meanings: { ja: 'rouse/wake up', en: 'rouse/wake up', vi: 'trên', ne: 'माथि' },
+      meanings: { en: 'rouse/wake up', vi: 'trên', ne: 'माथि' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

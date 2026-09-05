@@ -10,7 +10,7 @@ export const KANJI_U082F1 = {
   reading: 'えい',
   meaning: 'English',
   word: '英',
-      meanings: { ja: 'English', en: 'English', zh: '英语', ko: '영어', vi: 'tiếng Anh', ne: 'अंग्रेजी' },
+      meanings: { en: 'English', zh: '英语', ko: '영어', vi: 'tiếng Anh', ne: 'अंग्रेजी' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

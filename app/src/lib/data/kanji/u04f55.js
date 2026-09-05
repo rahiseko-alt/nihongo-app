@@ -10,7 +10,7 @@ export const KANJI_U04F55 = {
   reading: 'なに',
   meaning: 'what',
   word: '何',
-      meanings: { ja: 'what', en: 'what', zh: '什么', ko: '무엇', vi: 'cái gì', ne: 'के' },
+      meanings: { en: 'what', zh: '什么', ko: '무엇', vi: 'cái gì', ne: 'के' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

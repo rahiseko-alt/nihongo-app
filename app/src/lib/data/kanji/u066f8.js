@@ -10,7 +10,7 @@ export const KANJI_U066F8 = {
   reading: 'かく',
   meaning: 'write',
   word: '書',
-      meanings: { ja: 'write', en: 'write', zh: '写', ko: '쓰다', vi: 'viết', ne: 'लेख्नु' },
+      meanings: { en: 'write', zh: '写', ko: '쓰다', vi: 'viết', ne: 'लेख्नु' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

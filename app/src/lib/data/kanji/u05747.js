@@ -10,7 +10,7 @@ export const KANJI_U05747 = {
   reading: 'きん',
   meaning: 'level/average',
   word: '均',
-      meanings: { ja: 'level/average', en: 'level/average' },
+      meanings: { en: 'level/average' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05E9C = {
   reading: 'ふ',
   meaning: 'prefecture office',
   word: '府',
-      meanings: { ja: 'prefecture office', en: 'prefecture office', vi: 'tỉnh / văn phòng', ne: 'प्रान्त / कार्यालय' },
+      meanings: { en: 'prefecture office', vi: 'tỉnh / văn phòng', ne: 'प्रान्त / कार्यालय' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06D3E = {
   reading: 'は',
   meaning: 'faction/group',
   word: '派',
-      meanings: { ja: 'faction/group', en: 'faction/group', vi: 'nhóm', ne: 'समूह' },
+      meanings: { en: 'faction/group', vi: 'nhóm', ne: 'समूह' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

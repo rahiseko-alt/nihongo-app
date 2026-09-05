@@ -10,7 +10,7 @@ export const KANJI_U06C17 = {
   reading: 'き',
   meaning: 'spirit',
   word: '気',
-      meanings: { ja: 'spirit', en: 'spirit', zh: '气', ko: '기운', vi: 'tinh thần', ne: 'आत्मा' },
+      meanings: { en: 'spirit', zh: '气', ko: '기운', vi: 'tinh thần', ne: 'आत्मा' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

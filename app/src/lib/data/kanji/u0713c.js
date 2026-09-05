@@ -10,7 +10,7 @@ export const KANJI_U0713C = {
   reading: 'やく',
   meaning: 'bake/burning',
   word: '焼',
-      meanings: { ja: 'bake/burning', en: 'bake/burning' },
+      meanings: { en: 'bake/burning' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

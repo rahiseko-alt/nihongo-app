@@ -10,7 +10,7 @@ export const KANJI_U072B6 = {
   reading: 'じょう',
   meaning: 'condition',
   word: '状',
-      meanings: { ja: 'condition', en: 'condition', zh: '状态', ko: '상태', vi: 'tình trạng', ne: 'अवस्था' },
+      meanings: { en: 'condition', zh: '状态', ko: '상태', vi: 'tình trạng', ne: 'अवस्था' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

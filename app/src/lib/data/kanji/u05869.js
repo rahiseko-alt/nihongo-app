@@ -10,7 +10,7 @@ export const KANJI_U05869 = {
   reading: 'しお',
   meaning: 'salt',
   word: '塩',
-      meanings: { ja: 'salt', en: 'salt' },
+      meanings: { en: 'salt' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U08089 = {
   reading: 'にく',
   meaning: 'meat',
   word: '肉',
-      meanings: { ja: 'meat', en: 'meat', vi: 'thịt', ne: 'मासु' },
+      meanings: { en: 'meat', vi: 'thịt', ne: 'मासु' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

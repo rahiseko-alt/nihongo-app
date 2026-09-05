@@ -10,7 +10,7 @@ export const KANJI_U07B49 = {
   reading: 'とう',
   meaning: 'etc./and so forth',
   word: '等',
-      meanings: { ja: 'etc./and so forth', en: 'etc./and so forth' },
+      meanings: { en: 'etc./and so forth' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

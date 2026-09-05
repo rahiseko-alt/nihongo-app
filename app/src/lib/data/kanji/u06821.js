@@ -10,7 +10,7 @@ export const KANJI_U06821 = {
   reading: 'こう',
   meaning: 'school',
   word: '校',
-      meanings: { ja: 'school', en: 'school', zh: '学校', ko: '학교', vi: 'trường học', ne: 'विद्यालय' },
+      meanings: { en: 'school', zh: '学校', ko: '학교', vi: 'trường học', ne: 'विद्यालय' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入
