@@ -100,6 +100,38 @@ export const EN_MEANING: Record<string, string> = {
   口: 'mouth',
   神: 'god',
   奈: 'Nara',
+  愛: 'love',
+  知: 'know',
+  飛: 'fly',
+  府: 'prefecture',
+  岐: 'fork',
+  茨: 'thorn',
+  児: 'child',
+  城: 'castle',
+  歌: 'song',
+  川: 'river',
+  阜: 'hill',
+  大: 'big',
+  阪: 'slope',
+  鹿: 'deer',
+  島: 'island',
+  和: 'harmony',
+};
+
+// 都道府県名セット（app/src/lib/data/kanji/ai.js 等26ファイル）用の日本語の意味。
+// これらのファイルは meanings を持たないため、getMeaning はここを見に来る。
+// 字そのものを意味として書いても学習者には何も伝わらないため（中国語欄で
+// 同じ問題を修正済み）、根拠のある訳語がある字だけを載せる。残りは空欄のまま。
+export const JA_MEANING: Record<string, string> = {
+  知: '知る',
+  飛: '飛ぶ',
+  府: '政府',
+  岐: '岐路',
+  茨: 'とげ',
+  児: '子供',
+  阜: '丘',
+  大: '大きい',
+  阪: '坂',
 };
 
 export const ZH_MEANING: Record<string, string> = {
@@ -299,6 +331,7 @@ export const KO_MEANING: Record<string, string> = {
 };
 
 const FALLBACK_MEANING: Record<string, Record<string, string>> = {
+  ja: JA_MEANING,
   en: EN_MEANING,
   zh: ZH_MEANING,
   ko: KO_MEANING,
