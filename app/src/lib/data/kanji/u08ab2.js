@@ -10,7 +10,7 @@ export const KANJI_U08AB2 = {
   reading: 'か',
   meaning: 'chapter/lesson',
   word: '課',
-      meanings: { ja: 'chapter/lesson', en: 'chapter/lesson', zh: '课', ko: '과', vi: 'bài học', ne: 'पाठ' },
+      meanings: { ja: 'chapter/lesson', en: 'chapter/lesson', zh: '课', vi: 'bài học', ne: 'पाठ' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

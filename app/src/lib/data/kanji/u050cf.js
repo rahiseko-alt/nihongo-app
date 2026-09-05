@@ -10,7 +10,7 @@ export const KANJI_U050CF = {
   reading: 'ぞう',
   meaning: 'statue/picture',
   word: '像',
-      meanings: { ja: 'statue/picture', en: 'statue/picture', zh: '像', ko: '상' },
+      meanings: { ja: 'statue/picture', en: 'statue/picture' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

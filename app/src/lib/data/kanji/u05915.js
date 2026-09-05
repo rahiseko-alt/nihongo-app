@@ -10,7 +10,7 @@ export const KANJI_U05915 = {
   reading: 'ゆう',
   meaning: 'evening',
   word: '夕',
-      meanings: { ja: 'evening', en: 'evening', zh: '夕', ko: '석' },
+      meanings: { ja: 'evening', en: 'evening' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

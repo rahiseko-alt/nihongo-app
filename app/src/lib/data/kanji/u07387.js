@@ -10,7 +10,7 @@ export const KANJI_U07387 = {
   reading: 'りつ',
   meaning: 'ratio/rate',
   word: '率',
-      meanings: { ja: 'ratio/rate', en: 'ratio/rate', zh: '率', ko: '률', vi: 'tỷ lệ', ne: 'अनुपात' },
+      meanings: { ja: 'ratio/rate', en: 'ratio/rate', vi: 'tỷ lệ', ne: 'अनुपात' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

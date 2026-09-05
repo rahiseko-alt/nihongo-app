@@ -10,7 +10,7 @@ export const KANJI_U06238 = {
   reading: 'と',
   meaning: '戸',
   word: '戸',
-      meanings: { ja: '戸', en: 'door', zh: '门', ko: '문', vi: 'cửa', ne: 'ढोका' },
+      meanings: { ja: '戸', en: 'door', zh: '门', vi: 'cửa', ne: 'ढोका' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

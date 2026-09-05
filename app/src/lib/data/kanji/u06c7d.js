@@ -10,7 +10,7 @@ export const KANJI_U06C7D = {
   reading: 'き',
   meaning: '汽車の汽',
   word: '汽',
-      meanings: { ja: '汽車の汽', en: 'steam', zh: '汽', ko: '증기' },
+      meanings: { ja: '汽車の汽', en: 'steam', ko: '증기' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

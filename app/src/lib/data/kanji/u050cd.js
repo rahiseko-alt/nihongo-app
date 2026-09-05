@@ -10,7 +10,7 @@ export const KANJI_U050CD = {
   reading: 'はたらく',
   meaning: 'work/(kokuji)',
   word: '働',
-      meanings: { ja: 'work/(kokuji)', en: 'work/(kokuji)', zh: '𫢙', ko: 'work/(kokuji)', vi: 'công việc', ne: 'काम' },
+      meanings: { ja: 'work/(kokuji)', en: 'work/(kokuji)', zh: '𫢙', vi: 'công việc', ne: 'काम' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

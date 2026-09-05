@@ -10,7 +10,7 @@ export const KANJI_U05348 = {
   reading: 'ご',
   meaning: 'noon',
   word: '午',
-      meanings: { ja: 'noon', en: 'noon', zh: '午', ko: '정오', vi: 'buổi trưa', ne: 'दिउँसो' },
+      meanings: { ja: 'noon', en: 'noon', ko: '정오', vi: 'buổi trưa', ne: 'दिउँसो' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

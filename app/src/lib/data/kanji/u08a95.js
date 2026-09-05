@@ -10,7 +10,7 @@ export const KANJI_U08A95 = {
   reading: 'たん',
   meaning: 'nativity/be born',
   word: '誕',
-      meanings: { ja: 'nativity/be born', en: 'nativity/be born', zh: '诞', ko: '탄' },
+      meanings: { ja: 'nativity/be born', en: 'nativity/be born', zh: '诞' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

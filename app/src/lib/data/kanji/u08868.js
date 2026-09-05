@@ -10,7 +10,7 @@ export const KANJI_U08868 = {
   reading: 'ひょう',
   meaning: 'surface/table',
   word: '表',
-      meanings: { ja: 'surface/table', en: 'surface/table', zh: '表', ko: '표' },
+      meanings: { ja: 'surface/table', en: 'surface/table' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05343 = {
   reading: 'せん',
   meaning: 'thousand',
   word: '千',
-      meanings: { ja: 'thousand', en: 'thousand', zh: '千', ko: '천', vi: 'nghìn', ne: 'हजार' },
+      meanings: { ja: 'thousand', en: 'thousand', vi: 'nghìn', ne: 'हजार' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

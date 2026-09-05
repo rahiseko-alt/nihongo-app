@@ -10,7 +10,7 @@ export const KANJI_U08033 = {
   reading: 'みみ',
   meaning: '耳',
   word: '耳',
-      meanings: { ja: '耳', en: 'ear', zh: '耳', ko: '귀', vi: 'tai', ne: 'कान' },
+      meanings: { ja: '耳', en: 'ear', vi: 'tai', ne: 'कान' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

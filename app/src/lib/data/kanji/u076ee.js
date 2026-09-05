@@ -10,7 +10,7 @@ export const KANJI_U076EE = {
   reading: 'め',
   meaning: '目',
   word: '目',
-      meanings: { ja: '目', en: 'eye', zh: '眼睛', ko: '눈', vi: 'mắt', ne: 'आँखा' },
+      meanings: { ja: '目', en: 'eye', zh: '眼睛', vi: 'mắt', ne: 'आँखा' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

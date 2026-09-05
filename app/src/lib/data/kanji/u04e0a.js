@@ -10,7 +10,7 @@ export const KANJI_U04E0A = {
   reading: 'うえ',
   meaning: 'up',
   word: '上',
-      meanings: { ja: 'up', en: 'up', zh: '上', ko: '위', vi: 'trên', ne: 'माथि' },
+      meanings: { ja: 'up', en: 'up', vi: 'trên', ne: 'माथि' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

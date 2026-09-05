@@ -10,7 +10,7 @@ export const KANJI_U05F84 = {
   reading: 'けい',
   meaning: 'diameter/path',
   word: '径',
-      meanings: { ja: 'diameter/path', en: 'diameter/path', zh: '径', ko: 'diameter/path' },
+      meanings: { ja: 'diameter/path', en: 'diameter/path' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U069CB = {
   reading: 'かまえる',
   meaning: 'posture/stance',
   word: '構',
-      meanings: { ja: 'posture/stance', en: 'posture/stance', zh: '构', ko: '구' },
+      meanings: { ja: 'posture/stance', en: 'posture/stance', zh: '构' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

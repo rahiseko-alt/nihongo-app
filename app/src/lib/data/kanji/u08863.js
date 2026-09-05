@@ -10,7 +10,7 @@ export const KANJI_U08863 = {
   reading: 'ころも',
   meaning: 'garment/clothes',
   word: '衣',
-      meanings: { ja: 'garment/clothes', en: 'garment/clothes', zh: '衣', ko: '의' },
+      meanings: { ja: 'garment/clothes', en: 'garment/clothes' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

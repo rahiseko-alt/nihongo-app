@@ -10,7 +10,7 @@ export const KANJI_U05247 = {
   reading: 'そく',
   meaning: 'rule/law',
   word: '則',
-      meanings: { ja: 'rule/law', en: 'rule/law', zh: '则', ko: '칙', vi: 'quy tắc', ne: 'नियम' },
+      meanings: { ja: 'rule/law', en: 'rule/law', zh: '则', vi: 'quy tắc', ne: 'नियम' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

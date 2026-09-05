@@ -10,7 +10,7 @@ export const KANJI_U065B9 = {
   reading: 'ほう',
   meaning: 'direction/person',
   word: '方',
-      meanings: { ja: 'direction/person', en: 'direction/person', zh: '方', ko: '방', vi: 'người', ne: 'मानिस' },
+      meanings: { ja: 'direction/person', en: 'direction/person', vi: 'người', ne: 'मानिस' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

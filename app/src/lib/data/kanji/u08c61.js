@@ -10,7 +10,7 @@ export const KANJI_U08C61 = {
   reading: 'ぞう',
   meaning: 'elephant/pattern after',
   word: '象',
-      meanings: { ja: 'elephant/pattern after', en: 'elephant/pattern after', zh: '象', ko: '상', vi: 'sau', ne: 'पछि' },
+      meanings: { ja: 'elephant/pattern after', en: 'elephant/pattern after', vi: 'sau', ne: 'पछि' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

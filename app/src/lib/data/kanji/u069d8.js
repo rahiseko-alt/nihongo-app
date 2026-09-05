@@ -10,7 +10,7 @@ export const KANJI_U069D8 = {
   reading: 'さま',
   meaning: 'Esq./way',
   word: '様',
-      meanings: { ja: 'Esq./way', en: 'Esq./way', zh: '様', ko: 'Esq./way' },
+      meanings: { ja: 'Esq./way', en: 'Esq./way' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

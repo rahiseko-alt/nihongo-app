@@ -10,7 +10,7 @@ export const KANJI_U0640D = {
   reading: 'そん',
   meaning: 'damage/loss',
   word: '損',
-      meanings: { ja: 'damage/loss', en: 'damage/loss', zh: '损', ko: '손' },
+      meanings: { ja: 'damage/loss', en: 'damage/loss', zh: '损' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

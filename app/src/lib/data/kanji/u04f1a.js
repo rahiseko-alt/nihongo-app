@@ -10,7 +10,7 @@ export const KANJI_U04F1A = {
   reading: 'あう',
   meaning: 'meet',
   word: '会',
-      meanings: { ja: 'meet', en: 'meet', zh: '会', ko: '만나다', vi: 'gặp', ne: 'भेट्नु' },
+      meanings: { ja: 'meet', en: 'meet', ko: '만나다', vi: 'gặp', ne: 'भेट्नु' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

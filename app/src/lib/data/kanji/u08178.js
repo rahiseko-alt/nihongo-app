@@ -10,7 +10,7 @@ export const KANJI_U08178 = {
   reading: 'ちょう',
   meaning: 'intestines/guts',
   word: '腸',
-      meanings: { ja: 'intestines/guts', en: 'intestines/guts', zh: '肠', ko: '장' },
+      meanings: { ja: 'intestines/guts', en: 'intestines/guts', zh: '肠' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

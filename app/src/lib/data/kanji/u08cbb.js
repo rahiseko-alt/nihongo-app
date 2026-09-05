@@ -10,7 +10,7 @@ export const KANJI_U08CBB = {
   reading: 'ひ',
   meaning: 'expense/cost',
   word: '費',
-      meanings: { ja: 'expense/cost', en: 'expense/cost', zh: '费', ko: '비', vi: 'chi phí', ne: 'लागत' },
+      meanings: { ja: 'expense/cost', en: 'expense/cost', zh: '费', vi: 'chi phí', ne: 'लागत' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

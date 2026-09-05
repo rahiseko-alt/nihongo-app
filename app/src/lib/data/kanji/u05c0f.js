@@ -10,7 +10,7 @@ export const KANJI_U05C0F = {
   reading: 'ちいさい',
   meaning: '小さい',
   word: '小',
-      meanings: { ja: '小さい', en: 'small', zh: '小', ko: '작다', vi: 'nhỏ', ne: 'सानो' },
+      meanings: { ja: '小さい', en: 'small', ko: '작다', vi: 'nhỏ', ne: 'सानो' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

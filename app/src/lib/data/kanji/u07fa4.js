@@ -10,7 +10,7 @@ export const KANJI_U07FA4 = {
   reading: 'むれ',
   meaning: 'flock/group',
   word: '群',
-      meanings: { ja: 'flock/group', en: 'flock/group', zh: '群', ko: '군', vi: 'nhóm', ne: 'समूह' },
+      meanings: { ja: 'flock/group', en: 'flock/group', vi: 'nhóm', ne: 'समूह' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

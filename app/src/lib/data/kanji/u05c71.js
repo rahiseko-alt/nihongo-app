@@ -10,7 +10,7 @@ export const KANJI_U05C71 = {
   reading: 'やま',
   meaning: 'mountain',
   word: '山',
-      meanings: { ja: 'mountain', en: 'mountain', zh: '山', ko: '산', vi: 'núi', ne: 'हिमाल' },
+      meanings: { ja: 'mountain', en: 'mountain', vi: 'núi', ne: 'हिमाल' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

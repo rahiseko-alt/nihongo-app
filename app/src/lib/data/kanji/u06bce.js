@@ -10,7 +10,7 @@ export const KANJI_U06BCE = {
   reading: 'まい',
   meaning: 'every',
   word: '毎',
-      meanings: { ja: 'every', en: 'every', zh: '每', ko: '매', vi: 'mỗi', ne: 'हरेक' },
+      meanings: { ja: 'every', en: 'every', zh: '每', vi: 'mỗi', ne: 'हरेक' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

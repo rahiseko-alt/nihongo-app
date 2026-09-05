@@ -10,7 +10,7 @@ export const KANJI_U089A7 = {
   reading: 'らん',
   meaning: 'perusal/see',
   word: '覧',
-      meanings: { ja: 'perusal/see', en: 'perusal/see', zh: '覧', ko: 'perusal/see', vi: 'nhìn', ne: 'हेर्नु' },
+      meanings: { ja: 'perusal/see', en: 'perusal/see', vi: 'nhìn', ne: 'हेर्नु' },
   strokeCount: 17,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

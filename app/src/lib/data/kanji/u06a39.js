@@ -10,7 +10,7 @@ export const KANJI_U06A39 = {
   reading: 'き',
   meaning: 'timber/trees',
   word: '樹',
-      meanings: { ja: 'timber/trees', en: 'timber/trees', zh: '树', ko: '수' },
+      meanings: { ja: 'timber/trees', en: 'timber/trees', zh: '树' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

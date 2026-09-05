@@ -10,7 +10,7 @@ export const KANJI_U05927 = {
   reading: 'おおきい',
   meaning: '大きい',
   word: '大',
-      meanings: { ja: '大きい', en: 'big', zh: '大', ko: '크다', vi: 'lớn', ne: 'ठूलो' },
+      meanings: { ja: '大きい', en: 'big', ko: '크다', vi: 'lớn', ne: 'ठूलो' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

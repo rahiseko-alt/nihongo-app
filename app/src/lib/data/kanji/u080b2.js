@@ -10,7 +10,7 @@ export const KANJI_U080B2 = {
   reading: 'そだつ',
   meaning: 'bring up/grow up',
   word: '育',
-      meanings: { ja: 'bring up/grow up', en: 'bring up/grow up', zh: '育', ko: '육', vi: 'trên', ne: 'माथि' },
+      meanings: { ja: 'bring up/grow up', en: 'bring up/grow up', vi: 'trên', ne: 'माथि' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

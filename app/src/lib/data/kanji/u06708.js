@@ -10,7 +10,7 @@ export const KANJI_U06708 = {
   reading: 'つき',
   meaning: '月',
   word: '月',
-      meanings: { ja: '月', en: 'month/moon', zh: '月', ko: '달', vi: 'mặt trăng', ne: 'चन्द्रमा' },
+      meanings: { ja: '月', en: 'month/moon', vi: 'mặt trăng', ne: 'चन्द्रमा' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06226 = {
   reading: 'たたかう',
   meaning: 'war/battle',
   word: '戦',
-      meanings: { ja: 'war/battle', en: 'war/battle', zh: '戦', ko: 'war/battle' },
+      meanings: { ja: 'war/battle', en: 'war/battle' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0516B = {
   reading: 'はち',
   meaning: 'eight',
   word: '八',
-      meanings: { ja: 'eight', en: 'eight', zh: '八', ko: '여덟', vi: 'tám', ne: 'आठ' },
+      meanings: { ja: 'eight', en: 'eight', ko: '여덟', vi: 'tám', ne: 'आठ' },
   strokeCount: 2,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

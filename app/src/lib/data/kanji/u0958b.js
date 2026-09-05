@@ -10,7 +10,7 @@ export const KANJI_U0958B = {
   reading: 'ひらく',
   meaning: 'open/unfold',
   word: '開',
-      meanings: { ja: 'open/unfold', en: 'open/unfold', zh: '开', ko: '개', vi: 'mở', ne: 'खोल्नु' },
+      meanings: { ja: 'open/unfold', en: 'open/unfold', zh: '开', vi: 'mở', ne: 'खोल्नु' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

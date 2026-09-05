@@ -10,7 +10,7 @@ export const KANJI_U073FE = {
   reading: 'あらわれる',
   meaning: 'present/existing',
   word: '現',
-      meanings: { ja: 'present/existing', en: 'present/existing', zh: '现', ko: '현' },
+      meanings: { ja: 'present/existing', en: 'present/existing', zh: '现' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

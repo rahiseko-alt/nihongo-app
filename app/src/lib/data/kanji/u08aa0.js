@@ -10,7 +10,7 @@ export const KANJI_U08AA0 = {
   reading: 'まこと',
   meaning: 'sincerity/admonish',
   word: '誠',
-      meanings: { ja: 'sincerity/admonish', en: 'sincerity/admonish', zh: '诚', ko: '성' },
+      meanings: { ja: 'sincerity/admonish', en: 'sincerity/admonish', zh: '诚' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

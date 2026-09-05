@@ -10,7 +10,7 @@ export const KANJI_U08A5E = {
   reading: 'し',
   meaning: 'part of speech/words',
   word: '詞',
-      meanings: { ja: 'part of speech/words', en: 'part of speech/words', zh: '词', ko: '사', vi: 'phần', ne: 'भाग' },
+      meanings: { ja: 'part of speech/words', en: 'part of speech/words', zh: '词', vi: 'phần', ne: 'भाग' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

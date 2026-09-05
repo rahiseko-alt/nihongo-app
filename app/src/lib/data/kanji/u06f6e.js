@@ -10,7 +10,7 @@ export const KANJI_U06F6E = {
   reading: 'しお',
   meaning: 'tide/salt water',
   word: '潮',
-      meanings: { ja: 'tide/salt water', en: 'tide/salt water', zh: '潮', ko: '조', vi: 'nước', ne: 'पानी' },
+      meanings: { ja: 'tide/salt water', en: 'tide/salt water', vi: 'nước', ne: 'पानी' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

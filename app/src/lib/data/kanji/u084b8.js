@@ -10,7 +10,7 @@ export const KANJI_U084B8 = {
   reading: 'むす',
   meaning: 'steam/heat',
   word: '蒸',
-      meanings: { ja: 'steam/heat', en: 'steam/heat', zh: '蒸', ko: '증' },
+      meanings: { ja: 'steam/heat', en: 'steam/heat' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

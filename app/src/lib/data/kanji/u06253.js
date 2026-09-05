@@ -10,7 +10,7 @@ export const KANJI_U06253 = {
   reading: 'うつ',
   meaning: 'strike/hit',
   word: '打',
-      meanings: { ja: 'strike/hit', en: 'strike/hit', zh: '打', ko: '타' },
+      meanings: { ja: 'strike/hit', en: 'strike/hit' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

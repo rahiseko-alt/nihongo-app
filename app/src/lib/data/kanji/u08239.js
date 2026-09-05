@@ -10,7 +10,7 @@ export const KANJI_U08239 = {
   reading: 'ふね',
   meaning: '船',
   word: '船',
-      meanings: { ja: '船', en: 'ship', zh: '船', ko: '배', vi: 'tàu', ne: 'जहाज' },
+      meanings: { ja: '船', en: 'ship', vi: 'tàu', ne: 'जहाज' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

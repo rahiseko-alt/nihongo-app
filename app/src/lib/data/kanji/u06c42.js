@@ -10,7 +10,7 @@ export const KANJI_U06C42 = {
   reading: 'もとめる',
   meaning: 'request/want',
   word: '求',
-      meanings: { ja: 'request/want', en: 'request/want', zh: '求', ko: '구', vi: 'yêu cầu', ne: 'अनुरोध' },
+      meanings: { ja: 'request/want', en: 'request/want', vi: 'yêu cầu', ne: 'अनुरोध' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

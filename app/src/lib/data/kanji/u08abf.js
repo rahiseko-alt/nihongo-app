@@ -10,7 +10,7 @@ export const KANJI_U08ABF = {
   reading: 'しらべる',
   meaning: 'tune/tone',
   word: '調',
-      meanings: { ja: 'tune/tone', en: 'tune/tone', zh: '调', ko: '조' },
+      meanings: { ja: 'tune/tone', en: 'tune/tone', zh: '调' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

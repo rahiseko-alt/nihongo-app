@@ -10,7 +10,7 @@ export const KANJI_U0533A = {
   reading: 'く',
   meaning: 'ward',
   word: '区',
-      meanings: { ja: 'ward', en: 'ward', zh: '区', ko: '구', vi: 'quận', ne: 'वडा' },
+      meanings: { ja: 'ward', en: 'ward', vi: 'quận', ne: 'वडा' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

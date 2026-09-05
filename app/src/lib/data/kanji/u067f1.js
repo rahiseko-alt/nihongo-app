@@ -10,7 +10,7 @@ export const KANJI_U067F1 = {
   reading: 'はしら',
   meaning: 'pillar/post',
   word: '柱',
-      meanings: { ja: 'pillar/post', en: 'pillar/post', zh: '柱', ko: '주' },
+      meanings: { ja: 'pillar/post', en: 'pillar/post' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U07D66 = {
   reading: 'きゅう',
   meaning: 'salary/wage',
   word: '給',
-      meanings: { ja: 'salary/wage', en: 'salary/wage', zh: '给', ko: '급', vi: 'lương', ne: 'तलब' },
+      meanings: { ja: 'salary/wage', en: 'salary/wage', zh: '给', vi: 'lương', ne: 'तलब' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

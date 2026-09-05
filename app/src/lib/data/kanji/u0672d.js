@@ -10,7 +10,7 @@ export const KANJI_U0672D = {
   reading: 'ふだ',
   meaning: 'tag/paper money',
   word: '札',
-      meanings: { ja: 'tag/paper money', en: 'tag/paper money', zh: '札', ko: '찰', vi: 'tiền', ne: 'पैसा' },
+      meanings: { ja: 'tag/paper money', en: 'tag/paper money', vi: 'tiền', ne: 'पैसा' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

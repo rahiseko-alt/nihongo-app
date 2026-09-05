@@ -10,7 +10,7 @@ export const KANJI_U04FC2 = {
   reading: 'かかり',
   meaning: 'person in charge/connection',
   word: '係',
-      meanings: { ja: 'person in charge/connection', en: 'person in charge/connection', zh: '系', ko: '계', vi: 'kết nối', ne: 'जडान' },
+      meanings: { ja: 'person in charge/connection', en: 'person in charge/connection', zh: '系', vi: 'kết nối', ne: 'जडान' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

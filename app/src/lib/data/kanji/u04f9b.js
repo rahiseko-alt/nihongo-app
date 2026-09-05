@@ -10,7 +10,7 @@ export const KANJI_U04F9B = {
   reading: 'そなえる',
   meaning: 'submit/offer',
   word: '供',
-      meanings: { ja: 'submit/offer', en: 'submit/offer', zh: '供', ko: '공', vi: 'nộp', ne: 'पेश' },
+      meanings: { ja: 'submit/offer', en: 'submit/offer', vi: 'nộp', ne: 'पेश' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

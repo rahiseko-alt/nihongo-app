@@ -10,7 +10,7 @@ export const KANJI_U082BD = {
   reading: 'め',
   meaning: 'bud/sprout',
   word: '芽',
-      meanings: { ja: 'bud/sprout', en: 'bud/sprout', zh: '芽', ko: '아' },
+      meanings: { ja: 'bud/sprout', en: 'bud/sprout' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

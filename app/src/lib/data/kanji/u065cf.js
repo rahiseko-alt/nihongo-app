@@ -10,7 +10,7 @@ export const KANJI_U065CF = {
   reading: 'ぞく',
   meaning: 'tribe/family',
   word: '族',
-      meanings: { ja: 'tribe/family', en: 'tribe/family', zh: '族', ko: '족', vi: 'gia đình', ne: 'परिवार' },
+      meanings: { ja: 'tribe/family', en: 'tribe/family', vi: 'gia đình', ne: 'परिवार' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

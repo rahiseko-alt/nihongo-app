@@ -10,7 +10,7 @@ export const KANJI_U0984C = {
   reading: 'だい',
   meaning: 'topic/subject',
   word: '題',
-      meanings: { ja: 'topic/subject', en: 'topic/subject', zh: '题', ko: '제' },
+      meanings: { ja: 'topic/subject', en: 'topic/subject', zh: '题' },
   strokeCount: 18,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

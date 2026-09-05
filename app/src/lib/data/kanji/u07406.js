@@ -10,7 +10,7 @@ export const KANJI_U07406 = {
   reading: 'り',
   meaning: '理・理由',
   word: '理',
-      meanings: { ja: '理・理由', en: 'reason', zh: '理', ko: '이치', vi: 'lý do', ne: 'कारण' },
+      meanings: { ja: '理・理由', en: 'reason', ko: '이치', vi: 'lý do', ne: 'कारण' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

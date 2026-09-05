@@ -10,7 +10,7 @@ export const KANJI_U0591A = {
   reading: 'おおい',
   meaning: '多い',
   word: '多',
-      meanings: { ja: '多い', en: 'many', zh: '多', ko: '많다', vi: 'nhiều', ne: 'धेरै' },
+      meanings: { ja: '多い', en: 'many', ko: '많다', vi: 'nhiều', ne: 'धेरै' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

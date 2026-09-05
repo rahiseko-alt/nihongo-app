@@ -10,7 +10,7 @@ export const KANJI_U081E8 = {
   reading: 'のぞむ',
   meaning: 'look to/face',
   word: '臨',
-      meanings: { ja: 'look to/face', en: 'look to/face', zh: '临', ko: '림', vi: 'mặt', ne: 'अनुहार' },
+      meanings: { ja: 'look to/face', en: 'look to/face', zh: '临', vi: 'mặt', ne: 'अनुहार' },
   strokeCount: 18,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

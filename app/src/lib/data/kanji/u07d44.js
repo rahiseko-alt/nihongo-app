@@ -10,7 +10,7 @@ export const KANJI_U07D44 = {
   reading: 'くみ',
   meaning: '組',
   word: '組',
-      meanings: { ja: '組', en: 'group', zh: '组', ko: '조', vi: 'nhóm', ne: 'समूह' },
+      meanings: { ja: '組', en: 'group', zh: '组', vi: 'nhóm', ne: 'समूह' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

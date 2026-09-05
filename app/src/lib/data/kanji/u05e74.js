@@ -10,7 +10,7 @@ export const KANJI_U05E74 = {
   reading: 'とし',
   meaning: '年',
   word: '年',
-      meanings: { ja: '年', en: 'year', zh: '年', ko: '해', vi: 'năm', ne: 'वर्ष' },
+      meanings: { ja: '年', en: 'year', vi: 'năm', ne: 'वर्ष' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

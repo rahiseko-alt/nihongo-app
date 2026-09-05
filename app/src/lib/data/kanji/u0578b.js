@@ -10,7 +10,7 @@ export const KANJI_U0578B = {
   reading: 'かた',
   meaning: 'mould/type',
   word: '型',
-      meanings: { ja: 'mould/type', en: 'mould/type', zh: '型', ko: '형' },
+      meanings: { ja: 'mould/type', en: 'mould/type' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

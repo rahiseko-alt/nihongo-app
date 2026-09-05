@@ -10,7 +10,7 @@ export const KANJI_U07BC0 = {
   reading: 'せつ',
   meaning: 'node/season',
   word: '節',
-      meanings: { ja: 'node/season', en: 'node/season', zh: '节', ko: '절' },
+      meanings: { ja: 'node/season', en: 'node/season', zh: '节' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

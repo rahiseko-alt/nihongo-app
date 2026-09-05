@@ -10,7 +10,7 @@ export const KANJI_U05207 = {
   reading: 'きる',
   meaning: '切る',
   word: '切',
-      meanings: { ja: '切る', en: 'cut', zh: '切', ko: '자르다', vi: 'cắt', ne: 'काट्नु' },
+      meanings: { ja: '切る', en: 'cut', ko: '자르다', vi: 'cắt', ne: 'काट्नु' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

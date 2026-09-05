@@ -10,7 +10,7 @@ export const KANJI_U09271 = {
   reading: 'こう',
   meaning: 'mineral/ore',
   word: '鉱',
-      meanings: { ja: 'mineral/ore', en: 'mineral/ore', zh: '鉱', ko: 'mineral/ore' },
+      meanings: { ja: 'mineral/ore', en: 'mineral/ore' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

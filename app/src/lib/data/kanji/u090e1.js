@@ -10,7 +10,7 @@ export const KANJI_U090E1 = {
   reading: 'ぐん',
   meaning: 'county/district',
   word: '郡',
-      meanings: { ja: 'county/district', en: 'county/district', zh: '郡', ko: '군' },
+      meanings: { ja: 'county/district', en: 'county/district' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

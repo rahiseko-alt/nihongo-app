@@ -10,7 +10,7 @@ export const KANJI_U05C11 = {
   reading: 'すくない',
   meaning: '少ない',
   word: '少',
-      meanings: { ja: '少ない', en: 'few', zh: '少', ko: '적다', vi: 'ít', ne: 'थोरै' },
+      meanings: { ja: '少ない', en: 'few', ko: '적다', vi: 'ít', ne: 'थोरै' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0682A = {
   reading: 'かぶ',
   meaning: 'stocks/stump',
   word: '株',
-      meanings: { ja: 'stocks/stump', en: 'stocks/stump', zh: '株', ko: '주' },
+      meanings: { ja: 'stocks/stump', en: 'stocks/stump' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

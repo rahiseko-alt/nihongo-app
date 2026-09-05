@@ -10,7 +10,7 @@ export const KANJI_U04E3B = {
   reading: 'ぬし',
   meaning: 'lord/chief',
   word: '主',
-      meanings: { ja: 'lord/chief', en: 'lord/chief', zh: '主', ko: '주' },
+      meanings: { ja: 'lord/chief', en: 'lord/chief' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

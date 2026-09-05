@@ -10,7 +10,7 @@ export const KANJI_U098EF = {
   reading: 'めし',
   meaning: 'meal/boiled rice',
   word: '飯',
-      meanings: { ja: 'meal/boiled rice', en: 'meal/boiled rice', zh: '饭', ko: '반', vi: 'bữa ăn', ne: 'भोजन' },
+      meanings: { ja: 'meal/boiled rice', en: 'meal/boiled rice', zh: '饭', vi: 'bữa ăn', ne: 'भोजन' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

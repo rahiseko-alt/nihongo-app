@@ -10,7 +10,7 @@ export const KANJI_U07279 = {
   reading: 'とく',
   meaning: 'special',
   word: '特',
-      meanings: { ja: 'special', en: 'special', zh: '特', ko: '특' },
+      meanings: { ja: 'special', en: 'special' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

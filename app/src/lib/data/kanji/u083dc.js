@@ -10,7 +10,7 @@ export const KANJI_U083DC = {
   reading: 'な',
   meaning: 'vegetable/side dish',
   word: '菜',
-      meanings: { ja: 'vegetable/side dish', en: 'vegetable/side dish', zh: '菜', ko: '채' },
+      meanings: { ja: 'vegetable/side dish', en: 'vegetable/side dish' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

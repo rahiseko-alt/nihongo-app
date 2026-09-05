@@ -10,7 +10,7 @@ export const KANJI_U05712 = {
   reading: 'えん',
   meaning: '園',
   word: '園',
-      meanings: { ja: '園', en: 'garden/school', zh: '园', ko: '원', vi: 'trường học', ne: 'विद्यालय' },
+      meanings: { ja: '園', en: 'garden/school', zh: '园', vi: 'trường học', ne: 'विद्यालय' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U04FA1 = {
   reading: 'か',
   meaning: 'value/price',
   word: '価',
-      meanings: { ja: 'value/price', en: 'value/price', zh: '価', ko: 'value/price', vi: 'giá trị', ne: 'मूल्य' },
+      meanings: { ja: 'value/price', en: 'value/price', vi: 'giá trị', ne: 'मूल्य' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U08208 = {
   reading: 'きょう',
   meaning: 'entertain/revive',
   word: '興',
-      meanings: { ja: 'entertain/revive', en: 'entertain/revive', zh: '兴', ko: '흥' },
+      meanings: { ja: 'entertain/revive', en: 'entertain/revive', zh: '兴' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

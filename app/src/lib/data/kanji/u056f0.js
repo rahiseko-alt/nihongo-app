@@ -10,7 +10,7 @@ export const KANJI_U056F0 = {
   reading: 'こまる',
   meaning: 'quandary/become distressed',
   word: '困',
-      meanings: { ja: 'quandary/become distressed', en: 'quandary/become distressed', zh: '困', ko: '곤' },
+      meanings: { ja: 'quandary/become distressed', en: 'quandary/become distressed' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

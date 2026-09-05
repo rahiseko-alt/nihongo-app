@@ -10,7 +10,7 @@ export const KANJI_U05BB3 = {
   reading: 'がい',
   meaning: 'harm',
   word: '害',
-      meanings: { ja: 'harm', en: 'harm', zh: '害', ko: '해', vi: 'tác hại', ne: 'हानि' },
+      meanings: { ja: 'harm', en: 'harm', vi: 'tác hại', ne: 'हानि' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

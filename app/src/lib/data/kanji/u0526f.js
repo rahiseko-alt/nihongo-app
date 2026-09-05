@@ -10,7 +10,7 @@ export const KANJI_U0526F = {
   reading: 'ふく',
   meaning: 'vice-/assistant',
   word: '副',
-      meanings: { ja: 'vice-/assistant', en: 'vice-/assistant', zh: '副', ko: '부' },
+      meanings: { ja: 'vice-/assistant', en: 'vice-/assistant' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

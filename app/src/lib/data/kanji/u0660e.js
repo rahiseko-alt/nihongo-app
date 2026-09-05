@@ -10,7 +10,7 @@ export const KANJI_U0660E = {
   reading: 'めい',
   meaning: 'clear',
   word: '明',
-      meanings: { ja: 'clear', en: 'clear', zh: '明', ko: '밝다', vi: 'rõ ràng', ne: 'स्पष्ट' },
+      meanings: { ja: 'clear', en: 'clear', ko: '밝다', vi: 'rõ ràng', ne: 'स्पष्ट' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

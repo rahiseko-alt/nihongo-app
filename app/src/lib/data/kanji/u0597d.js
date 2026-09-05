@@ -10,7 +10,7 @@ export const KANJI_U0597D = {
   reading: 'すき',
   meaning: 'fond/pleasing',
   word: '好',
-      meanings: { ja: 'fond/pleasing', en: 'fond/pleasing', zh: '好', ko: '호' },
+      meanings: { ja: 'fond/pleasing', en: 'fond/pleasing' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

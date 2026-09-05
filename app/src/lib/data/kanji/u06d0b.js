@@ -10,7 +10,7 @@ export const KANJI_U06D0B = {
   reading: 'よう',
   meaning: 'ocean/sea',
   word: '洋',
-      meanings: { ja: 'ocean/sea', en: 'ocean/sea', zh: '洋', ko: '양', vi: 'biển', ne: 'समुद्र' },
+      meanings: { ja: 'ocean/sea', en: 'ocean/sea', vi: 'biển', ne: 'समुद्र' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

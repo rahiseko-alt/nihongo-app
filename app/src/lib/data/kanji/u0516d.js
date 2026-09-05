@@ -10,7 +10,7 @@ export const KANJI_U0516D = {
   reading: 'ろく',
   meaning: 'six',
   word: '六',
-      meanings: { ja: 'six', en: 'six', zh: '六', ko: '여섯', vi: 'sáu', ne: 'छ' },
+      meanings: { ja: 'six', en: 'six', ko: '여섯', vi: 'sáu', ne: 'छ' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05F97 = {
   reading: 'える',
   meaning: 'gain/get',
   word: '得',
-      meanings: { ja: 'gain/get', en: 'gain/get', zh: '得', ko: '득' },
+      meanings: { ja: 'gain/get', en: 'gain/get' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

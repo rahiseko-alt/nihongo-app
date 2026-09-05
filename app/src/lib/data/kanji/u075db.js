@@ -10,7 +10,7 @@ export const KANJI_U075DB = {
   reading: 'いたい',
   meaning: 'pain/hurt',
   word: '痛',
-      meanings: { ja: 'pain/hurt', en: 'pain/hurt', zh: '痛', ko: '통' },
+      meanings: { ja: 'pain/hurt', en: 'pain/hurt' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0614B = {
   reading: 'たい',
   meaning: 'attitude/condition',
   word: '態',
-      meanings: { ja: 'attitude/condition', en: 'attitude/condition', zh: '态', ko: '태', vi: 'tình trạng', ne: 'अवस्था' },
+      meanings: { ja: 'attitude/condition', en: 'attitude/condition', zh: '态', vi: 'tình trạng', ne: 'अवस्था' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

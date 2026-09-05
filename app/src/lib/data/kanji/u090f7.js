@@ -10,7 +10,7 @@ export const KANJI_U090F7 = {
   reading: 'きょう',
   meaning: 'home town/village',
   word: '郷',
-      meanings: { ja: 'home town/village', en: 'home town/village', zh: '郷', ko: 'home town/village', vi: 'làng', ne: 'गाउँ' },
+      meanings: { ja: 'home town/village', en: 'home town/village', vi: 'làng', ne: 'गाउँ' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U07CD6 = {
   reading: 'とう',
   meaning: 'sugar',
   word: '糖',
-      meanings: { ja: 'sugar', en: 'sugar', zh: '糖', ko: '당' },
+      meanings: { ja: 'sugar', en: 'sugar' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

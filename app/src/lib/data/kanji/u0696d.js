@@ -10,7 +10,7 @@ export const KANJI_U0696D = {
   reading: 'ぎょう',
   meaning: 'business/vocation',
   word: '業',
-      meanings: { ja: 'business/vocation', en: 'business/vocation', zh: '业', ko: '업', vi: 'kinh doanh', ne: 'व्यवसाय' },
+      meanings: { ja: 'business/vocation', en: 'business/vocation', zh: '业', vi: 'kinh doanh', ne: 'व्यवसाय' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

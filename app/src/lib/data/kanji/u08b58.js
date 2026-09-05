@@ -10,7 +10,7 @@ export const KANJI_U08B58 = {
   reading: 'しき',
   meaning: 'discriminating/know',
   word: '識',
-      meanings: { ja: 'discriminating/know', en: 'discriminating/know', zh: '识', ko: '식', vi: 'biết', ne: 'थाहा' },
+      meanings: { ja: 'discriminating/know', en: 'discriminating/know', zh: '识', vi: 'biết', ne: 'थाहा' },
   strokeCount: 19,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05E97 = {
   reading: 'みせ',
   meaning: 'shop',
   word: '店',
-      meanings: { ja: 'shop', en: 'shop', zh: '店', ko: '가게', vi: 'cửa hàng', ne: 'पसल' },
+      meanings: { ja: 'shop', en: 'shop', ko: '가게', vi: 'cửa hàng', ne: 'पसल' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

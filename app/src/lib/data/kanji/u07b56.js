@@ -10,7 +10,7 @@ export const KANJI_U07B56 = {
   reading: 'さく',
   meaning: 'scheme/plan',
   word: '策',
-      meanings: { ja: 'scheme/plan', en: 'scheme/plan', zh: '策', ko: '책', vi: 'kế hoạch', ne: 'योजना' },
+      meanings: { ja: 'scheme/plan', en: 'scheme/plan', vi: 'kế hoạch', ne: 'योजना' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05411 = {
   reading: 'むく',
   meaning: 'yonder/facing',
   word: '向',
-      meanings: { ja: 'yonder/facing', en: 'yonder/facing', zh: '向', ko: '향' },
+      meanings: { ja: 'yonder/facing', en: 'yonder/facing' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05B6B = {
   reading: 'まご',
   meaning: 'grandchild/descendants',
   word: '孫',
-      meanings: { ja: 'grandchild/descendants', en: 'grandchild/descendants', zh: '孙', ko: '손' },
+      meanings: { ja: 'grandchild/descendants', en: 'grandchild/descendants', zh: '孙' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

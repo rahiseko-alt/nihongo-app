@@ -10,7 +10,7 @@ export const KANJI_U0529B = {
   reading: 'ちから',
   meaning: '力',
   word: '力',
-      meanings: { ja: '力', en: 'power', zh: '力量', ko: '힘', vi: 'sức mạnh', ne: 'शक्ति' },
+      meanings: { ja: '力', en: 'power', zh: '力量', vi: 'sức mạnh', ne: 'शक्ति' },
   strokeCount: 2,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

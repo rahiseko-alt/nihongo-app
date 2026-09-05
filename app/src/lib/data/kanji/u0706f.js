@@ -10,7 +10,7 @@ export const KANJI_U0706F = {
   reading: 'ひ',
   meaning: 'lamp/a light',
   word: '灯',
-      meanings: { ja: 'lamp/a light', en: 'lamp/a light', zh: '灯', ko: '정', vi: 'nhẹ', ne: 'हल्का' },
+      meanings: { ja: 'lamp/a light', en: 'lamp/a light', vi: 'nhẹ', ne: 'हल्का' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U04EE5 = {
   reading: 'い',
   meaning: 'by means of/because',
   word: '以',
-      meanings: { ja: 'by means of/because', en: 'by means of/because', zh: '以', ko: '이' },
+      meanings: { ja: 'by means of/because', en: 'by means of/because' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

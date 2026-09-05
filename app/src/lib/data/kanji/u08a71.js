@@ -10,7 +10,7 @@ export const KANJI_U08A71 = {
   reading: 'はなす',
   meaning: 'talk',
   word: '話',
-      meanings: { ja: 'talk', en: 'talk', zh: '说话', ko: '말', vi: 'nói chuyện', ne: 'कुरा गर्नु' },
+      meanings: { ja: 'talk', en: 'talk', zh: '说话', vi: 'nói chuyện', ne: 'कुरा गर्नु' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

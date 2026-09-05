@@ -10,7 +10,7 @@ export const KANJI_U05CB8 = {
   reading: 'きし',
   meaning: 'beach',
   word: '岸',
-      meanings: { ja: 'beach', en: 'beach', zh: '岸', ko: '안' },
+      meanings: { ja: 'beach', en: 'beach' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

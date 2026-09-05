@@ -10,7 +10,7 @@ export const KANJI_U054C1 = {
   reading: 'しな',
   meaning: 'goods/refinement',
   word: '品',
-      meanings: { ja: 'goods/refinement', en: 'goods/refinement', zh: '品', ko: '품', vi: 'hàng hóa', ne: 'सामान' },
+      meanings: { ja: 'goods/refinement', en: 'goods/refinement', vi: 'hàng hóa', ne: 'सामान' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

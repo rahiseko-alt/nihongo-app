@@ -10,7 +10,7 @@ export const KANJI_U04E2D = {
   reading: 'なか',
   meaning: 'middle',
   word: '中',
-      meanings: { ja: 'middle', en: 'middle', zh: '中', ko: '가운데', vi: 'giữa', ne: 'बीच' },
+      meanings: { ja: 'middle', en: 'middle', ko: '가운데', vi: 'giữa', ne: 'बीच' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0535A = {
   reading: 'はく',
   meaning: 'Dr./command',
   word: '博',
-      meanings: { ja: 'Dr./command', en: 'Dr./command', zh: '博', ko: '박' },
+      meanings: { ja: 'Dr./command', en: 'Dr./command' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

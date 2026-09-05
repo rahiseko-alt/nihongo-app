@@ -10,7 +10,7 @@ export const KANJI_U04E21 = {
   reading: 'りょう',
   meaning: 'both/old Japanese coin',
   word: '両',
-      meanings: { ja: 'both/old Japanese coin', en: 'both/old Japanese coin', zh: '両', ko: 'both/old Japanese coin' },
+      meanings: { ja: 'both/old Japanese coin', en: 'both/old Japanese coin' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

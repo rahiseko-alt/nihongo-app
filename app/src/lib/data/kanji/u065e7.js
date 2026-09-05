@@ -10,7 +10,7 @@ export const KANJI_U065E7 = {
   reading: 'きゅう',
   meaning: 'old times/old things',
   word: '旧',
-      meanings: { ja: 'old times/old things', en: 'old times/old things', zh: '旧', ko: 'old times/old things', vi: 'cũ', ne: 'पुरानो' },
+      meanings: { ja: 'old times/old things', en: 'old times/old things', vi: 'cũ', ne: 'पुरानो' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U08A13 = {
   reading: 'くん',
   meaning: 'instruction/Japanese character reading',
   word: '訓',
-      meanings: { ja: 'instruction/Japanese character reading', en: 'instruction/Japanese character reading', zh: '训', ko: '훈', vi: 'chữ', ne: 'अक्षर' },
+      meanings: { ja: 'instruction/Japanese character reading', en: 'instruction/Japanese character reading', zh: '训', vi: 'chữ', ne: 'अक्षर' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

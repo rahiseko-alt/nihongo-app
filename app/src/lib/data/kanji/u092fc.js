@@ -10,7 +10,7 @@ export const KANJI_U092FC = {
   reading: 'はがね',
   meaning: 'steel',
   word: '鋼',
-      meanings: { ja: 'steel', en: 'steel', zh: '钢', ko: '강' },
+      meanings: { ja: 'steel', en: 'steel', zh: '钢' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

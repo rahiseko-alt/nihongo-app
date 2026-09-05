@@ -10,7 +10,7 @@ export const KANJI_U08A0E = {
   reading: 'うつ',
   meaning: 'chastise/attack',
   word: '討',
-      meanings: { ja: 'chastise/attack', en: 'chastise/attack', zh: '讨', ko: '토' },
+      meanings: { ja: 'chastise/attack', en: 'chastise/attack', zh: '讨' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

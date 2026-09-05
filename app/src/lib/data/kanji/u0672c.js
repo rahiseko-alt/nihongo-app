@@ -10,7 +10,7 @@ export const KANJI_U0672C = {
   reading: 'ほん',
   meaning: 'book',
   word: '本',
-      meanings: { ja: 'book', en: 'book', zh: '书', ko: '책', vi: 'sách', ne: 'किताब' },
+      meanings: { ja: 'book', en: 'book', zh: '书', vi: 'sách', ne: 'किताब' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

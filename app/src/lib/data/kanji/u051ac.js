@@ -10,7 +10,7 @@ export const KANJI_U051AC = {
   reading: 'ふゆ',
   meaning: 'winter',
   word: '冬',
-      meanings: { ja: 'winter', en: 'winter', zh: '冬', ko: '동', vi: 'mùa đông', ne: 'जाडो' },
+      meanings: { ja: 'winter', en: 'winter', vi: 'mùa đông', ne: 'जाडो' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

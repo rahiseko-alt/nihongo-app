@@ -10,7 +10,7 @@ export const KANJI_U06307 = {
   reading: 'ゆび',
   meaning: 'finger/point to',
   word: '指',
-      meanings: { ja: 'finger/point to', en: 'finger/point to', zh: '指', ko: '지' },
+      meanings: { ja: 'finger/point to', en: 'finger/point to' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

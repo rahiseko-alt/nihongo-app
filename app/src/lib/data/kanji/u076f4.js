@@ -10,7 +10,7 @@ export const KANJI_U076F4 = {
   reading: 'なおす',
   meaning: 'straightaway/honesty',
   word: '直',
-      meanings: { ja: 'straightaway/honesty', en: 'straightaway/honesty', zh: '直', ko: '직' },
+      meanings: { ja: 'straightaway/honesty', en: 'straightaway/honesty' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

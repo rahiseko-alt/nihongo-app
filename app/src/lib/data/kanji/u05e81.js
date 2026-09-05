@@ -10,7 +10,7 @@ export const KANJI_U05E81 = {
   reading: 'ちょう',
   meaning: 'agency',
   word: '庁',
-      meanings: { ja: 'agency', en: 'agency', zh: '厅', ko: '청', vi: 'cơ quan', ne: 'निकाय' },
+      meanings: { ja: 'agency', en: 'agency', zh: '厅', vi: 'cơ quan', ne: 'निकाय' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

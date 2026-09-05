@@ -10,7 +10,7 @@ export const KANJI_U058F2 = {
   reading: 'うる',
   meaning: 'sell',
   word: '売',
-      meanings: { ja: 'sell', en: 'sell', zh: '売', ko: 'sell', vi: 'bán', ne: 'बेच्नु' },
+      meanings: { ja: 'sell', en: 'sell', vi: 'bán', ne: 'बेच्नु' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

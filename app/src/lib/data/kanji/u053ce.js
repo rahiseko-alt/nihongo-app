@@ -10,7 +10,7 @@ export const KANJI_U053CE = {
   reading: 'おさめる',
   meaning: 'income/obtain',
   word: '収',
-      meanings: { ja: 'income/obtain', en: 'income/obtain', zh: '収', ko: 'income/obtain' },
+      meanings: { ja: 'income/obtain', en: 'income/obtain' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

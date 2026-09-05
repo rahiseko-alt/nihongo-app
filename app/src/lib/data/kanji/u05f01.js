@@ -10,7 +10,7 @@ export const KANJI_U05F01 = {
   reading: 'べん',
   meaning: 'valve/petal',
   word: '弁',
-      meanings: { ja: 'valve/petal', en: 'valve/petal', zh: '弁', ko: '변' },
+      meanings: { ja: 'valve/petal', en: 'valve/petal' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06CBB = {
   reading: 'なおす',
   meaning: 'reign/be at peace',
   word: '治',
-      meanings: { ja: 'reign/be at peace', en: 'reign/be at peace', zh: '治', ko: '치' },
+      meanings: { ja: 'reign/be at peace', en: 'reign/be at peace' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

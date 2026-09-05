@@ -10,7 +10,7 @@ export const KANJI_U07E54 = {
   reading: 'おる',
   meaning: 'weave/fabric',
   word: '織',
-      meanings: { ja: 'weave/fabric', en: 'weave/fabric', zh: '织', ko: '직' },
+      meanings: { ja: 'weave/fabric', en: 'weave/fabric', zh: '织' },
   strokeCount: 18,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

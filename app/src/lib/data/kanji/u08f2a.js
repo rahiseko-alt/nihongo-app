@@ -10,7 +10,7 @@ export const KANJI_U08F2A = {
   reading: 'わ',
   meaning: 'wheel/ring',
   word: '輪',
-      meanings: { ja: 'wheel/ring', en: 'wheel/ring', zh: '轮', ko: '륜' },
+      meanings: { ja: 'wheel/ring', en: 'wheel/ring', zh: '轮' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

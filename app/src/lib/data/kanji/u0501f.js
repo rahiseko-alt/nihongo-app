@@ -10,7 +10,7 @@ export const KANJI_U0501F = {
   reading: 'かりる',
   meaning: 'borrow/rent',
   word: '借',
-      meanings: { ja: 'borrow/rent', en: 'borrow/rent', zh: '借', ko: '차', vi: 'mượn', ne: 'सापटी लिनु' },
+      meanings: { ja: 'borrow/rent', en: 'borrow/rent', vi: 'mượn', ne: 'सापटी लिनु' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

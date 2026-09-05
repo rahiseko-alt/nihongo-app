@@ -10,7 +10,7 @@ export const KANJI_U08272 = {
   reading: 'いろ',
   meaning: '色',
   word: '色',
-      meanings: { ja: '色', en: 'color', zh: '颜色', ko: '색', vi: 'màu sắc', ne: 'रङ' },
+      meanings: { ja: '色', en: 'color', zh: '颜色', vi: 'màu sắc', ne: 'रङ' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

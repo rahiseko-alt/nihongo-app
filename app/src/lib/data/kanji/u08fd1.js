@@ -10,7 +10,7 @@ export const KANJI_U08FD1 = {
   reading: 'ちかい',
   meaning: 'near/early',
   word: '近',
-      meanings: { ja: 'near/early', en: 'near/early', zh: '近', ko: '근', vi: 'sớm', ne: 'चाँडो' },
+      meanings: { ja: 'near/early', en: 'near/early', vi: 'sớm', ne: 'चाँडो' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

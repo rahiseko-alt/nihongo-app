@@ -10,7 +10,7 @@ export const KANJI_U08CAF = {
   reading: 'ためる',
   meaning: 'savings/store',
   word: '貯',
-      meanings: { ja: 'savings/store', en: 'savings/store', zh: '贮', ko: '저', vi: 'tiết kiệm', ne: 'बचत' },
+      meanings: { ja: 'savings/store', en: 'savings/store', zh: '贮', vi: 'tiết kiệm', ne: 'बचत' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

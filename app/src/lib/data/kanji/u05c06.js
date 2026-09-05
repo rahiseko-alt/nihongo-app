@@ -10,7 +10,7 @@ export const KANJI_U05C06 = {
   reading: 'しょう',
   meaning: 'leader/commander',
   word: '将',
-      meanings: { ja: 'leader/commander', en: 'leader/commander', zh: '将', ko: '장' },
+      meanings: { ja: 'leader/commander', en: 'leader/commander' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

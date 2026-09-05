@@ -10,7 +10,7 @@ export const KANJI_U05F1F = {
   reading: 'おとうと',
   meaning: 'younger brother/faithful service to elders',
   word: '弟',
-      meanings: { ja: 'younger brother/faithful service to elders', en: 'younger brother/faithful service to elders', zh: '弟', ko: '제', vi: 'dịch vụ', ne: 'सेवा' },
+      meanings: { ja: 'younger brother/faithful service to elders', en: 'younger brother/faithful service to elders', vi: 'dịch vụ', ne: 'सेवा' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

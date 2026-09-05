@@ -10,7 +10,7 @@ export const KANJI_U05104 = {
   reading: 'おく',
   meaning: 'hundred million/10**8',
   word: '億',
-      meanings: { ja: 'hundred million/10**8', en: 'hundred million/10**8', zh: '亿', ko: '억', vi: 'trăm', ne: 'सय' },
+      meanings: { ja: 'hundred million/10**8', en: 'hundred million/10**8', zh: '亿', vi: 'trăm', ne: 'सय' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

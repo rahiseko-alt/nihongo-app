@@ -10,7 +10,7 @@ export const KANJI_U089B3 = {
   reading: 'かん',
   meaning: 'outlook/look',
   word: '観',
-      meanings: { ja: 'outlook/look', en: 'outlook/look', zh: '観', ko: 'outlook/look' },
+      meanings: { ja: 'outlook/look', en: 'outlook/look' },
   strokeCount: 18,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U04EE4 = {
   reading: 'れい',
   meaning: 'orders/laws',
   word: '令',
-      meanings: { ja: 'orders/laws', en: 'orders/laws', zh: '令', ko: '령' },
+      meanings: { ja: 'orders/laws', en: 'orders/laws' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

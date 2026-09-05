@@ -10,7 +10,7 @@ export const KANJI_U076AE = {
   reading: 'かわ',
   meaning: 'pelt/skin',
   word: '皮',
-      meanings: { ja: 'pelt/skin', en: 'pelt/skin', zh: '皮', ko: '피' },
+      meanings: { ja: 'pelt/skin', en: 'pelt/skin' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

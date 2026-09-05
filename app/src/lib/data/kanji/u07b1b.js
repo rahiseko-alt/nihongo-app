@@ -10,7 +10,7 @@ export const KANJI_U07B1B = {
   reading: 'ふえ',
   meaning: 'flute/clarinet',
   word: '笛',
-      meanings: { ja: 'flute/clarinet', en: 'flute/clarinet', zh: '笛', ko: '적' },
+      meanings: { ja: 'flute/clarinet', en: 'flute/clarinet' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

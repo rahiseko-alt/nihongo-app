@@ -10,7 +10,7 @@ export const KANJI_U06614 = {
   reading: 'むかし',
   meaning: 'once upon a time/antiquity',
   word: '昔',
-      meanings: { ja: 'once upon a time/antiquity', en: 'once upon a time/antiquity', zh: '昔', ko: '석' },
+      meanings: { ja: 'once upon a time/antiquity', en: 'once upon a time/antiquity' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

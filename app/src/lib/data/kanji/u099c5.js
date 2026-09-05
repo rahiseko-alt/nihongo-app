@@ -10,7 +10,7 @@ export const KANJI_U099C5 = {
   reading: 'えき',
   meaning: 'station',
   word: '駅',
-      meanings: { ja: 'station', en: 'station', zh: '车站', ko: '역', vi: 'nhà ga', ne: 'स्टेशन' },
+      meanings: { ja: 'station', en: 'station', zh: '车站', vi: 'nhà ga', ne: 'स्टेशन' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

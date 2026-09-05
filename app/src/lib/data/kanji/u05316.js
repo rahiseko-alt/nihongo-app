@@ -10,7 +10,7 @@ export const KANJI_U05316 = {
   reading: 'か',
   meaning: 'change/take the form of',
   word: '化',
-      meanings: { ja: 'change/take the form of', en: 'change/take the form of', zh: '化', ko: '화', vi: 'thay đổi', ne: 'परिवर्तन' },
+      meanings: { ja: 'change/take the form of', en: 'change/take the form of', vi: 'thay đổi', ne: 'परिवर्तन' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

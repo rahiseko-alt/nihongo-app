@@ -10,7 +10,7 @@ export const KANJI_U061B2 = {
   reading: 'けん',
   meaning: 'constitution/law',
   word: '憲',
-      meanings: { ja: 'constitution/law', en: 'constitution/law', zh: '宪', ko: '헌', vi: 'luật', ne: 'कानुन' },
+      meanings: { ja: 'constitution/law', en: 'constitution/law', zh: '宪', vi: 'luật', ne: 'कानुन' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

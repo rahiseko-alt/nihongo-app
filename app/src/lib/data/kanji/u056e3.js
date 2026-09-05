@@ -10,7 +10,7 @@ export const KANJI_U056E3 = {
   reading: 'だん',
   meaning: 'group/association',
   word: '団',
-      meanings: { ja: 'group/association', en: 'group/association', zh: '団', ko: 'group/association', vi: 'nhóm', ne: 'समूह' },
+      meanings: { ja: 'group/association', en: 'group/association', vi: 'nhóm', ne: 'समूह' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

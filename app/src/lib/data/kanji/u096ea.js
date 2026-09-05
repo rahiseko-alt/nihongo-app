@@ -10,7 +10,7 @@ export const KANJI_U096EA = {
   reading: 'ゆき',
   meaning: 'snow',
   word: '雪',
-      meanings: { ja: 'snow', en: 'snow', zh: '雪', ko: '설', vi: 'tuyết', ne: 'हिउँ' },
+      meanings: { ja: 'snow', en: 'snow', vi: 'tuyết', ne: 'हिउँ' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

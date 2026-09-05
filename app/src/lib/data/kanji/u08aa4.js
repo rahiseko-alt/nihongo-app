@@ -10,7 +10,7 @@ export const KANJI_U08AA4 = {
   reading: 'あやまる',
   meaning: 'mistake/err',
   word: '誤',
-      meanings: { ja: 'mistake/err', en: 'mistake/err', zh: '误', ko: '오' },
+      meanings: { ja: 'mistake/err', en: 'mistake/err', zh: '误' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

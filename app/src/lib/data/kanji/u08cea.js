@@ -10,7 +10,7 @@ export const KANJI_U08CEA = {
   reading: 'しつ',
   meaning: 'substance/quality',
   word: '質',
-      meanings: { ja: 'substance/quality', en: 'substance/quality', zh: '质', ko: '질' },
+      meanings: { ja: 'substance/quality', en: 'substance/quality', zh: '质' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U04EE3 = {
   reading: 'かわる',
   meaning: 'substitute/change',
   word: '代',
-      meanings: { ja: 'substitute/change', en: 'substitute/change', zh: '代', ko: '대', vi: 'thay đổi', ne: 'परिवर्तन' },
+      meanings: { ja: 'substitute/change', en: 'substitute/change', vi: 'thay đổi', ne: 'परिवर्तन' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

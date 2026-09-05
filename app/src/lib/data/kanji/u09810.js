@@ -10,7 +10,7 @@ export const KANJI_U09810 = {
   reading: 'あずける',
   meaning: 'deposit/custody',
   word: '預',
-      meanings: { ja: 'deposit/custody', en: 'deposit/custody', zh: '预', ko: '예' },
+      meanings: { ja: 'deposit/custody', en: 'deposit/custody', zh: '预' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

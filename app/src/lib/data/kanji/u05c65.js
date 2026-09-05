@@ -10,7 +10,7 @@ export const KANJI_U05C65 = {
   reading: 'はく',
   meaning: 'perform/complete',
   word: '履',
-      meanings: { ja: 'perform/complete', en: 'perform/complete', zh: '履', ko: '리', vi: 'hoàn thành', ne: 'पूरा' },
+      meanings: { ja: 'perform/complete', en: 'perform/complete', vi: 'hoàn thành', ne: 'पूरा' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

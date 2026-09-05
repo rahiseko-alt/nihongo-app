@@ -10,7 +10,7 @@ export const KANJI_U06674 = {
   reading: 'はれ',
   meaning: '晴れ',
   word: '晴',
-      meanings: { ja: '晴れ', en: 'clear weather', zh: '晴', ko: '맑음', vi: 'rõ ràng', ne: 'स्पष्ट' },
+      meanings: { ja: '晴れ', en: 'clear weather', ko: '맑음', vi: 'rõ ràng', ne: 'स्पष्ट' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

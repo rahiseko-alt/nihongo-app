@@ -10,7 +10,7 @@ export const KANJI_U05148 = {
   reading: 'さき',
   meaning: 'ahead',
   word: '先',
-      meanings: { ja: 'ahead', en: 'ahead', zh: '先', ko: '먼저', vi: 'phía trước', ne: 'अगाडि' },
+      meanings: { ja: 'ahead', en: 'ahead', ko: '먼저', vi: 'phía trước', ne: 'अगाडि' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

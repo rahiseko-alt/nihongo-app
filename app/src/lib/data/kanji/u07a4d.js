@@ -10,7 +10,7 @@ export const KANJI_U07A4D = {
   reading: 'つむ',
   meaning: 'volume/product (x*y)',
   word: '積',
-      meanings: { ja: 'volume/product (x*y)', en: 'volume/product (x*y)', zh: '积', ko: '적' },
+      meanings: { ja: 'volume/product (x*y)', en: 'volume/product (x*y)', zh: '积' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

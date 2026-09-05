@@ -10,7 +10,7 @@ export const KANJI_U052C9 = {
   reading: 'べん',
   meaning: 'exertion/endeavour',
   word: '勉',
-      meanings: { ja: 'exertion/endeavour', en: 'exertion/endeavour', zh: '勉', ko: '면' },
+      meanings: { ja: 'exertion/endeavour', en: 'exertion/endeavour' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05897 = {
   reading: 'ふえる',
   meaning: 'increase/add',
   word: '増',
-      meanings: { ja: 'increase/add', en: 'increase/add', zh: '増', ko: 'increase/add' },
+      meanings: { ja: 'increase/add', en: 'increase/add' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

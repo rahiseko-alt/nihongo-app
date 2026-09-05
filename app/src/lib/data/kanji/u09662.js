@@ -10,7 +10,7 @@ export const KANJI_U09662 = {
   reading: 'いん',
   meaning: 'institution',
   word: '院',
-      meanings: { ja: 'institution', en: 'institution', zh: '医院', ko: '원', vi: 'cơ quan', ne: 'संस्था' },
+      meanings: { ja: 'institution', en: 'institution', zh: '医院', vi: 'cơ quan', ne: 'संस्था' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

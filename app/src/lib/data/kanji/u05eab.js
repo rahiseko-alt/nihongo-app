@@ -10,7 +10,7 @@ export const KANJI_U05EAB = {
   reading: 'こ',
   meaning: 'warehouse/storehouse',
   word: '庫',
-      meanings: { ja: 'warehouse/storehouse', en: 'warehouse/storehouse', zh: '库', ko: '고' },
+      meanings: { ja: 'warehouse/storehouse', en: 'warehouse/storehouse', zh: '库' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

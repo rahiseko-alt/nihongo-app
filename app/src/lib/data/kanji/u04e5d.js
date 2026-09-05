@@ -10,7 +10,7 @@ export const KANJI_U04E5D = {
   reading: 'きゅう',
   meaning: 'nine',
   word: '九',
-      meanings: { ja: 'nine', en: 'nine', zh: '九', ko: '아홉', vi: 'chín', ne: 'नौ' },
+      meanings: { ja: 'nine', en: 'nine', ko: '아홉', vi: 'chín', ne: 'नौ' },
   strokeCount: 2,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

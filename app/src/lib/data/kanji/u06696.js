@@ -10,7 +10,7 @@ export const KANJI_U06696 = {
   reading: 'あたたかい',
   meaning: 'warmth',
   word: '暖',
-      meanings: { ja: 'warmth', en: 'warmth', zh: '暖', ko: '난' },
+      meanings: { ja: 'warmth', en: 'warmth' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

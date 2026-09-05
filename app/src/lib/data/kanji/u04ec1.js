@@ -10,7 +10,7 @@ export const KANJI_U04EC1 = {
   reading: 'じん',
   meaning: 'humanity/virtue',
   word: '仁',
-      meanings: { ja: 'humanity/virtue', en: 'humanity/virtue', zh: '仁', ko: '인' },
+      meanings: { ja: 'humanity/virtue', en: 'humanity/virtue' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

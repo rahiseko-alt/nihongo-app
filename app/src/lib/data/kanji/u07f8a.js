@@ -10,7 +10,7 @@ export const KANJI_U07F8A = {
   reading: 'ひつじ',
   meaning: 'sheep',
   word: '羊',
-      meanings: { ja: 'sheep', en: 'sheep', zh: '羊', ko: '양' },
+      meanings: { ja: 'sheep', en: 'sheep' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0969C = {
   reading: 'しょう',
   meaning: 'hinder/hurt',
   word: '障',
-      meanings: { ja: 'hinder/hurt', en: 'hinder/hurt', zh: '障', ko: '장' },
+      meanings: { ja: 'hinder/hurt', en: 'hinder/hurt' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

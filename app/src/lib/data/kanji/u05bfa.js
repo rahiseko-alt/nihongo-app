@@ -10,7 +10,7 @@ export const KANJI_U05BFA = {
   reading: 'てら',
   meaning: 'Buddhist temple',
   word: '寺',
-      meanings: { ja: 'Buddhist temple', en: 'Buddhist temple', zh: '寺', ko: '사', vi: 'chùa', ne: 'मन्दिर' },
+      meanings: { ja: 'Buddhist temple', en: 'Buddhist temple', vi: 'chùa', ne: 'मन्दिर' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

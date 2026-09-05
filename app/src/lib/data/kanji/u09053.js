@@ -10,7 +10,7 @@ export const KANJI_U09053 = {
   reading: 'みち',
   meaning: 'road',
   word: '道',
-      meanings: { ja: 'road', en: 'road', zh: '道路', ko: '길', vi: 'đường', ne: 'सडक' },
+      meanings: { ja: 'road', en: 'road', zh: '道路', vi: 'đường', ne: 'सडक' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

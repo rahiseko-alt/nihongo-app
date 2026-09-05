@@ -10,7 +10,7 @@ export const KANJI_U05149 = {
   reading: 'ひかり',
   meaning: 'ray/light',
   word: '光',
-      meanings: { ja: 'ray/light', en: 'ray/light', zh: '光', ko: '광', vi: 'nhẹ', ne: 'हल्का' },
+      meanings: { ja: 'ray/light', en: 'ray/light', vi: 'nhẹ', ne: 'हल्का' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0656C = {
   reading: 'うやまう',
   meaning: 'awe/respect',
   word: '敬',
-      meanings: { ja: 'awe/respect', en: 'awe/respect', zh: '敬', ko: '경' },
+      meanings: { ja: 'awe/respect', en: 'awe/respect' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

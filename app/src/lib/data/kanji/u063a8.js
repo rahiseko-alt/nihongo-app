@@ -10,7 +10,7 @@ export const KANJI_U063A8 = {
   reading: 'おす',
   meaning: 'conjecture/infer',
   word: '推',
-      meanings: { ja: 'conjecture/infer', en: 'conjecture/infer', zh: '推', ko: '추' },
+      meanings: { ja: 'conjecture/infer', en: 'conjecture/infer' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

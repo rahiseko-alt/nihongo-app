@@ -10,7 +10,7 @@ export const KANJI_U0725B = {
   reading: 'うし',
   meaning: '牛',
   word: '牛',
-      meanings: { ja: '牛', en: 'cow', zh: '牛', ko: '소' },
+      meanings: { ja: '牛', en: 'cow' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

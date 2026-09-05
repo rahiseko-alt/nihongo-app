@@ -10,7 +10,7 @@ export const KANJI_U0624B = {
   reading: 'て',
   meaning: '手',
   word: '手',
-      meanings: { ja: '手', en: 'hand', zh: '手', ko: '손', vi: 'tay', ne: 'हात' },
+      meanings: { ja: '手', en: 'hand', vi: 'tay', ne: 'हात' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

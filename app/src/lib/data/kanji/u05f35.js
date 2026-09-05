@@ -10,7 +10,7 @@ export const KANJI_U05F35 = {
   reading: 'はる',
   meaning: 'counter for bows &amp; stringed instruments/stretch',
   word: '張',
-      meanings: { ja: 'counter for bows &amp; stringed instruments/stretch', en: 'counter for bows &amp; stringed instruments/stretch', zh: '张', ko: '장' },
+      meanings: { ja: 'counter for bows &amp; stringed instruments/stretch', en: 'counter for bows &amp; stringed instruments/stretch', zh: '张' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

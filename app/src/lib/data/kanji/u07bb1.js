@@ -10,7 +10,7 @@ export const KANJI_U07BB1 = {
   reading: 'はこ',
   meaning: 'box/chest',
   word: '箱',
-      meanings: { ja: 'box/chest', en: 'box/chest', zh: '箱', ko: '상' },
+      meanings: { ja: 'box/chest', en: 'box/chest' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

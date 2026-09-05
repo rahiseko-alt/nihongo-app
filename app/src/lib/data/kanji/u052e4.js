@@ -10,7 +10,7 @@ export const KANJI_U052E4 = {
   reading: 'きん',
   meaning: 'diligence/become employed',
   word: '勤',
-      meanings: { ja: 'diligence/become employed', en: 'diligence/become employed', zh: '勤', ko: '근' },
+      meanings: { ja: 'diligence/become employed', en: 'diligence/become employed' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

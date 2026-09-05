@@ -10,7 +10,7 @@ export const KANJI_U05B9F = {
   reading: 'じつ',
   meaning: 'reality/truth',
   word: '実',
-      meanings: { ja: 'reality/truth', en: 'reality/truth', zh: '実', ko: '실' },
+      meanings: { ja: 'reality/truth', en: 'reality/truth' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U091CC = {
   reading: 'さと',
   meaning: 'ri/village',
   word: '里',
-      meanings: { ja: 'ri/village', en: 'ri/village', zh: '里', ko: '리', vi: 'làng', ne: 'गाउँ' },
+      meanings: { ja: 'ri/village', en: 'ri/village', vi: 'làng', ne: 'गाउँ' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

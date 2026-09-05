@@ -10,7 +10,7 @@ export const KANJI_U08ECA = {
   reading: 'くるま',
   meaning: 'car',
   word: '車',
-      meanings: { ja: 'car', en: 'car', zh: '车', ko: '차', vi: 'xe', ne: 'गाडी' },
+      meanings: { ja: 'car', en: 'car', zh: '车', vi: 'xe', ne: 'गाडी' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

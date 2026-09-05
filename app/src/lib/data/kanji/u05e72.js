@@ -10,7 +10,7 @@ export const KANJI_U05E72 = {
   reading: 'ほす',
   meaning: 'dry/parch',
   word: '干',
-      meanings: { ja: 'dry/parch', en: 'dry/parch', zh: '干', ko: '간' },
+      meanings: { ja: 'dry/parch', en: 'dry/parch' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

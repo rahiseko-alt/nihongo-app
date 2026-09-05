@@ -10,7 +10,7 @@ export const KANJI_U08B1B = {
   reading: 'こう',
   meaning: 'lecture/club',
   word: '講',
-      meanings: { ja: 'lecture/club', en: 'lecture/club', zh: '讲', ko: '강' },
+      meanings: { ja: 'lecture/club', en: 'lecture/club', zh: '讲' },
   strokeCount: 17,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

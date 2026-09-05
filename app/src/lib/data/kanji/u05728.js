@@ -10,7 +10,7 @@ export const KANJI_U05728 = {
   reading: 'ざい',
   meaning: 'reside',
   word: '在',
-      meanings: { ja: 'reside', en: 'reside', zh: '在', ko: '있다', vi: 'cư trú', ne: 'बसोबास' },
+      meanings: { ja: 'reside', en: 'reside', ko: '있다', vi: 'cư trú', ne: 'बसोबास' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0898F = {
   reading: 'き',
   meaning: 'standard/measure',
   word: '規',
-      meanings: { ja: 'standard/measure', en: 'standard/measure', zh: '规', ko: '규', vi: 'tiêu chuẩn', ne: 'मापदण्ड' },
+      meanings: { ja: 'standard/measure', en: 'standard/measure', zh: '规', vi: 'tiêu chuẩn', ne: 'मापदण्ड' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

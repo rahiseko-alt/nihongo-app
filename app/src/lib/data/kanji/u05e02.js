@@ -10,7 +10,7 @@ export const KANJI_U05E02 = {
   reading: 'し',
   meaning: 'city',
   word: '市',
-      meanings: { ja: 'city', en: 'city', zh: '市', ko: '시', vi: 'thành phố', ne: 'सहर' },
+      meanings: { ja: 'city', en: 'city', vi: 'thành phố', ne: 'सहर' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

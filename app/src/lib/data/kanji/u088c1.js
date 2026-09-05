@@ -10,7 +10,7 @@ export const KANJI_U088C1 = {
   reading: 'たつ',
   meaning: 'tailor/judge',
   word: '裁',
-      meanings: { ja: 'tailor/judge', en: 'tailor/judge', zh: '裁', ko: '재', vi: 'thẩm phán', ne: 'न्यायाधीश' },
+      meanings: { ja: 'tailor/judge', en: 'tailor/judge', vi: 'thẩm phán', ne: 'न्यायाधीश' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

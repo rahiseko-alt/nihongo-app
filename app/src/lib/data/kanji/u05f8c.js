@@ -10,7 +10,7 @@ export const KANJI_U05F8C = {
   reading: 'あと',
   meaning: 'back',
   word: '後',
-      meanings: { ja: 'back', en: 'back', zh: '后', ko: '뒤', vi: 'sau', ne: 'पछाडि' },
+      meanings: { ja: 'back', en: 'back', zh: '后', vi: 'sau', ne: 'पछाडि' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

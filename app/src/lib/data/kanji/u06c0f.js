@@ -10,7 +10,7 @@ export const KANJI_U06C0F = {
   reading: 'し',
   meaning: 'family name',
   word: '氏',
-      meanings: { ja: 'family name', en: 'family name', zh: '氏', ko: '성씨', vi: 'gia đình / tên', ne: 'परिवार / नाम' },
+      meanings: { ja: 'family name', en: 'family name', ko: '성씨', vi: 'gia đình / tên', ne: 'परिवार / नाम' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

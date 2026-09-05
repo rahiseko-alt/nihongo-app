@@ -10,7 +10,7 @@ export const KANJI_U072AF = {
   reading: 'おかす',
   meaning: 'crime/sin',
   word: '犯',
-      meanings: { ja: 'crime/sin', en: 'crime/sin', zh: '犯', ko: '범', vi: 'tội phạm', ne: 'अपराध' },
+      meanings: { ja: 'crime/sin', en: 'crime/sin', vi: 'tội phạm', ne: 'अपराध' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05206 = {
   reading: 'ぶん',
   meaning: 'minute',
   word: '分',
-      meanings: { ja: 'minute', en: 'minute', zh: '分', ko: '분', vi: 'phút', ne: 'मिनेट' },
+      meanings: { ja: 'minute', en: 'minute', vi: 'phút', ne: 'मिनेट' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

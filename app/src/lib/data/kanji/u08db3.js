@@ -10,7 +10,7 @@ export const KANJI_U08DB3 = {
   reading: 'あし',
   meaning: '足',
   word: '足',
-      meanings: { ja: '足', en: 'foot/leg', zh: '脚', ko: '발', vi: 'chân', ne: 'खुट्टा' },
+      meanings: { ja: '足', en: 'foot/leg', zh: '脚', vi: 'chân', ne: 'खुट्टा' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

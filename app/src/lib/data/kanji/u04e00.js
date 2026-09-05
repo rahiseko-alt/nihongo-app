@@ -10,7 +10,7 @@ export const KANJI_U04E00 = {
   reading: 'いち',
   meaning: 'one',
   word: '一',
-      meanings: { ja: 'one', en: 'one', zh: '一', ko: '하나', vi: 'một', ne: 'एक' },
+      meanings: { ja: 'one', en: 'one', ko: '하나', vi: 'một', ne: 'एक' },
   strokeCount: 1,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

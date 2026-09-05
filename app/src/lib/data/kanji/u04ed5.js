@@ -10,7 +10,7 @@ export const KANJI_U04ED5 = {
   reading: 'し',
   meaning: '仕事の仕',
   word: '仕',
-      meanings: { ja: '仕事の仕', en: 'serve/work', zh: '工作', ko: '일', vi: 'công việc', ne: 'काम' },
+      meanings: { ja: '仕事の仕', en: 'serve/work', zh: '工作', vi: 'công việc', ne: 'काम' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

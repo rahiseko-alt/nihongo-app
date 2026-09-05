@@ -10,7 +10,7 @@ export const KANJI_U07D79 = {
   reading: 'きぬ',
   meaning: 'silk',
   word: '絹',
-      meanings: { ja: 'silk', en: 'silk', zh: '绢', ko: '견' },
+      meanings: { ja: 'silk', en: 'silk', zh: '绢' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入
