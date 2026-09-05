@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { getMeaning } from '../../src/lib/utils/kanjiMeaning.js';
+import { getMeaning, JA_MEANING } from '../../src/lib/utils/kanjiMeaning.js';
 
 const KANJI_DIR = join(import.meta.dirname, '../../src/lib/data/kanji');
 
@@ -98,7 +98,9 @@ describe('漢字データの意味欄', () => {
 
   // 都道府県名セット（愛知県・北海道など）で使う26字は meanings を持たず、
   // EN_MEANING 等のフォールバック表から引かれる。表に登録が無いと意味欄が
-  // 空欄のまま出るため、26字すべてが表に載っていることを確かめる。
+  // 空欄のまま出るため、26字すべてが英語で表に載っていることを確かめる。
+  // 日本語（JA_MEANING）は根拠のある訳語がある字だけに絞っているため、
+  // ここでは英語だけを検査する。
   it('都道府県名セットの26字に英語の意味が登録されている', () => {
     const PREFECTURE_KANJI = [
       '愛',
@@ -132,6 +134,14 @@ describe('漢字データの意味欄', () => {
     const missing = PREFECTURE_KANJI.filter((char) => getMeaning({ char }, 'en') === '');
 
     expect(missing).toEqual([]);
+  });
+
+  // JA_MEANING に字そのものを値として書くと、中国語欄で見つかったのと同じ
+  // 「情報ゼロの訳」になる。根拠のある訳語だけを載せる方針を保つための検査。
+  it('日本語の意味フォールバック表に字そのものが値として入っていない', () => {
+    const identical = Object.entries(JA_MEANING).filter(([char, value]) => char === value);
+
+    expect(identical).toEqual([]);
   });
 
   it('1000字パックの意味欄そのものは消えていない', () => {
