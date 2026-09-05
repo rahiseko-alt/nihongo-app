@@ -89,3 +89,9 @@
   表示側は `app/src/routes/play/+page.svelte:125-126`
 - 1000字のうち538字で `vi: 'khái niệm'` / `ne: 'अर्थ'` が入ったまま。値が入っているため
   `??` の英語フォールバックに落ちず、そのまま画面に出る
+
+### 2026-09-05 03:20 UTC（上記 021 の解消）
+
+- 対象箇所: `app/src/lib/data/kanji/*.js` の `meanings`、`app/tests/unit/kanjiMeanings.test.ts`
+- ベトナム語538字・ネパール語538字（PR #6）、中国語632字・韓国語777字（PR #8）を削除し、
+  `play/+page.svelte` の言語別の表と英語へフォールバックさせた。再発を検知するテストを3件追加
