@@ -8,6 +8,7 @@
   import { fade } from 'svelte/transition';
   import { uiLang } from '$lib/stores/langStore.js';
   import { translations } from '$lib/data/translations.js';
+  import { getMeaningRows } from '$lib/utils/kanjiMeaning';
 
   // Svelte 5のリアクティブ翻訳マッピング
   let t = $derived(translations[$uiLang] || translations.ja);
@@ -56,7 +57,7 @@
   }
   let currentIndex = $state(0);
   let activeKanji = $derived(kanjis[currentIndex] ?? kanjis[0]);
-  let activeMeaningRows = $derived(getMeaningRows(activeKanji, $uiLang));
+  let activeMeaningRows = $derived(getMeaningRows(activeKanji, $uiLang, t));
 
   let phase = $state('practice');
   let traceComps: any[] = $state([]);
@@ -70,84 +71,6 @@
   let startedFlags: boolean[] = $state([]);
   let completedFlags: boolean[] = $state([]);
   let savedFlags: boolean[] = $state([]);
-
-  const EN_MEANING: Record<string, string> = {
-    一: 'one', 二: 'two', 三: 'three', 四: 'four', 五: 'five', 六: 'six', 七: 'seven', 八: 'eight', 九: 'nine', 十: 'ten',
-    百: 'hundred', 千: 'thousand', 万: 'ten thousand',
-    上: 'up', 下: 'down', 中: 'middle', 左: 'left', 右: 'right', 前: 'before', 後: 'after', 内: 'inside', 外: 'outside',
-    人: 'person', 女: 'woman', 男: 'man', 子: 'child', 母: 'mother', 父: 'father', 友: 'friend',
-    日: 'day', 時: 'time', 今: 'now', 午: 'noon', 半: 'half', 天: 'sky',
-    東: 'east', 西: 'west', 南: 'south', 北: 'north', 京: 'capital', 都: 'metropolis', 県: 'prefecture', 国: 'country', 土: 'earth', 山: 'mountain', 海: 'sea', 空: 'sky', 雨: 'rain',
-    水: 'water', 火: 'fire', 木: 'tree', 金: 'gold', 気: 'spirit',
-    文: 'sentence', 字: 'character', 語: 'language', 話: 'talk', 読: 'read', 書: 'write', 聞: 'hear', 見: 'see',
-    学: 'study', 校: 'school', 先: 'ahead', 入: 'enter', 出: 'exit', 会: 'meet', 帰: 'return', 来: 'come', 行: 'go',
-    名: 'name', 円: 'yen', 生: 'life', 白: 'white', 英: 'english', 駅: 'station', 電: 'electricity', 車: 'car', 道: 'road',
-    家: 'house', 室: 'room', 店: 'shop', 社: 'company', 食: 'eat', 飲: 'drink', 買: 'buy',
-    何: 'what', 毎: 'every', 分: 'minute', 本: 'book', 村: 'village', 町: 'town', 口: 'mouth', 神: 'god', 奈: 'Nara'
-  };
-
-  const ZH_MEANING: Record<string, string> = {
-    一: '一', 二: '二', 三: '三', 四: '四', 五: '五', 六: '六', 七: '七', 八: '八', 九: '九', 十: '十',
-    百: '百', 千: '千', 万: '万',
-    上: '上', 下: '下', 中: '中', 左: '左', 右: '右', 前: '前', 後: '后', 内: '内', 外: '外',
-    人: '人', 女: '女', 男: '男', 子: '孩子', 母: '母亲', 父: '父亲', 友: '朋友',
-    日: '日', 時: '时间', 今: '现在', 午: '午', 半: '半', 天: '天',
-    東: '东', 西: '西', 南: '南', 北: '北', 京: '京', 都: '都', 県: '县', 国: '国', 土: '土', 山: '山', 海: '海', 空: '天空', 雨: '雨',
-    水: '水', 火: '火', 木: '木', 金: '金', 気: '气',
-    文: '文', 字: '字', 語: '语言', 話: '说', 読: '读', 書: '写', 聞: '听', 見: '看',
-    学: '学', 校: '学校', 先: '先', 入: '入', 出: '出', 会: '会', 帰: '回', 来: '来', 行: '去',
-    名: '名字', 円: '日元', 生: '生', 白: '白', 英: '英语', 駅: '车站', 電: '电', 車: '车', 道: '道路',
-    家: '家', 室: '房间', 店: '店', 社: '公司', 食: '吃', 飲: '喝', 買: '买',
-    何: '什么', 毎: '每', 分: '分', 本: '书', 村: '村', 町: '町', 口: '口', 神: '神', 奈: '奈'
-  };
-
-  const KO_MEANING: Record<string, string> = {
-    一: '하나', 二: '둘', 三: '셋', 四: '넷', 五: '다섯', 六: '여섯', 七: '일곱', 八: '여덟', 九: '아홉', 十: '열',
-    百: '백', 千: '천', 万: '만',
-    上: '위', 下: '아래', 中: '가운데', 左: '왼쪽', 右: '오른쪽', 前: '앞', 後: '뒤', 内: '안', 外: '밖',
-    人: '사람', 女: '여자', 男: '남자', 子: '아이', 母: '어머니', 父: '아버지', 友: '친구',
-    日: '날', 時: '시간', 今: '지금', 午: '정오', 半: '반', 天: '하늘',
-    東: '동쪽', 西: '서쪽', 南: '남쪽', 北: '북쪽', 京: '수도', 都: '도시', 県: '현', 国: '나라', 土: '흙', 山: '산', 海: '바다', 空: '하늘', 雨: '비',
-    水: '물', 火: '불', 木: '나무', 金: '금', 気: '기운',
-    文: '글', 字: '글자', 語: '언어', 話: '말하다', 読: '읽다', 書: '쓰다', 聞: '듣다', 見: '보다',
-    学: '배우다', 校: '학교', 先: '먼저', 入: '들어가다', 出: '나가다', 会: '만나다', 帰: '돌아가다', 来: '오다', 行: '가다',
-    名: '이름', 円: '엔', 生: '삶', 白: '흰색', 英: '영어', 駅: '역', 電: '전기', 車: '차', 道: '길',
-    家: '집', 室: '방', 店: '가게', 社: '회사', 食: '먹다', 飲: '마시다', 買: '사다',
-    何: '무엇', 毎: '매', 分: '분', 本: '책', 村: '마을', 町: '거리', 口: '입', 神: '신', 奈: '나라'
-  };
-
-  const FALLBACK_MEANING: Record<string, Record<string, string>> = {
-    en: EN_MEANING,
-    zh: ZH_MEANING,
-    ko: KO_MEANING,
-  };
-
-  // その言語に登録がなければ空文字を返す。別の言語で埋めない
-  // ——埋めると、訳が入っているのか他言語に落ちているのかが画面から区別できない。
-  function getMeaning(k: any, lang: string) {
-    if (!k?.char) return '';
-    return k.meanings?.[lang] ?? FALLBACK_MEANING[lang]?.[k.char] ?? '';
-  }
-
-  function getLangLabel(lang: string) {
-    if (lang === 'ja') return t.meaningJaLabel;
-    if (lang === 'zh') return t.meaningForeignLabelZh;
-    if (lang === 'ko') return t.meaningForeignLabelKo;
-    if (lang === 'vi') return t.meaningForeignLabelVi;
-    if (lang === 'ne') return t.meaningForeignLabelNe;
-    return t.meaningForeignLabelEn;
-  }
-
-  // 意味は「日本語 / 英語 / 選んだ言語」を常に同じ並びで出す。選んだ言語が
-  // 日本語か英語のときは、同じ行が二度出ないよう 2 行になる。
-  function getMeaningRows(k: any, lang: string) {
-    const langs = lang === 'ja' || lang === 'en' ? ['ja', 'en'] : ['ja', 'en', lang];
-    return langs.map((code) => ({
-      code,
-      label: getLangLabel(code),
-      value: getMeaning(k, code),
-    }));
-  }
 
   // kanjis 変化時にフラグ配列を初期化
   $effect(() => {
@@ -574,7 +497,9 @@
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
-    z-index: 4;
+    /* start-overlay(z-index:5)の backdrop-filter は自分より下の要素を
+       ぼかす。スタート前でも意味を読めるよう、上に出す。 */
+    z-index: 7;
     font-size: clamp(1rem, 3.5vw, 1.25rem);
     font-weight: 700;
     color: #F5F0E6; /* 和紙 */

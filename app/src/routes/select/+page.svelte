@@ -6,6 +6,7 @@
   import { uiLang } from '$lib/stores/langStore.js';
   import { translations } from '$lib/data/translations.js';
   import { addSavedKanjiChar, loadSavedKanjiChars, moveSavedKanjiChar, removeSavedKanjiChar } from '$lib/utils/savedKanji';
+  import { getMeaningRows } from '$lib/utils/kanjiMeaning';
 
   let t = $derived(translations[$uiLang] || translations.ja);
 
@@ -34,6 +35,8 @@
     id: `${activeCategory}:${k.char}:${i}`,
     char: k.char,
     reading: k.reading ?? '',
+    // 選ぶ前に意味が読めるよう、練習画面と同じ並び（日本語/英語/選択語）で持たせる
+    meaningRows: getMeaningRows(k, $uiLang, t),
   })));
 
   onMount(() => {
@@ -150,13 +153,21 @@
               onclick={() => toggleSet(item.id)}
               onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && toggleSet(item.id)}
             >
-              <div class="kanji-item-reading">{item.reading || '　'}</div>
-              <div class="kanji-item-char"><span>{item.char}</span></div>
-              <div class="saved-tools">
-                <button class="saved-tool-btn" onclick={(e) => { e.stopPropagation(); moveSaved(charOptions.findIndex((c:any) => c.char === item.char), Math.max(0, charOptions.findIndex((c:any) => c.char === item.char) - 1)); }} aria-label="up">↑</button>
-                <button class="saved-tool-btn" onclick={(e) => { e.stopPropagation(); moveSaved(charOptions.findIndex((c:any) => c.char === item.char), Math.min(charOptions.length - 1, charOptions.findIndex((c:any) => c.char === item.char) + 1)); }} aria-label="down">↓</button>
-                <button class="saved-tool-btn saved-tool-btn--danger" onclick={(e) => { e.stopPropagation(); removeSaved(item.char); }} aria-label="remove">✕</button>
+              <div class="kanji-item-top">
+                <div class="kanji-item-reading">{item.reading || '　'}</div>
+                <div class="kanji-item-char"><span>{item.char}</span></div>
+                <div class="saved-tools">
+                  <button class="saved-tool-btn" onclick={(e) => { e.stopPropagation(); moveSaved(charOptions.findIndex((c:any) => c.char === item.char), Math.max(0, charOptions.findIndex((c:any) => c.char === item.char) - 1)); }} aria-label="up">↑</button>
+                  <button class="saved-tool-btn" onclick={(e) => { e.stopPropagation(); moveSaved(charOptions.findIndex((c:any) => c.char === item.char), Math.min(charOptions.length - 1, charOptions.findIndex((c:any) => c.char === item.char) + 1)); }} aria-label="down">↓</button>
+                  <button class="saved-tool-btn saved-tool-btn--danger" onclick={(e) => { e.stopPropagation(); removeSaved(item.char); }} aria-label="remove">✕</button>
+                </div>
               </div>
+              <dl class="kanji-item-meanings">
+                {#each item.meaningRows as row (row.code)}
+                  <dt>{row.label}</dt>
+                  <dd>{row.value}</dd>
+                {/each}
+              </dl>
             </div>
           {:else}
             <div
@@ -167,18 +178,26 @@
               onclick={() => toggleSet(item.id)}
               onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && toggleSet(item.id)}
             >
-              <div class="kanji-item-reading">{item.reading || '　'}</div>
-              <div class="kanji-item-char"><span>{item.char}</span></div>
-              <div class="saved-tools">
-                <button
-                  class="saved-tool-btn"
-                  class:saved-tool-btn--active={savedChars.includes(item.char)}
-                  onclick={(e) => { e.stopPropagation(); toggleSaveChar(item.char); }}
-                  aria-label="save"
-                >
-                  {savedChars.includes(item.char) ? t.savedBtn : t.saveBtn}
-                </button>
+              <div class="kanji-item-top">
+                <div class="kanji-item-reading">{item.reading || '　'}</div>
+                <div class="kanji-item-char"><span>{item.char}</span></div>
+                <div class="saved-tools">
+                  <button
+                    class="saved-tool-btn"
+                    class:saved-tool-btn--active={savedChars.includes(item.char)}
+                    onclick={(e) => { e.stopPropagation(); toggleSaveChar(item.char); }}
+                    aria-label="save"
+                  >
+                    {savedChars.includes(item.char) ? t.savedBtn : t.saveBtn}
+                  </button>
+                </div>
               </div>
+              <dl class="kanji-item-meanings">
+                {#each item.meaningRows as row (row.code)}
+                  <dt>{row.label}</dt>
+                  <dd>{row.value}</dd>
+                {/each}
+              </dl>
             </div>
           {/if}
         {/each}
@@ -421,8 +440,16 @@
     font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", "serif";
   }
   .kanji-item-btn--char {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.4rem;
+  }
+  .kanji-item-top {
+    display: flex;
+    align-items: center;
     justify-content: flex-start;
     gap: 1rem;
+    width: 100%;
   }
   .saved-tools {
     margin-left: auto;
@@ -476,6 +503,29 @@
     font-size: 0.85rem;
     color: #5c5752;
     font-weight: 600;
+  }
+  /* 練習画面のバッジと同じ並び（日本語/英語/選択語）。ラベル列は
+     max-content でいちばん長いラベルに揃え、値が無い行は空欄のまま出す。 */
+  .kanji-item-meanings {
+    margin: 0;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 0.4rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 1.35;
+    color: #5c5752;
+    min-width: 0;
+  }
+  .kanji-item-meanings dt {
+    opacity: 0.7;
+    white-space: nowrap;
+  }
+  .kanji-item-meanings dd {
+    margin: 0;
+    min-height: 1.35em;
+    min-width: 0;
+    overflow-wrap: break-word;
   }
 
   /* ボタン共通 */
