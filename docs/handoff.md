@@ -61,30 +61,6 @@
 
 ### 前のセッション
 
-**`app/` を監査し、見つかった3つの不具合・不整合を `docs/plan.json` に追記した（マージ済み）**
-
-- コミット: `2ff3a64`（`docs/plan.json` / `docs/neglected-log.md`）
-- **監査で判明した事実**（実装はしていない。追記のみ）
-  - 書き順アニメーションは `TraceCanvas.svelte` が本物で実装している（KanjiVG の実測パスを
-    canvas に等速で描画）。一方 `app/src/lib/components/KanjiStrokes.svelte` はどこからも
-    import されていない未使用コンポーネント
-  - `app/src/lib/data/kanji/ai.js` など都道府県名セット用の26ファイルは旧形式で
-    `meanings` を持たず、`getMeaning`（`app/src/lib/utils/kanjiMeaning.ts:314`）の
-    フォールバック表にも該当字が無いため、意味欄が空欄になる（「愛知県」セットの「愛」で確認済み）
-  - `app/README.md` の Getting started / Scripts が `npm` 表記のまま。`AGENTS.md` の
-    「npm と yarn は使わない」と食い違う
-  - UI 言語(ja/en/zh/ko/vi/ne)は翻訳キー63件が全言語で揃っており、UI側のハードコードは
-    見つからなかった。カスタム選択セットの `reading: 'せんたくかんじ'`（`play/+page.svelte:35`）
-    は調べたところ画面のどこにも表示されておらず、死んだデータなので不具合として追記していない
-  - `/admin` は開発用ではなく学習記録（進捗・クリア済み一覧）を見る本物のユーザー向け画面
-- `docs/plan.json` に `T030`（都道府県名26字の意味欄穴埋め）・`T031`（未使用コンポーネント削除）・
-  `T032`（README の npm→pnpm 修正）を追記。id は `pnpm run plan:next-id` で採番、`origin: added`
-- `docs/neglected-log.md` に1件追記。前セッションが作った15コミットの内容が `origin/main`
-  （マージ済み PR #11・#12）と一致することを確認したうえで、`claude/checkin-77sawa` を
-  `origin/main` から作り直し `--force-with-lease` で push した（Gate `006`）
-- 検証: root の `pnpm run check`（46件）・`pnpm run test` とも成功。追記した3項目が
-  `src/plan.ts` の `validatePlan` を通ることを確認済み
-
 **4つ目: スタート前のぼかしを直し、選択画面にも意味を出した（マージ済み）**
 
 - PR: [#11](https://github.com/rahiseko-alt/nihongo-app/pull/11)（`main` にマージ済み、`d2a5496`）
