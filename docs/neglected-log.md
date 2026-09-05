@@ -95,3 +95,10 @@
 - 対象箇所: `app/src/lib/data/kanji/*.js` の `meanings`、`app/tests/unit/kanjiMeanings.test.ts`
 - ベトナム語538字・ネパール語538字（PR #6）、中国語632字・韓国語777字（PR #8）を削除し、
   `play/+page.svelte` の言語別の表と英語へフォールバックさせた。再発を検知するテストを3件追加
+
+### 2026-09-05 05:58 UTC
+
+- 触れたGate: `006 復旧不能なデータ破損を発生させないか`（P0 絶対停止領域）
+- 対象箇所: `git push --force-with-lease` で `origin/claude/checkin-77sawa` を書き換えた操作
+- 前回セッションが作った15コミットが `origin/main`（マージ済みPR #11・#12）と内容一致
+  （`git diff --stat origin/main..HEAD` が空）であることを確認したうえで実施した
