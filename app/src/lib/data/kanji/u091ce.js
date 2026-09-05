@@ -10,7 +10,7 @@ export const KANJI_U091CE = {
   reading: 'の',
   meaning: 'plains/field',
   word: '野',
-      meanings: { ja: 'plains/field', en: 'plains/field' },
+      meanings: { en: 'plains/field' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

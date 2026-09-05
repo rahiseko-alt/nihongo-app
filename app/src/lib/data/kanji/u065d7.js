@@ -10,7 +10,7 @@ export const KANJI_U065D7 = {
   reading: 'はた',
   meaning: 'flag/banner',
   word: '旗',
-      meanings: { ja: 'flag/banner', en: 'flag/banner' },
+      meanings: { en: 'flag/banner' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05DF1 = {
   reading: 'おのれ',
   meaning: 'self',
   word: '己',
-      meanings: { ja: 'self', en: 'self', vi: 'bản thân', ne: 'आफू' },
+      meanings: { en: 'self', vi: 'bản thân', ne: 'आफू' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

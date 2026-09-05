@@ -10,7 +10,7 @@ export const KANJI_U05200 = {
   reading: 'かたな',
   meaning: 'sword/saber',
   word: '刀',
-      meanings: { ja: 'sword/saber', en: 'sword/saber' },
+      meanings: { en: 'sword/saber' },
   strokeCount: 2,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

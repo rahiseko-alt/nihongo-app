@@ -10,7 +10,7 @@ export const KANJI_U05831 = {
   reading: 'ほう',
   meaning: 'report',
   word: '報',
-      meanings: { ja: 'report', en: 'report', zh: '报告', ko: '보고', vi: 'báo cáo', ne: 'प्रतिवेदन' },
+      meanings: { en: 'report', zh: '报告', ko: '보고', vi: 'báo cáo', ne: 'प्रतिवेदन' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

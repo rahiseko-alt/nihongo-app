@@ -10,7 +10,7 @@ export const KANJI_U06025 = {
   reading: 'きゅう',
   meaning: 'urgent',
   word: '急',
-      meanings: { ja: 'urgent', en: 'urgent', zh: '紧急', ko: '긴급', vi: 'khẩn cấp', ne: 'जरुरी' },
+      meanings: { en: 'urgent', zh: '紧急', ko: '긴급', vi: 'khẩn cấp', ne: 'जरुरी' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

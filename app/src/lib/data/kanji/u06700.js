@@ -10,7 +10,7 @@ export const KANJI_U06700 = {
   reading: 'もっとも',
   meaning: 'utmost/most',
   word: '最',
-      meanings: { ja: 'utmost/most', en: 'utmost/most' },
+      meanings: { en: 'utmost/most' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

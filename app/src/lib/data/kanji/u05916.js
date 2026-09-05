@@ -10,7 +10,7 @@ export const KANJI_U05916 = {
   reading: 'そと',
   meaning: 'outside',
   word: '外',
-      meanings: { ja: 'outside', en: 'outside', vi: 'bên ngoài', ne: 'बाहिर' },
+      meanings: { en: 'outside', vi: 'bên ngoài', ne: 'बाहिर' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

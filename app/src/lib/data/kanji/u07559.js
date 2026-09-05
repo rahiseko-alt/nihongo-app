@@ -10,7 +10,7 @@ export const KANJI_U07559 = {
   reading: 'りゅう',
   meaning: 'stay',
   word: '留',
-      meanings: { ja: 'stay', en: 'stay', ko: '머무르다', vi: 'ở lại', ne: 'बस्नु' },
+      meanings: { en: 'stay', ko: '머무르다', vi: 'ở lại', ne: 'बस्नु' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

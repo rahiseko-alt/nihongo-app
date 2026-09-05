@@ -10,7 +10,7 @@ export const KANJI_U08840 = {
   reading: 'ち',
   meaning: 'blood',
   word: '血',
-      meanings: { ja: 'blood', en: 'blood' },
+      meanings: { en: 'blood' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

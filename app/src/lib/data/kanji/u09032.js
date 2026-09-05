@@ -10,7 +10,7 @@ export const KANJI_U09032 = {
   reading: 'すすむ',
   meaning: 'advance/proceed',
   word: '進',
-      meanings: { ja: 'advance/proceed', en: 'advance/proceed', zh: '进' },
+      meanings: { en: 'advance/proceed', zh: '进' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

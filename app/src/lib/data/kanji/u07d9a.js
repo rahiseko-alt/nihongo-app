@@ -10,7 +10,7 @@ export const KANJI_U07D9A = {
   reading: 'つづく',
   meaning: 'continue/series',
   word: '続',
-      meanings: { ja: 'continue/series', en: 'continue/series', vi: 'tiếp tục', ne: 'जारी' },
+      meanings: { en: 'continue/series', vi: 'tiếp tục', ne: 'जारी' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

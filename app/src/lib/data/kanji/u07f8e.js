@@ -10,7 +10,7 @@ export const KANJI_U07F8E = {
   reading: 'うつくしい',
   meaning: 'beauty/beautiful',
   word: '美',
-      meanings: { ja: 'beauty/beautiful', en: 'beauty/beautiful', vi: 'vẻ đẹp', ne: 'सुन्दरता' },
+      meanings: { en: 'beauty/beautiful', vi: 'vẻ đẹp', ne: 'सुन्दरता' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

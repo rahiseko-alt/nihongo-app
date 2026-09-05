@@ -10,7 +10,7 @@ export const KANJI_U088CF = {
   reading: 'うら',
   meaning: 'back/amidst',
   word: '裏',
-      meanings: { ja: 'back/amidst', en: 'back/amidst', zh: '里', vi: 'sau', ne: 'पछाडि' },
+      meanings: { en: 'back/amidst', zh: '里', vi: 'sau', ne: 'पछाडि' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

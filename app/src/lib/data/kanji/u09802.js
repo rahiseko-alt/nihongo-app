@@ -10,7 +10,7 @@ export const KANJI_U09802 = {
   reading: 'いただく',
   meaning: 'place on the head/receive',
   word: '頂',
-      meanings: { ja: 'place on the head/receive', en: 'place on the head/receive', zh: '顶', vi: 'nhận', ne: 'प्राप्त' },
+      meanings: { en: 'place on the head/receive', zh: '顶', vi: 'nhận', ne: 'प्राप्त' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

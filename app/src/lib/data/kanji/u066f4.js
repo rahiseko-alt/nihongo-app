@@ -10,7 +10,7 @@ export const KANJI_U066F4 = {
   reading: 'こう',
   meaning: 'renew',
   word: '更',
-      meanings: { ja: 'renew', en: 'renew', zh: '更新', ko: '갱신', vi: 'gia hạn', ne: 'नवीकरण' },
+      meanings: { en: 'renew', zh: '更新', ko: '갱신', vi: 'gia hạn', ne: 'नवीकरण' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

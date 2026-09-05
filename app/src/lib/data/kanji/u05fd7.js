@@ -10,7 +10,7 @@ export const KANJI_U05FD7 = {
   reading: 'こころざし',
   meaning: 'intention/plan',
   word: '志',
-      meanings: { ja: 'intention/plan', en: 'intention/plan', vi: 'kế hoạch', ne: 'योजना' },
+      meanings: { en: 'intention/plan', vi: 'kế hoạch', ne: 'योजना' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

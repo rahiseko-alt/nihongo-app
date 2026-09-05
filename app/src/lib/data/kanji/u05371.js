@@ -10,7 +10,7 @@ export const KANJI_U05371 = {
   reading: 'き',
   meaning: 'danger',
   word: '危',
-      meanings: { ja: 'danger', en: 'danger', zh: '危险', ko: '위험', vi: 'nguy hiểm', ne: 'खतरा' },
+      meanings: { en: 'danger', zh: '危险', ko: '위험', vi: 'nguy hiểm', ne: 'खतरा' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

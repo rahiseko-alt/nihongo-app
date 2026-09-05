@@ -10,7 +10,7 @@ export const KANJI_U05146 = {
   reading: 'ちょう',
   meaning: 'portent/10**12',
   word: '兆',
-      meanings: { ja: 'portent/10**12', en: 'portent/10**12' },
+      meanings: { en: 'portent/10**12' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

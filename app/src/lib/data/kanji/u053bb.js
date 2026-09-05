@@ -10,7 +10,7 @@ export const KANJI_U053BB = {
   reading: 'さる',
   meaning: 'gone/past',
   word: '去',
-      meanings: { ja: 'gone/past', en: 'gone/past' },
+      meanings: { en: 'gone/past' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

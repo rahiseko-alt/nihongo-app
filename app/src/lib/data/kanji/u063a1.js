@@ -10,7 +10,7 @@ export const KANJI_U063A1 = {
   reading: 'とる',
   meaning: 'pick/take',
   word: '採',
-      meanings: { ja: 'pick/take', en: 'pick/take', zh: '采', vi: 'lấy', ne: 'लिनु' },
+      meanings: { en: 'pick/take', zh: '采', vi: 'lấy', ne: 'लिनु' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U08B1D = {
   reading: 'しゃ',
   meaning: 'apologize/thank',
   word: '謝',
-      meanings: { ja: 'apologize/thank', en: 'apologize/thank', zh: '谢' },
+      meanings: { en: 'apologize/thank', zh: '谢' },
   strokeCount: 17,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

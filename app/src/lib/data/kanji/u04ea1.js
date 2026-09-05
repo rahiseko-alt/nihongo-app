@@ -10,7 +10,7 @@ export const KANJI_U04EA1 = {
   reading: 'なくなる',
   meaning: 'deceased/the late',
   word: '亡',
-      meanings: { ja: 'deceased/the late', en: 'deceased/the late' },
+      meanings: { en: 'deceased/the late' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U085AC = {
   reading: 'くすり',
   meaning: 'medicine',
   word: '薬',
-      meanings: { ja: 'medicine', en: 'medicine', zh: '药', vi: 'thuốc', ne: 'औषधि' },
+      meanings: { en: 'medicine', zh: '药', vi: 'thuốc', ne: 'औषधि' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

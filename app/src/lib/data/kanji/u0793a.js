@@ -10,7 +10,7 @@ export const KANJI_U0793A = {
   reading: 'しめす',
   meaning: 'show/indicate',
   word: '示',
-      meanings: { ja: 'show/indicate', en: 'show/indicate' },
+      meanings: { en: 'show/indicate' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

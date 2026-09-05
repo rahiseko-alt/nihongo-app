@@ -10,7 +10,7 @@ export const KANJI_U07D14 = {
   reading: 'じゅん',
   meaning: 'genuine/purity',
   word: '純',
-      meanings: { ja: 'genuine/purity', en: 'genuine/purity', zh: '纯' },
+      meanings: { en: 'genuine/purity', zh: '纯' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

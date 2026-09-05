@@ -10,7 +10,7 @@ export const KANJI_U09664 = {
   reading: 'のぞく',
   meaning: 'exclude/division (x/3)',
   word: '除',
-      meanings: { ja: 'exclude/division (x/3)', en: 'exclude/division (x/3)' },
+      meanings: { en: 'exclude/division (x/3)' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

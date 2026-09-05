@@ -10,7 +10,7 @@ export const KANJI_U05375 = {
   reading: 'たまご',
   meaning: 'egg/ovum',
   word: '卵',
-      meanings: { ja: 'egg/ovum', en: 'egg/ovum' },
+      meanings: { en: 'egg/ovum' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

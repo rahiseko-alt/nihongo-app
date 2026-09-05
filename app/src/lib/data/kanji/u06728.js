@@ -10,7 +10,7 @@ export const KANJI_U06728 = {
   reading: 'き',
   meaning: 'tree',
   word: '木',
-      meanings: { ja: 'tree', en: 'tree', zh: '树', ko: '나무', vi: 'cây', ne: 'रुख' },
+      meanings: { en: 'tree', zh: '树', ko: '나무', vi: 'cây', ne: 'रुख' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

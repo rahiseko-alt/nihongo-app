@@ -10,7 +10,7 @@ export const KANJI_U0756A = {
   reading: 'ばん',
   meaning: 'number',
   word: '番',
-      meanings: { ja: 'number', en: 'number', zh: '号', ko: '번호', vi: 'số', ne: 'संख्या' },
+      meanings: { en: 'number', zh: '号', ko: '번호', vi: 'số', ne: 'संख्या' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

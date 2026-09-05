@@ -10,7 +10,7 @@ export const KANJI_U051FA = {
   reading: 'でる',
   meaning: 'exit',
   word: '出',
-      meanings: { ja: 'exit', en: 'exit', zh: '出去', ko: '나가다', vi: 'ra', ne: 'बाहिर निस्कनु' },
+      meanings: { en: 'exit', zh: '出去', ko: '나가다', vi: 'ra', ne: 'बाहिर निस्कनु' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

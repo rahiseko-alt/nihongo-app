@@ -10,7 +10,7 @@ export const KANJI_U07981 = {
   reading: 'きん',
   meaning: 'prohibit',
   word: '禁',
-      meanings: { ja: 'prohibit', en: 'prohibit', zh: '禁止', ko: '금지', vi: 'cấm', ne: 'निषेध' },
+      meanings: { en: 'prohibit', zh: '禁止', ko: '금지', vi: 'cấm', ne: 'निषेध' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

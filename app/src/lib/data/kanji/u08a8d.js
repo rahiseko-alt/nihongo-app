@@ -10,7 +10,7 @@ export const KANJI_U08A8D = {
   reading: 'にん',
   meaning: 'recognize',
   word: '認',
-      meanings: { ja: 'recognize', en: 'recognize', zh: '认定', ko: '인정', vi: 'công nhận', ne: 'मान्यता' },
+      meanings: { en: 'recognize', zh: '认定', ko: '인정', vi: 'công nhận', ne: 'मान्यता' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

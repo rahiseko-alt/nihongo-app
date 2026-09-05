@@ -10,7 +10,7 @@ export const KANJI_U053F0 = {
   reading: 'だい',
   meaning: 'pedestal/a stand',
   word: '台',
-      meanings: { ja: 'pedestal/a stand', en: 'pedestal/a stand' },
+      meanings: { en: 'pedestal/a stand' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

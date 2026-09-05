@@ -10,7 +10,7 @@ export const KANJI_U0884C = {
   reading: 'いく',
   meaning: 'go',
   word: '行',
-      meanings: { ja: 'go', en: 'go', zh: '去', ko: '가다', vi: 'đi', ne: 'जानु' },
+      meanings: { en: 'go', zh: '去', ko: '가다', vi: 'đi', ne: 'जानु' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

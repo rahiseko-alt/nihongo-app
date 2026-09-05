@@ -10,7 +10,7 @@ export const KANJI_U06301 = {
   reading: 'もつ',
   meaning: 'hold/have',
   word: '持',
-      meanings: { ja: 'hold/have', en: 'hold/have', vi: 'có', ne: 'हुनु' },
+      meanings: { en: 'hold/have', vi: 'có', ne: 'हुनु' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

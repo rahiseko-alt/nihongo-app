@@ -10,7 +10,7 @@ export const KANJI_U0547C = {
   reading: 'よぶ',
   meaning: 'call/call out to',
   word: '呼',
-      meanings: { ja: 'call/call out to', en: 'call/call out to' },
+      meanings: { en: 'call/call out to' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U04E88 = {
   reading: 'よ',
   meaning: 'before',
   word: '予',
-      meanings: { ja: 'before', en: 'before', zh: '预防', ko: '예방', vi: 'trước', ne: 'पहिले' },
+      meanings: { en: 'before', zh: '预防', ko: '예방', vi: 'trước', ne: 'पहिले' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U08F38 = {
   reading: 'ゆ',
   meaning: 'transport/send',
   word: '輸',
-      meanings: { ja: 'transport/send', en: 'transport/send', zh: '输', vi: 'vận chuyển', ne: 'ढुवानी' },
+      meanings: { en: 'transport/send', zh: '输', vi: 'vận chuyển', ne: 'ढुवानी' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

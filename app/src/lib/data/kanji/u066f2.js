@@ -10,7 +10,7 @@ export const KANJI_U066F2 = {
   reading: 'まがる',
   meaning: 'bend/music',
   word: '曲',
-      meanings: { ja: 'bend/music', en: 'bend/music', vi: 'âm nhạc', ne: 'संगीत' },
+      meanings: { en: 'bend/music', vi: 'âm nhạc', ne: 'संगीत' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

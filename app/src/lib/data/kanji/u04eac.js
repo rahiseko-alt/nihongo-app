@@ -10,7 +10,7 @@ export const KANJI_U04EAC = {
   reading: 'きょう',
   meaning: 'capital',
   word: '京',
-      meanings: { ja: 'capital', en: 'capital', ko: '수도', vi: 'thủ đô', ne: 'राजधानी' },
+      meanings: { en: 'capital', ko: '수도', vi: 'thủ đô', ne: 'राजधानी' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

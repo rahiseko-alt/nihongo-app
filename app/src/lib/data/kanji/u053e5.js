@@ -10,7 +10,7 @@ export const KANJI_U053E5 = {
   reading: 'く',
   meaning: 'phrase/clause',
   word: '句',
-      meanings: { ja: 'phrase/clause', en: 'phrase/clause' },
+      meanings: { en: 'phrase/clause' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

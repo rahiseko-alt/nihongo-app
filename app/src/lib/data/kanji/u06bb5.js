@@ -10,7 +10,7 @@ export const KANJI_U06BB5 = {
   reading: 'だん',
   meaning: 'grade/steps',
   word: '段',
-      meanings: { ja: 'grade/steps', en: 'grade/steps' },
+      meanings: { en: 'grade/steps' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

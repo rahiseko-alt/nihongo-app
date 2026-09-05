@@ -10,7 +10,7 @@ export const KANJI_U08C4A = {
   reading: 'ゆたか',
   meaning: 'bountiful/excellent',
   word: '豊',
-      meanings: { ja: 'bountiful/excellent', en: 'bountiful/excellent', vi: 'xuất sắc', ne: 'उत्कृष्ट' },
+      meanings: { en: 'bountiful/excellent', vi: 'xuất sắc', ne: 'उत्कृष्ट' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

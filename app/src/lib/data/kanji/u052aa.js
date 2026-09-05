@@ -10,7 +10,7 @@ export const KANJI_U052AA = {
   reading: 'つとめる',
   meaning: 'toil/diligent',
   word: '努',
-      meanings: { ja: 'toil/diligent', en: 'toil/diligent' },
+      meanings: { en: 'toil/diligent' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

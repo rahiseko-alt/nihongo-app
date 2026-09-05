@@ -10,7 +10,7 @@ export const KANJI_U06E05 = {
   reading: 'きよい',
   meaning: 'pure/purify',
   word: '清',
-      meanings: { ja: 'pure/purify', en: 'pure/purify' },
+      meanings: { en: 'pure/purify' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

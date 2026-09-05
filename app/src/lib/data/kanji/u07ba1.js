@@ -10,7 +10,7 @@ export const KANJI_U07BA1 = {
   reading: 'かん',
   meaning: 'manage',
   word: '管',
-      meanings: { ja: 'manage', en: 'manage', zh: '管理', ko: '관리', vi: 'quản lý', ne: 'व्यवस्थापन' },
+      meanings: { en: 'manage', zh: '管理', ko: '관리', vi: 'quản lý', ne: 'व्यवस्थापन' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

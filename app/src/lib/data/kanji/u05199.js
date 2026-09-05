@@ -10,7 +10,7 @@ export const KANJI_U05199 = {
   reading: 'うつ',
   meaning: 'copy/be photographed',
   word: '写',
-      meanings: { ja: 'copy/be photographed', en: 'copy/be photographed' },
+      meanings: { en: 'copy/be photographed' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

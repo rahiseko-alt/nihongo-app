@@ -10,7 +10,7 @@ export const KANJI_U08CB7 = {
   reading: 'かう',
   meaning: 'buy',
   word: '買',
-      meanings: { ja: 'buy', en: 'buy', zh: '买', ko: '사다', vi: 'mua', ne: 'किन्नु' },
+      meanings: { en: 'buy', zh: '买', ko: '사다', vi: 'mua', ne: 'किन्नु' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

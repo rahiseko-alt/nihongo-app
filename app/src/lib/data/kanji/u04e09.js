@@ -10,7 +10,7 @@ export const KANJI_U04E09 = {
   reading: 'さん',
   meaning: 'three',
   word: '三',
-      meanings: { ja: 'three', en: 'three', vi: 'ba', ne: 'तीन' },
+      meanings: { en: 'three', vi: 'ba', ne: 'तीन' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

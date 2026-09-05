@@ -10,7 +10,7 @@ export const KANJI_U0671F = {
   reading: 'き',
   meaning: 'period',
   word: '期',
-      meanings: { ja: 'period', en: 'period', zh: '期限', ko: '기간', vi: 'thời hạn', ne: 'अवधि' },
+      meanings: { en: 'period', zh: '期限', ko: '기간', vi: 'thời hạn', ne: 'अवधि' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

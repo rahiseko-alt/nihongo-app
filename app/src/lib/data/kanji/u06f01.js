@@ -10,7 +10,7 @@ export const KANJI_U06F01 = {
   reading: 'ぎょ',
   meaning: 'fishing/fishery',
   word: '漁',
-      meanings: { ja: 'fishing/fishery', en: 'fishing/fishery', zh: '渔' },
+      meanings: { en: 'fishing/fishery', zh: '渔' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

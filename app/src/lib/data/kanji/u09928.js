@@ -10,7 +10,7 @@ export const KANJI_U09928 = {
   reading: 'かん',
   meaning: 'building/mansion',
   word: '館',
-      meanings: { ja: 'building/mansion', en: 'building/mansion', zh: '馆', vi: 'tòa nhà', ne: 'भवन' },
+      meanings: { en: 'building/mansion', zh: '馆', vi: 'tòa nhà', ne: 'भवन' },
   strokeCount: 16,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

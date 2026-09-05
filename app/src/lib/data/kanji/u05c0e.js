@@ -10,7 +10,7 @@ export const KANJI_U05C0E = {
   reading: 'みちびく',
   meaning: 'guidance/leading',
   word: '導',
-      meanings: { ja: 'guidance/leading', en: 'guidance/leading', zh: '导' },
+      meanings: { en: 'guidance/leading', zh: '导' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

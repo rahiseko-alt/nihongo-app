@@ -10,7 +10,7 @@ export const KANJI_U077E5 = {
   reading: 'ち',
   meaning: 'know',
   word: '知',
-      meanings: { ja: 'know', en: 'know', zh: '知道', ko: '알다', vi: 'biết', ne: 'थाहा' },
+      meanings: { en: 'know', zh: '知道', ko: '알다', vi: 'biết', ne: 'थाहा' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

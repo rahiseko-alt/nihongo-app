@@ -10,7 +10,7 @@ export const KANJI_U05584 = {
   reading: 'よい',
   meaning: 'virtuous/good',
   word: '善',
-      meanings: { ja: 'virtuous/good', en: 'virtuous/good' },
+      meanings: { en: 'virtuous/good' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05E2D = {
   reading: 'せき',
   meaning: 'seat/mat',
   word: '席',
-      meanings: { ja: 'seat/mat', en: 'seat/mat' },
+      meanings: { en: 'seat/mat' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0793E = {
   reading: 'しゃ',
   meaning: 'company',
   word: '社',
-      meanings: { ja: 'company', en: 'company', zh: '公司', ko: '회사', vi: 'công ty', ne: 'कम्पनी' },
+      meanings: { en: 'company', zh: '公司', ko: '회사', vi: 'công ty', ne: 'कम्पनी' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

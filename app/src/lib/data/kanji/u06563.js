@@ -10,7 +10,7 @@ export const KANJI_U06563 = {
   reading: 'ちる',
   meaning: 'scatter/disperse',
   word: '散',
-      meanings: { ja: 'scatter/disperse', en: 'scatter/disperse' },
+      meanings: { en: 'scatter/disperse' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

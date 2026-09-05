@@ -10,7 +10,7 @@ export const KANJI_U077ED = {
   reading: 'みじかい',
   meaning: 'short/brevity',
   word: '短',
-      meanings: { ja: 'short/brevity', en: 'short/brevity', vi: 'ngắn', ne: 'छोटो' },
+      meanings: { en: 'short/brevity', vi: 'ngắn', ne: 'छोटो' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

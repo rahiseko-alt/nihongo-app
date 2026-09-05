@@ -10,7 +10,7 @@ export const KANJI_U090FD = {
   reading: 'と',
   meaning: 'metropolis',
   word: '都',
-      meanings: { ja: 'metropolis', en: 'metropolis', ko: '도시', vi: 'đô thị', ne: 'महानगर' },
+      meanings: { en: 'metropolis', ko: '도시', vi: 'đô thị', ne: 'महानगर' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

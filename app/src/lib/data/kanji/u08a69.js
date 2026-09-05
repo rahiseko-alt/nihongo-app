@@ -10,7 +10,7 @@ export const KANJI_U08A69 = {
   reading: 'し',
   meaning: 'poem/poetry',
   word: '詩',
-      meanings: { ja: 'poem/poetry', en: 'poem/poetry', zh: '诗' },
+      meanings: { en: 'poem/poetry', zh: '诗' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

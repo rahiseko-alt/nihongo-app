@@ -10,7 +10,7 @@ export const KANJI_U04ED8 = {
   reading: 'つける',
   meaning: 'attach/submit',
   word: '付',
-      meanings: { ja: 'attach/submit', en: 'attach/submit', zh: '提交', ko: '접수', vi: 'đính kèm', ne: 'संलग्न' },
+      meanings: { en: 'attach/submit', zh: '提交', ko: '접수', vi: 'đính kèm', ne: 'संलग्न' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

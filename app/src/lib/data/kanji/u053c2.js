@@ -10,7 +10,7 @@ export const KANJI_U053C2 = {
   reading: 'さん',
   meaning: 'nonplussed/three (in documents)',
   word: '参',
-      meanings: { ja: 'nonplussed/three (in documents)', en: 'nonplussed/three (in documents)', vi: 'ba', ne: 'तीन' },
+      meanings: { en: 'nonplussed/three (in documents)', vi: 'ba', ne: 'तीन' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05305 = {
   reading: 'つつむ',
   meaning: 'wrap/pack up',
   word: '包',
-      meanings: { ja: 'wrap/pack up', en: 'wrap/pack up', vi: 'trên', ne: 'माथि' },
+      meanings: { en: 'wrap/pack up', vi: 'trên', ne: 'माथि' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

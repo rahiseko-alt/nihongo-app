@@ -10,7 +10,7 @@ export const KANJI_U08ECD = {
   reading: 'ぐん',
   meaning: 'army/force',
   word: '軍',
-      meanings: { ja: 'army/force', en: 'army/force', zh: '军', vi: 'lực', ne: 'बल' },
+      meanings: { en: 'army/force', zh: '军', vi: 'lực', ne: 'बल' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

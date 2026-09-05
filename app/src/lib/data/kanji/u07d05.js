@@ -10,7 +10,7 @@ export const KANJI_U07D05 = {
   reading: 'べに',
   meaning: 'crimson/deep red',
   word: '紅',
-      meanings: { ja: 'crimson/deep red', en: 'crimson/deep red', zh: '红', vi: 'đỏ', ne: 'रातो' },
+      meanings: { en: 'crimson/deep red', zh: '红', vi: 'đỏ', ne: 'रातो' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

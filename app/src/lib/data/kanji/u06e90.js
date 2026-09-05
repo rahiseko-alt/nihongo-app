@@ -10,7 +10,7 @@ export const KANJI_U06E90 = {
   reading: 'みなもと',
   meaning: 'source/origin',
   word: '源',
-      meanings: { ja: 'source/origin', en: 'source/origin' },
+      meanings: { en: 'source/origin' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

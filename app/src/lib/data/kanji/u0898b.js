@@ -10,7 +10,7 @@ export const KANJI_U0898B = {
   reading: 'みる',
   meaning: 'see',
   word: '見',
-      meanings: { ja: 'see', en: 'see', zh: '看', ko: '보다', vi: 'nhìn', ne: 'हेर्नु' },
+      meanings: { en: 'see', zh: '看', ko: '보다', vi: 'nhìn', ne: 'हेर्नु' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

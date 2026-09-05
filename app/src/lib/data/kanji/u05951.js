@@ -10,7 +10,7 @@ export const KANJI_U05951 = {
   reading: 'けい',
   meaning: 'contract',
   word: '契',
-      meanings: { ja: 'contract', en: 'contract', zh: '契约', ko: '계약', vi: 'hợp đồng', ne: 'सम्झौता' },
+      meanings: { en: 'contract', zh: '契约', ko: '계약', vi: 'hợp đồng', ne: 'सम्झौता' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

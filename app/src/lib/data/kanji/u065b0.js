@@ -10,7 +10,7 @@ export const KANJI_U065B0 = {
   reading: 'しん',
   meaning: 'new',
   word: '新',
-      meanings: { ja: 'new', en: 'new', ko: '새로운', vi: 'mới', ne: 'नयाँ' },
+      meanings: { en: 'new', ko: '새로운', vi: 'mới', ne: 'नयाँ' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

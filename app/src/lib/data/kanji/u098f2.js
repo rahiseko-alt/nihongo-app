@@ -10,7 +10,7 @@ export const KANJI_U098F2 = {
   reading: 'のむ',
   meaning: 'drink',
   word: '飲',
-      meanings: { ja: 'drink', en: 'drink', zh: '喝', ko: '마시다', vi: 'uống', ne: 'पिउनु' },
+      meanings: { en: 'drink', zh: '喝', ko: '마시다', vi: 'uống', ne: 'पिउनु' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

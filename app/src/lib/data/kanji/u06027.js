@@ -10,7 +10,7 @@ export const KANJI_U06027 = {
   reading: 'せい',
   meaning: 'sex',
   word: '性',
-      meanings: { ja: 'sex', en: 'sex', zh: '性别', ko: '성별', vi: 'giới tính', ne: 'लिङ्ग' },
+      meanings: { en: 'sex', zh: '性别', ko: '성별', vi: 'giới tính', ne: 'लिङ्ग' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

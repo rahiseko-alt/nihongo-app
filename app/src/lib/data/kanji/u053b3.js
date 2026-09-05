@@ -10,7 +10,7 @@ export const KANJI_U053B3 = {
   reading: 'きびしい',
   meaning: 'stern/strictness',
   word: '厳',
-      meanings: { ja: 'stern/strictness', en: 'stern/strictness' },
+      meanings: { en: 'stern/strictness' },
   strokeCount: 17,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

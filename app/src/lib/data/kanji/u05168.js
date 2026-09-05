@@ -10,7 +10,7 @@ export const KANJI_U05168 = {
   reading: 'ぜん',
   meaning: 'all',
   word: '全',
-      meanings: { ja: 'all', en: 'all', ko: '전체', vi: 'tất cả', ne: 'सबै' },
+      meanings: { en: 'all', ko: '전체', vi: 'tất cả', ne: 'सबै' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

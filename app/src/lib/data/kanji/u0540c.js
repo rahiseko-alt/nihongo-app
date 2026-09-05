@@ -10,7 +10,7 @@ export const KANJI_U0540C = {
   reading: 'おなじ',
   meaning: 'same/agree',
   word: '同',
-      meanings: { ja: 'same/agree', en: 'same/agree' },
+      meanings: { en: 'same/agree' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U04FEE = {
   reading: 'しゅう',
   meaning: 'discipline/conduct oneself well',
   word: '修',
-      meanings: { ja: 'discipline/conduct oneself well', en: 'discipline/conduct oneself well' },
+      meanings: { en: 'discipline/conduct oneself well' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

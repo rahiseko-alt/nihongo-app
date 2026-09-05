@@ -10,7 +10,7 @@ export const KANJI_U07236 = {
   reading: 'ちち',
   meaning: 'father',
   word: '父',
-      meanings: { ja: 'father', en: 'father', zh: '父亲', ko: '아버지', vi: 'cha', ne: 'बुबा' },
+      meanings: { en: 'father', zh: '父亲', ko: '아버지', vi: 'cha', ne: 'बुबा' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

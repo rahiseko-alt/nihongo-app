@@ -10,7 +10,7 @@ export const KANJI_U05782 = {
   reading: 'たれる',
   meaning: 'droop/suspend',
   word: '垂',
-      meanings: { ja: 'droop/suspend', en: 'droop/suspend' },
+      meanings: { en: 'droop/suspend' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

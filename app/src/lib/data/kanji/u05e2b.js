@@ -10,7 +10,7 @@ export const KANJI_U05E2B = {
   reading: 'し',
   meaning: 'expert/teacher',
   word: '師',
-      meanings: { ja: 'expert/teacher', en: 'expert/teacher', zh: '师', vi: 'giáo viên', ne: 'शिक्षक' },
+      meanings: { en: 'expert/teacher', zh: '师', vi: 'giáo viên', ne: 'शिक्षक' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

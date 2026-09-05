@@ -10,7 +10,7 @@ export const KANJI_U06B7B = {
   reading: 'しぬ',
   meaning: 'death/die',
   word: '死',
-      meanings: { ja: 'death/die', en: 'death/die', vi: 'chết', ne: 'मृत्यु' },
+      meanings: { en: 'death/die', vi: 'chết', ne: 'मृत्यु' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

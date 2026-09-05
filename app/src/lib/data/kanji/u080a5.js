@@ -10,7 +10,7 @@ export const KANJI_U080A5 = {
   reading: 'こえる',
   meaning: 'fertilizer/get fat',
   word: '肥',
-      meanings: { ja: 'fertilizer/get fat', en: 'fertilizer/get fat' },
+      meanings: { en: 'fertilizer/get fat' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

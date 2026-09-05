@@ -10,7 +10,7 @@ export const KANJI_U08ACB = {
   reading: 'せい',
   meaning: 'request',
   word: '請',
-      meanings: { ja: 'request', en: 'request', zh: '请求', ko: '청구', vi: 'yêu cầu', ne: 'अनुरोध' },
+      meanings: { en: 'request', zh: '请求', ko: '청구', vi: 'yêu cầu', ne: 'अनुरोध' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

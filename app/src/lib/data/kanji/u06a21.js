@@ -10,7 +10,7 @@ export const KANJI_U06A21 = {
   reading: 'も',
   meaning: 'imitation/copy',
   word: '模',
-      meanings: { ja: 'imitation/copy', en: 'imitation/copy' },
+      meanings: { en: 'imitation/copy' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

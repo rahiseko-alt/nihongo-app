@@ -10,7 +10,7 @@ export const KANJI_U04F3C = {
   reading: 'にる',
   meaning: 'becoming/resemble',
   word: '似',
-      meanings: { ja: 'becoming/resemble', en: 'becoming/resemble' },
+      meanings: { en: 'becoming/resemble' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U053EF = {
   reading: 'か',
   meaning: 'possible',
   word: '可',
-      meanings: { ja: 'possible', en: 'possible', zh: '可以', ko: '가능', vi: 'có thể', ne: 'सम्भव' },
+      meanings: { en: 'possible', zh: '可以', ko: '가능', vi: 'có thể', ne: 'सम्भव' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

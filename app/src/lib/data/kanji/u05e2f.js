@@ -10,7 +10,7 @@ export const KANJI_U05E2F = {
   reading: 'おび',
   meaning: 'sash/belt',
   word: '帯',
-      meanings: { ja: 'sash/belt', en: 'sash/belt' },
+      meanings: { en: 'sash/belt' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

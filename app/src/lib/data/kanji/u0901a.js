@@ -10,7 +10,7 @@ export const KANJI_U0901A = {
   reading: 'つう',
   meaning: 'pass/notify',
   word: '通',
-      meanings: { ja: 'pass/notify', en: 'pass/notify', zh: '通知', ko: '통지', vi: 'qua', ne: 'पास' },
+      meanings: { en: 'pass/notify', zh: '通知', ko: '통지', vi: 'qua', ne: 'पास' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U07121 = {
   reading: 'む',
   meaning: 'free/none',
   word: '無',
-      meanings: { ja: 'free/none', en: 'free/none', zh: '无', ko: '없음', vi: 'miễn phí', ne: 'निःशुल्क' },
+      meanings: { en: 'free/none', zh: '无', ko: '없음', vi: 'miễn phí', ne: 'निःशुल्क' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

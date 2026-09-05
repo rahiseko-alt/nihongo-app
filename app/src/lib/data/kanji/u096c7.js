@@ -10,7 +10,7 @@ export const KANJI_U096C7 = {
   reading: 'やとう',
   meaning: 'employ/hire',
   word: '雇',
-      meanings: { ja: 'employ/hire', en: 'employ/hire', vi: 'thuê', ne: 'भाडामा लिनु' },
+      meanings: { en: 'employ/hire', vi: 'thuê', ne: 'भाडामा लिनु' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

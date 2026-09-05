@@ -10,7 +10,7 @@ export const KANJI_U067FB = {
   reading: 'さ',
   meaning: 'inspect',
   word: '査',
-      meanings: { ja: 'inspect', en: 'inspect', zh: '调查', ko: '조사', vi: 'kiểm tra', ne: 'निरीक्षण' },
+      meanings: { en: 'inspect', zh: '调查', ko: '조사', vi: 'kiểm tra', ne: 'निरीक्षण' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

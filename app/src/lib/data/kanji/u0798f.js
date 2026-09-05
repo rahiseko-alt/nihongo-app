@@ -10,7 +10,7 @@ export const KANJI_U0798F = {
   reading: 'ふく',
   meaning: 'blessing/fortune',
   word: '福',
-      meanings: { ja: 'blessing/fortune', en: 'blessing/fortune' },
+      meanings: { en: 'blessing/fortune' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

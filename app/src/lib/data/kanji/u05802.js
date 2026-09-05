@@ -10,7 +10,7 @@ export const KANJI_U05802 = {
   reading: 'どう',
   meaning: 'public chamber/hall',
   word: '堂',
-      meanings: { ja: 'public chamber/hall', en: 'public chamber/hall', vi: 'công cộng', ne: 'सार्वजनिक' },
+      meanings: { en: 'public chamber/hall', vi: 'công cộng', ne: 'सार्वजनिक' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06CE8 = {
   reading: 'ちゅう',
   meaning: 'note',
   word: '注',
-      meanings: { ja: 'note', en: 'note', zh: '注意', ko: '주의', vi: 'ghi chú', ne: 'टिप्पणी' },
+      meanings: { en: 'note', zh: '注意', ko: '주의', vi: 'ghi chú', ne: 'टिप्पणी' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06642 = {
   reading: 'とき',
   meaning: 'time',
   word: '時',
-      meanings: { ja: 'time', en: 'time', zh: '时间', ko: '시간', vi: 'thời gian', ne: 'समय' },
+      meanings: { en: 'time', zh: '时间', ko: '시간', vi: 'thời gian', ne: 'समय' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

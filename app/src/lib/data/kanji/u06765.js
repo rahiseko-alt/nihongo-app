@@ -10,7 +10,7 @@ export const KANJI_U06765 = {
   reading: 'くる',
   meaning: 'come',
   word: '来',
-      meanings: { ja: 'come', en: 'come', ko: '오다', vi: 'đến', ne: 'आउनु' },
+      meanings: { en: 'come', ko: '오다', vi: 'đến', ne: 'आउनु' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0914D = {
   reading: 'はい',
   meaning: 'deliver',
   word: '配',
-      meanings: { ja: 'deliver', en: 'deliver', zh: '配送', ko: '배송', vi: 'giao hàng', ne: 'वितरण' },
+      meanings: { en: 'deliver', zh: '配送', ko: '배송', vi: 'giao hàng', ne: 'वितरण' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

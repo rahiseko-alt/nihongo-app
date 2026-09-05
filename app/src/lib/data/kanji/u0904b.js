@@ -10,7 +10,7 @@ export const KANJI_U0904B = {
   reading: 'うん',
   meaning: 'carry/luck',
   word: '運',
-      meanings: { ja: 'carry/luck', en: 'carry/luck', zh: '运' },
+      meanings: { en: 'carry/luck', zh: '运' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

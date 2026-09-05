@@ -10,7 +10,7 @@ export const KANJI_U07591 = {
   reading: 'うたがう',
   meaning: 'doubt/distrust',
   word: '疑',
-      meanings: { ja: 'doubt/distrust', en: 'doubt/distrust' },
+      meanings: { en: 'doubt/distrust' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

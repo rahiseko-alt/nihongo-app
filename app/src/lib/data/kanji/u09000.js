@@ -10,7 +10,7 @@ export const KANJI_U09000 = {
   reading: 'たい',
   meaning: 'leave',
   word: '退',
-      meanings: { ja: 'leave', en: 'leave', zh: '退出', ko: '퇴장', vi: 'rời đi', ne: 'छोड्नु' },
+      meanings: { en: 'leave', zh: '退出', ko: '퇴장', vi: 'rời đi', ne: 'छोड्नु' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

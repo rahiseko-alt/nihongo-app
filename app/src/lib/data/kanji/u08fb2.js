@@ -10,7 +10,7 @@ export const KANJI_U08FB2 = {
   reading: 'のう',
   meaning: 'agriculture/farmers',
   word: '農',
-      meanings: { ja: 'agriculture/farmers', en: 'agriculture/farmers', zh: '农', vi: 'nông nghiệp', ne: 'कृषि' },
+      meanings: { en: 'agriculture/farmers', zh: '农', vi: 'nông nghiệp', ne: 'कृषि' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

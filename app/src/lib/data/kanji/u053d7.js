@@ -10,7 +10,7 @@ export const KANJI_U053D7 = {
   reading: 'うける',
   meaning: 'receive',
   word: '受',
-      meanings: { ja: 'receive', en: 'receive', zh: '接受', ko: '받다', vi: 'nhận', ne: 'प्राप्त' },
+      meanings: { en: 'receive', zh: '接受', ko: '받다', vi: 'nhận', ne: 'प्राप्त' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

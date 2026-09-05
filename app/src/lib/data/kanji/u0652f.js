@@ -10,7 +10,7 @@ export const KANJI_U0652F = {
   reading: 'し',
   meaning: 'support',
   word: '支',
-      meanings: { ja: 'support', en: 'support', zh: '支付', ko: '지불', vi: 'hỗ trợ', ne: 'समर्थन' },
+      meanings: { en: 'support', zh: '支付', ko: '지불', vi: 'hỗ trợ', ne: 'समर्थन' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

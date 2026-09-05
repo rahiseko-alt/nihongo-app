@@ -10,7 +10,7 @@ export const KANJI_U06CE3 = {
   reading: 'なく',
   meaning: 'cry/weep',
   word: '泣',
-      meanings: { ja: 'cry/weep', en: 'cry/weep' },
+      meanings: { en: 'cry/weep' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

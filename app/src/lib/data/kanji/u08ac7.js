@@ -10,7 +10,7 @@ export const KANJI_U08AC7 = {
   reading: 'だん',
   meaning: 'consult',
   word: '談',
-      meanings: { ja: 'consult', en: 'consult', zh: '商谈', ko: '상담', vi: 'tư vấn', ne: 'परामर्श' },
+      meanings: { en: 'consult', zh: '商谈', ko: '상담', vi: 'tư vấn', ne: 'परामर्श' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

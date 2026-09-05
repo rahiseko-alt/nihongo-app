@@ -10,7 +10,7 @@ export const KANJI_U060AA = {
   reading: 'わるい',
   meaning: 'bad/vice',
   word: '悪',
-      meanings: { ja: 'bad/vice', en: 'bad/vice' },
+      meanings: { en: 'bad/vice' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

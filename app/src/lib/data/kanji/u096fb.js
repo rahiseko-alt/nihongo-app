@@ -10,7 +10,7 @@ export const KANJI_U096FB = {
   reading: 'でん',
   meaning: 'electricity',
   word: '電',
-      meanings: { ja: 'electricity', en: 'electricity', zh: '电', ko: '전기', vi: 'điện', ne: 'बिजुली' },
+      meanings: { en: 'electricity', zh: '电', ko: '전기', vi: 'điện', ne: 'बिजुली' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

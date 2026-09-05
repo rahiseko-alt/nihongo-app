@@ -10,7 +10,7 @@ export const KANJI_U096E8 = {
   reading: 'あめ',
   meaning: 'rain',
   word: '雨',
-      meanings: { ja: 'rain', en: 'rain', vi: 'mưa', ne: 'वर्षा' },
+      meanings: { en: 'rain', vi: 'mưa', ne: 'वर्षा' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

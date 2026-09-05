@@ -10,7 +10,7 @@ export const KANJI_U07834 = {
   reading: 'やぶる',
   meaning: 'rend/rip',
   word: '破',
-      meanings: { ja: 'rend/rip', en: 'rend/rip' },
+      meanings: { en: 'rend/rip' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

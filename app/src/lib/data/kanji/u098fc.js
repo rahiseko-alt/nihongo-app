@@ -10,7 +10,7 @@ export const KANJI_U098FC = {
   reading: 'かう',
   meaning: 'domesticate/raise',
   word: '飼',
-      meanings: { ja: 'domesticate/raise', en: 'domesticate/raise', zh: '饲' },
+      meanings: { en: 'domesticate/raise', zh: '饲' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

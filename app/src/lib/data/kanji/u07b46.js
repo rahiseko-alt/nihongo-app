@@ -10,7 +10,7 @@ export const KANJI_U07B46 = {
   reading: 'ふで',
   meaning: 'writing brush/writing',
   word: '筆',
-      meanings: { ja: 'writing brush/writing', en: 'writing brush/writing', zh: '笔' },
+      meanings: { en: 'writing brush/writing', zh: '笔' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

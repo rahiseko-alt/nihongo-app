@@ -10,7 +10,7 @@ export const KANJI_U08F9E = {
   reading: 'じ',
   meaning: 'resign/word',
   word: '辞',
-      meanings: { ja: 'resign/word', en: 'resign/word', vi: 'từ', ne: 'शब्द' },
+      meanings: { en: 'resign/word', vi: 'từ', ne: 'शब्द' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

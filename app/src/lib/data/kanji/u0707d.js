@@ -10,7 +10,7 @@ export const KANJI_U0707D = {
   reading: 'さい',
   meaning: 'disaster',
   word: '災',
-      meanings: { ja: 'disaster', en: 'disaster', zh: '灾害', ko: '재해', vi: 'thiên tai', ne: 'विपद्' },
+      meanings: { en: 'disaster', zh: '灾害', ko: '재해', vi: 'thiên tai', ne: 'विपद्' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

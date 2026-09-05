@@ -10,7 +10,7 @@ export const KANJI_U0679A = {
   reading: 'まい',
   meaning: 'sheet of.../counter for flat thin objects or sheets',
   word: '枚',
-      meanings: { ja: 'sheet of.../counter for flat thin objects or sheets', en: 'sheet of.../counter for flat thin objects or sheets' },
+      meanings: { en: 'sheet of.../counter for flat thin objects or sheets' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

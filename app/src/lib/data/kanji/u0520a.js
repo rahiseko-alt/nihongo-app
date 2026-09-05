@@ -10,7 +10,7 @@ export const KANJI_U0520A = {
   reading: 'かん',
   meaning: 'publish/carve',
   word: '刊',
-      meanings: { ja: 'publish/carve', en: 'publish/carve' },
+      meanings: { en: 'publish/carve' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06557 = {
   reading: 'やぶれる',
   meaning: 'failure/defeat',
   word: '敗',
-      meanings: { ja: 'failure/defeat', en: 'failure/defeat', zh: '败' },
+      meanings: { en: 'failure/defeat', zh: '败' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U076F8 = {
   reading: 'そう',
   meaning: 'mutual',
   word: '相',
-      meanings: { ja: 'mutual', en: 'mutual', ko: '상담', vi: 'lẫn nhau', ne: 'आपसी' },
+      meanings: { en: 'mutual', ko: '상담', vi: 'lẫn nhau', ne: 'आपसी' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

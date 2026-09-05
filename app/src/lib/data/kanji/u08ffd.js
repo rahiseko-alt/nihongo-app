@@ -10,7 +10,7 @@ export const KANJI_U08FFD = {
   reading: 'おう',
   meaning: 'chase/drive away',
   word: '追',
-      meanings: { ja: 'chase/drive away', en: 'chase/drive away' },
+      meanings: { en: 'chase/drive away' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

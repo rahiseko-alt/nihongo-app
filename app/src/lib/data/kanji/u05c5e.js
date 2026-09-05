@@ -10,7 +10,7 @@ export const KANJI_U05C5E = {
   reading: 'ぞく',
   meaning: 'belong/genus',
   word: '属',
-      meanings: { ja: 'belong/genus', en: 'belong/genus' },
+      meanings: { en: 'belong/genus' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

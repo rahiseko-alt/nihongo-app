@@ -10,7 +10,7 @@ export const KANJI_U06B21 = {
   reading: 'つぎ',
   meaning: 'next/order',
   word: '次',
-      meanings: { ja: 'next/order', en: 'next/order' },
+      meanings: { en: 'next/order' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U05BB6 = {
   reading: 'いえ',
   meaning: 'house',
   word: '家',
-      meanings: { ja: 'house', en: 'house', vi: 'nhà', ne: 'घर' },
+      meanings: { en: 'house', vi: 'nhà', ne: 'घर' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

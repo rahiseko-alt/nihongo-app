@@ -10,7 +10,7 @@ export const KANJI_U07DCF = {
   reading: 'そう',
   meaning: 'general/whole',
   word: '総',
-      meanings: { ja: 'general/whole', en: 'general/whole', zh: '𰬥' },
+      meanings: { en: 'general/whole', zh: '𰬥' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

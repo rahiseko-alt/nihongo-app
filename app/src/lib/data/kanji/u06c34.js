@@ -10,7 +10,7 @@ export const KANJI_U06C34 = {
   reading: 'みず',
   meaning: 'water',
   word: '水',
-      meanings: { ja: 'water', en: 'water', vi: 'nước', ne: 'पानी' },
+      meanings: { en: 'water', vi: 'nước', ne: 'पानी' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

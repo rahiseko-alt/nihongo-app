@@ -10,7 +10,7 @@ export const KANJI_U096E3 = {
   reading: 'なん',
   meaning: 'difficult',
   word: '難',
-      meanings: { ja: 'difficult', en: 'difficult', zh: '困难', ko: '어렵다', vi: 'khó', ne: 'कठिन' },
+      meanings: { en: 'difficult', zh: '困难', ko: '어렵다', vi: 'khó', ne: 'कठिन' },
   strokeCount: 18,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

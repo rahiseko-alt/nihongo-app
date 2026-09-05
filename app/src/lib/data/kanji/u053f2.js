@@ -10,7 +10,7 @@ export const KANJI_U053F2 = {
   reading: 'し',
   meaning: 'history/chronicle',
   word: '史',
-      meanings: { ja: 'history/chronicle', en: 'history/chronicle' },
+      meanings: { en: 'history/chronicle' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

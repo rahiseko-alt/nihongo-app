@@ -10,7 +10,7 @@ export const KANJI_U05929 = {
   reading: 'てん',
   meaning: 'sky',
   word: '天',
-      meanings: { ja: 'sky', en: 'sky', ko: '하늘', vi: 'bầu trời', ne: 'आकाश' },
+      meanings: { en: 'sky', ko: '하늘', vi: 'bầu trời', ne: 'आकाश' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U04ECB = {
   reading: 'かい',
   meaning: 'care',
   word: '介',
-      meanings: { ja: 'care', en: 'care', zh: '介护', ko: '돌봄', vi: 'chăm sóc', ne: 'हेरचाह' },
+      meanings: { en: 'care', zh: '介护', ko: '돌봄', vi: 'chăm sóc', ne: 'हेरचाह' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

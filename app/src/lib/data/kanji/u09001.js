@@ -10,7 +10,7 @@ export const KANJI_U09001 = {
   reading: 'そう',
   meaning: 'send',
   word: '送',
-      meanings: { ja: 'send', en: 'send', zh: '发送', ko: '보내다', vi: 'gửi', ne: 'पठाउनु' },
+      meanings: { en: 'send', zh: '发送', ko: '보내다', vi: 'gửi', ne: 'पठाउनु' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

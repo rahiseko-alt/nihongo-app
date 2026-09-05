@@ -56,8 +56,7 @@
   }
   let currentIndex = $state(0);
   let activeKanji = $derived(kanjis[currentIndex] ?? kanjis[0]);
-  let activeMeaningForeign = $derived(getMeaningForeign(activeKanji, $uiLang));
-  let foreignLangLabel = $derived(getForeignLangLabel($uiLang));
+  let activeMeaningRows = $derived(getMeaningRows(activeKanji, $uiLang));
 
   let phase = $state('practice');
   let traceComps: any[] = $state([]);
@@ -117,22 +116,37 @@
     何: '무엇', 毎: '매', 分: '분', 本: '책', 村: '마을', 町: '거리', 口: '입', 神: '신', 奈: '나라'
   };
 
-  function getMeaningForeign(k: any, lang: string) {
+  const FALLBACK_MEANING: Record<string, Record<string, string>> = {
+    en: EN_MEANING,
+    zh: ZH_MEANING,
+    ko: KO_MEANING,
+  };
+
+  // その言語に登録がなければ空文字を返す。別の言語で埋めない
+  // ——埋めると、訳が入っているのか他言語に落ちているのかが画面から区別できない。
+  function getMeaning(k: any, lang: string) {
     if (!k?.char) return '';
-    if (lang === 'en') return k.meanings?.en ?? EN_MEANING[k.char] ?? k.meaning ?? '';
-    if (lang === 'zh') return k.meanings?.zh ?? ZH_MEANING[k.char] ?? k.meanings?.en ?? EN_MEANING[k.char] ?? '';
-    if (lang === 'ko') return k.meanings?.ko ?? KO_MEANING[k.char] ?? k.meanings?.en ?? EN_MEANING[k.char] ?? '';
-    if (lang === 'vi') return k.meanings?.vi ?? k.meanings?.en ?? EN_MEANING[k.char] ?? '';
-    if (lang === 'ne') return k.meanings?.ne ?? k.meanings?.en ?? EN_MEANING[k.char] ?? '';
-    return k.meanings?.en ?? EN_MEANING[k.char] ?? '';
+    return k.meanings?.[lang] ?? FALLBACK_MEANING[lang]?.[k.char] ?? '';
   }
 
-  function getForeignLangLabel(lang: string) {
+  function getLangLabel(lang: string) {
+    if (lang === 'ja') return t.meaningJaLabel;
     if (lang === 'zh') return t.meaningForeignLabelZh;
     if (lang === 'ko') return t.meaningForeignLabelKo;
     if (lang === 'vi') return t.meaningForeignLabelVi;
     if (lang === 'ne') return t.meaningForeignLabelNe;
     return t.meaningForeignLabelEn;
+  }
+
+  // 意味は「日本語 / 英語 / 選んだ言語」を常に同じ並びで出す。選んだ言語が
+  // 日本語か英語のときは、同じ行が二度出ないよう 2 行になる。
+  function getMeaningRows(k: any, lang: string) {
+    const langs = lang === 'ja' || lang === 'en' ? ['ja', 'en'] : ['ja', 'en', lang];
+    return langs.map((code) => ({
+      code,
+      label: getLangLabel(code),
+      value: getMeaning(k, code),
+    }));
   }
 
   // kanjis 変化時にフラグ配列を初期化
@@ -344,8 +358,17 @@
                   </div>
                 {/if}
                 <div class="reading-badge" aria-hidden="true">
-                  <span>{activeSet.kanjiReadings?.[i] ?? k.reading ?? ''}</span>
-                  <span class="reading-meaning-inline">【{activeMeaningForeign || t.meaningUnset}】</span>
+                  <span class="reading-badge-reading"
+                    >{activeSet.kanjiReadings?.[i] ?? k.reading ?? ''}</span
+                  >
+                  <dl class="reading-badge-meanings">
+                    {#each activeMeaningRows as row (row.code)}
+                      <div class="reading-badge-meaning">
+                        <dt>{row.label}</dt>
+                        <dd>{row.value}</dd>
+                      </div>
+                    {/each}
+                  </dl>
                 </div>
                 <div class="page-indicator" aria-hidden="true">{i + 1} / {kanjis.length}</div>
                 <TraceCanvas
@@ -563,13 +586,32 @@
     pointer-events: none;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
     display: inline-flex;
-    align-items: center;
-    gap: 0.2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1rem;
   }
-  .reading-meaning-inline {
-    margin-left: 0.35rem;
-    font-size: 0.8em;
-    opacity: 0.95;
+  .reading-badge-reading {
+    line-height: 1.2;
+  }
+  .reading-badge-meanings {
+    margin: 0;
+    font-size: 0.7em;
+    font-weight: 500;
+    line-height: 1.35;
+  }
+  /* 3 行を同じ形で並べる。値が空の行もラベルだけ残し、
+     「まだ登録がない」ことが読み手に伝わるようにする。 */
+  .reading-badge-meaning {
+    display: grid;
+    grid-template-columns: 4.5em 1fr;
+    column-gap: 0.4rem;
+  }
+  .reading-badge-meaning dt {
+    opacity: 0.7;
+  }
+  .reading-badge-meaning dd {
+    margin: 0;
+    min-height: 1.35em;
   }
 
   .play-area {

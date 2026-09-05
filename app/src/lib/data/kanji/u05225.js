@@ -10,7 +10,7 @@ export const KANJI_U05225 = {
   reading: 'べつ',
   meaning: 'separate',
   word: '別',
-      meanings: { ja: 'separate', en: 'separate', zh: '别', ko: '구별', vi: 'tách ra', ne: 'अलग' },
+      meanings: { en: 'separate', zh: '别', ko: '구별', vi: 'tách ra', ne: 'अलग' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

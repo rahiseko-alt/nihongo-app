@@ -10,7 +10,7 @@ export const KANJI_U08CA1 = {
   reading: 'ざい',
   meaning: 'property/money',
   word: '財',
-      meanings: { ja: 'property/money', en: 'property/money', zh: '财', vi: 'tiền', ne: 'पैसा' },
+      meanings: { en: 'property/money', zh: '财', vi: 'tiền', ne: 'पैसा' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U08EFD = {
   reading: 'かるい',
   meaning: 'lightly/trifling',
   word: '軽',
-      meanings: { ja: 'lightly/trifling', en: 'lightly/trifling' },
+      meanings: { en: 'lightly/trifling' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

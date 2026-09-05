@@ -10,7 +10,7 @@ export const KANJI_U06BD4 = {
   reading: 'くらべる',
   meaning: 'compare/race',
   word: '比',
-      meanings: { ja: 'compare/race', en: 'compare/race', vi: 'so sánh', ne: 'तुलना' },
+      meanings: { en: 'compare/race', vi: 'so sánh', ne: 'तुलना' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

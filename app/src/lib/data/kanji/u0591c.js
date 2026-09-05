@@ -10,7 +10,7 @@ export const KANJI_U0591C = {
   reading: 'よる',
   meaning: 'night/evening',
   word: '夜',
-      meanings: { ja: 'night/evening', en: 'night/evening', vi: 'đêm', ne: 'रात' },
+      meanings: { en: 'night/evening', vi: 'đêm', ne: 'रात' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

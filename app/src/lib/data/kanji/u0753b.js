@@ -10,7 +10,7 @@ export const KANJI_U0753B = {
   reading: 'が',
   meaning: 'brush-stroke/picture',
   word: '画',
-      meanings: { ja: 'brush-stroke/picture', en: 'brush-stroke/picture' },
+      meanings: { en: 'brush-stroke/picture' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

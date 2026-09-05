@@ -10,7 +10,7 @@ export const KANJI_U05272 = {
   reading: 'わる',
   meaning: 'proportion/comparatively',
   word: '割',
-      meanings: { ja: 'proportion/comparatively', en: 'proportion/comparatively' },
+      meanings: { en: 'proportion/comparatively' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

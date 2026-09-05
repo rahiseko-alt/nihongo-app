@@ -10,7 +10,7 @@ export const KANJI_U0990A = {
   reading: 'やしなう',
   meaning: 'foster/bring up',
   word: '養',
-      meanings: { ja: 'foster/bring up', en: 'foster/bring up', zh: '养', vi: 'trên', ne: 'माथि' },
+      meanings: { en: 'foster/bring up', zh: '养', vi: 'trên', ne: 'माथि' },
   strokeCount: 15,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

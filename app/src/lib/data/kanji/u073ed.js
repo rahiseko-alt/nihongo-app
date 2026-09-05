@@ -10,7 +10,7 @@ export const KANJI_U073ED = {
   reading: 'はん',
   meaning: 'squad/corps',
   word: '班',
-      meanings: { ja: 'squad/corps', en: 'squad/corps' },
+      meanings: { en: 'squad/corps' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

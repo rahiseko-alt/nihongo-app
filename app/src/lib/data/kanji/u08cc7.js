@@ -10,7 +10,7 @@ export const KANJI_U08CC7 = {
   reading: 'し',
   meaning: 'resource',
   word: '資',
-      meanings: { ja: 'resource', en: 'resource', zh: '资', ko: '자격', vi: 'tài nguyên', ne: 'स्रोत' },
+      meanings: { en: 'resource', zh: '资', ko: '자격', vi: 'tài nguyên', ne: 'स्रोत' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

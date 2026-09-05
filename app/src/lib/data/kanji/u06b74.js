@@ -10,7 +10,7 @@ export const KANJI_U06B74 = {
   reading: 'れき',
   meaning: 'curriculum/continuation',
   word: '歴',
-      meanings: { ja: 'curriculum/continuation', en: 'curriculum/continuation' },
+      meanings: { en: 'curriculum/continuation' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

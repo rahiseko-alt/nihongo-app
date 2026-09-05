@@ -10,7 +10,7 @@ export const KANJI_U0521D = {
   reading: 'はじめ',
   meaning: 'first time/beginning',
   word: '初',
-      meanings: { ja: 'first time/beginning', en: 'first time/beginning', vi: 'bắt đầu', ne: 'सुरुवात' },
+      meanings: { en: 'first time/beginning', vi: 'bắt đầu', ne: 'सुरुवात' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

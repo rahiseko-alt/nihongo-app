@@ -10,7 +10,7 @@ export const KANJI_U079D2 = {
   reading: 'びょう',
   meaning: 'second (1/60 minute)',
   word: '秒',
-      meanings: { ja: 'second (1/60 minute)', en: 'second (1/60 minute)' },
+      meanings: { en: 'second (1/60 minute)' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

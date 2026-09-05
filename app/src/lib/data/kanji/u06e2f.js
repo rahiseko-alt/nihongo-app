@@ -10,7 +10,7 @@ export const KANJI_U06E2F = {
   reading: 'こう',
   meaning: 'port',
   word: '港',
-      meanings: { ja: 'port', en: 'port', zh: '港口', ko: '항구', vi: 'cảng', ne: 'बन्दरगाह' },
+      meanings: { en: 'port', zh: '港口', ko: '항구', vi: 'cảng', ne: 'बन्दरगाह' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

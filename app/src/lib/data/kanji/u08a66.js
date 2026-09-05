@@ -10,7 +10,7 @@ export const KANJI_U08A66 = {
   reading: 'ためす',
   meaning: 'test/try',
   word: '試',
-      meanings: { ja: 'test/try', en: 'test/try', zh: '试', vi: 'bài kiểm tra', ne: 'परीक्षा' },
+      meanings: { en: 'test/try', zh: '试', vi: 'bài kiểm tra', ne: 'परीक्षा' },
   strokeCount: 13,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U07537 = {
   reading: 'おとこ',
   meaning: 'man',
   word: '男',
-      meanings: { ja: 'man', en: 'man', ko: '남자', vi: 'nam giới', ne: 'पुरुष' },
+      meanings: { en: 'man', ko: '남자', vi: 'nam giới', ne: 'पुरुष' },
   strokeCount: 7,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

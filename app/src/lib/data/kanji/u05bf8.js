@@ -10,7 +10,7 @@ export const KANJI_U05BF8 = {
   reading: 'すん',
   meaning: 'measurement/tenth of a shaku',
   word: '寸',
-      meanings: { ja: 'measurement/tenth of a shaku', en: 'measurement/tenth of a shaku' },
+      meanings: { en: 'measurement/tenth of a shaku' },
   strokeCount: 3,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

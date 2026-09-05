@@ -10,7 +10,7 @@ export const KANJI_U09451 = {
   reading: 'かん',
   meaning: 'seal',
   word: '鑑',
-      meanings: { ja: 'seal', en: 'seal', zh: '印鉴', ko: '인감', vi: 'con dấu', ne: 'छाप' },
+      meanings: { en: 'seal', zh: '印鉴', ko: '인감', vi: 'con dấu', ne: 'छाप' },
   strokeCount: 23,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U0534A = {
   reading: 'はん',
   meaning: 'half',
   word: '半',
-      meanings: { ja: 'half', en: 'half', vi: 'một nửa', ne: 'आधा' },
+      meanings: { en: 'half', vi: 'một nửa', ne: 'आधा' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

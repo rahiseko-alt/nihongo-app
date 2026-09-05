@@ -10,7 +10,7 @@ export const KANJI_U06255 = {
   reading: 'はらう',
   meaning: 'pay',
   word: '払',
-      meanings: { ja: 'pay', en: 'pay', zh: '支付', ko: '지불하다', vi: 'trả tiền', ne: 'भुक्तानी' },
+      meanings: { en: 'pay', zh: '支付', ko: '지불하다', vi: 'trả tiền', ne: 'भुक्तानी' },
   strokeCount: 5,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

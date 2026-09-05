@@ -10,7 +10,7 @@ export const KANJI_U06B62 = {
   reading: 'し',
   meaning: 'stop',
   word: '止',
-      meanings: { ja: 'stop', en: 'stop', zh: '停止', ko: '정지', vi: 'dừng', ne: 'रोक्नु' },
+      meanings: { en: 'stop', zh: '停止', ko: '정지', vi: 'dừng', ne: 'रोक्नु' },
   strokeCount: 4,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

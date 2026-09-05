@@ -10,7 +10,7 @@ export const KANJI_U06848 = {
   reading: 'あん',
   meaning: 'guide',
   word: '案',
-      meanings: { ja: 'guide', en: 'guide', zh: '案内', ko: '안내', vi: 'hướng dẫn', ne: 'मार्गदर्शन' },
+      meanings: { en: 'guide', zh: '案内', ko: '안내', vi: 'hướng dẫn', ne: 'मार्गदर्शन' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

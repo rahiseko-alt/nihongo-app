@@ -10,7 +10,7 @@ export const KANJI_U04E01 = {
   reading: 'ちょう',
   meaning: 'street/ward',
   word: '丁',
-      meanings: { ja: 'street/ward', en: 'street/ward', vi: 'quận', ne: 'वडा' },
+      meanings: { en: 'street/ward', vi: 'quận', ne: 'वडा' },
   strokeCount: 2,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

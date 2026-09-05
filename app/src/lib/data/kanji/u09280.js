@@ -10,7 +10,7 @@ export const KANJI_U09280 = {
   reading: 'ぎん',
   meaning: 'silver',
   word: '銀',
-      meanings: { ja: 'silver', en: 'silver', zh: '银', vi: 'bạc', ne: 'चाँदी' },
+      meanings: { en: 'silver', zh: '银', vi: 'bạc', ne: 'चाँदी' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

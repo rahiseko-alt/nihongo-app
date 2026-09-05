@@ -10,7 +10,7 @@ export const KANJI_U092AD = {
   reading: 'ぜに',
   meaning: 'coin/.01 yen',
   word: '銭',
-      meanings: { ja: 'coin/.01 yen', en: 'coin/.01 yen', vi: 'yên', ne: 'येन' },
+      meanings: { en: 'coin/.01 yen', vi: 'yên', ne: 'येन' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

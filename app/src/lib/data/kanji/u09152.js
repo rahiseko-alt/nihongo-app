@@ -10,7 +10,7 @@ export const KANJI_U09152 = {
   reading: 'さけ',
   meaning: 'sake/alcohol',
   word: '酒',
-      meanings: { ja: 'sake/alcohol', en: 'sake/alcohol' },
+      meanings: { en: 'sake/alcohol' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

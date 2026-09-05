@@ -10,7 +10,7 @@ export const KANJI_U068EE = {
   reading: 'もり',
   meaning: 'forest/woods',
   word: '森',
-      meanings: { ja: 'forest/woods', en: 'forest/woods' },
+      meanings: { en: 'forest/woods' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

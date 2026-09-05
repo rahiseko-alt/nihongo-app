@@ -10,7 +10,7 @@ export const KANJI_U05BA2 = {
   reading: 'きゃく',
   meaning: 'guest/visitor',
   word: '客',
-      meanings: { ja: 'guest/visitor', en: 'guest/visitor' },
+      meanings: { en: 'guest/visitor' },
   strokeCount: 9,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

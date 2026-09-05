@@ -10,7 +10,7 @@ export const KANJI_U08A9E = {
   reading: 'ご',
   meaning: 'language',
   word: '語',
-      meanings: { ja: 'language', en: 'language', zh: '语言', ko: '언어', vi: 'ngôn ngữ', ne: 'भाषा' },
+      meanings: { en: 'language', zh: '语言', ko: '언어', vi: 'ngôn ngữ', ne: 'भाषा' },
   strokeCount: 14,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U04EEE = {
   reading: 'かり',
   meaning: 'sham/temporary',
   word: '仮',
-      meanings: { ja: 'sham/temporary', en: 'sham/temporary' },
+      meanings: { en: 'sham/temporary' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

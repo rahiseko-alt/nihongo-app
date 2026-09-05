@@ -10,7 +10,7 @@ export const KANJI_U07A93 = {
   reading: 'まど',
   meaning: 'window',
   word: '窓',
-      meanings: { ja: 'window', en: 'window', zh: '窗口', ko: '창구', vi: 'cửa sổ', ne: 'झ्याल' },
+      meanings: { en: 'window', zh: '窗口', ko: '창구', vi: 'cửa sổ', ne: 'झ्याल' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U04EA4 = {
   reading: 'こう',
   meaning: 'traffic',
   word: '交',
-      meanings: { ja: 'traffic', en: 'traffic', zh: '交通', ko: '교통', vi: 'giao thông', ne: 'यातायात' },
+      meanings: { en: 'traffic', zh: '交通', ko: '교통', vi: 'giao thông', ne: 'यातायात' },
   strokeCount: 6,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

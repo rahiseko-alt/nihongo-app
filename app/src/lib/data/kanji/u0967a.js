@@ -10,7 +10,7 @@ export const KANJI_U0967A = {
   reading: 'けん',
   meaning: 'insurance',
   word: '険',
-      meanings: { ja: 'insurance', en: 'insurance', zh: '保险', ko: '보험', vi: 'bảo hiểm', ne: 'बीमा' },
+      meanings: { en: 'insurance', zh: '保险', ko: '보험', vi: 'bảo hiểm', ne: 'बीमा' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

@@ -10,7 +10,7 @@ export const KANJI_U06388 = {
   reading: 'じゅ',
   meaning: 'impart/instruct',
   word: '授',
-      meanings: { ja: 'impart/instruct', en: 'impart/instruct' },
+      meanings: { en: 'impart/instruct' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

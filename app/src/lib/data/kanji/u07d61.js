@@ -10,7 +10,7 @@ export const KANJI_U07D61 = {
   reading: 'からむ',
   meaning: 'entwine/coil around',
   word: '絡',
-      meanings: { ja: 'entwine/coil around', en: 'entwine/coil around', zh: '络' },
+      meanings: { en: 'entwine/coil around', zh: '络' },
   strokeCount: 12,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

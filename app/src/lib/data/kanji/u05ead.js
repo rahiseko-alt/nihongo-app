@@ -10,7 +10,7 @@ export const KANJI_U05EAD = {
   reading: 'にわ',
   meaning: 'courtyard/garden',
   word: '庭',
-      meanings: { ja: 'courtyard/garden', en: 'courtyard/garden' },
+      meanings: { en: 'courtyard/garden' },
   strokeCount: 10,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

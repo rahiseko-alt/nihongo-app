@@ -10,7 +10,7 @@ export const KANJI_U06551 = {
   reading: 'きゅう',
   meaning: 'rescue',
   word: '救',
-      meanings: { ja: 'rescue', en: 'rescue', zh: '救助', ko: '구조', vi: 'cứu hộ', ne: 'उद्धार' },
+      meanings: { en: 'rescue', zh: '救助', ko: '구조', vi: 'cứu hộ', ne: 'उद्धार' },
   strokeCount: 11,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入

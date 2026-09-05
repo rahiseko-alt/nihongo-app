@@ -10,7 +10,7 @@ export const KANJI_U06240 = {
   reading: 'しょ',
   meaning: 'place',
   word: '所',
-      meanings: { ja: 'place', en: 'place', zh: '地方', ko: '장소', vi: 'nơi chốn', ne: 'स्थान' },
+      meanings: { en: 'place', zh: '地方', ko: '장소', vi: 'nơi chốn', ne: 'स्थान' },
   strokeCount: 8,
   viewBox: '0 0 109 109',
   songLyric: '',  // TODO: 覚え歌全体（読み上げ用 1 行）を記入
