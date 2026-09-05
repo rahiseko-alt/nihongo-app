@@ -367,6 +367,80 @@
       "automation": "ci",
       "status": "done",
       "origin": "added"
+    },
+    {
+      "id": "T030",
+      "title": "都道府県名セット26字の意味欄が空欄になる不具合を直す",
+      "deliverable": "「愛知県」「北海道」など都道府県名セットで使われている26字（app/src/lib/data/kanji/ai.js等）に、選んだ言語ごとの意味を持つmeaningsが追加され、練習画面・選択画面の意味欄が空欄にならない状態",
+      "verify": [
+        "app/ で pnpm run build の後 pnpm run preview を起動し、/select で「愛知県」のセットを開く",
+        "「愛」を開き、読みバッジの意味欄（日本語・英語・選んだ言語）が空欄でなく意味が表示されることを確認する",
+        "pnpm run test を実行し、26字全部にmeaningsがあることを確かめる新しいテストが通ることを確認する"
+      ],
+      "dependsOn": [],
+      "files": [
+        "app/src/lib/data/kanji/ai.js",
+        "app/src/lib/data/kanji/chi.js",
+        "app/src/lib/data/kanji/dou.js",
+        "app/src/lib/data/kanji/fei.js",
+        "app/src/lib/data/kanji/fu.js",
+        "app/src/lib/data/kanji/gi.js",
+        "app/src/lib/data/kanji/higashi.js",
+        "app/src/lib/data/kanji/ibara.js",
+        "app/src/lib/data/kanji/ji.js",
+        "app/src/lib/data/kanji/jou.js",
+        "app/src/lib/data/kanji/ka.js",
+        "app/src/lib/data/kanji/kai.js",
+        "app/src/lib/data/kanji/kami.js",
+        "app/src/lib/data/kanji/kawa.js",
+        "app/src/lib/data/kanji/ken.js",
+        "app/src/lib/data/kanji/kita.js",
+        "app/src/lib/data/kanji/kyou.js",
+        "app/src/lib/data/kanji/na.js",
+        "app/src/lib/data/kanji/oka.js",
+        "app/src/lib/data/kanji/oo.js",
+        "app/src/lib/data/kanji/saka.js",
+        "app/src/lib/data/kanji/shika.js",
+        "app/src/lib/data/kanji/shima.js",
+        "app/src/lib/data/kanji/to.js",
+        "app/src/lib/data/kanji/wa.js",
+        "app/src/lib/data/kanji/yama.js"
+      ],
+      "automation": "ci",
+      "status": "todo",
+      "origin": "added",
+      "note": "app/監査中に判明。KANJI_AI等は旧形式でmeaningsを持たず、getMeaningのフォールバック表(EN_MEANING等)にも該当字が無いため空欄になる"
+    },
+    {
+      "id": "T031",
+      "title": "未使用の書き順コンポーネントKanjiStrokes.svelteを削除する",
+      "deliverable": "app内のどこからもimportされていない静止表示コンポーネントapp/src/lib/components/KanjiStrokes.svelteが削除され、削除後もビルドとテストが通る状態",
+      "verify": [
+        "app/src 全体を検索し、KanjiStrokesのimportが他に無いことを確認する",
+        "ファイルを削除した後 pnpm run build を実行し、成功することを確認する",
+        "pnpm run test を実行し、既存のテストが通ることを確認する"
+      ],
+      "dependsOn": [],
+      "files": ["app/src/lib/components/KanjiStrokes.svelte"],
+      "automation": "ci",
+      "status": "todo",
+      "origin": "added",
+      "note": "app/監査中に判明。実際の書き順アニメーションはTraceCanvas.svelteが担っており、KanjiStrokes.svelteはどこからも参照されていない"
+    },
+    {
+      "id": "T032",
+      "title": "app/README.mdのGetting startedをnpmからpnpmの表記に直す",
+      "deliverable": "app/README.md のGetting startedとScripts節のコマンドが全てpnpm表記になり、AGENTS.mdの『npmとyarnは使わない』という前提と一致する状態",
+      "verify": [
+        "app/README.md を開き、Getting startedとScripts節のコマンドが全てpnpm表記であることを確認する",
+        "書かれたとおりに app/ で pnpm install の後 pnpm run dev を実行し、開発サーバーが起動することを確認する"
+      ],
+      "dependsOn": [],
+      "files": ["app/README.md"],
+      "automation": "ci",
+      "status": "todo",
+      "origin": "added",
+      "note": "app/監査中に判明。README単体の記載ミスで、実際のpackage.jsonやCIはpnpm前提"
     }
   ]
 }
