@@ -315,7 +315,11 @@ root の `pnpm run check` は緑（46件）。
 
 ## セッション終了時点の状態（自動記録）
 
-- 記録時刻: 2026-09-05 08:28 UTC
+- 記録時刻: 2026-09-05 09:18 UTC
 - ブランチ: `claude/checkin-77sawa`
-- HEAD: `f7763f9`
-- 未コミットの変更: なし
+- HEAD: `c1efdc9`
+- 未コミットの変更:
+
+```
+M docs/handoff.md
+```
