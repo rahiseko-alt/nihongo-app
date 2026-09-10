@@ -15,12 +15,15 @@
     strokes: Stroke[];
   }
 
+  import { computeCoverage, gradeUserStrokes, type GradeSummary, type Point } from '$lib/utils/strokeScoring';
+
   let {
     kanji,
     onRestart = () => {},
     active = true,
     onNaviDone = () => {},
     onComplete = () => {},
+    onGraded = (_summary: GradeSummary) => {},
     hintLevel = 0
   }: {
     kanji: Kanji;
@@ -28,6 +31,7 @@
     active?: boolean;
     onNaviDone?: () => void;
     onComplete?: () => void;
+    onGraded?: (summary: GradeSummary) => void;
     hintLevel?: number;
   } = $props();
 
@@ -48,6 +52,15 @@
   let fragmentPathSamples: { x: number; y: number }[][] = [];
   let childTrace: { x: number; y: number }[] = [];
   let recentTrace: { x: number; y: number; ts: number }[] = [];
+
+  // 白紙採点モード用の状態。
+  // - blankMode: true の間は ghost-stroke（お手本の輪郭）を一切表示しない
+  // - userStrokes: pointerup のたびに1画ぶんとして確定した SVG 座標の点列を積む
+  //   （何画描いたかを後の採点で使うため、画ごとに配列を分けて保持する）
+  let blankMode = $state(false);
+  let userStrokes: Point[][] = $state([]);
+  let currentUserStroke: Point[] = [];
+  let gradeResult: GradeSummary | null = $state(null);
 
   const PEN_WIDTH = 8;
   const PEN_COLOR = '#1e293b';
@@ -164,45 +177,6 @@
     }
   }
 
-  function computeCoverage(pathSamples: { x: number; y: number }[][], trace: { x: number; y: number }[], distThreshold: number) {
-    if (!trace.length) return 0;
-    let total = 0;
-    let covered = 0;
-    const dt2 = distThreshold * distThreshold;
-    for (const pathPts of pathSamples) {
-      if (pathPts.length === 0) continue;
-      const start = pathPts[0];
-      const end = pathPts[pathPts.length - 1];
-      let startCovered = false;
-      let endCovered = false;
-      for (const cp of trace) {
-        const dxs = start.x - cp.x;
-        const dys = start.y - cp.y;
-        if (dxs * dxs + dys * dys <= dt2) startCovered = true;
-        const dxe = end.x - cp.x;
-        const dye = end.y - cp.y;
-        if (dxe * dxe + dye * dye <= dt2) endCovered = true;
-        if (startCovered && endCovered) break;
-      }
-      if (!startCovered || !endCovered) {
-        total += pathPts.length;
-        continue;
-      }
-      for (const pp of pathPts) {
-        total++;
-        for (const cp of trace) {
-          const dx = pp.x - cp.x;
-          const dy = pp.y - cp.y;
-          if (dx * dx + dy * dy <= dt2) {
-            covered++;
-            break;
-          }
-        }
-      }
-    }
-    return total > 0 ? covered / total : 0;
-  }
-
   function resumeNav() {
     if (!paused) return;
     paused = false;
@@ -239,6 +213,8 @@
     if (paused) {
       childTrace = [...childTrace, svgP];
     }
+    // 白紙採点用: このポインタ操作を新しい1画として記録し始める
+    currentUserStroke = [svgP];
     ctx.beginPath();
     ctx.arc(p.x, p.y, ctx.lineWidth / 2, 0, Math.PI * 2);
     ctx.fill();
@@ -258,12 +234,18 @@
       childTrace.push(svgP);
       tryResumeNav();
     }
+    currentUserStroke.push(svgP);
     lastX = p.x;
     lastY = p.y;
   }
 
   function pointerUp(e: PointerEvent) {
     if (!drawing || !canvas) return;
+    // 白紙採点用: ペンを離した時点で1画ぶんとして確定し、画ごとの配列に積む
+    if (currentUserStroke.length > 0) {
+      userStrokes = [...userStrokes, currentUserStroke];
+    }
+    currentUserStroke = [];
     drawing = false;
     if (canvas.hasPointerCapture?.(e.pointerId)) {
       canvas.releasePointerCapture(e.pointerId);
@@ -294,6 +276,10 @@
     progress = kanji.strokes.map(() => 0);
     currentStrokeIdx = -1;
     completedNotified = false;
+    blankMode = false;
+    userStrokes = [];
+    currentUserStroke = [];
+    gradeResult = null;
   }
 
   function animateStroke(strokeIdx: number) {
@@ -333,6 +319,8 @@
     childTrace = [];
     recentTrace = [];
     paused = false;
+    // お手本アニメーションは常にガイド表示（ghost-stroke）が見える状態で再生する
+    blankMode = false;
     if (pauseResolver) {
       pauseResolver();
       pauseResolver = null;
@@ -406,7 +394,51 @@
     currentStrokeIdx = kanji.strokes.length;
   }
 
-  export { clearAll, replayDemo, freezeCompleted };
+  // 白紙採点モードを開始する: キャンバスとお手本ガイドを両方消し、
+  // 何も描かれていない状態から自由に書けるようにする
+  function startBlank() {
+    if (animFrameId) {
+      cancelAnimationFrame(animFrameId);
+      animFrameId = null;
+    }
+    runEpoch++;
+    if (ctx && canvas) {
+      ctx.save();
+      ctx.setTransform(1, 0, 0, 1, 0, 0);
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.restore();
+    }
+    fragmentPathSamples = [];
+    childTrace = [];
+    recentTrace = [];
+    paused = false;
+    if (pauseResolver) {
+      pauseResolver();
+      pauseResolver = null;
+    }
+    progress = kanji.strokes.map(() => 0);
+    currentStrokeIdx = -1;
+    completedNotified = false;
+    userStrokes = [];
+    currentUserStroke = [];
+    gradeResult = null;
+    blankMode = true;
+  }
+
+  // 白紙モードで書いた各画を正解データと採点し、結果を表示したうえでお手本を再生する。
+  // 採点そのもの（画の対応づけ・○×判定）は DOM に依存しない strokeScoring.ts の
+  // 純粋関数に切り出してあり、ここでは正解データのサンプリングと結果の受け渡しのみ行う。
+  function checkAnswer(): GradeSummary {
+    const correctPathSamples = kanji.strokes.map((s: Stroke) => samplePath(s.d, PATH_SAMPLE_STEP));
+    const summary = gradeUserStrokes(userStrokes, correctPathSamples, COVERAGE_DIST_THRESHOLD, COVERAGE_RATIO_THRESHOLD);
+    gradeResult = summary;
+    onGraded(summary);
+    // 結果表示のあと、正しい書き順をお手本としてアニメーションで見せる
+    void replayDemo();
+    return summary;
+  }
+
+  export { clearAll, replayDemo, freezeCompleted, startBlank, checkAnswer };
 </script>
 
 <div class="trace-wrap">
@@ -417,32 +449,47 @@
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
     >
-      <line x1="54.5" y1="0" x2="54.5" y2="109" class="grid" />
-      <line x1="0" y1="54.5" x2="109" y2="54.5" class="grid" />
-      {#each kanji.strokes as s, i}
-        {@const ratio = kanji.strokes.length > 1 ? i / (kanji.strokes.length - 1) : 1}
-        {@const inkColor = `rgb(${Math.round(115 - 89 * ratio)}, ${Math.round(115 - 89 * ratio)}, ${Math.round(115 - 89 * ratio)})`}
-        <path
-          d={s.d}
-          stroke={inkColor}
-          class="ghost-stroke"
-          class:current={i === currentStrokeIdx && currentStrokeIdx < kanji.strokes.length}
-          class:done={progress[i] >= 1}
-          class:pending={progress[i] === 0 && i !== currentStrokeIdx}
-          style:--c={inkColor}
-          style:stroke-dasharray={pathLengths[i]}
-          style:stroke-dashoffset={pathLengths[i] * (1 - progress[i])}
-        />
-      {/each}
-      {#each kanji.strokes as s, i}
-        {#if progress[i] >= 1}
+      {#if !blankMode}
+        <line x1="54.5" y1="0" x2="54.5" y2="109" class="grid" />
+        <line x1="0" y1="54.5" x2="109" y2="54.5" class="grid" />
+        {#each kanji.strokes as s, i}
           {@const ratio = kanji.strokes.length > 1 ? i / (kanji.strokes.length - 1) : 1}
           {@const inkColor = `rgb(${Math.round(115 - 89 * ratio)}, ${Math.round(115 - 89 * ratio)}, ${Math.round(115 - 89 * ratio)})`}
-          <text x={s.numPos.x} y={s.numPos.y} fill={inkColor} class="num-text">
-            {s.id}
-          </text>
-        {/if}
-      {/each}
+          <path
+            d={s.d}
+            stroke={inkColor}
+            class="ghost-stroke"
+            class:current={i === currentStrokeIdx && currentStrokeIdx < kanji.strokes.length}
+            class:done={progress[i] >= 1}
+            class:pending={progress[i] === 0 && i !== currentStrokeIdx}
+            style:--c={inkColor}
+            style:stroke-dasharray={pathLengths[i]}
+            style:stroke-dashoffset={pathLengths[i] * (1 - progress[i])}
+          />
+        {/each}
+        {#each kanji.strokes as s, i}
+          {#if progress[i] >= 1}
+            {@const ratio = kanji.strokes.length > 1 ? i / (kanji.strokes.length - 1) : 1}
+            {@const inkColor = `rgb(${Math.round(115 - 89 * ratio)}, ${Math.round(115 - 89 * ratio)}, ${Math.round(115 - 89 * ratio)})`}
+            <text x={s.numPos.x} y={s.numPos.y} fill={inkColor} class="num-text">
+              {s.id}
+            </text>
+          {/if}
+        {/each}
+      {/if}
+      {#if gradeResult}
+        {#each gradeResult.results as r (r.index)}
+          {#if r.reason !== 'extra' && kanji.strokes[r.index]}
+            <text
+              x={kanji.strokes[r.index].numPos.x}
+              y={kanji.strokes[r.index].numPos.y}
+              class="grade-mark"
+              class:grade-ok={r.passed}
+              class:grade-ng={!r.passed}
+            >{r.passed ? '○' : '×'}</text>
+          {/if}
+        {/each}
+      {/if}
     </svg>
 
     <canvas
@@ -512,6 +559,23 @@
     dominant-baseline: central;
     pointer-events: none;
     opacity: 0.35;
+  }
+  /* 白紙採点の結果マーク（各画の番号位置に○/×を重ねる） */
+  .grade-mark {
+    font-size: 11px;
+    font-weight: 900;
+    text-anchor: middle;
+    dominant-baseline: central;
+    pointer-events: none;
+    paint-order: stroke;
+    stroke: #ffffff;
+    stroke-width: 2px;
+  }
+  .grade-mark.grade-ok {
+    fill: #16a34a;
+  }
+  .grade-mark.grade-ng {
+    fill: #dc2626;
   }
   canvas {
     position: absolute;
