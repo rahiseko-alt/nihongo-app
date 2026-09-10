@@ -31,6 +31,7 @@ import { KANJI_KAMI } from './kanji/kami.js';
 import { KANJI_NA } from './kanji/na.js';
 import { KANJI_KAWA } from './kanji/kawa.js';
 import { KANJI_POPULAR_FOREIGNERS_500, KANJI_RESIDENT_EXAM_500 } from './kanji/pack-1000.js';
+import { KANJI_HIRAGANA_46, KANJI_KATAKANA_46 } from './kanji/kana-46.js';
 
 // ─── カテゴリー定義 ───
 /** @type {Record<string, { id: string, icon: string }>} */
@@ -38,9 +39,10 @@ export const CATEGORIES = {
   saved:   { id: 'saved',   icon: '保' },
   popular: { id: 'popular', icon: '人' },
   exam:    { id: 'exam',    icon: '験' },
+  kana:    { id: 'kana',    icon: 'あ' },
 };
 
-export const CATEGORY_ORDER = ['saved', 'popular', 'exam'];
+export const CATEGORY_ORDER = ['saved', 'popular', 'exam', 'kana'];
 
 /** @type {Record<string, any>} */
 export const SETS = {
@@ -157,12 +159,30 @@ export const SETS = {
     category: 'exam',
     kanji: KANJI_RESIDENT_EXAM_500,
   },
+  hiragana: {
+    id: 'hiragana',
+    name: 'ひらがな',
+    label: 'ひらがな（五十音 46字）',
+    reading: 'ひらがな',
+    category: 'kana',
+    kanji: KANJI_HIRAGANA_46,
+  },
+  katakana: {
+    id: 'katakana',
+    name: 'カタカナ',
+    label: 'カタカナ（五十音 46字）',
+    reading: 'かたかな',
+    category: 'kana',
+    kanji: KANJI_KATAKANA_46,
+  },
 };
 
 // トップ画面の選択 UI 表示順
 export const SET_ORDER = [
   'popular_foreigners_500',
   'resident_exam_500',
+  'hiragana',
+  'katakana',
 ];
 
 // デフォルトセット（パラメータ未指定時）

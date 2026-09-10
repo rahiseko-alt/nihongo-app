@@ -51,8 +51,10 @@ export interface TranslationDict {
   categorySaved: string;
   categoryPopular: string;
   categoryExam: string;
+  categoryKana: string;
   categoryDescPopularOnly: string;
   categoryDescExamOnly: string;
+  categoryDescKanaOnly: string;
   selectAllBtn: string;
   saveBtn: string;
   savedBtn: string;
@@ -121,8 +123,10 @@ export const translations: Record<string, TranslationDict> = {
     categorySaved: '保存漢字',
     categoryPopular: '人気漢字',
     categoryExam: '試験漢字',
+    categoryKana: 'ひらがな・カタカナ',
     categoryDescPopularOnly: '外国人に人気の漢字を1字ずつ選べます',
     categoryDescExamOnly: '在留外国人向け試験漢字を1字ずつ選べます',
+    categoryDescKanaOnly: 'ひらがな・カタカナを1字ずつ選べます',
     selectAllBtn: 'すべて選ぶ',
     saveBtn: '保存',
     savedBtn: '保存済み',
@@ -189,8 +193,10 @@ export const translations: Record<string, TranslationDict> = {
     categorySaved: 'Saved Kanji',
     categoryPopular: 'Popular Kanji',
     categoryExam: 'Exam Kanji',
+    categoryKana: 'Hiragana & Katakana',
     categoryDescPopularOnly: 'Select popular kanji one by one.',
     categoryDescExamOnly: 'Select exam-focused kanji one by one.',
+    categoryDescKanaOnly: 'Select hiragana or katakana one by one.',
     selectAllBtn: 'Select All',
     saveBtn: 'Save',
     savedBtn: 'Saved',
@@ -257,8 +263,10 @@ export const translations: Record<string, TranslationDict> = {
     categorySaved: '已保存汉字',
     categoryPopular: '热门汉字',
     categoryExam: '考试汉字',
+    categoryKana: '平假名・片假名',
     categoryDescPopularOnly: '可逐字选择常用汉字',
     categoryDescExamOnly: '可逐字选择在留考试汉字',
+    categoryDescKanaOnly: '可逐字选择平假名或片假名',
     selectAllBtn: '全选',
     saveBtn: '保存',
     savedBtn: '已保存',
@@ -325,8 +333,10 @@ export const translations: Record<string, TranslationDict> = {
     categorySaved: '저장 한자',
     categoryPopular: '인기 한자',
     categoryExam: '시험 한자',
+    categoryKana: '히라가나・가타카나',
     categoryDescPopularOnly: '외국인 인기 한자를 한 글자씩 선택합니다',
     categoryDescExamOnly: '재류 시험 한자를 한 글자씩 선택합니다',
+    categoryDescKanaOnly: '히라가나 또는 가타카나를 한 글자씩 선택합니다',
     selectAllBtn: '전체 선택',
     saveBtn: '저장',
     savedBtn: '저장됨',
@@ -393,8 +403,10 @@ export const translations: Record<string, TranslationDict> = {
     categorySaved: 'Kanji đã lưu',
     categoryPopular: 'Kanji phổ biến',
     categoryExam: 'Kanji thi cử',
+    categoryKana: 'Hiragana & Katakana',
     categoryDescPopularOnly: 'Chọn từng kanji phổ biến với người nước ngoài',
     categoryDescExamOnly: 'Chọn từng kanji dùng cho kỳ thi cư trú',
+    categoryDescKanaOnly: 'Chọn từng chữ hiragana hoặc katakana',
     selectAllBtn: 'Chọn tất cả',
     saveBtn: 'Lưu',
     savedBtn: 'Đã lưu',
@@ -461,8 +473,10 @@ export const translations: Record<string, TranslationDict> = {
     categorySaved: 'सुरक्षित कान्जी',
     categoryPopular: 'लोकप्रिय कान्जी',
     categoryExam: 'परीक्षा कान्जी',
+    categoryKana: 'हिरागाना र काताकाना',
     categoryDescPopularOnly: 'विदेशीहरूमा लोकप्रिय कान्जी छान्नुहोस्',
     categoryDescExamOnly: 'निवास परीक्षाका कान्जी छान्नुहोस्',
+    categoryDescKanaOnly: 'हिरागाना वा काताकाना एक-एक गरी छान्नुहोस्',
     selectAllBtn: 'सबै छान्नुहोस्',
     saveBtn: 'सुरक्षित',
     savedBtn: 'सुरक्षित भयो',
