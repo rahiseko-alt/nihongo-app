@@ -19,14 +19,17 @@
   let categoryDesc = $derived(
     activeCategory === 'popular'
       ? t.categoryDescPopularOnly
+      : activeCategory === 'kana'
+      ? t.categoryDescKanaOnly
       : t.categoryDescExamOnly
   );
 
   let isKanjiCategory = $derived(true);
+  // カテゴリー内の全セットの字を1つの選択肢リストにまとめる。'popular'/'exam' は
+  // 元々セット1つぶんだけだったため実質差はないが、'kana'（ひらがな・カタカナの
+  // 2セット）のように1カテゴリーに複数セットがあっても自然に合算されるようにする。
   let charSourceSet = $derived(
-    activeCategory === 'popular' ? SETS.popular_foreigners_500 :
-    activeCategory === 'exam' ? SETS.resident_exam_500 :
-    null
+    activeCategory === 'saved' ? null : { kanji: filteredSets.flatMap((s: any) => s.kanji ?? []) }
   );
   let charOptions = $derived((activeCategory === 'saved'
     ? savedChars.map((ch) => getKanjiByChar(ch)).filter(Boolean)
@@ -122,7 +125,7 @@
     <nav class="category-tabs fade-in-1s" aria-label="Kanji categories">
       {#each CATEGORY_ORDER as catId, i}
         {@const cat = CATEGORIES[catId]}
-        {@const label = catId === 'saved' ? t.categorySaved : catId === 'popular' ? t.categoryPopular : t.categoryExam}
+        {@const label = catId === 'saved' ? t.categorySaved : catId === 'popular' ? t.categoryPopular : catId === 'kana' ? t.categoryKana : t.categoryExam}
         <button
           class="cat-tab"
           class:active={activeCategory === catId}

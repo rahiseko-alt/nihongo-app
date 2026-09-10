@@ -15,10 +15,10 @@ application source code itself is distributed under the MIT License (see
 
 ### Where it is used
 
-| Path                          | Contents                                                                                                                                                            |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `app/static/svg/*.svg`        | 1,007 KanjiVG source SVG files, placed as-is                                                                                                                        |
-| `app/src/lib/data/kanji/*.js` | 1,028 files. The `d` attribute path data is extracted from the corresponding KanjiVG SVG; coordinates are unmodified. Stroke colouring is original to this project. |
+| Path                          | Contents                                                                                                                                                                                                                                                                                                                                                              |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `app/static/svg/*.svg`        | 1,099 KanjiVG source SVG files, placed as-is (1,007 kanji + 92 hiragana/katakana)                                                                                                                                                                                                                                                                                     |
+| `app/src/lib/data/kanji/*.js` | 1,120 per-character files. The `d` attribute path data is extracted from the corresponding KanjiVG SVG; coordinates are unmodified. Stroke colouring is original to this project. Includes the basic hiragana/katakana (46+46 characters, gojūon; dakuten/handakuten/yōon not covered), which KanjiVG catalogues under the same codepoint-based file naming as kanji. |
 
 Every file under `app/src/lib/data/kanji/` carries the attribution in its header
 comment, naming the KanjiVG source file it was derived from.
