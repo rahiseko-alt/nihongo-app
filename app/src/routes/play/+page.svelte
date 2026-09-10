@@ -9,6 +9,7 @@
   import { uiLang } from '$lib/stores/langStore.js';
   import { translations } from '$lib/data/translations.js';
   import { getMeaningRows } from '$lib/utils/kanjiMeaning';
+  import type { GradeSummary } from '$lib/utils/strokeScoring';
 
   // Svelte 5のリアクティブ翻訳マッピング
   let t = $derived(translations[$uiLang] || translations.ja);
@@ -71,6 +72,9 @@
   let startedFlags: boolean[] = $state([]);
   let completedFlags: boolean[] = $state([]);
   let savedFlags: boolean[] = $state([]);
+  // 白紙採点機能: 白紙モード中かどうか（枠ごと）／直近のチェック結果（枠ごと）
+  let blankStrokeMode: boolean[] = $state([]);
+  let lastGrade: (GradeSummary | null)[] = $state([]);
 
   // kanjis 変化時にフラグ配列を初期化
   $effect(() => {
@@ -78,6 +82,8 @@
     startedFlags = Array(len).fill(false);
     completedFlags = Array(len).fill(false);
     savedFlags = Array(len).fill(false);
+    blankStrokeMode = Array(len).fill(false);
+    lastGrade = Array(len).fill(null);
   });
 
   // sets 変化時に currentIndex / stageIndex リセット（セット切替時の状態クリア）
@@ -111,6 +117,8 @@
     startedFlags = Array(kanjis.length).fill(false);
     completedFlags = Array(kanjis.length).fill(false);
     savedFlags = Array(kanjis.length).fill(false);
+    blankStrokeMode = Array(kanjis.length).fill(false);
+    lastGrade = Array(kanjis.length).fill(null);
     if (typeof window !== 'undefined') window.scrollTo({ top: 0, behavior: 'instant' });
   }
 
@@ -125,6 +133,8 @@
     startedFlags = Array(kanjis.length).fill(false);
     completedFlags = Array(kanjis.length).fill(false);
     savedFlags = Array(kanjis.length).fill(false);
+    blankStrokeMode = Array(kanjis.length).fill(false);
+    lastGrade = Array(kanjis.length).fill(null);
   }
 
   async function runCountdownThen(action: () => void) {
@@ -169,6 +179,8 @@
     startedFlags = Array(kanjis.length).fill(false);
     completedFlags = Array(kanjis.length).fill(false);
     savedFlags = Array(kanjis.length).fill(false);
+    blankStrokeMode = Array(kanjis.length).fill(false);
+    lastGrade = Array(kanjis.length).fill(null);
     animationStarted = false;
   }
 
@@ -179,9 +191,26 @@
     traceComps[i]?.clearAll?.();
     completedFlags = completedFlags.with(i, false);
     startedFlags = startedFlags.with(i, true);
+    blankStrokeMode = blankStrokeMode.with(i, false);
+    lastGrade = lastGrade.with(i, null);
     kanjiStartTs = kanjiStartTs.length === kanjis.length ? kanjiStartTs.slice() : Array(kanjis.length).fill(0);
     kanjiStartTs[i] = Date.now();
     await runCountdownThen(() => traceComps[i]?.replayDemo?.());
+  }
+
+  // 白紙採点: 「白紙で書く」→ ghost-stroke を消して自由記入モードにする
+  function startBlankFor(i: number) {
+    traceComps[i]?.startBlank?.();
+    blankStrokeMode = blankStrokeMode.with(i, true);
+    lastGrade = lastGrade.with(i, null);
+  }
+
+  // 白紙採点: 「チェック」→ ここまで書いた各画を採点し、結果を保持する。
+  // お手本アニメーションの再生は TraceCanvas.checkAnswer() が内部で行う
+  function checkFor(i: number) {
+    const summary = traceComps[i]?.checkAnswer?.() ?? null;
+    lastGrade = lastGrade.with(i, summary);
+    blankStrokeMode = blankStrokeMode.with(i, false);
   }
 
   function recordKanjiCompletion(i: number) {
@@ -305,6 +334,18 @@
                   </div>
                 {/if}
               </div>
+              {#if startedFlags[i]}
+                <div class="scoring-controls">
+                  {#if !blankStrokeMode[i]}
+                    <button class="btn btn--secondary page-nav-btn" onclick={() => startBlankFor(i)}>{t.writeBlankBtn}</button>
+                  {:else}
+                    <button class="btn btn--primary page-nav-btn" onclick={() => checkFor(i)}>{t.checkBtn}</button>
+                  {/if}
+                  {#if lastGrade[i]}
+                    <span class="scoring-result">{t.strokeMatchResult(lastGrade[i].matchedCount, lastGrade[i].correctCount)}</span>
+                  {/if}
+                </div>
+              {/if}
             </div>
           {/if}
         {/each}
@@ -651,6 +692,26 @@
     .page-nav-btn--select {
       min-width: 7.2rem;
     }
+  }
+
+  /* === 白紙採点コントロール === */
+  .scoring-controls {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .scoring-result {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #262626;
+    background: #ffffff;
+    border: 1px solid rgba(38, 38, 38, 0.15);
+    border-radius: 999px;
+    padding: 0.2rem 0.7rem;
   }
 
   /* === カウントダウンオーバーレイ（上品な朱色表示） === */

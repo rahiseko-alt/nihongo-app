@@ -10,6 +10,9 @@ export interface TranslationDict {
   doneBtn: string;
   tryAgain: string;
   nextStage: string;
+  writeBlankBtn: string;
+  checkBtn: string;
+  strokeMatchResult: (matched: number, total: number) => string;
   goHome: string;
   studyLogs: string;
   totalPractices: string;
@@ -79,6 +82,9 @@ export const translations: Record<string, TranslationDict> = {
     doneBtn: 'できた！',
     tryAgain: 'もういっかい',
     nextStage: 'つぎへ',
+    writeBlankBtn: '白紙で書く',
+    checkBtn: 'チェック',
+    strokeMatchResult: (matched: number, total: number) => `${total}画中${matched}画一致`,
     goHome: 'ホームへ',
     studyLogs: '学習記録',
     totalPractices: '総練習数',
@@ -146,6 +152,9 @@ export const translations: Record<string, TranslationDict> = {
     doneBtn: 'Done!',
     tryAgain: 'Try Again',
     nextStage: 'Next',
+    writeBlankBtn: 'Write from Blank',
+    checkBtn: 'Check',
+    strokeMatchResult: (matched: number, total: number) => `${matched} / ${total} strokes matched`,
     goHome: 'Home',
     studyLogs: 'Study Logs',
     totalPractices: 'Total Practices',
@@ -213,6 +222,9 @@ export const translations: Record<string, TranslationDict> = {
     doneBtn: '我写好了！',
     tryAgain: '再试一次',
     nextStage: '下一步',
+    writeBlankBtn: '白纸写写看',
+    checkBtn: '检查',
+    strokeMatchResult: (matched: number, total: number) => `${total}画中${matched}画一致`,
     goHome: '回到首页',
     studyLogs: '学习记录',
     totalPractices: '总练习次数',
@@ -280,6 +292,9 @@ export const translations: Record<string, TranslationDict> = {
     doneBtn: '참 잘했어요!',
     tryAgain: '다시 하기',
     nextStage: '다음으로',
+    writeBlankBtn: '백지에 써보기',
+    checkBtn: '확인',
+    strokeMatchResult: (matched: number, total: number) => `${total}획 중 ${matched}획 일치`,
     goHome: '홈으로',
     studyLogs: '학습 기록',
     totalPractices: '총 연습 횟수',
@@ -347,6 +362,9 @@ export const translations: Record<string, TranslationDict> = {
     doneBtn: 'Xong!',
     tryAgain: 'Thử lại',
     nextStage: 'Tiếp theo',
+    writeBlankBtn: 'Viết trên giấy trắng',
+    checkBtn: 'Kiểm tra',
+    strokeMatchResult: (matched: number, total: number) => `Khớp ${matched}/${total} nét`,
     goHome: 'Về trang chủ',
     studyLogs: 'Nhật ký học',
     totalPractices: 'Tổng số lần luyện',
@@ -414,6 +432,9 @@ export const translations: Record<string, TranslationDict> = {
     doneBtn: 'सकियो!',
     tryAgain: 'फेरि प्रयास',
     nextStage: 'अर्को',
+    writeBlankBtn: 'खाली कागजमा लेख्नुहोस्',
+    checkBtn: 'जाँच्नुहोस्',
+    strokeMatchResult: (matched: number, total: number) => `${total} मध्ये ${matched} स्ट्रोक मिल्यो`,
     goHome: 'घर',
     studyLogs: 'अध्ययन रेकर्ड',
     totalPractices: 'कुल अभ्यास',
