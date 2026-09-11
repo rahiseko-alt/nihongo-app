@@ -71,7 +71,7 @@ export interface TranslationDict {
 
 export const translations: Record<string, TranslationDict> = {
   ja: {
-    title: 'Senbon',
+    title: 'MojiDrill',
     subtitle: '漢字巡礼',
     playBtn: 'はじめる',
     selectedPlayBtn: () => '練習を開始する',
@@ -141,7 +141,7 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelNe: 'नेपाली',
   },
   en: {
-    title: 'Senbon',
+    title: 'MojiDrill',
     subtitle: 'Kanji Pilgrimage',
     playBtn: 'Begin',
     selectedPlayBtn: () => 'Start Practice',
@@ -181,7 +181,8 @@ export const translations: Record<string, TranslationDict> = {
     categoryBasic: 'Fundamentals',
     categoryCities: 'Major Cities',
     categoryRegions: 'Regions & Nature',
-    categoryDescBasic: 'Master the beautiful, powerful single characters at the heart of calligraphy',
+    categoryDescBasic:
+      'Master the beautiful, powerful single characters at the heart of calligraphy',
     categoryDescCities: 'Journey through the kanji of Japan major cities',
     categoryDescRegions: 'Trace Japan rich landscapes in kanji',
     toriiCollection: 'Thousand Torii',
@@ -211,7 +212,7 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelNe: 'Nepali',
   },
   zh: {
-    title: 'Senbon',
+    title: 'MojiDrill',
     subtitle: '汉字巡礼',
     playBtn: '开始学习',
     selectedPlayBtn: () => '开始练习',
@@ -281,7 +282,7 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelNe: '尼泊尔语',
   },
   ko: {
-    title: 'Senbon',
+    title: 'MojiDrill',
     subtitle: '한자 순례',
     playBtn: '시작하기',
     selectedPlayBtn: () => '연습 시작하기',
@@ -351,7 +352,7 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelNe: '네팔어',
   },
   vi: {
-    title: 'Senbon',
+    title: 'MojiDrill',
     subtitle: 'Hành hương Kanji',
     playBtn: 'Bắt đầu',
     selectedPlayBtn: () => 'Bắt đầu luyện tập',
@@ -421,7 +422,7 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelNe: 'Tiếng Nepal',
   },
   ne: {
-    title: 'Senbon',
+    title: 'MojiDrill',
     subtitle: 'कान्जी तीर्थयात्रा',
     playBtn: 'सुरु गर्नुहोस्',
     selectedPlayBtn: () => 'अभ्यास सुरु गर्नुहोस्',
@@ -434,7 +435,8 @@ export const translations: Record<string, TranslationDict> = {
     nextStage: 'अर्को',
     writeBlankBtn: 'खाली कागजमा लेख्नुहोस्',
     checkBtn: 'जाँच्नुहोस्',
-    strokeMatchResult: (matched: number, total: number) => `${total} मध्ये ${matched} स्ट्रोक मिल्यो`,
+    strokeMatchResult: (matched: number, total: number) =>
+      `${total} मध्ये ${matched} स्ट्रोक मिल्यो`,
     goHome: 'घर',
     studyLogs: 'अध्ययन रेकर्ड',
     totalPractices: 'कुल अभ्यास',

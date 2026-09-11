@@ -46,7 +46,7 @@
   <div class="title-area" class:visible={titleVisible}>
     <div class="title-animation-container">
 
-      <!-- 黄金英字「Senbon」レイヤー -->
+      <!-- 黄金英字「MojiDrill」レイヤー -->
       <div class="alphabet-layer">
         <svg class="title-svg" viewBox="0 0 280 60" xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -61,12 +61,12 @@
             x="140" y="45"
             text-anchor="middle"
             font-family="'Hiragino Mincho ProN', 'Yu Mincho', 'Georgia', serif"
-            font-size="48"
+            font-size="34"
             font-weight="900"
             fill="url(#gold-grad)"
-            letter-spacing="8"
+            letter-spacing="4"
             class="title-text-svg"
-          >Senbon</text>
+          >MojiDrill</text>
         </svg>
       </div>
 
@@ -165,8 +165,7 @@
     justify-content: center;
   }
 
-  /* 段階1 & 2: 漢字「千本」レイヤー */
-  /* 黄金英字「Senbon」レイヤー */
+  /* 黄金英字「MojiDrill」レイヤー */
   .alphabet-layer {
     position: absolute;
     inset: 0;
@@ -190,12 +189,12 @@
     filter: drop-shadow(0 3px 6px rgba(38, 38, 38, 0.25));
   }
 
-  /* 黄金「Senbon」レイヤー */
+  /* 黄金「MojiDrill」レイヤー */
   .title-text-svg {
     fill: url(#gold-grad);
   }
 
-  /* サブタイトル (Senbonとタイミングを揃える) */
+  /* サブタイトル (MojiDrillとタイミングを揃える) */
   .title-sub {
     font-size: clamp(0.9rem, 3.5vw, 1.25rem);
     font-weight: 900;

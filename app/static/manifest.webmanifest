@@ -1,6 +1,6 @@
 {
-  "name": "Senbon",
-  "short_name": "Senbon",
+  "name": "MojiDrill",
+  "short_name": "MojiDrill",
   "description": "外国人向けの漢字練習アプリ",
   "start_url": "./",
   "scope": "./",
