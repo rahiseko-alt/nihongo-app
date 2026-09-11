@@ -99,6 +99,11 @@
       <a href="https://www.unicode.org/copyright.html" target="_blank" rel="noopener noreferrer">Unihan Database</a>
       (© Unicode, Inc.).
     </p>
+    <p>
+      JLPT級の分類は、日本語教育で広く使われている教材
+      「新完全マスター漢字」（スリーエーネットワーク）・「日本語総まとめ」（アスク出版）
+      を参考にしています。両教材とは無関係の非公式な分類です。
+    </p>
   </footer>
 </main>
 

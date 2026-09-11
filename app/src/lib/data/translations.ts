@@ -67,6 +67,7 @@ export interface TranslationDict {
   meaningForeignLabelKo: string;
   meaningForeignLabelVi: string;
   meaningForeignLabelNe: string;
+  exampleWordLabel: string;
 }
 
 export const translations: Record<string, TranslationDict> = {
@@ -139,6 +140,7 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelKo: '한국어',
     meaningForeignLabelVi: 'Tiếng Việt',
     meaningForeignLabelNe: 'नेपाली',
+    exampleWordLabel: '例',
   },
   en: {
     title: 'MojiDrill',
@@ -210,6 +212,7 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelKo: 'Korean',
     meaningForeignLabelVi: 'Vietnamese',
     meaningForeignLabelNe: 'Nepali',
+    exampleWordLabel: 'e.g.',
   },
   zh: {
     title: 'MojiDrill',
@@ -280,6 +283,7 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelKo: '韩语',
     meaningForeignLabelVi: '越南语',
     meaningForeignLabelNe: '尼泊尔语',
+    exampleWordLabel: '例词',
   },
   ko: {
     title: 'MojiDrill',
@@ -350,6 +354,7 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelKo: '한국어',
     meaningForeignLabelVi: '베트남어',
     meaningForeignLabelNe: '네팔어',
+    exampleWordLabel: '예',
   },
   vi: {
     title: 'MojiDrill',
@@ -420,6 +425,7 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelKo: 'Tiếng Hàn',
     meaningForeignLabelVi: 'Tiếng Việt',
     meaningForeignLabelNe: 'Tiếng Nepal',
+    exampleWordLabel: 'Ví dụ',
   },
   ne: {
     title: 'MojiDrill',
@@ -491,5 +497,6 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelKo: 'कोरियाली',
     meaningForeignLabelVi: 'भियतनामी',
     meaningForeignLabelNe: 'नेपाली',
+    exampleWordLabel: 'उदाहरण',
   },
 };
