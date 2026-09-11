@@ -3,7 +3,7 @@
 本リポジトリで作業するすべてのコーディングエージェント（Claude Code / Codex ほか）共通の指示です。
 このファイルが唯一の正本です。
 
-**目的**: 漢字学習アプリ **Senbon（千本）** を作ること。実体は `app/` にあります。
+**目的**: 漢字学習アプリ **MojiDrill** を作ること。実体は `app/` にあります。
 外国人向けに、1,000字の書き順アニメーションと6言語の UI を持つ、バックエンド不要の
 静的 SvelteKit アプリです。
 
@@ -11,7 +11,7 @@
 リポジトリを扱うための仕組み）で、`app/` 以外のすべてがそれにあたります。from-0 は
 すでに動いており、**このリポジトリでの主な作業対象は `app/` です**。
 
-- `app/` — Senbon 本体。独自の `package.json` と lockfile を持つ独立プロジェクト。
+- `app/` — MojiDrill 本体。独自の `package.json` と lockfile を持つ独立プロジェクト。
   CI では専用ジョブ `app` が検査する
 - それ以外 — from-0 の土台（`src/` の計画CLI、`docs/` の各台帳、`.claude/`、CI のジョブ `check`）
 
@@ -192,7 +192,7 @@ pnpm run build    # tsc で dist/ に出力
 pnpm run format   # Prettier で整形
 ```
 
-`app/`（Senbon 本体）— **`app/` で実行する。root の `pnpm run check` は `app/` を見ない**:
+`app/`（MojiDrill 本体）— **`app/` で実行する。root の `pnpm run check` は `app/` を見ない**:
 
 ```bash
 cd app

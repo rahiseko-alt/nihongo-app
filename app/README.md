@@ -1,10 +1,7 @@
-# Senbon — 千本 / Kanji Pilgrimage
+# MojiDrill
 
 A kanji learning app for non-native speakers of Japanese. Learn 1,000 kanji
 through stroke-order animation, with the interface available in six languages.
-
-> **Senbon** (千本, "a thousand") is named after the thousand torii gates of
-> Fushimi Inari. Each kanji you clear advances you along the path.
 
 ## Features
 
