@@ -319,6 +319,14 @@
                       <dd>{row.value}</dd>
                     {/each}
                   </dl>
+                  {#if k.jlptLevel || (k.word && k.word !== k.char)}
+                    <div class="jlpt-word-line">
+                      {#if k.jlptLevel}<span class="jlpt-badge">{k.jlptLevel}</span>{/if}
+                      {#if k.word && k.word !== k.char}
+                        <span class="example-word">{t.exampleWordLabel}: {k.word}</span>
+                      {/if}
+                    </div>
+                  {/if}
                 </div>
                 <div class="page-indicator" aria-hidden="true">{i + 1} / {kanjis.length}</div>
                 <TraceCanvas
@@ -576,6 +584,24 @@
   .reading-badge-meanings dd {
     margin: 0;
     min-height: 1.4em;
+  }
+  .jlpt-word-line {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.65em;
+    font-weight: 500;
+    margin-top: 0.15rem;
+  }
+  .jlpt-badge {
+    background: #D4AF37;
+    color: #262626;
+    border-radius: 0.2rem;
+    padding: 0 0.3rem;
+    font-weight: 700;
+  }
+  .example-word {
+    opacity: 0.9;
   }
 
   .play-area {
