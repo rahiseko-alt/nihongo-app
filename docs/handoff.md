@@ -23,8 +23,9 @@
 
 ## いま何をしているか
 
-**ユーザーからの直接指示で、新機能2件（ひらがな・カタカナ追加／なぞり書きの採点機能）を
-`Workflow` ツールで並列実装させ、両方とも `main` へマージし終えた。次の作業は決まっていない。**
+**ユーザーの直接指示で、アプリ名を Senbon から MojiDrill に改称し、Cloudflare Pages の
+新プロジェクト `mojidrill` として本番デプロイした。ユーザーがブラウザで実際に開き、
+反映を確認済み。次の作業は決まっていない。**
 
 `T030`（都道府県名26字の意味欄。`/select` からセットを開けない別の不具合＝`T033` が
 未解消のため `todo` のまま）は今回のセッションでは触っていない。
@@ -32,6 +33,34 @@
 ## 完了したこと
 
 ### このセッション
+
+**アプリ名を Senbon から MojiDrill へ改称し、新しい URL で本番公開した**
+
+- **背景**: ユーザーから「Senbon自体をやめる」という発言があり、真意を確認したところ
+  「名前を変えるから、URLも違うURLに変える。表札と住所を変える」という改称の指示だった。
+  新しい名前として `MojiDrill` の指定を受けた
+- **PR: [#19](https://github.com/rahiseko-alt/nihongo-app/pull/19)（`main` にマージ済み、`120be8e`）**
+  - ホーム画面のロゴ（SVGテキスト）・`<title>`・6言語ぶんの `translations.ts` の `title`・
+    PWAマニフェスト名・Apple向けタイトル・アイコン/faviconの `aria-label` を変更
+  - `app/wrangler.toml` の Cloudflare Pages プロジェクト名を `senbon` → `mojidrill` に変更
+  - `README.md`（root）・`app/README.md` の説明文を更新、`AGENTS.md` の目的欄も更新
+  - **あえて変えなかったもの**: サブタイトル「漢字巡礼」、管理画面の「千本鳥居」コレクション
+    表示、`localStorage` の内部キー名（`senbon_ui_language` 等）。旧名の由来（伏見稲荷の
+    千本鳥居）に紐づく世界観・内部実装で、指示の範囲（表札と住所）外と判断した。根拠は
+    `docs/decisions.md`「29.」
+  - マージ前に `app/` で `pnpm run check`（0 ERRORS）・`pnpm run test`（41件）・
+    `pnpm run build` を確認。ビルドしたホーム画面を Playwright で目視確認し、ロゴが
+    「MojiDrill」に変わり幅内に収まっていることを確認（フォントサイズ48→34・字間8→4に調整）
+- **デプロイ**: Cloudflare Pages に新プロジェクト `mojidrill` を作成し（アカウントIDは
+  前セッションで判明済みの `e1d5af7f241509a2d4acc847a0182d39` を再利用）、
+  `main` ブランチとして初回デプロイ。**このセッションのサンドボックスからは
+  `*.pages.dev` に接続できず自己確認できない**ため、ユーザーに
+  `https://mojidrill.pages.dev` を開いてもらい、**反映済みであることを確認してもらった**
+- **旧プロジェクト `senbon`（Cloudflare Pages）は削除していない。** 残したままなので、
+  `https://senbon.pages.dev` 系のURLは古い内容のまま残っている可能性が高い `[曖昧]`。
+  削除するかはユーザーの判断待ち（「次にやること」参照）
+
+### 前のセッション
 
 **新機能2件（ひらがな・カタカナ追加、なぞり書き採点機能）を並列実装し、両方マージした**
 
@@ -246,32 +275,12 @@ root の `pnpm run check` は緑（46件）。
 
 ## 次にやること
 
-**最優先: `Workflow` タスク `wteslmezj`（run ID `wf_3bc4e6c1-610`）の完了を確認する。**
-このセッションが `main` へマージし終えた直後、ユーザーから直接指示された新機能2件を
-`Workflow` ツール（`parallel`、`isolation: 'worktree'`）で同時実装させている最中に
-セッションが途切れた。**このタスクが今も `running` かどうかを、次のセッションでまず
-確認すること**（完了通知が届いていれば別だが、届いていない場合は `TaskOutput` で
-`{task_id: "wteslmezj", block: false}` を呼んで状態を見る）。
-
-- **1本目: ひらがな・カタカナ追加**（ブランチ `feat/hiragana-katakana`、
-  worktree `.claude/worktrees/wf_3bc4e6c1-610-1`）。書き順アニメーション付きで、
-  漢字と同じ体験にする指示。**書き順データは実在するソース（KanjiVG 等）からのみ
-  取得させ、想像で作らせないよう明記済み**。取得できなければ実装せず「blocked」として
-  報告するよう指示している
-- **2本目: なぞり書きの採点機能**（ブランチ `feat/trace-scoring`、
-  worktree `.claude/worktrees/wf_3bc4e6c1-610-2`）。「白紙状態に記入→チェックボタン→
-  通過点判定で○×採点+お手本表示」というユーザーの原文どおりの指示。
-  `TraceCanvas.svelte` の既存の `computeCoverage`/`samplePath`/`replayDemo` を
-  再利用する設計で指示済み
-- 両方とも **draft PR を出すところで止め、マージはしない**よう指示している
-  （main へのマージは1つずつ、が原則のため）。**完了していたら、まず両方の PR を
-  確認し、CI を通してから順番にマージすること**
-- 起動から数日単位で `running` のまま動いていない可能性がある `[曖昧]`。
-  もし詰まっている・進んでいないと判断したら、`TaskStop` で止め、
-  `git worktree list` の該当2件（lock されているはず）を確認したうえで、
-  ユーザーに状況を報告して仕切り直すかどうか判断を仰ぐこと。**憶測で「失敗した」と
-  判断して手動で作り直さない**——ワークフローが単に長時間かかっているだけの
-  可能性がある
+**判断待ち: 旧 Cloudflare Pages プロジェクト `senbon` を削除するかどうか。**
+`mojidrill` を新規作成して本番デプロイし直したが、旧プロジェクト `senbon`
+（`https://senbon.pages.dev` 系）はそのまま残している。放置すると古い内容が
+残ったURLが存在し続ける。削除するかはユーザーの判断待ち `[曖昧]`
+（Cloudflare ダッシュボードから消すか、ユーザーに直接聞いて `wrangler pages project delete`
+で消すか、いずれもこのセッションでは実施していない）
 
 **`T031`・`T032` は完了判定済み。`pnpm run plan:next` を実行すると `T033`
 （都道府県名セットを `/select` から選べるようにする）が拾える状態。**
@@ -304,6 +313,23 @@ root の `pnpm run check` は緑（46件）。
 **恒久的なリポジトリのルールはここに書かない。** `AGENTS.md`（指示）と `docs/decisions.md`
 （根拠）を参照する。ここに書くのは、セッションをまたいで再発しうる作業上の落とし穴だけ。
 
+- **Cloudflare Pages へのデプロイはこのサンドボックスから直接できる。** ユーザーに
+  「Custom Token・Account → Cloudflare Pages → Edit のみ」のスコープで API トークンを
+  発行してもらい、`CLOUDFLARE_API_TOKEN` に設定すれば `wrangler` が使える。**この
+  スコープのトークンでは `wrangler whoami` のアカウント自動判定が失敗する**
+  （`Failed to automatically retrieve account IDs`）。エラーではなく想定内の挙動で、
+  `CLOUDFLARE_ACCOUNT_ID` を別途ユーザーから聞いて環境変数に設定すれば回避できる
+  （ダッシュボードURL `dash.cloudflare.com/<ID>/home` の `<ID>` 部分）
+- **トークンと account ID はセッションをまたいで保持されない。** 環境変数はシェルの
+  状態なので、新しいセッションでは毎回ユーザーに再送してもらう必要がある。
+  リポジトリのファイルには一切書き込まない
+- **新しい Cloudflare Pages プロジェクトを作るときは `wrangler pages project create`
+  に `--force` を付ける。** 付けないと最新の Workers ベースの Pages に自動委譲されて
+  失敗する（`Missing entry-point to Worker script`）。`--force` は作成の1回だけでよく、
+  以降の `wrangler pages deploy` には不要
+- **このサンドボックスからは `*.pages.dev` に接続できない**（プロキシ側で
+  `net::ERR_CONNECTION_RESET`）。デプロイ自体は `wrangler` の成功終了で確認できるが、
+  実際に公開されているかの目視確認はユーザーに依頼するしかない
 - **`app/` の画面には `<canvas>` が2つある。** `play` 画面には練習用キャンバスの他に
   `.sakura-canvas`（桜吹雪の背景演出、本文の機能とは無関係）がある。Playwright で
   `page.locator('canvas').first()` のように曖昧に指定すると、無関係な方（全画面サイズ）を
