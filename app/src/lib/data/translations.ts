@@ -68,6 +68,14 @@ export interface TranslationDict {
   meaningForeignLabelVi: string;
   meaningForeignLabelNe: string;
   exampleWordLabel: string;
+  categoryWords: string;
+  categoryDescWordsOnly: string;
+  wordSaveUnavailable: string;
+  wordStageComplete: (wordName: string) => string;
+  wordListSeparator: string;
+  wordsCompletedList: (joined: string) => string;
+  wordsCompletedCount: (count: number) => string;
+  wordStageCount: (current: number, total: number) => string;
 }
 
 export const translations: Record<string, TranslationDict> = {
@@ -141,6 +149,14 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelVi: 'Tiếng Việt',
     meaningForeignLabelNe: 'नेपाली',
     exampleWordLabel: '例',
+    categoryWords: '語',
+    categoryDescWordsOnly: '単語をまるごと選んで書けます',
+    wordSaveUnavailable: '1文字ずつの練習でのみ保存可',
+    wordStageComplete: (wordName: string) => `「${wordName}」を書けました`,
+    wordListSeparator: '、',
+    wordsCompletedList: (joined: string) => `${joined}を書けました`,
+    wordsCompletedCount: (count: number) => `${count}語を書けました`,
+    wordStageCount: (current: number, total: number) => `(${current}/${total}語)`,
   },
   en: {
     title: 'MojiDrill',
@@ -213,6 +229,14 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelVi: 'Vietnamese',
     meaningForeignLabelNe: 'Nepali',
     exampleWordLabel: 'e.g.',
+    categoryWords: 'Words',
+    categoryDescWordsOnly: 'Select a whole word to write.',
+    wordSaveUnavailable: 'Saving is only available for single characters',
+    wordStageComplete: (wordName: string) => `You wrote "${wordName}"!`,
+    wordListSeparator: ', ',
+    wordsCompletedList: (joined: string) => `You wrote ${joined}!`,
+    wordsCompletedCount: (count: number) => `You wrote ${count} words!`,
+    wordStageCount: (current: number, total: number) => `(${current}/${total} words)`,
   },
   zh: {
     title: 'MojiDrill',
@@ -284,6 +308,14 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelVi: '越南语',
     meaningForeignLabelNe: '尼泊尔语',
     exampleWordLabel: '例词',
+    categoryWords: '词语',
+    categoryDescWordsOnly: '可选择完整词语来书写',
+    wordSaveUnavailable: '仅单字练习可保存',
+    wordStageComplete: (wordName: string) => `写完了「${wordName}」`,
+    wordListSeparator: '、',
+    wordsCompletedList: (joined: string) => `写完了${joined}`,
+    wordsCompletedCount: (count: number) => `写完了${count}个词语`,
+    wordStageCount: (current: number, total: number) => `(${current}/${total}词)`,
   },
   ko: {
     title: 'MojiDrill',
@@ -355,6 +387,14 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelVi: '베트남어',
     meaningForeignLabelNe: '네팔어',
     exampleWordLabel: '예',
+    categoryWords: '단어',
+    categoryDescWordsOnly: '단어 전체를 선택해 씁니다',
+    wordSaveUnavailable: '한 글자 연습에서만 저장 가능',
+    wordStageComplete: (wordName: string) => `「${wordName}」을(를) 다 썼습니다`,
+    wordListSeparator: '、',
+    wordsCompletedList: (joined: string) => `${joined}을(를) 다 썼습니다`,
+    wordsCompletedCount: (count: number) => `${count}개 단어를 다 썼습니다`,
+    wordStageCount: (current: number, total: number) => `(${current}/${total}단어)`,
   },
   vi: {
     title: 'MojiDrill',
@@ -426,6 +466,14 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelVi: 'Tiếng Việt',
     meaningForeignLabelNe: 'Tiếng Nepal',
     exampleWordLabel: 'Ví dụ',
+    categoryWords: 'Từ vựng',
+    categoryDescWordsOnly: 'Chọn cả một từ để viết',
+    wordSaveUnavailable: 'Chỉ có thể lưu khi luyện từng chữ một',
+    wordStageComplete: (wordName: string) => `Bạn đã viết xong "${wordName}"!`,
+    wordListSeparator: ', ',
+    wordsCompletedList: (joined: string) => `Bạn đã viết xong ${joined}!`,
+    wordsCompletedCount: (count: number) => `Bạn đã viết xong ${count} từ!`,
+    wordStageCount: (current: number, total: number) => `(${current}/${total} từ)`,
   },
   ne: {
     title: 'MojiDrill',
@@ -498,5 +546,13 @@ export const translations: Record<string, TranslationDict> = {
     meaningForeignLabelVi: 'भियतनामी',
     meaningForeignLabelNe: 'नेपाली',
     exampleWordLabel: 'उदाहरण',
+    categoryWords: 'शब्दहरू',
+    categoryDescWordsOnly: 'पूरा शब्द छानेर लेख्नुहोस्',
+    wordSaveUnavailable: 'एक अक्षरको अभ्यासमा मात्र सुरक्षित गर्न सकिन्छ',
+    wordStageComplete: (wordName: string) => `"${wordName}" लेखिसक्नुभयो!`,
+    wordListSeparator: ', ',
+    wordsCompletedList: (joined: string) => `${joined} लेखिसक्नुभयो!`,
+    wordsCompletedCount: (count: number) => `${count} शब्द लेखिसक्नुभयो!`,
+    wordStageCount: (current: number, total: number) => `(${current}/${total} शब्द)`,
   },
 };

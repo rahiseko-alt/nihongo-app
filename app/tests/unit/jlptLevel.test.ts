@@ -4,8 +4,13 @@ import { join } from 'node:path';
 
 const KANJI_DIR = join(import.meta.dirname, '../../src/lib/data/kanji');
 
+// pack-1000.js / words-n5.js は個別の字ファイルを束ねる集約ファイルで、
+// 対象外（T036: words-n5.js のコメント文言が正規表現に誤って引っかかる
+// ことがあるため、pack-1000.js と同様に除外する）。
 function kanjiFiles(): string[] {
-  return readdirSync(KANJI_DIR).filter((f) => f.endsWith('.js') && f !== 'pack-1000.js');
+  return readdirSync(KANJI_DIR).filter(
+    (f) => f.endsWith('.js') && f !== 'pack-1000.js' && f !== 'words-n5.js',
+  );
 }
 
 function readEntry(file: string): { char?: string; word?: string; jlptLevel?: string } {

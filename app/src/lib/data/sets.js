@@ -32,17 +32,19 @@ import { KANJI_NA } from './kanji/na.js';
 import { KANJI_KAWA } from './kanji/kawa.js';
 import { KANJI_POPULAR_FOREIGNERS_500, KANJI_RESIDENT_EXAM_500 } from './kanji/pack-1000.js';
 import { KANJI_HIRAGANA_46, KANJI_KATAKANA_46 } from './kanji/kana-46.js';
+export { WORDS_N5 } from './kanji/words-n5.js';
 
 // ─── カテゴリー定義 ───
 /** @type {Record<string, { id: string, icon: string }>} */
 export const CATEGORIES = {
-  saved:   { id: 'saved',   icon: '保' },
+  saved: { id: 'saved', icon: '保' },
   popular: { id: 'popular', icon: '人' },
-  exam:    { id: 'exam',    icon: '験' },
-  kana:    { id: 'kana',    icon: 'あ' },
+  exam: { id: 'exam', icon: '験' },
+  kana: { id: 'kana', icon: 'あ' },
+  words: { id: 'words', icon: '語' },
 };
 
-export const CATEGORY_ORDER = ['saved', 'popular', 'exam', 'kana'];
+export const CATEGORY_ORDER = ['saved', 'popular', 'exam', 'kana', 'words'];
 
 /** @type {Record<string, any>} */
 export const SETS = {
@@ -178,12 +180,7 @@ export const SETS = {
 };
 
 // トップ画面の選択 UI 表示順
-export const SET_ORDER = [
-  'popular_foreigners_500',
-  'resident_exam_500',
-  'hiragana',
-  'katakana',
-];
+export const SET_ORDER = ['popular_foreigners_500', 'resident_exam_500', 'hiragana', 'katakana'];
 
 // デフォルトセット（パラメータ未指定時）
 export const DEFAULT_SET_ID = 'popular_foreigners_500';
@@ -201,9 +198,7 @@ export function getSetById(id) {
  * @returns {any[]}
  */
 export function getSetsByCategory(categoryId) {
-  return SET_ORDER
-    .map((id) => SETS[id])
-    .filter((s) => s.category === categoryId);
+  return SET_ORDER.map((id) => SETS[id]).filter((s) => s.category === categoryId);
 }
 
 /** @type {Record<string, any>} */
