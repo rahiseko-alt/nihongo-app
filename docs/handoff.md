@@ -29,7 +29,10 @@
 計画段階でサブエージェント3体（Architecture/UX/AC厳密性）による敵対検証を6ラウンド
 （round3〜6、スコアは35〜73点の間で往復し3体とも100点には未到達）行い、ユーザーに
 状況を報告した結果「実装に進んでpnpm run check/testで機械検証する」方針の了承を得て
-実装した。PRはこのセッション終了時点でまだオープン（`completion-checker`の判定待ち）。**
+実装した。**completion-checkerの判定（verify6手順すべて通過）を経てPR
+[#26](https://github.com/rahiseko-alt/nihongo-app/pull/26) を `main` へマージ済み
+（`50b5d9c`）。ユーザーの指示で本番（Cloudflare Pages `mojidrill`）にも
+`wrangler pages deploy` で反映済み。このセッションでの作業は完了している。**
 
 `T030`（都道府県名26字の意味欄。`/select` からセットを開けない別の不具合＝`T033` が
 未解消のため `todo` のまま）は今回のセッションでは触っていない。
@@ -91,7 +94,12 @@
 - **`completion-checker`に検証を依頼し、verifyの6手順すべて「通った」と判定された。**
   日曜日単体・大学+学校の複数選択の両方を実際に最後まで完走させた上での判定（詳細は
   T036のnote参照）。CIも green。PR: [#26](https://github.com/rahiseko-alt/nihongo-app/pull/26)
-  （マージ待ち。draftを解除しレビュー依頼を出した）
+  （`main`へマージ済み、`50b5d9c`）
+- **ユーザーの指示で本番にもデプロイ済み**。`app/`で`pnpm run build`後、
+  `wrangler pages deploy build --project-name=mojidrill --branch=main`を実行
+  （認証情報はユーザーから都度受け取り、`~/`配下の非リポジトリ領域に一時保存して使用、
+  リポジトリには一切書き込んでいない）。反映先: https://mojidrill.pages.dev
+  （今回の更新分プレビューURL: https://fdce90fb.mojidrill.pages.dev ）
 
 ### 前のセッション
 
@@ -370,10 +378,9 @@ root の `pnpm run check` は緑（46件）。
 
 ## 次にやること
 
-**T036のPR（単語まるごと書字練習、[#26](https://github.com/rahiseko-alt/nihongo-app/pull/26)）の
-マージまで面倒を見ること。** completion-checkerの判定は完了しCIもgreenだが、このセッション
-終了時点でまだマージされていない可能性がある。レビューコメント・CIの再発に対応すること。
-`docs/plan.json`の`T036`は`status: done`に更新済み
+**T036（単語まるごと書字練習）は完了済み。** PR [#26](https://github.com/rahiseko-alt/nihongo-app/pull/26)
+は`main`へマージ済み（`50b5d9c`）、`docs/plan.json`の`status`も`done`、本番デプロイも
+反映済み。このセッションからの引き継ぎ作業は無い
 
 **T036の積み残し**: 単語間の遷移が無演出のインライン遷移のままである点（演出付きモーダルの
 追加はスコープ外と判断、詳細はT036のnote参照）。学習者からの反応を見て、必要なら
