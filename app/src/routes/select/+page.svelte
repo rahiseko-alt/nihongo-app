@@ -2,11 +2,12 @@
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import { base } from '$app/paths';
-  import { SETS, SET_ORDER, CATEGORIES, CATEGORY_ORDER, getSetsByCategory, getKanjiByChar } from '$lib/data/sets.js';
+  import { SETS, SET_ORDER, CATEGORIES, CATEGORY_ORDER, WORDS_N5, getSetsByCategory, getKanjiByChar } from '$lib/data/sets.js';
   import { uiLang } from '$lib/stores/langStore.js';
   import { translations } from '$lib/data/translations.js';
   import { addSavedKanjiChar, loadSavedKanjiChars, moveSavedKanjiChar, removeSavedKanjiChar } from '$lib/utils/savedKanji';
   import { getMeaningRows } from '$lib/utils/kanjiMeaning';
+  import { getWordMeaning } from '$lib/utils/wordMeaning';
 
   let t = $derived(translations[$uiLang] || translations.ja);
 
@@ -21,10 +22,23 @@
       ? t.categoryDescPopularOnly
       : activeCategory === 'kana'
       ? t.categoryDescKanaOnly
+      : activeCategory === 'words'
+      ? t.categoryDescWordsOnly
       : t.categoryDescExamOnly
   );
 
   let isKanjiCategory = $derived(true);
+  // 「語」カテゴリー: 1オプション=1漢字ではなく1単語（複数文字）を表す。
+  // WORDS_N5 は words-n5.js（自動生成、SETS/SET_ORDER/KANJI_INDEXを経由しない）由来。
+  let wordOptions = $derived(
+    activeCategory === 'words'
+      ? WORDS_N5.map((w, i) => ({
+          id: `words:${i}`,
+          word: w.word,
+          meaning: getWordMeaning(w.word),
+        }))
+      : []
+  );
   // カテゴリー内の全セットの字を1つの選択肢リストにまとめる。'popular'/'exam' は
   // 元々セット1つぶんだけだったため実質差はないが、'kana'（ひらがな・カタカナの
   // 2セット）のように1カテゴリーに複数セットがあっても自然に合算されるようにする。
@@ -73,6 +87,14 @@
 
   function goToPlay() {
     if (selectedIds.length === 0) return;
+    if (activeCategory === 'words') {
+      // WORDS_N5 の元の並び順に正規化し、重複インデックスも除去する。
+      const indices = [...new Set(
+        selectedIds.map((id) => Number(id.split(':')[1])).filter((n) => Number.isInteger(n))
+      )].sort((a, b) => a - b);
+      goto(`${base}/play?words=${indices.join(',')}`);
+      return;
+    }
     if (isKanjiCategory) {
       const chars = selectedIds
         .map((id) => id.split(':')[1])
@@ -107,7 +129,7 @@
   }
 
   function selectAllInCategory() {
-    const ids = charOptions.map((item: any) => item.id);
+    const ids = (activeCategory === 'words' ? wordOptions : charOptions).map((item: any) => item.id);
     selectedIds = ids;
   }
 </script>
@@ -125,7 +147,7 @@
     <nav class="category-tabs fade-in-1s" aria-label="Kanji categories">
       {#each CATEGORY_ORDER as catId, i}
         {@const cat = CATEGORIES[catId]}
-        {@const label = catId === 'saved' ? t.categorySaved : catId === 'popular' ? t.categoryPopular : catId === 'kana' ? t.categoryKana : t.categoryExam}
+        {@const label = catId === 'saved' ? t.categorySaved : catId === 'popular' ? t.categoryPopular : catId === 'kana' ? t.categoryKana : catId === 'words' ? t.categoryWords : t.categoryExam}
         <button
           class="cat-tab"
           class:active={activeCategory === catId}
@@ -145,7 +167,31 @@
       <div class="bulk-actions">
         <button class="bulk-btn" onclick={selectAllInCategory}>{t.selectAllBtn}</button>
       </div>
-      {#if isKanjiCategory}
+      {#if activeCategory === 'words'}
+        {#each wordOptions as item (item.id)}
+          <div
+            class="kanji-item-btn kanji-item-btn--char"
+            class:selected={selectedIds.includes(item.id)}
+            role="button"
+            tabindex="0"
+            onclick={() => toggleSet(item.id)}
+            onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && toggleSet(item.id)}
+          >
+            <div class="kanji-item-top">
+              <div class="kanji-item-char word-item-char"><span>{item.word}</span></div>
+              <div class="saved-tools">
+                <span class="saved-tool-note">{t.wordSaveUnavailable}</span>
+              </div>
+            </div>
+            {#if item.meaning}
+              <dl class="kanji-item-meanings">
+                <dt>{t.meaningForeignLabelEn}</dt>
+                <dd>{item.meaning}</dd>
+              </dl>
+            {/if}
+          </div>
+        {/each}
+      {:else if isKanjiCategory}
         {#each charOptions as item (item.id)}
           {#if activeCategory === 'saved'}
             <div
@@ -501,6 +547,16 @@
     font-weight: 900;
     color: #262626;
     letter-spacing: 0.1em;
+  }
+  /* 3文字語（例: 小学校）でもはみ出さないよう1文字前提のサイズより一段小さくする */
+  .word-item-char {
+    font-size: 1.2rem;
+  }
+  .saved-tool-note {
+    margin-left: auto;
+    font-size: 0.68rem;
+    color: #9c9690;
+    white-space: nowrap;
   }
   .kanji-item-name {
     font-size: 0.85rem;

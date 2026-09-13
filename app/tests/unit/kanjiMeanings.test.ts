@@ -12,8 +12,11 @@ const PLACEHOLDERS: Record<string, string> = {
   ne: 'अर्थ', // ネパール語の「意味」
 };
 
+// pack-1000.js / words-n5.js は個別の字ファイルを束ねる集約ファイルで対象外。
 function kanjiFiles(): string[] {
-  return readdirSync(KANJI_DIR).filter((f) => f.endsWith('.js') && f !== 'pack-1000.js');
+  return readdirSync(KANJI_DIR).filter(
+    (f) => f.endsWith('.js') && f !== 'pack-1000.js' && f !== 'words-n5.js',
+  );
 }
 
 // pack-1000.js が読み込んでいるファイルだけが 6 言語の意味欄を持つ。

@@ -3,8 +3,9 @@
   import { goto } from '$app/navigation';
   import { base } from '$app/paths';
   import TraceCanvas from '$lib/components/TraceCanvas.svelte';
-  import { SETS, getSetById, getKanjiByChar } from '$lib/data/sets.js';
+  import { SETS, WORDS_N5, getSetById, getKanjiByChar } from '$lib/data/sets.js';
   import { addClearedKanji } from '$lib/utils/clearedKanji';
+  import { getWordMeaning } from '$lib/utils/wordMeaning';
   import { fade } from 'svelte/transition';
   import { uiLang } from '$lib/stores/langStore.js';
   import { translations } from '$lib/data/translations.js';
@@ -36,12 +37,40 @@
     reading: 'せんたくかんじ',
     kanji: rawKanjiChars.map((ch) => getKanjiByChar(ch)).filter(Boolean)
   } : null);
+
+  // T036: 単語をまるごと書く練習モード。?words=<WORDS_N5のインデックス、カンマ区切り>。
+  // ?words= が無いときは既存の rawKanjiChars と全く同じ順序でフィルタする
+  // （空文字列を Number() に渡す前に filter(Boolean) で除去しないと、
+  //  Number('')===0 が範囲チェックを通過して既存の全フローを乗っ取ってしまう）。
+  let rawWordIndices = $derived(
+    ($page.url.searchParams.get('words') ?? '')
+      .split(',')
+      .map((s) => s.trim())
+      .filter(Boolean)
+      .map((s) => Number(s))
+      .filter((n) => Number.isInteger(n) && n >= 0 && n < WORDS_N5.length)
+      .filter((n) => !!WORDS_N5[n])
+  );
+  // URL直叩き（?words=8,2,5等）でもWORDS_N5の並び順に正規化する。
+  let wordIndices = $derived([...new Set(rawWordIndices)].sort((a, b) => a - b));
+  let wordSets = $derived(
+    wordIndices.map((i) => ({
+      id: `word_${i}`,
+      name: WORDS_N5[i].word,
+      reading: '',
+      kanji: WORDS_N5[i].chars,
+      isWordSet: true,
+    }))
+  );
   let activeSets = $derived(
-    customKanjiSet?.kanji?.length
-      ? [customKanjiSet]
-      : rawSetIds.map((id) => typedSets[id]).filter(Boolean)
+    wordSets.length > 0
+      ? wordSets
+      : customKanjiSet?.kanji?.length
+        ? [customKanjiSet]
+        : rawSetIds.map((id) => typedSets[id]).filter(Boolean)
   );
   // Session 273: 1 セット = 1 ステージ。複数選択時はセット毎にステージを進める
+  // T036: 単語モードでは単語1つ=1ステージとしてこの仕組みをそのまま流用する
   let stageIndex = $state(0);
   let activeSet = $derived(activeSets[stageIndex] ?? activeSets[0] ?? getSetById('popular_foreigners_500'));
   let kanjis = $derived(activeSet.kanji);
@@ -67,6 +96,16 @@
     const idx = k.word.indexOf(k.char);
     if (idx === -1) return null;
     return { prefix: k.word.slice(0, idx), suffix: k.word.slice(idx + k.char.length) };
+  }
+
+  // T036: 単語モード専用。wordContext() は「その文字自身が個別に持つT034代表単語」
+  // から前後を取り出すため、単語モードでは支援文字（例: 日曜日の「曜」）で
+  // 文脈が消えてしまう。ステージ＝単語文字列そのものから、文字の位置で
+  // 直接切り出す（indexOfではなく配列位置。indexOfだと日曜日の3文字目=2回目の
+  // 「日」で1文字目の位置を誤って返してしまう）。
+  function stageWordContext(word: string, i: number): { prefix: string; suffix: string } {
+    const chars = Array.from(word);
+    return { prefix: chars.slice(0, i).join(''), suffix: chars.slice(i + 1).join('') };
   }
 
   let phase = $state('practice');
@@ -98,6 +137,7 @@
   // sets 変化時に currentIndex / stageIndex リセット（セット切替時の状態クリア）
   $effect(() => {
     rawSetIds.join(','); // 依存追跡
+    wordIndices.join(','); // T036: words= の変化も同様に依存追跡する
     currentIndex = 0;
     stageIndex = 0;
     showPraise = false;
@@ -274,6 +314,15 @@
     doneAll();
   }
 
+  // T036: 最終ステージ完了時（doneAll到達時）の praise-overlay に単語名を表示する。
+  // activeSets は単語モード時は全件 isWordSet: true のため、テンプレート側の
+  // {#if activeSet.isWordSet} ガードのみで十分（ここでは再フィルタしない）。
+  let wordCompletionText = $derived.by(() => {
+    const names = activeSets.map((s: any) => s.name);
+    if (names.length <= 3) return t.wordsCompletedList(names.join(t.wordListSeparator));
+    return t.wordsCompletedCount(names.length);
+  });
+
 </script>
 
 <svelte:head>
@@ -292,7 +341,9 @@
   {#if phase === 'practice'}
     <div class="topbar topbar-sticky">
       <div class="topbar-side-spacer" aria-hidden="true"></div>
-      <div class="title-small">「{activeSetNames}」</div>
+      <div class="title-small">
+        「{activeSetNames}」{#if activeSet.isWordSet && activeSets.length > 1}<span class="stage-count">{t.wordStageCount(stageIndex + 1, activeSets.length)}</span>{/if}
+      </div>
       <button class="btn btn--icon settings-btn" onclick={() => goto(`${base}/admin`)} aria-label={t.studyRecord}>
         <svg class="icon-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M5 19H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
@@ -301,14 +352,22 @@
           <path d="M16 15V4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
         </svg>
       </button>
+      {#if activeSet.isWordSet}
+        {@const wm = getWordMeaning(activeSet.name)}
+        {#if wm}
+          <dl class="word-meaning-row">
+            <dt>{t.meaningForeignLabelEn}</dt><dd>{wm}</dd>
+          </dl>
+        {/if}
+      {/if}
     </div>
 
 
-    <div class="play-area">
+    <div class="play-area" class:play-area--tall-topbar={activeSet.isWordSet && !!getWordMeaning(activeSet.name)}>
       <div class="canvas-area">
-        {#each kanjis as k, i (k.char)}
+        {#each kanjis as k, i (i)}
           {#if i === currentIndex}
-            {@const ctx = wordContext(k)}
+            {@const ctx = activeSet.isWordSet ? stageWordContext(activeSet.name, i) : wordContext(k)}
             <div class="canvas-wrap">
               <div class="canvas-host-row" class:has-context={!!ctx}>
               {#if ctx?.prefix}<span class="word-context-char">{ctx.prefix}</span>{/if}
@@ -335,7 +394,7 @@
                       <dd>{row.value}</dd>
                     {/each}
                   </dl>
-                  {#if k.jlptLevel || (k.word && k.word !== k.char)}
+                  {#if !activeSet.isWordSet && (k.jlptLevel || (k.word && k.word !== k.char))}
                     <div class="jlpt-word-line">
                       {#if k.jlptLevel}<span class="jlpt-badge">{k.jlptLevel}</span>{/if}
                       {#if k.word && k.word !== k.char}
@@ -380,6 +439,9 @@
 
     {#if showDoneBtn}
       <div class="page-nav">
+        {#if activeSet.isWordSet && currentIndex === kanjis.length - 1 && hasNextStage}
+          <p class="word-stage-complete-caption">{t.wordStageComplete(activeSet.name)}</p>
+        {/if}
         <button class="btn btn--primary page-nav-btn shiny-btn-gold" onclick={goNextPage}>
           {currentIndex < kanjis.length - 1 || hasNextStage ? t.nextStage : t.doneBtn}
         </button>
@@ -420,6 +482,9 @@
           <div class="confetti c12"></div>
         </div>
         <div class="praise-card">
+          {#if activeSet.isWordSet}
+            <p class="praise-word-text">{wordCompletionText}</p>
+          {/if}
           <div class="praise-actions">
             {#if hasNextStage}
               <button class="btn btn--primary big next-btn shiny-btn" onclick={nextStage}>{t.nextStage}</button>
@@ -523,9 +588,36 @@
     width: 100%;
     max-width: 480px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: 0.5rem;
+  }
+  /* T036: 単語モードの意味行。.topbar-sticky（position:fixed）の内側に
+     置くことで、固定要素の裏に隠れず、topbar自体の高さが伸びるようにする。 */
+  .word-meaning-row {
+    flex: 0 0 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 0.4rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #5c5752;
+    text-align: center;
+    justify-content: center;
+  }
+  .word-meaning-row dt {
+    opacity: 0.7;
+  }
+  .word-meaning-row dd {
+    margin: 0;
+  }
+  .stage-count {
+    font-size: 0.7em;
+    font-weight: 600;
+    opacity: 0.75;
+    margin-left: 0.3em;
   }
   .topbar-sticky {
     position: fixed;
@@ -631,6 +723,10 @@
     justify-content: center;
     margin-top: 4rem;
   }
+  /* T036: 単語の意味行ぶんtopbarが縦に伸びる場合、その高さを打ち消す */
+  .play-area--tall-topbar {
+    margin-top: 5.5rem;
+  }
   
   .canvas-area {
     flex: 1;
@@ -709,6 +805,9 @@
     .play-area {
       margin-top: 3.5rem;
     }
+    .play-area--tall-topbar {
+      margin-top: 5rem;
+    }
     .canvas-wrap {
       width: 100%;
       max-width: min(100%, 430px);
@@ -738,9 +837,25 @@
     width: min(480px, calc(100vw - 2rem));
     margin: 0.5rem auto 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     gap: 0.45rem;
+  }
+  .word-stage-complete-caption {
+    flex: 0 0 100%;
+    margin: 0 0 0.2rem;
+    text-align: right;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #2f6f44;
+  }
+  .praise-word-text {
+    margin: 0 0 0.6rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #262626;
+    text-align: center;
   }
   .page-nav-btn {
     min-width: 5.25rem;
