@@ -60,6 +60,15 @@
   let activeKanji = $derived(kanjis[currentIndex] ?? kanjis[0]);
   let activeMeaningRows = $derived(getMeaningRows(activeKanji, $uiLang, t));
 
+  // 代表単語（例: 日→日曜日）を、書き取り中の字の前後に置く静的な文字として分解する。
+  // wordが字自身のまま（例文未登録）のときはnullを返し、単独表示のまま変えない。
+  function wordContext(k: { char: string; word?: string }): { prefix: string; suffix: string } | null {
+    if (!k?.word || k.word === k.char) return null;
+    const idx = k.word.indexOf(k.char);
+    if (idx === -1) return null;
+    return { prefix: k.word.slice(0, idx), suffix: k.word.slice(idx + k.char.length) };
+  }
+
   let phase = $state('practice');
   let traceComps: any[] = $state([]);
   let animationStarted = $state(false);
@@ -299,8 +308,15 @@
       <div class="canvas-area">
         {#each kanjis as k, i (k.char)}
           {#if i === currentIndex}
+            {@const ctx = wordContext(k)}
             <div class="canvas-wrap">
-              <div class="canvas-host" class:locked={!startedFlags[i] || completedFlags[i]}>
+              <div class="canvas-host-row" class:has-context={!!ctx}>
+              {#if ctx?.prefix}<span class="word-context-char">{ctx.prefix}</span>{/if}
+              <div
+                class="canvas-host"
+                class:with-context={!!ctx}
+                class:locked={!startedFlags[i] || completedFlags[i]}
+              >
                 {#if !startedFlags[i]}
                   <div class="start-overlay">
                     <button
@@ -341,6 +357,8 @@
                     <div class="countdown-num" bind:this={cdEl}>{countdown}</div>
                   </div>
                 {/if}
+              </div>
+              {#if ctx?.suffix}<span class="word-context-char">{ctx.suffix}</span>{/if}
               </div>
               {#if startedFlags[i]}
                 <div class="scoring-controls">
@@ -639,6 +657,36 @@
   .canvas-host.locked :global(canvas) {
     pointer-events: none;
     touch-action: none;
+  }
+  /* 代表単語の中で今書いている字だけを枠にし、残りの字は前後に静的な文字として並べる */
+  .canvas-host-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.3rem;
+  }
+  .canvas-host-row.has-context {
+    background: linear-gradient(135deg, #fcfaf2 0%, #faf5ea 60%, #f5efe1 100%);
+    border: 1.5px solid rgba(212, 175, 55, 0.35);
+    border-radius: 0.6rem;
+    padding: 0.6rem 0.5rem;
+    box-shadow: 0 4px 14px rgba(38, 38, 38, 0.08);
+  }
+  .canvas-host.with-context {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: min(70vw, 340px);
+  }
+  .word-context-char {
+    flex: 0 0 auto;
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
+    font-weight: 700;
+    line-height: 1;
+    color: rgba(38, 38, 38, 0.45);
+    font-size: clamp(1.6rem, 13vw, 2.6rem);
+    user-select: none;
+    white-space: nowrap;
   }
   .page-indicator {
     position: absolute;
